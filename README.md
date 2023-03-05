@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7484** proxies at the latest update. Usable proxies are below.
+> Scraper found **7426** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|475|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|475|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|475|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|762|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|762|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|762|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1823|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1765|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1135|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3243|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|3|43.163.212.171|3128|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|4|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|7|95.9.115.228|3128|Turkey|Trabzon|TTNet A.S.|
-|8|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|10|3.35.141.80|3128|South Korea|Seoul|Amazon.com, Inc.|
-|11|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
-|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|16|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|124.197.37.13|8080|New Zealand|Wellington|Two Degrees Mobile Limited|
-|19|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
-|20|200.32.51.179|8080|Argentina|Mar del Plata|Telefonica de Argentina|
+|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|3|92.137.250.246|3128|France|Gex|France Telecom Orange|
+|4|45.173.12.138|1994|Colombia|San Gil|Atenea Telecomunicaciones|
+|5|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|6|49.50.175.184|3128|South Korea|Seongnam-si|NBP|
+|7|171.252.208.7|4000|Vietnam|Ho Chi Minh City|Viettel Corporation|
+|8|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|11|124.197.37.13|8080|New Zealand|Wellington|Two Degrees Mobile Limited|
+|12|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
+|13|92.116.212.145|8118|Germany|Ebersbach an der Fils|VT-POOL Customer Nord|
+|14|23.95.94.41|3128|United States|Dallas|ColoCrossing|
+|15|49.50.160.51|3128|South Korea|Seongnam-si|NBP|
+|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|18|23.95.94.41|3128|United States|Dallas|ColoCrossing|
+|19|43.163.212.171|3128|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|20|146.59.127.168|80|Poland|Warsaw|OVH SAS|
 
 
 
