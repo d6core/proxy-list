@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7220** proxies at the latest update. Usable proxies are below.
+> Scraper found **7326** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1751|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1865|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|996|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3190|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3182|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|3|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
 |5|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|7|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
-|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|10|185.49.96.189|8080|Iran|Tehran|Rayaneh Pardazan Baran Co. Ltd.|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|5.78.85.7|8080|United States|Portland|Hetzner Online GmbH|
-|13|103.38.214.21|3128|Philippines|Makati City|IPVG|
-|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|7|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|9|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|185.49.96.189|8080|Iran|Tehran|Rayaneh Pardazan Baran Co. Ltd.|
+|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|14|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
 |15|5.78.85.7|8080|United States|Portland|Hetzner Online GmbH|
-|16|94.26.241.120|8080|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
-|17|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|20|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|16|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|17|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|18|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|19|5.78.85.7|8080|United States|Portland|Hetzner Online GmbH|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
