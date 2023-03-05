@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7067** proxies at the latest update. Usable proxies are below.
+> Scraper found **6760** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|477|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|477|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|477|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|533|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|533|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|533|
 
 ## Sources
 
@@ -37,10 +37,10 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1557|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1407|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1030|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3197|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3040|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|7|64.227.99.15|80|United States|Santa Clara|DigitalOcean, LLC|
-|8|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|11|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
-|12|64.227.99.15|80|United States|Santa Clara|DigitalOcean, LLC|
-|13|200.73.130.8|80|Argentina|Buenos Aires|Telecom Argentina S.A.|
-|14|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|15|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|16|91.107.193.212|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|189.164.16.19|10101|Mexico|Puebla City|Uninet S.A. de C.V|
-|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|5|3.35.141.80|3128|South Korea|Seoul|Amazon.com, Inc.|
+|6|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|7|65.0.160.35|8080|India|Mumbai|Amazon.com|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|10|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|11|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|12|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|13|64.227.99.15|80|United States|Santa Clara|DigitalOcean, LLC|
+|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|15|91.107.193.212|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|16|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|177.87.250.77|8080|Argentina|Rivadavia|Twainsat SRL|
+|18|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
+|19|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
+|20|181.225.107.228|999|Colombia|Facatativá|TV AZTECA SUCURSAL COLOMBIA|
 
 
 
