@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7277** proxies at the latest update. Usable proxies are below.
+> Scraper found **7477** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|777|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|777|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|777|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|608|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|608|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|608|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1983|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1883|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1121|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3190|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.95.94.41|3128|United States|Dallas|ColoCrossing|
-|2|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|46.101.29.103|443|United Kingdom|London|DigitalOcean, LLC|
-|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|7|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|1|198.44.132.246|51859|Canada|Toronto|tzulo, inc.|
+|2|177.37.96.202|8088|Brazil|Pompeu|Indagraf Ltda|
+|3|91.107.194.74|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|4|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|6|91.107.194.176|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|7|23.95.94.41|3128|United States|Dallas|ColoCrossing|
 |8|23.95.94.41|3128|United States|Dallas|ColoCrossing|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|159.89.53.247|443|United States|North Bergen|DigitalOcean, LLC|
-|11|170.64.130.77|8080|Australia|Sydney|DigitalOcean, LLC|
-|12|91.107.231.209|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|14|159.89.53.247|443|United States|North Bergen|DigitalOcean, LLC|
-|15|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
-|16|51.159.115.233|3128|France|Paris|SCALEWAY|
-|17|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
-|18|5.78.85.7|8080|United States|Portland|Hetzner Online GmbH|
-|19|108.61.191.222|1994|United States|Piscataway|The Constant Company|
-|20|65.0.160.35|8080|India|Mumbai|Amazon.com|
+|9|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|10|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|11|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|12|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|14|46.101.29.103|443|United Kingdom|London|DigitalOcean, LLC|
+|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|17|5.9.160.216|8880|Germany|Falkenstein|Hetzner Online GmbH|
+|18|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|19|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
+|20|191.252.193.200|8080|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
 
 
 
