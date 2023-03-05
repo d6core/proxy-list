@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7150** proxies at the latest update. Usable proxies are below.
+> Scraper found **7124** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|545|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|545|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|545|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|565|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|565|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|565|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1710|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1702|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1110|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1092|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3047|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|190.61.102.67|999|Guatemala|Guatemala City|UFINET Guatemala S. A|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|65.0.160.35|8080|India|Mumbai|Amazon.com|
+|5|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|6|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
 |7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|10|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
-|11|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|12|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|13|95.216.230.239|80|Finland|Helsinki|Hetzner Online GmbH|
+|8|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|9|129.213.69.94|80|United States|Ashburn|Oracle Corporation|
+|10|45.179.69.42|3180|Brazil|Salvador|Marktec Telecom|
+|11|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|129.213.69.94|80|United States|Ashburn|Oracle Corporation|
 |14|81.91.156.226|8080|Iran|Tajrīsh|Farabord Dadeh Haye Iranian Co.|
-|15|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|16|120.28.252.27|8080|Philippines|Davao City|Globe Telecom|
-|17|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|18|131.161.221.139|80|Ecuador|Cuenca|Marvicnet CIA Ltda|
-|19|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|20|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
+|16|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|18|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|19|45.174.70.18|53281|Mexico|Huatabampo|Index Datacom S.a. De C.V.|
+|20|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
 
 
 
