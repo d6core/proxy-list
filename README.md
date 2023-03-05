@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7279** proxies at the latest update. Usable proxies are below.
+> Scraper found **7337** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|682|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|682|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|682|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|447|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|447|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|447|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1662|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1720|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|995|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3339|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|107.152.35.168|8080|United States|Chicago|tzulo, inc.|
+|3|65.0.160.35|8080|India|Mumbai|Amazon.com|
 |4|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|5|92.137.250.246|3128|France|Gex|France Telecom Orange|
-|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|7|5.78.73.201|8080|United States|Portland|Hetzner Online GmbH|
-|8|89.252.152.137|2019|Turkey|Denizli|Netinternet Bilisim Teknolojileri AS|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|11|118.67.131.246|3128|South Korea|Seongnam-si|Naver Business Platform Asia Pacific Pte. Ltd.|
-|12|178.33.64.189|3128|Spain|Madrid|OVH ISP|
-|13|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|14|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|15|118.67.129.161|3128|South Korea|Seongnam-si|Naver Business Platform Asia Pacific Pte. Ltd.|
-|16|107.152.35.168|8080|United States|Chicago|tzulo, inc.|
-|17|200.24.147.66|999|Ecuador|Esmeraldas|Nedetel S.A.|
-|18|151.80.33.57|3128|France|Roubaix|OVH SAS|
-|19|179.48.191.2|8088|Brazil|Goiânia|Libre Telecom Eireli|
-|20|200.123.27.162|999|Peru|Lima|Wigo S.A.|
+|5|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|107.152.35.168|8080|United States|Chicago|tzulo, inc.|
+|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|9|118.67.129.161|3128|South Korea|Seongnam-si|Naver Business Platform Asia Pacific Pte. Ltd.|
+|10|118.67.131.246|3128|South Korea|Seongnam-si|Naver Business Platform Asia Pacific Pte. Ltd.|
+|11|5.78.73.201|8080|United States|Portland|Hetzner Online GmbH|
+|12|23.95.94.41|3128|United States|Dallas|ColoCrossing|
+|13|168.235.97.254|3128|United States|Los Angeles|InMotion Hosting, Inc.|
+|14|92.137.250.246|3128|France|Gex|France Telecom Orange|
+|15|151.80.33.57|3128|France|Roubaix|OVH SAS|
+|16|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|17|178.33.64.189|3128|Spain|Madrid|OVH ISP|
+|18|89.252.152.137|2019|Turkey|Denizli|Netinternet Bilisim Teknolojileri AS|
+|19|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|20|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
 
 
 
