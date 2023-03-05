@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|518|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|518|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|518|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|493|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|493|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|493|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|4|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|7|174.70.1.210|8080|United States|Providence|Cox Communications Inc.|
-|8|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
-|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|11|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|198.199.98.102|3128|United States|San Francisco|DigitalOcean, LLC|
-|14|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|16|118.99.86.178|8080|Indonesia|Jakarta|Biznet Metronet|
-|17|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|19|125.25.32.108|8080|Thailand|Chiang Mai|TOT Public Company Limited|
-|20|198.199.98.102|3128|United States|San Francisco|DigitalOcean, LLC|
+|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|3|65.0.160.35|8080|India|Mumbai|Amazon.com|
+|4|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|5|3.35.141.80|3128|South Korea|Seoul|Amazon.com, Inc.|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|9|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|10|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|11|181.45.149.43|3128|Argentina|San Justo|Telecentro S.A.|
+|12|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|16|103.87.168.165|32650|India|Kalwara|Tejays|
+|17|191.97.61.115|999|Peru|Trujillo|Internexa Peru S.A|
+|18|45.84.241.250|3128|India|Mumbai|VeloxServ Communications Ltd|
+|19|113.53.94.12|65535|Thailand|Lopburi|TOT Public Company Limited|
+|20|103.87.168.150|32650|India|Kalwara|Tejays|
 
 
 
