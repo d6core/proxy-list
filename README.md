@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7341** proxies at the latest update. Usable proxies are below.
+> Scraper found **7288** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|571|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|571|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|571|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|660|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|660|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|660|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1884|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1831|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|992|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3182|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|107.152.39.44|8080|United States|Chicago|tzulo, inc.|
 |4|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|23.95.94.41|3128|United States|Dallas|ColoCrossing|
-|7|193.123.243.148|80|South Korea|Seoul|Oracle Corporation|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
-|10|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|11|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|12|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
-|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|15|94.26.241.120|8080|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
-|16|216.215.123.174|8080|United States|Houston|Logix|
-|17|5.78.85.7|8080|United States|Portland|Hetzner Online GmbH|
-|18|45.84.241.250|3128|India|Mumbai|VeloxServ Communications Ltd|
-|19|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|20|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|107.152.39.44|8080|United States|Chicago|tzulo, inc.|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|9|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
+|10|103.251.214.167|6666|India|Mangrol|GTPl Shiv Network pvt. Ltd.|
+|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|12|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|13|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|14|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|15|5.78.85.7|8080|United States|Portland|Hetzner Online GmbH|
+|16|5.78.85.7|8080|United States|Portland|Hetzner Online GmbH|
+|17|23.95.94.41|3128|United States|Dallas|ColoCrossing|
+|18|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|19|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
+|20|103.156.248.102|8080|Indonesia|Baserah|Trans Media Telekomunikasi|
 
 
 
