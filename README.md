@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7376** proxies at the latest update. Usable proxies are below.
+> Scraper found **7457** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|723|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|723|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|723|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|519|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|519|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|519|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1759|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1840|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|995|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3339|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|107.152.35.168|8080|United States|Chicago|tzulo, inc.|
-|2|5.78.73.201|8080|United States|Portland|Hetzner Online GmbH|
-|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|1|5.78.73.201|8080|United States|Portland|Hetzner Online GmbH|
+|2|107.152.35.168|8080|United States|Chicago|tzulo, inc.|
+|3|118.67.129.161|3128|South Korea|Seongnam-si|Naver Business Platform Asia Pacific Pte. Ltd.|
 |4|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|5|118.67.131.246|3128|South Korea|Seongnam-si|Naver Business Platform Asia Pacific Pte. Ltd.|
-|6|118.67.129.161|3128|South Korea|Seongnam-si|Naver Business Platform Asia Pacific Pte. Ltd.|
-|7|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|8|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|9|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|10|89.252.152.137|2019|Turkey|Denizli|Netinternet Bilisim Teknolojileri AS|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|5.78.73.201|8080|United States|Portland|Hetzner Online GmbH|
-|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|15|23.95.94.41|3128|United States|Dallas|ColoCrossing|
-|16|107.152.35.168|8080|United States|Chicago|tzulo, inc.|
-|17|151.80.33.57|3128|France|Roubaix|OVH SAS|
-|18|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|19|23.95.94.41|3128|United States|Dallas|ColoCrossing|
-|20|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|5|151.80.33.57|3128|France|Roubaix|OVH SAS|
+|6|118.67.131.246|3128|South Korea|Seongnam-si|Naver Business Platform Asia Pacific Pte. Ltd.|
+|7|5.78.73.201|8080|United States|Portland|Hetzner Online GmbH|
+|8|23.95.94.41|3128|United States|Dallas|ColoCrossing|
+|9|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|10|43.163.212.171|3128|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|11|185.160.217.2|8123|Russia|Moscow|Rucomtech LLC|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|23.95.94.41|3128|United States|Dallas|ColoCrossing|
+|14|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|16|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|107.152.35.168|8080|United States|Chicago|tzulo, inc.|
+|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|20|89.252.152.137|2019|Turkey|Denizli|Netinternet Bilisim Teknolojileri AS|
 
 
 
