@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6662** proxies at the latest update. Usable proxies are below.
+> Scraper found **6678** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|468|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|468|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|468|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|575|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|575|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|575|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1445|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1461|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|953|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2981|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
 |2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
-|6|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
-|7|50.16.77.185|8118|United States|Ashburn|Amazon.com|
+|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
 |8|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|10|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|11|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
-|12|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
-|13|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|14|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|15|165.22.75.37|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|17|135.181.114.87|33820|Finland|Helsinki|Hetzner Online GmbH|
-|18|5.78.73.201|8080|United States|Portland|Hetzner Online GmbH|
-|19|107.152.35.168|8080|United States|Chicago|tzulo, inc.|
-|20|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|9|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
+|10|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
+|11|165.22.75.37|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|13|190.54.100.74|8080|Chile|Santiago|Telmex Chile Internet S.A.|
+|14|185.230.51.125|32650|Spain|Figueres|J.C. TECNICS|
+|15|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
+|16|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|17|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|18|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|19|135.181.114.87|33820|Finland|Helsinki|Hetzner Online GmbH|
+|20|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
 
 
 
