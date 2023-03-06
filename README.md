@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6899** proxies at the latest update. Usable proxies are below.
+> Scraper found **6819** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|403|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|403|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|403|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|476|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|476|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|476|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1630|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1550|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|982|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3004|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
-|2|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|139.144.43.214|8080|United States|Richardson|Akamai Technologies, Inc.|
-|5|165.232.69.194|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|8|47.243.187.3|2020|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|198.44.132.246|51859|Canada|Toronto|tzulo, inc.|
-|12|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|15|103.38.214.21|3128|Philippines|Makati City|IPVG|
-|16|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|3|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|6|182.253.93.4|53281|Indonesia|Sidoarjo|BIZNET|
+|7|139.144.43.214|8080|United States|Richardson|Akamai Technologies, Inc.|
+|8|165.232.69.194|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|175.100.72.95|57938|Cambodia|Phnom Penh|VIETTEL (CAMBODIA) PTE., LTD|
+|10|47.243.187.3|2020|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|187.102.236.161|999|Mexico|Parral|Servicios De Infraestructura De Radiocomunicacion Y Redes Privadas De Datos Hype|
+|12|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|15|139.144.43.214|8080|United States|Richardson|Akamai Technologies, Inc.|
+|16|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
 |17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|19|139.144.43.214|8080|United States|Richardson|Akamai Technologies, Inc.|
-|20|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|18|223.206.134.72|8080|Thailand|Ban Kho|Triple T Broadband Public Company Limited|
+|19|45.61.187.67|4000|United States|Miami|FranTech Solutions|
+|20|168.90.255.49|999|Argentina|Zárate|Tecnocomp S.R.L.|
 
 
 
