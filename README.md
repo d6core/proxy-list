@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7299** proxies at the latest update. Usable proxies are below.
+> Scraper found **7216** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1792|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1709|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1114|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3110|✅|
@@ -51,22 +51,22 @@ Click the file format that you want and copy the URL.
 |2|23.95.94.41|3128|United States|Dallas|ColoCrossing|
 |3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
 |4|212.18.115.170|8080|Netherlands|Amsterdam|NovoServe B.V.|
-|5|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|6|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
-|7|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|8|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
-|13|119.59.99.43|8080|Thailand|Samphanthawong|Metrabyte Co., Ltd|
-|14|4.241.21.202|3128|Japan|Tokyo|Microsoft Corporation|
-|15|40.119.247.185|80|Singapore|Singapore|Microsoft Corporation|
-|16|81.4.125.75|3128|Netherlands|Nuland|WeservIT|
-|17|23.95.94.41|3128|United States|Dallas|ColoCrossing|
-|18|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
+|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|45.61.187.67|4005|United States|Miami|FranTech Solutions|
+|9|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|10|40.119.247.185|80|Singapore|Singapore|Microsoft Corporation|
+|11|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
+|12|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
+|13|45.61.187.67|4005|United States|Miami|FranTech Solutions|
+|14|23.95.94.41|3128|United States|Dallas|ColoCrossing|
+|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|16|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|17|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|18|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
 |19|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|20|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|20|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
 
 
 
