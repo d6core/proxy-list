@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7540** proxies at the latest update. Usable proxies are below.
+> Scraper found **7583** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|648|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|648|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|648|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|300|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|300|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|300|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1995|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2038|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|884|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3378|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|194.102.180.145|3128|France|Paris|M247 Europe SRL|
-|2|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|3|194.102.180.148|3128|France|Paris|M247 Europe SRL|
-|4|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
-|5|194.102.180.147|3128|France|Paris|M247 Europe SRL|
-|6|31.190.59.168|8080|Italy|Milan|Wind TRE S.P.A.|
-|7|45.61.187.67|4002|United States|Miami|FranTech Solutions|
-|8|194.102.180.144|3128|France|Paris|M247 Europe SRL|
-|9|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
-|10|190.45.251.128|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|11|165.22.2.147|3128|United States|North Bergen|DigitalOcean, LLC|
-|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|13|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
-|14|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|17|45.61.187.67|4002|United States|Miami|FranTech Solutions|
-|18|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|19|64.227.109.45|10086|United States|Santa Clara|DigitalOcean, LLC|
-|20|51.79.50.46|9300|Canada|Victoria|OVH SAS|
+|1|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
+|2|195.201.231.22|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|165.22.2.147|3128|United States|North Bergen|DigitalOcean, LLC|
+|5|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|6|204.199.67.170|999|Colombia|Pasto|CTL Colombia|
+|7|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|8|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|131.161.221.139|80|Ecuador|Cuenca|Marvicnet CIA Ltda|
+|11|45.61.187.67|4007|United States|Miami|FranTech Solutions|
+|12|119.76.142.181|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
+|13|89.252.152.230|2019|Turkey|Denizli|Netinternet Bilisim Teknolojileri AS|
+|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|15|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
+|16|27.79.153.236|4005|Vietnam|Hanoi|Viettel Corporation|
+|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|18|64.227.109.45|10086|United States|Santa Clara|DigitalOcean, LLC|
+|19|45.236.128.90|80|Chile|Curicó|Informatica Bluehosting Limitada|
+|20|23.95.94.41|3128|United States|Dallas|ColoCrossing|
 
 
 
