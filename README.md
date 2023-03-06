@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6631** proxies at the latest update. Usable proxies are below.
+> Scraper found **6557** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|410|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|410|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|410|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|565|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|565|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|565|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1343|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1569|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|935|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3070|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|3|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|7|209.141.60.192|3129|United States|Las Vegas|FranTech Solutions|
-|8|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|9|209.141.60.192|3129|United States|Las Vegas|FranTech Solutions|
-|10|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
-|11|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|15|118.99.73.202|8080|Indonesia|Jakarta|BIZNET|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|103.78.170.13|83|India|Pune|Sanjeevan Networks Services Pvt Ltd|
-|18|45.181.122.74|999|Chile|Santiago|Interpit Telecomunicaciones Ltda|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|1|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|2|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|209.182.225.141|2019|United States|Seattle|Shock Hosting LLC|
+|5|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
+|6|46.101.29.103|443|United Kingdom|London|DigitalOcean, LLC|
+|7|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
+|8|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
+|9|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
+|10|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|11|213.109.192.100|3128|Italy|Palermo|BlueVPS OU|
+|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|13|209.182.225.141|2019|United States|Seattle|Shock Hosting LLC|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|65.0.160.35|8080|India|Mumbai|Amazon.com|
+|16|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|18|135.181.254.223|8080|Finland|Helsinki|Hetzner Online GmbH|
+|19|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|20|182.160.125.90|41890|Bangladesh|Dhaka|Aamra Networks Limited|
 
 
 
