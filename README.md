@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7188** proxies at the latest update. Usable proxies are below.
+> Scraper found **7531** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|656|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|656|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|656|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|362|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|362|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|362|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1753|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2028|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1008|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1076|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3144|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
-|5|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|6|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|7|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|8|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|9|190.45.251.128|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|10|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|13|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
-|14|91.107.193.154|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|17|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
-|18|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|19|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|20|190.131.250.105|999|Colombia|Medellín|Columbus Networks Colombia|
+|3|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|4|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|5|78.138.98.115|3128|France|Strasbourg|Host Europe GmbH|
+|6|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|65.0.160.35|8080|India|Mumbai|Amazon.com|
+|9|51.159.115.233|3128|France|Paris|SCALEWAY|
+|10|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|11|196.44.117.10|8080|Nigeria|Uyo|Ecoband Ltd|
+|12|91.107.193.154|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|13|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
+|16|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
+|17|115.144.100.124|10000|South Korea|Gangdong-gu|HAIonNet|
+|18|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|19|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|20|139.144.187.220|3128|United States|Atlanta|Akamai Technologies, Inc.|
 
 
 
