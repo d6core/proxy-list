@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7559** proxies at the latest update. Usable proxies are below.
+> Scraper found **7540** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|497|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|497|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|497|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|648|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|648|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|648|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2014|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1995|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|884|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3378|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|2|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|3|165.22.2.147|3128|United States|North Bergen|DigitalOcean, LLC|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|5.78.40.66|8080|United States|Portland|Hetzner Online GmbH|
-|7|159.223.194.34|8080|United States|Santa Clara|DigitalOcean, LLC|
-|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|165.22.2.147|3128|United States|North Bergen|DigitalOcean, LLC|
-|10|5.78.85.7|8080|United States|Portland|Hetzner Online GmbH|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|165.227.81.188|9972|United States|North Bergen|DigitalOcean, LLC|
-|13|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|14|5.78.44.46|8080|United States|Portland|Hetzner Online GmbH|
-|15|89.252.152.230|2019|Turkey|Denizli|Netinternet Bilisim Teknolojileri AS|
-|16|82.102.11.74|443|United Kingdom|Gosport|Redstation Limited|
-|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|18|64.227.109.45|10086|United States|Santa Clara|DigitalOcean, LLC|
+|1|194.102.180.145|3128|France|Paris|M247 Europe SRL|
+|2|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|3|194.102.180.148|3128|France|Paris|M247 Europe SRL|
+|4|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
+|5|194.102.180.147|3128|France|Paris|M247 Europe SRL|
+|6|31.190.59.168|8080|Italy|Milan|Wind TRE S.P.A.|
+|7|45.61.187.67|4002|United States|Miami|FranTech Solutions|
+|8|194.102.180.144|3128|France|Paris|M247 Europe SRL|
+|9|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|10|190.45.251.128|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|11|165.22.2.147|3128|United States|North Bergen|DigitalOcean, LLC|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
+|14|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|16|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|45.61.187.67|4002|United States|Miami|FranTech Solutions|
+|18|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
 |19|64.227.109.45|10086|United States|Santa Clara|DigitalOcean, LLC|
-|20|186.3.7.160|999|Ecuador|Latacunga|Telconet S.A|
+|20|51.79.50.46|9300|Canada|Victoria|OVH SAS|
 
 
 
