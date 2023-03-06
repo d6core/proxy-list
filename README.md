@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7247** proxies at the latest update. Usable proxies are below.
+> Scraper found **7371** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|603|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|603|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|603|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|495|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|495|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|495|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1775|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1899|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1079|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3110|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|212.18.115.170|8080|Netherlands|Amsterdam|NovoServe B.V.|
-|3|78.189.172.112|3128|Turkey|Istanbul|TTNet A.S.|
-|4|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|5|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
-|6|4.241.21.202|3128|Japan|Tokyo|Microsoft Corporation|
-|7|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
-|8|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|9|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|10|43.133.6.40|8081|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|11|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|13|118.99.76.89|8080|Indonesia|Surabaya|BIZNET|
-|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|5.161.48.72|8080|United States|Ashburn|Hetzner Online GmbH|
-|16|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|17|101.109.101.231|8080|Thailand|Chanthaburi|TOT Public Company Limited|
-|18|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|19|103.156.248.150|8080|Indonesia|Baserah|Trans Media Telekomunikasi|
-|20|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
+|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|2|23.95.94.41|3128|United States|Dallas|ColoCrossing|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
+|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|7|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|8|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|9|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|12|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|13|81.4.125.75|3128|Netherlands|Nuland|WeservIT|
+|14|23.95.94.41|3128|United States|Dallas|ColoCrossing|
+|15|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
+|16|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
+|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|18|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|19|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|20|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
 
 
 
