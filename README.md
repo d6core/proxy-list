@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7498** proxies at the latest update. Usable proxies are below.
+> Scraper found **7559** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|714|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|714|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|714|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|497|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|497|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|497|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1953|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2014|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|884|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3378|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|185.63.34.151|3128|Turkey|Bursa|Fortr Telekomunikasyon Sanayi VE Ticaret Limited Sirketi|
-|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|185.63.34.3|3128|Turkey|Bursa|Fortr Telekomunikasyon Sanayi VE Ticaret Limited Sirketi|
-|4|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|5|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
-|6|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|8|165.22.2.147|3128|United States|North Bergen|DigitalOcean, LLC|
-|9|45.236.128.90|80|Chile|Curicó|Informatica Bluehosting Limitada|
-|10|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|11|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|13|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|14|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
-|15|165.227.81.188|9948|United States|North Bergen|DigitalOcean, LLC|
-|16|91.107.194.30|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|18|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
-|19|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|20|159.223.194.34|8080|United States|Santa Clara|DigitalOcean, LLC|
+|1|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|2|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|3|165.22.2.147|3128|United States|North Bergen|DigitalOcean, LLC|
+|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|6|5.78.40.66|8080|United States|Portland|Hetzner Online GmbH|
+|7|159.223.194.34|8080|United States|Santa Clara|DigitalOcean, LLC|
+|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|9|165.22.2.147|3128|United States|North Bergen|DigitalOcean, LLC|
+|10|5.78.85.7|8080|United States|Portland|Hetzner Online GmbH|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|165.227.81.188|9972|United States|North Bergen|DigitalOcean, LLC|
+|13|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|14|5.78.44.46|8080|United States|Portland|Hetzner Online GmbH|
+|15|89.252.152.230|2019|Turkey|Denizli|Netinternet Bilisim Teknolojileri AS|
+|16|82.102.11.74|443|United Kingdom|Gosport|Redstation Limited|
+|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|18|64.227.109.45|10086|United States|Santa Clara|DigitalOcean, LLC|
+|19|64.227.109.45|10086|United States|Santa Clara|DigitalOcean, LLC|
+|20|186.3.7.160|999|Ecuador|Latacunga|Telconet S.A|
 
 
 
