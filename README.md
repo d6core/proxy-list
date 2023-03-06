@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7418** proxies at the latest update. Usable proxies are below.
+> Scraper found **7526** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|676|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|676|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|676|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|460|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|460|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|460|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1906|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2014|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|999|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3230|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|3|5.78.44.46|8080|United States|Portland|Hetzner Online GmbH|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|23.95.94.41|3128|United States|Dallas|ColoCrossing|
-|6|5.78.44.46|8080|United States|Portland|Hetzner Online GmbH|
-|7|23.95.94.41|3128|United States|Dallas|ColoCrossing|
-|8|212.18.115.170|8080|Netherlands|Amsterdam|NovoServe B.V.|
-|9|43.163.212.171|3128|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|2|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|3|45.61.187.67|4002|United States|Miami|FranTech Solutions|
+|4|5.78.44.46|8080|United States|Portland|Hetzner Online GmbH|
+|5|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
 |10|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|11|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|12|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|13|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|14|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
-|15|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
-|16|95.217.18.73|8080|Finland|Helsinki|Hetzner Online GmbH|
-|17|43.153.194.76|8001|Singapore|Singapore|Aceville Pte.ltd|
-|18|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|19|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
-|20|209.182.225.141|2019|United States|Seattle|Shock Hosting LLC|
+|11|212.18.115.170|8080|Netherlands|Amsterdam|NovoServe B.V.|
+|12|43.163.212.171|3128|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|13|95.217.18.73|8080|Finland|Helsinki|Hetzner Online GmbH|
+|14|40.119.247.185|80|Singapore|Singapore|Microsoft Corporation|
+|15|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|16|5.78.44.46|8080|United States|Portland|Hetzner Online GmbH|
+|17|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|18|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|20|45.61.187.67|4002|United States|Miami|FranTech Solutions|
 
 
 
