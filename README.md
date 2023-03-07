@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6537** proxies at the latest update. Usable proxies are below.
+> Scraper found **6706** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|466|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|466|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|466|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|481|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|481|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|481|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1506|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1675|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|773|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2975|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|2|138.201.163.2|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|5|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
-|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|7|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|9|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|10|188.142.224.225|80|Hungary|Veszprém|Vodafone Hungary Ltd.|
-|11|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|187.190.252.248|999|Mexico|Mexico City|Total Play Telecomunicaciones SA De CV|
-|14|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|15|36.93.83.25|8080|Indonesia|Grogol Utara|Telekomunikasi Indonesia|
-|16|112.78.148.13|8181|Indonesia|Jakarta|Biznet Networks|
-|17|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|18|103.130.145.59|8080|Turkey|Istanbul|Digi Turunc|
-|19|41.254.53.70|1981|Libya|Benghazi|LTT Network Backbone and POPs|
-|20|5.75.253.146|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|1|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
+|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|4|138.201.163.2|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|6|200.123.29.44|3128|Peru|Lima|Wigo S.A.|
+|7|65.0.160.35|8080|India|Mumbai|Amazon.com|
+|8|159.89.53.247|443|United States|North Bergen|DigitalOcean, LLC|
+|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|12|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|13|103.119.230.60|80|Indonesia|Bogor|PT MITRA VISIONER PRATAMA|
+|14|103.94.123.210|80|Indonesia|Gandul|ICONPLN|
+|15|200.123.29.36|3128|Peru|Lima|Wigo S.A.|
+|16|159.89.53.247|443|United States|North Bergen|DigitalOcean, LLC|
+|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|18|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|19|64.225.4.17|9981|United States|Clifton|DigitalOcean, LLC|
+|20|64.225.4.17|9981|United States|Clifton|DigitalOcean, LLC|
 
 
 
