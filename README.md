@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6880** proxies at the latest update. Usable proxies are below.
+> Scraper found **6711** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|436|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|436|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|436|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|365|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|365|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|365|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1656|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1487|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|892|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3049|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|190.45.251.128|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|2|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
-|3|43.157.121.159|9090|Germany|Frankfurt|Aceville Pte.ltd|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|9|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
-|10|51.159.115.233|3128|France|Paris|SCALEWAY|
-|11|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|12|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|13|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|14|103.38.214.21|3128|Philippines|Makati City|IPVG|
-|15|14.241.174.159|3333|Vietnam|Hanoi|VNPT|
-|16|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|17|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|18|154.113.69.154|8080|Nigeria|Lagos|Mainone Cable Company|
-|19|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|20|41.60.234.143|8080|Kenya|Nairobi|Maintainer Liquid Telecommunications Operations Limited|
+|1|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|5|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|43.157.121.159|9090|Germany|Frankfurt|Aceville Pte.ltd|
+|10|82.62.241.62|3128|Italy|Milan|Telecom Italia S.p.A|
+|11|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|12|41.60.234.143|8080|Kenya|Nairobi|Maintainer Liquid Telecommunications Operations Limited|
+|13|131.161.221.139|80|Ecuador|Cuenca|Marvicnet CIA Ltda|
+|14|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|15|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
+|16|223.18.60.191|8080|Hong Kong|Central|HGC Global Communications Limited|
+|17|103.56.206.65|4995|Indonesia|Jakarta|Argon Data Communication|
+|18|103.94.123.210|80|Indonesia|Gandul|ICONPLN|
+|19|5.78.85.7|8080|United States|Portland|Hetzner Online GmbH|
+|20|36.67.27.189|39674|Indonesia|Jakarta|PT. Telekomunikasi Indonesia|
 
 
 
