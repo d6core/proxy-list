@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6658** proxies at the latest update. Usable proxies are below.
+> Scraper found **6783** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|498|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|498|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|498|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|469|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|469|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|469|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1581|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1706|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|819|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2975|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|195.201.231.22|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|2|43.157.121.159|9090|Germany|Frankfurt|Aceville Pte.ltd|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
-|7|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|8|103.130.145.59|8080|Turkey|Istanbul|Digi Turunc|
-|9|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|5|195.201.231.22|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|6|43.157.121.159|9090|Germany|Frankfurt|Aceville Pte.ltd|
+|7|103.130.145.59|8080|Turkey|Istanbul|Digi Turunc|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|10|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 |11|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|12|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|13|183.88.87.51|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|14|167.114.133.176|8050|Canada|Montreal|OVH Hosting|
-|15|45.171.146.232|8083|Brazil|Chapadao Do Sul|N3 SOLUCOES TECNOLOGICAS LTDA|
-|16|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|17|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
-|18|45.174.92.112|999|Mexico|San Juan Bautista Tuxtla|Enlace de Datos y Redes SA de CV|
-|19|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
-|20|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|12|183.88.87.51|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|144.22.251.59|8080|Brazil|São Paulo|Oracle Corporation|
+|15|40.119.247.185|80|Singapore|Singapore|Microsoft Corporation|
+|16|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|17|200.105.71.75|3128|Argentina|San Nicolás de los Arroyos|Telecom Argentina S.A.|
+|18|200.105.71.74|3128|Argentina|San Nicolás de los Arroyos|Telecom Argentina S.A.|
+|19|161.132.79.56|999|Peru|Lima|Red Cientifica Peruana|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
