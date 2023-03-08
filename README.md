@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6569** proxies at the latest update. Usable proxies are below.
+> Scraper found **6784** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|397|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|397|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|397|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|508|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|508|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|508|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1671|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1770|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|691|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|807|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2924|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|43.157.121.159|9090|Germany|Frankfurt|Aceville Pte.ltd|
-|3|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
-|4|95.217.18.73|8080|Finland|Helsinki|Hetzner Online GmbH|
-|5|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
-|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|7|65.108.62.123|8080|Finland|Helsinki|Hetzner Online GmbH|
-|8|65.109.130.4|8080|Finland|Helsinki|Hetzner Online GmbH|
-|9|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
-|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|13|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|3|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
+|4|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
+|5|65.108.62.123|8080|Finland|Helsinki|Hetzner Online GmbH|
+|6|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
+|7|43.157.121.159|9090|Germany|Frankfurt|Aceville Pte.ltd|
+|8|107.173.122.188|8080|United States|Dallas|ColoCrossing|
+|9|5.78.81.72|8080|United States|Portland|Hetzner Online GmbH|
+|10|95.217.18.73|8080|Finland|Helsinki|Hetzner Online GmbH|
+|11|65.0.160.35|8080|India|Mumbai|Amazon.com|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
 |14|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|15|81.181.109.177|2019|France|Paris|Virtono Networks SRL|
-|16|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
-|17|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|18|5.78.81.72|8080|United States|Portland|Hetzner Online GmbH|
-|19|107.173.122.188|8080|United States|Dallas|ColoCrossing|
-|20|213.252.245.221|8556|Lithuania|Šiauliai|BACLOUD-BITE|
+|15|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
+|16|198.144.191.190|8080|United States|Buffalo|ColoCrossing|
+|17|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
+|18|65.109.130.4|8080|Finland|Helsinki|Hetzner Online GmbH|
+|19|152.32.187.164|8118|Hong Kong|Central|UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED|
+|20|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
 
 
 
