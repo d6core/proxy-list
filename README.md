@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|492|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|492|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|492|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|448|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|448|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|448|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|2|107.173.122.188|8080|United States|Dallas|ColoCrossing|
-|3|43.157.121.159|9090|Germany|Frankfurt|Aceville Pte.ltd|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|198.144.191.190|8080|United States|Buffalo|ColoCrossing|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|8|8.219.170.236|3128|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|3|107.173.122.188|8080|United States|Dallas|ColoCrossing|
+|4|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|43.157.121.159|9090|Germany|Frankfurt|Aceville Pte.ltd|
+|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|8|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
 |9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|11|103.56.206.65|4995|Indonesia|Jakarta|Argon Data Communication|
-|12|103.168.166.255|9091|Indonesia|Jakarta|PT Lancar Berkah Barokah|
-|13|113.161.114.2|3128|Vietnam|Ho Chi Minh City|VietNam Post and Telecom Corporation|
-|14|102.177.192.84|3128|Zimbabwe|Harare|Contitouch Zimbabwe|
-|15|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|16|45.71.187.29|999|Ecuador|San Sebastian|Nedetel S.A.|
-|17|66.94.108.138|3128|United States|St Louis|Contabo Inc.|
-|18|82.102.11.74|443|United Kingdom|Gosport|Redstation Limited|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|65.108.157.52|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|45.61.187.67|4004|United States|Miami|FranTech Solutions|
+|11|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|12|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|13|206.161.97.118|31337|United States|Ashburn|PCCW Global, Inc.|
+|14|47.87.133.98|3128|United States|Los Angeles|Alibaba.com LLC|
+|15|59.15.28.113|3128|South Korea|Guro-gu|Korea Telecom|
+|16|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|17|47.87.179.157|3128|United States|Los Angeles|Alibaba.com LLC|
+|18|66.128.123.114|8080|United States|St Louis|Spectrum|
+|19|149.56.96.252|9300|Canada|Montreal|OVH SAS|
+|20|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
 
 
 
