@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6714** proxies at the latest update. Usable proxies are below.
+> Scraper found **6726** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|495|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|495|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|495|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|575|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|575|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|575|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1624|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1636|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|766|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3041|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|2|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|3|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|4|140.120.15.146|8088|Taiwan|Taichung|T-NCHU.EDU.TW|
-|5|131.161.221.139|80|Ecuador|Cuenca|Marvicnet CIA Ltda|
-|6|77.81.30.250|8080|Romania|Bucharest|UPC Romania|
-|7|213.136.101.40|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|8|88.255.65.117|8080|Turkey|Istanbul|TTNet|
-|9|154.79.245.166|32650|Kenya|Nairobi|Airtel KE Mobile & Fixed Internet|
-|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|45.174.79.189|999|Mexico|Ciudad Delicias|Raul Duarte Urita|
-|12|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
-|13|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|14|45.71.187.29|999|Ecuador|San Sebastian|Nedetel S.A.|
-|15|103.148.192.83|8089|Indonesia|Bandung|PT. Akashia Thuba Jaya|
-|16|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
-|17|103.94.123.210|80|Indonesia|Gandul|ICONPLN|
-|18|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|19|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|20|103.180.250.246|9091|Indonesia|Candimulyo|PT Rintis Berkah Akamila|
+|1|107.173.122.188|8080|United States|Dallas|ColoCrossing|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
+|4|190.120.250.49|999|Venezuela|Valencia|CORPORACION FIBEX TELECOM, C.A.|
+|5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|9|107.173.122.188|8080|United States|Dallas|ColoCrossing|
+|10|35.189.175.74|80|Taiwan|Taipei|Google LLC|
+|11|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|12|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|15|140.120.15.146|8088|Taiwan|Taichung|T-NCHU.EDU.TW|
+|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|17|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|18|45.71.187.29|999|Ecuador|San Sebastian|Nedetel S.A.|
+|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|20|82.102.11.74|443|United Kingdom|Gosport|Redstation Limited|
 
 
 
