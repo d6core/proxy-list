@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7117** proxies at the latest update. Usable proxies are below.
+> Scraper found **7085** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|598|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|598|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|598|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|455|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|455|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|455|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1811|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1779|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|974|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3049|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.61.187.67|4001|United States|Miami|FranTech Solutions|
-|2|43.157.121.159|9090|Germany|Frankfurt|Aceville Pte.ltd|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|5|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|3|193.123.243.148|80|South Korea|Seoul|Oracle Corporation|
+|4|43.157.121.159|9090|Germany|Frankfurt|Aceville Pte.ltd|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|8|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|7|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
 |9|23.94.174.223|80|United States|Los Angeles|ColoCrossing|
 |10|195.201.231.22|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|11|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|12|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|20.230.230.59|3128|United States|Quincy|Microsoft Corporation|
-|15|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|16|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|18|107.173.144.80|8080|Canada|Hamilton|ColoCrossing|
-|19|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|20|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|11|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|12|34.23.28.90|3128|United States|North Charleston|Google LLC|
+|13|107.173.144.80|8080|Canada|Hamilton|ColoCrossing|
+|14|144.49.96.246|8080|United States|Washington|Google LLC|
+|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|17|92.116.212.201|8118|Germany|Ebersbach an der Fils|VT-POOL Customer Nord|
+|18|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|19|85.196.179.34|8080|Bulgaria|Sofia|Mobiltel BNG|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
