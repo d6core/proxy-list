@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6575** proxies at the latest update. Usable proxies are below.
+> Scraper found **6720** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|533|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|533|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|533|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|401|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|401|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|401|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1474|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1619|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|721|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3097|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|1|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
 |2|159.89.53.247|443|United States|North Bergen|DigitalOcean, LLC|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|5|137.184.65.111|443|United States|North Bergen|DigitalOcean, LLC|
-|6|162.240.32.213|154|United States|Provo|Unified Layer|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|10|159.89.53.247|443|United States|North Bergen|DigitalOcean, LLC|
-|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|12|137.184.65.111|443|United States|North Bergen|DigitalOcean, LLC|
-|13|47.243.182.180|59394|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|15|162.240.32.213|154|United States|Provo|Unified Layer|
-|16|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|17|170.0.231.254|999|Mexico|Toluca|EJA TELECOMM S DE RL|
-|18|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|19|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|20|51.159.115.233|3128|France|Paris|SCALEWAY|
+|3|47.243.182.180|59394|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|137.184.65.111|443|United States|North Bergen|DigitalOcean, LLC|
+|8|137.184.65.111|443|United States|North Bergen|DigitalOcean, LLC|
+|9|159.89.53.247|443|United States|North Bergen|DigitalOcean, LLC|
+|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|13|51.159.115.233|3128|France|Paris|SCALEWAY|
+|14|8.222.138.28|7788|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|176.100.13.15|8080|Ukraine|Kyiv|Scientific -Industrial Firm "Volz" Ltd|
+|16|103.148.25.223|8080|Indonesia|Trenggalek|Menaksopal Link Nusantara|
+|17|197.248.86.237|32650|Kenya|Nairobi|Safaricom Limited|
+|18|185.64.208.115|53281|Russia|Kstovo|Svyazist LLC|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|103.130.141.98|8080|Cambodia|Phnom Penh|Esurfing Technology Co.ltd|
 
 
 
