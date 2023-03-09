@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6639** proxies at the latest update. Usable proxies are below.
+> Scraper found **6268** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|568|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|568|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|568|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|444|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|444|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|444|
 
 ## Sources
 
@@ -37,10 +37,10 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1536|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1377|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|716|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3104|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2892|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|108.61.191.222|1994|United States|Piscataway|The Constant Company|
-|5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|45.79.19.143|8080|United States|Richardson|Akamai Technologies, Inc.|
-|9|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|10|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|11|45.79.19.143|8080|United States|Richardson|Akamai Technologies, Inc.|
-|12|5.78.70.161|8080|United States|Portland|Hetzner Online GmbH|
-|13|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|14|8.222.138.28|7788|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|139.162.28.71|8080|Singapore|Singapore|LINODE|
-|16|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
-|17|103.178.235.50|3128|Vietnam|Ho Chi Minh City|VPSTTT|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|20|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|3|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|23.99.68.187|8081|United States|San Francisco|Microsoft Corporation|
+|6|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|7|157.245.76.135|8080|Netherlands|Amsterdam|DigitalOcean, LLC|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|10|5.78.70.161|8080|United States|Portland|Hetzner Online GmbH|
+|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|103.178.235.50|3128|Vietnam|Ho Chi Minh City|VPSTTT|
+|14|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|15|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|16|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|17|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|18|187.44.167.78|60786|Brazil|Salvador|ITS TELECOMUNICACOES LTDA|
+|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|113.161.114.2|3128|Vietnam|Ho Chi Minh City|VietNam Post and Telecom Corporation|
 
 
 
