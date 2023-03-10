@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6546** proxies at the latest update. Usable proxies are below.
+> Scraper found **6281** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|349|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|349|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|349|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|344|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|344|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|344|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1549|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1320|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|752|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|716|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2962|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|2|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|3|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
-|4|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|7|64.225.8.118|9999|United States|Clifton|DigitalOcean, LLC|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|1|172.104.16.24|3128|United States|Cedar Knolls|Akamai Technologies|
+|2|135.181.182.73|54321|Finland|Helsinki|Hetzner Online GmbH|
+|3|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|4|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|5|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
+|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
 |9|5.78.87.47|8080|United States|Portland|Hetzner Online GmbH|
-|10|64.225.8.118|9999|United States|Clifton|DigitalOcean, LLC|
-|11|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|10|172.104.16.24|3128|United States|Cedar Knolls|Akamai Technologies|
+|11|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
 |12|43.154.235.145|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|13|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|14|91.92.124.23|3128|Iran|Tehran|TIC|
+|13|8.222.138.28|7788|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 |15|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
-|16|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|17|200.24.157.146|1994|Ecuador|Cuenca|Nedetel S.A.|
-|18|158.69.53.132|9300|Canada|Montreal|OVH SAS|
-|19|157.100.53.133|8080|Ecuador|Ventanas|Nedetel S.A.|
-|20|181.48.112.198|8080|Colombia|Barranquilla|Telmex Colombia S.A.|
+|16|103.159.96.6|3125|Indonesia|Gresik|PT Jinde Grup Indonesia|
+|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|18|64.225.8.135|9998|United States|Clifton|DigitalOcean, LLC|
+|19|200.114.79.26|999|Chile|Los Vilos|SES ASTRA S.A.|
+|20|200.123.15.75|999|Peru|Lima|Wigo S.A.|
 
 
 
