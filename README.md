@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6501** proxies at the latest update. Usable proxies are below.
+> Scraper found **6521** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|430|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|430|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|430|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|448|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|448|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|448|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1285|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1305|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|825|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3108|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
-|4|198.58.107.188|8080|United States|Richardson|Akamai Technologies, Inc.|
-|5|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|6|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
-|7|185.226.118.159|8880|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|8|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|198.58.107.188|8080|United States|Richardson|Akamai Technologies, Inc.|
-|11|193.151.135.119|9000|Iran|Tehran|Asre Dadeha Asiatech|
-|12|5.78.90.6|8080|United States|Portland|Hetzner Online GmbH|
-|13|62.60.160.162|9000|Iran|Tehran|Mizban Dadeh Iranian Co. (Ltd)|
-|14|64.225.8.142|9988|United States|Clifton|DigitalOcean, LLC|
-|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|16|185.87.199.41|8118|Russia|Moscow|IHC|
-|17|46.246.86.22|8118|Sweden|Stockholm|Portlane Network|
-|18|45.171.146.132|8083|Brazil|Chapadao Do Sul|N3 SOLUCOES TECNOLOGICAS LTDA|
-|19|192.99.160.45|8080|Canada|Beauharnois|OVH SAS|
-|20|62.183.96.194|8080|Russia|Maykop|Southen Telecommunication Maintainer|
+|3|198.58.107.188|8080|United States|Richardson|Akamai Technologies, Inc.|
+|4|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
+|5|173.249.37.45|5005|Germany|Nuremberg|Contabo GmbH|
+|6|198.58.107.188|8080|United States|Richardson|Akamai Technologies, Inc.|
+|7|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|5.78.90.6|8080|United States|Portland|Hetzner Online GmbH|
+|10|193.151.135.119|9000|Iran|Tehran|Asre Dadeha Asiatech|
+|11|62.60.160.162|9000|Iran|Tehran|Mizban Dadeh Iranian Co. (Ltd)|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|64.225.8.142|9999|United States|Clifton|DigitalOcean, LLC|
+|14|185.87.199.41|8118|Russia|Moscow|IHC|
+|15|180.183.135.120|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|16|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|20|165.16.27.36|1981|Libya|Darnah|Aljeel Aljadeed For Technology|
 
 
 
