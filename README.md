@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6019** proxies at the latest update. Usable proxies are below.
+> Scraper found **5969** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|335|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|335|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|335|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|371|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|371|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|371|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1182|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1132|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|690|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2864|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
-|4|64.225.8.118|9990|United States|Clifton|DigitalOcean, LLC|
-|5|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|6|52.91.34.73|80|United States|Ashburn|Amazon.com, Inc.|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|9|52.91.34.73|80|United States|Ashburn|Amazon.com, Inc.|
-|10|64.225.8.118|9990|United States|Clifton|DigitalOcean, LLC|
-|11|206.81.25.145|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|38.83.74.2|3128|United States|Miami|Cogent Communications|
-|13|103.46.233.186|83|India|Vaddangi|Apple Broadband Services Pvt.ltd|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|91.185.58.68|8080|Russia|Irkutsk|JSC Irkutsk Business Net, Inc.|
-|16|45.70.236.195|999|Ecuador|Guayaquil|Nedetel S.A.|
-|17|180.247.132.122|8080|Indonesia|Gresik|PT. TELKOM INDONESIA|
-|18|90.156.231.190|7890|Poland|Warsaw|Artnet Sp. z o.o.|
-|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|20|181.209.82.195|999|Argentina|San Juan|ARSAT - Empresa Argentina de Soluciones Satelitales S.A|
+|2|64.225.8.118|9990|United States|Clifton|DigitalOcean, LLC|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|206.81.25.145|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|6|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
+|7|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|3.76.239.250|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
+|10|91.185.58.68|8080|Russia|Irkutsk|JSC Irkutsk Business Net, Inc.|
+|11|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|12|103.46.233.186|83|India|Vaddangi|Apple Broadband Services Pvt.ltd|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|36.91.45.10|51672|Indonesia|Bekasi|PT. Telekomunikasi Indonesia|
+|15|38.41.0.89|999|Venezuela|Caracas|MDS TELECOM C.A.|
+|16|90.156.231.190|7890|Poland|Warsaw|Artnet Sp. z o.o.|
+|17|103.4.94.2|8080|Pakistan|Lahore|HEC|
+|18|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|19|34.229.213.84|8118|United States|Ashburn|Amazon.com, Inc.|
+|20|200.111.182.6|443|Chile|Santiago|Entel Chile S.A.|
 
 
 
