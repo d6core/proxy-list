@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6499** proxies at the latest update. Usable proxies are below.
+> Scraper found **6700** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|498|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|498|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|498|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|494|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|494|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|494|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1465|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1666|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|760|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2991|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|2|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
 |3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|193.151.135.119|9000|Iran|Tehran|Asre Dadeha Asiatech|
-|5|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
-|6|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|7|37.152.181.83|89|Iran|Nā’īn|AbrArvan|
-|8|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|62.60.160.162|9000|Iran|Tehran|Mizban Dadeh Iranian Co. (Ltd)|
-|11|134.19.254.2|21231|Georgia|Tbilisi|GPON|
-|12|113.53.60.126|8080|Thailand|Bangkok|TOT Public Company Limited|
-|13|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
-|14|103.153.15.69|8080|Pakistan|Lahore|Netze Telecom (Private) Limited|
-|15|46.101.13.77|80|United Kingdom|London|DigitalOcean, LLC|
-|16|89.117.50.220|80|Germany|Düsseldorf|Contabo GmbH|
-|17|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|18|5.78.90.6|8080|United States|Portland|Hetzner Online GmbH|
-|19|181.129.138.162|9898|Colombia|Manizales|EPM Telecomunicaciones S.A. E.S.P.|
-|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|4|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|5|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|6|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|7|113.53.60.126|8080|Thailand|Bangkok|TOT Public Company Limited|
+|8|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|9|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|10|125.25.33.185|8080|Thailand|Chiang Mai|TOT Public Company Limited|
+|11|131.179.29.237|3128|United States|Los Angeles|University of California, Los Angeles|
+|12|37.152.181.83|89|Iran|Nā’īn|AbrArvan|
+|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|14|193.151.135.119|9000|Iran|Tehran|Asre Dadeha Asiatech|
+|15|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|16|217.65.5.49|8080|Russia|Moscow|Filanco LLC|
+|17|5.78.90.6|8080|United States|Portland|Hetzner Online GmbH|
+|18|134.19.254.2|21231|Georgia|Tbilisi|GPON|
+|19|103.112.253.125|32650|India|Jamui|Cybernet Introtech Private Limited|
+|20|163.172.31.44|80|France|Paris|Online S.A.S.|
 
 
 
