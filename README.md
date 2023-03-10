@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6502** proxies at the latest update. Usable proxies are below.
+> Scraper found **6393** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|463|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|463|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|463|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|443|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|443|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|443|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1510|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1401|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|747|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2962|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|51.79.50.46|9300|Canada|Victoria|OVH SAS|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|7|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
-|8|126.109.97.77|8080|Japan|Kurume|Softbank BB Corp.|
-|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|10|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|12|34.229.213.84|8118|United States|Ashburn|Amazon.com, Inc.|
-|13|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
-|14|8.222.138.28|7788|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|16|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|17|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
-|18|103.1.93.42|80|Nepal|Kathmandu|Classic Tech Pvt. Ltd|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|6|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
+|7|64.225.8.135|9998|United States|Clifton|DigitalOcean, LLC|
+|8|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|9|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|10|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|11|34.229.213.84|8118|United States|Ashburn|Amazon.com, Inc.|
+|12|8.222.138.28|7788|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|103.1.93.42|80|Nepal|Kathmandu|Classic Tech Pvt. Ltd|
+|14|103.215.25.86|4995|Indonesia|Ciputat|PT.Indonesia Comnets Plus|
+|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|190.119.203.219|8080|Peru|Amazonas|America Movil Peru S.A.C.|
+|17|138.0.233.33|41890|Brazil|Altos|Jose DAS Gracas Soares De Lima Eireli|
+|18|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
+|19|182.253.162.129|80|Indonesia|Surabaya|BIZNET|
+|20|185.67.188.178|41258|Czechia|Velka Kras|Web4Soft s.r.o.|
 
 
 
