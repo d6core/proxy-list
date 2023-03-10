@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|430|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|430|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|430|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|530|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|530|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|530|
 
 ## Sources
 
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
 |3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|64.225.8.135|9998|United States|Clifton|DigitalOcean, LLC|
-|8|64.225.8.135|9998|United States|Clifton|DigitalOcean, LLC|
-|9|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|7|51.159.115.233|3128|France|Paris|SCALEWAY|
+|8|104.248.156.116|8080|Singapore|Singapore|DigitalOcean, LLC|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|11|34.229.213.84|8118|United States|Ashburn|Amazon.com, Inc.|
-|12|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|13|180.247.132.122|8080|Indonesia|Gresik|PT. TELKOM INDONESIA|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|101.255.81.118|8080|Indonesia|Depok|PT Remala Abadi|
-|16|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|17|126.109.97.77|8080|Japan|Kurume|Softbank BB Corp.|
-|18|125.166.59.91|80|Indonesia|Malang|PT. TELKOM INDONESIA|
-|19|85.25.199.50|5566|France|Strasbourg|Host Europe GmbH|
-|20|103.148.192.83|8089|Indonesia|Bandung|PT. Akashia Thuba Jaya|
+|11|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|12|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|13|197.214.255.137|3128|Congo Republic|Pointe Noire|Airtel Congo S.A|
+|14|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|15|190.61.32.147|999|Mexico|Mexico City|Ufinet Mexico S. De R.l. De C.V.|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|139.59.59.122|8118|India|Bengaluru|DIGITALOCEAN|
+|18|157.100.53.133|8080|Ecuador|Ventanas|Nedetel S.A.|
+|19|12.7.109.1|9812|United States|Carrizo Springs|AIRESPRING-ADT SYSTEMS, INC.|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
