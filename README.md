@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6123** proxies at the latest update. Usable proxies are below.
+> Scraper found **6371** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|463|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|463|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|463|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|428|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|428|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|428|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1299|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1247|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|733|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3108|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|2|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
-|3|116.203.39.125|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|4|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|198.58.107.188|8080|United States|Richardson|Akamai Technologies, Inc.|
-|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
-|10|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
-|11|5.78.90.6|8080|United States|Portland|Hetzner Online GmbH|
-|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|13|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|2|74.208.119.240|80|United States|Philadelphia|IONOS SE|
+|3|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
+|4|116.203.39.125|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|5|198.58.107.188|8080|United States|Richardson|Akamai Technologies, Inc.|
+|6|131.179.29.237|3128|United States|Los Angeles|University of California, Los Angeles|
+|7|198.58.107.188|8080|United States|Richardson|Akamai Technologies, Inc.|
+|8|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|9|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
+|10|74.208.119.240|80|United States|Philadelphia|IONOS SE|
+|11|190.239.220.201|999|Peru|Cusco|Telefonica del Peru S.A.A.|
+|12|131.179.29.237|3128|United States|Los Angeles|University of California, Los Angeles|
+|13|5.78.90.6|8080|United States|Portland|Hetzner Online GmbH|
 |14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
-|16|198.58.107.188|8080|United States|Richardson|Akamai Technologies, Inc.|
-|17|185.87.199.41|8118|Russia|Moscow|IHC|
-|18|131.179.29.237|3128|United States|Los Angeles|University of California, Los Angeles|
-|19|131.179.29.237|3128|United States|Los Angeles|University of California, Los Angeles|
-|20|62.60.160.162|9000|Iran|Tehran|Mizban Dadeh Iranian Co. (Ltd)|
+|15|193.151.135.119|9000|Iran|Tehran|Asre Dadeha Asiatech|
+|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|17|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
+|18|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|19|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|20|46.246.86.22|8118|Sweden|Stockholm|Portlane Network|
 
 
 
