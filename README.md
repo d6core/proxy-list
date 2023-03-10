@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6492** proxies at the latest update. Usable proxies are below.
+> Scraper found **6363** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|420|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|420|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|420|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|402|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|402|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|402|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1500|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1371|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|747|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2962|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |3|64.225.8.118|9990|United States|Clifton|DigitalOcean, LLC|
 |4|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
-|7|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|8|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|10|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
-|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|12|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
-|13|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|16|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
-|17|126.109.97.77|8080|Japan|Kurume|Softbank BB Corp.|
-|18|64.225.8.135|9998|United States|Clifton|DigitalOcean, LLC|
-|19|134.19.254.2|21231|Georgia|Tbilisi|GPON|
-|20|172.104.41.13|16379|Singapore|Singapore|Akamai Technologies|
+|5|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|8|64.225.8.135|9998|United States|Clifton|DigitalOcean, LLC|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
+|11|109.69.0.62|1080|Albania|Tirana|Vodafone Network|
+|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|103.1.93.42|80|Nepal|Kathmandu|Classic Tech Pvt. Ltd|
+|14|126.109.97.77|8080|Japan|Kurume|Softbank BB Corp.|
+|15|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|16|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
+|17|139.59.232.202|8118|Singapore|Singapore|DIGITALOCEAN|
+|18|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
+|19|103.159.96.190|3127|Indonesia|Gresik|PT Jinde Grup Indonesia|
+|20|82.102.11.74|443|United Kingdom|Gosport|Redstation Limited|
 
 
 
