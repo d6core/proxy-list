@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6613** proxies at the latest update. Usable proxies are below.
+> Scraper found **6343** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|492|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|492|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|492|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|536|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|536|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|536|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1537|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1544|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|802|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|825|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2991|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|45.188.166.50|1994|Mexico|Tamazula de Gordiano|Velocom SA De CV|
-|5|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
-|6|119.76.142.144|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
-|7|103.155.62.173|8080|Pakistan|Lahore|KK Networks (Pvt) Ltd.|
-|8|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|9|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|10|103.118.175.154|6969|Indonesia|Wanakerta|PT Pedjoeang Digital Networks|
-|11|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|14|38.83.74.2|3128|United States|Miami|Cogent Communications|
-|15|5.78.79.86|8080|United States|Portland|Hetzner Online GmbH|
-|16|65.109.135.27|8080|Finland|Helsinki|Hetzner Online GmbH|
-|17|124.16.100.195|7890|China|Haidian|Computer Network Information Center|
-|18|208.79.11.97|9080|United States|West Monroe|SkyRider Communications|
-|19|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|20|85.196.179.34|8080|Bulgaria|Sofia|Mobiltel BNG|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|4|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
+|5|171.239.90.240|4016|Vietnam|Hanoi|Viettel Corporation|
+|6|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|7|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|8|37.152.181.83|89|Iran|Nā’īn|AbrArvan|
+|9|173.249.37.45|5005|Germany|Nuremberg|Contabo GmbH|
+|10|78.25.123.69|3128|Russia|St Petersburg|North-West Branch of OJSC MegaFon Network.|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|20.198.96.26|80|India|Pune|Microsoft Corporation|
+|13|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|14|45.188.166.50|1994|Mexico|Tamazula de Gordiano|Velocom SA De CV|
+|15|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|16|150.107.137.25|8080|Indonesia|Medan|Media Antar Nusa PT.|
+|17|163.53.82.167|32650|India|Sirohi|Kappa Internet Services Private Limited|
+|18|5.78.79.86|8080|United States|Portland|Hetzner Online GmbH|
+|19|103.51.205.42|8181|Indonesia|Karanganyar|Lintas Data Prima|
+|20|5.78.79.86|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
