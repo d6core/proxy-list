@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7939** proxies at the latest update. Usable proxies are below.
+> Scraper found **8079** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|924|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|924|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|924|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|1012|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|1012|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|1012|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2287|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2340|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1237|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1324|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3132|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|64.225.8.121|9992|United States|Clifton|DigitalOcean, LLC|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|103.38.214.21|3128|Philippines|Makati City|IPVG|
-|5|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|8|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|9|168.138.47.99|80|Japan|Osaka|Oracle Corporation|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|12|195.133.45.149|7788|Russia|Moscow|VDS|
-|13|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|14|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
-|15|51.159.115.233|3128|France|Paris|SCALEWAY|
-|16|5.78.44.6|8080|United States|Portland|Hetzner Online GmbH|
-|17|146.190.208.249|8080|United States|North Bergen|DigitalOcean, LLC|
-|18|64.225.8.121|9992|United States|Clifton|DigitalOcean, LLC|
-|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|20|212.98.132.243|80|Lebanon|Beirut|TerraNet sal|
+|2|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
+|3|64.225.8.121|9992|United States|Clifton|DigitalOcean, LLC|
+|4|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|5|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|51.159.115.233|3128|France|Paris|SCALEWAY|
+|8|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|44.212.226.246|80|United States|Ashburn|Amazon.com|
+|11|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|12|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|14|181.205.86.66|80|Colombia|Bello|EPM Telecomunicaciones S.A. E.S.P.|
+|15|64.225.8.121|9992|United States|Clifton|DigitalOcean, LLC|
+|16|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
+|17|203.150.128.51|8080|Thailand|Vadhana|Internet Thailand Company Ltd|
+|18|44.212.226.246|80|United States|Ashburn|Amazon.com|
+|19|179.40.95.36|999|Argentina|San Vicente|Telefonica de Argentina|
+|20|45.177.17.8|999|Guatemala|Chiquimula|MSW S.A.|
 
 
 
