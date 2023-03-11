@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6972** proxies at the latest update. Usable proxies are below.
+> Scraper found **6956** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|666|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|666|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|666|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|661|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|661|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|661|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1668|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1652|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|974|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3047|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
-|2|46.101.29.103|443|United Kingdom|London|DigitalOcean, LLC|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|46.101.85.55|443|United Kingdom|London|DigitalOcean|
+|1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|2|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
+|3|46.101.85.55|443|United Kingdom|London|DigitalOcean|
+|4|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
 |5|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
-|6|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
 |7|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
 |8|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
 |9|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|10|45.61.187.67|4009|United States|Miami|FranTech Solutions|
-|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|12|45.61.187.67|4009|United States|Miami|FranTech Solutions|
-|13|50.233.228.147|8080|United States|Fort Collins|Comcast Cable Communications, LLC|
-|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|16|71.14.23.121|8080|United States|Birmingham|Spectrum|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|13|70.177.15.10|8080|United States|Scottsdale|Cox Communications Inc.|
+|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|15|37.152.181.83|89|Iran|Nā’īn|AbrArvan|
+|16|76.169.129.241|8080|United States|Santa Ana|Charter Communications|
 |17|43.229.148.70|8080|Thailand|Ban Mo|Siamdata Communication Co.|
-|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|19|96.95.164.41|3128|United States|Meriden|Comcast Cable Communications, LLC|
-|20|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|18|12.88.29.66|9080|United States|Pauls Valley|AT&T Services, Inc.|
+|19|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
+|20|64.225.8.203|9998|United States|Clifton|DigitalOcean, LLC|
 
 
 
