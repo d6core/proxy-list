@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7267** proxies at the latest update. Usable proxies are below.
+> Scraper found **7103** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|694|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|694|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|694|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|702|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|702|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|702|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1963|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1799|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|897|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3124|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|7|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|204.137.250.6|3129|United States|Saratoga Springs|Apogee Telecom Inc|
-|11|192.81.128.182|8089|United States|Fremont|Akamai Technologies, Inc.|
-|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|13|135.181.79.30|8118|Finland|Helsinki|Hetzner Online GmbH|
-|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|15|38.56.70.97|999|Dominican Republic|Santo Domingo Este|Orbitek SRL|
-|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|17|204.137.250.6|3129|United States|Saratoga Springs|Apogee Telecom Inc|
-|18|38.41.0.94|999|Venezuela|Caracas|MDS TELECOM C.A.|
-|19|38.56.70.59|999|Dominican Republic|Santo Domingo Este|Orbitek SRL|
-|20|38.56.70.75|999|Dominican Republic|Santo Domingo Este|Orbitek SRL|
+|1|45.168.236.50|999|Mexico|San Juan del Río|Wantelco SAS de CV|
+|2|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|194.163.45.239|3128|United States|Phoenix|Hostinger International Limited|
+|5|103.164.118.86|8080|Indonesia|Bualu|SOLUSINET|
+|6|103.126.87.25|3127|Indonesia|Klaten|BINTANGPERKASAORION|
+|7|103.167.170.54|8080|Indonesia|Serang|PT Rajeg Media Telekomunikasi|
+|8|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|9|168.90.255.60|999|Argentina|Zárate|Tecnocomp S.R.L.|
+|10|103.141.247.6|8080|India|Palakkad|Vinayaga Communications Pvt Ltd|
+|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|12|201.221.26.179|8080|Uruguay|Libertad|Tecnowind S.A.|
+|13|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|14|94.154.87.28|8088|Russia|Irkutsk|Baikal-Telecom Ltd|
+|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|16|50.232.250.157|8080|United States|Ferndale|Comcast Cable Communications, LLC|
+|17|103.190.112.244|8080|Indonesia|Jagong|PT Linkbit Inovasi Teknologi|
+|18|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|19|114.7.27.98|8080|Indonesia|Jakarta|PT. INDOSAT Tbk|
+|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 
 
 
