@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7502** proxies at the latest update. Usable proxies are below.
+> Scraper found **7448** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|636|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|636|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|636|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|698|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|698|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|698|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1812|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1758|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1239|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3168|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|3|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|4|47.242.50.207|59394|Hong Kong|Hong Kong|Alibaba.com LLC|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|104.238.215.103|8080|United States|New York|Kamatera, Inc.|
+|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|6|47.242.50.207|59394|Hong Kong|Hong Kong|Alibaba.com LLC|
+|7|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
 |8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|10|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|158.69.53.132|9300|Canada|Montreal|OVH SAS|
-|14|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|10|177.87.144.122|5566|Brazil|Sao Sebastiao da Grama|Videomar Rede Nordeste S/A|
+|11|213.195.22.110|7777|Iran|Tehran|Rasaneh Avabarid Private Joint Stock Company|
+|12|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
+|13|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
 |15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|38.44.241.34|999|Dominican Republic|Santo Domingo Este|Visnetwork SRL|
-|17|172.104.41.13|16379|Singapore|Singapore|Akamai Technologies|
-|18|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|19|103.180.118.114|3127|Indonesia|Lamongan|PT Persada Data Multimedia|
-|20|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|16|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|200.29.109.112|44749|Colombia|Santiago de Cali|Empresas Municipales De Cali E.i.c.e. E.S.P.|
+|19|200.55.255.251|8083|Ecuador|Provincia del Azuay|Comm & Net S.A.|
+|20|181.39.27.240|1994|Ecuador|Cuenca|Telconet S.A|
 
 
 
