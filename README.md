@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7831** proxies at the latest update. Usable proxies are below.
+> Scraper found **7721** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|882|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|882|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|882|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|735|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|735|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|735|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2032|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1922|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1252|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3264|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|159.89.53.247|443|United States|North Bergen|DigitalOcean, LLC|
-|2|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|5|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|5.75.143.44|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|9|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|10|46.101.29.103|443|United Kingdom|London|DigitalOcean, LLC|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|64.251.22.20|80|United States|Miami|Infolink Global Corporation|
-|13|185.226.118.159|8880|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|14|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
-|15|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|16|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|17|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|18|195.133.45.149|7788|Russia|Moscow|VDS|
-|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|20|64.251.22.20|80|United States|Miami|Infolink Global Corporation|
+|1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
+|6|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
+|7|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|8|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|13|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
+|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|15|64.225.8.121|9992|United States|Clifton|DigitalOcean, LLC|
+|16|159.89.53.247|443|United States|North Bergen|DigitalOcean, LLC|
+|17|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
+|18|200.116.226.210|43049|Colombia|Barranquilla|EPM Telecomunicaciones S.A. E.S.P|
+|19|94.130.223.75|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|20|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
 
 
 
