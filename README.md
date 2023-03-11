@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6739** proxies at the latest update. Usable proxies are below.
+> Scraper found **6511** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|466|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|466|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|466|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|402|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|402|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|402|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1421|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1318|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|972|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3063|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2938|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
 |2|212.98.132.243|80|Lebanon|Beirut|TerraNet sal|
-|3|64.225.4.29|9994|United States|Clifton|DigitalOcean, LLC|
-|4|64.225.4.29|9994|United States|Clifton|DigitalOcean, LLC|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|9|93.118.109.93|8080|Iran|Tehran|Telecommunication Company of Iran|
-|10|120.28.138.60|8081|Philippines|Caloocan City|Globe Telecom|
-|11|43.243.142.60|59916|Indonesia|Tangerang|PT. Mora Telematika Indonesia|
+|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|4|193.141.126.54|82|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
+|5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|6|65.108.230.239|42899|Finland|Helsinki|Hetzner Online GmbH|
+|7|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|11|120.28.138.60|8081|Philippines|Caloocan City|Globe Telecom|
 |12|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|13|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|14|191.103.219.225|48612|Colombia|Montería|Edatel S.a. E.S.P|
-|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|17|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|18|12.218.209.130|53281|United States|Hollister|AT&T Services, Inc.|
-|19|41.60.234.223|8080|Kenya|Nairobi|Maintainer Liquid Telecommunications Operations Limited|
-|20|12.7.109.1|9812|United States|Carrizo Springs|AIRESPRING-ADT SYSTEMS, INC.|
+|13|191.102.254.9|8085|Argentina|Rosario|IP·RED|
+|14|93.118.109.93|8080|Iran|Tehran|Telecommunication Company of Iran|
+|15|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|18|64.225.8.115|9997|United States|Clifton|DigitalOcean, LLC|
+|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|20|103.66.196.218|23500|Indonesia|Bogor|PT. Mora Telematika Indonesia|
 
 
 
