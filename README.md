@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6625** proxies at the latest update. Usable proxies are below.
+> Scraper found **6889** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|554|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|554|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|554|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|660|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|660|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|660|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1559|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1823|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|881|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2902|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|3|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|4|195.201.36.245|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|2|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|3|195.201.36.245|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|201.77.97.96|999|Mexico|Huichapan|Hulux Telecomunicaciones|
-|7|173.255.240.80|443|United States|Fremont|Akamai Technologies, Inc.|
-|8|173.255.240.80|443|United States|Fremont|Akamai Technologies, Inc.|
+|6|185.237.99.218|25345|United Kingdom|London|Kamatera Inc|
+|7|138.117.110.87|999|Colombia|Pereira|Media Commerce Partners S.A|
+|8|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
 |9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|10|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|10|50.16.77.185|8118|United States|Ashburn|Amazon.com|
 |11|187.63.156.114|999|Dominican Republic|Santo Domingo Este|Derivalnet Y Comunicaciones SRL|
-|12|61.216.185.88|60808|Taiwan|Chiayi City|Chunghwa Telecom Co., Ltd.|
-|13|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|159.89.128.130|8989|United States|Santa Clara|DigitalOcean, LLC|
-|16|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|17|64.225.8.203|9998|United States|Clifton|DigitalOcean, LLC|
-|18|54.162.182.194|8118|United States|Ashburn|Amazon.com, Inc.|
-|19|37.152.181.83|89|Iran|Nā’īn|AbrArvan|
-|20|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|14|103.36.11.161|3125|Indonesia|Pandeglang|PT Awinet Global Mandiri|
+|15|37.152.181.83|89|Iran|Nā’īn|AbrArvan|
+|16|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
+|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|18|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
+|19|116.254.116.99|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
+|20|103.25.208.170|8081|Indonesia|Purwokerto|TRANSDATA|
 
 
 
