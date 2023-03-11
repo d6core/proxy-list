@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7634** proxies at the latest update. Usable proxies are below.
+> Scraper found **7661** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|685|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|685|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|685|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|746|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|746|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|746|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2062|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2089|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1157|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3132|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|2|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
+|3|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|4|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
 |5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|8|51.159.115.233|3128|France|Paris|SCALEWAY|
-|9|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
-|10|103.38.214.21|3128|Philippines|Makati City|IPVG|
-|11|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
-|12|146.190.208.249|8080|United States|North Bergen|DigitalOcean, LLC|
-|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|14|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
-|15|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
-|16|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
-|17|5.78.44.6|8080|United States|Portland|Hetzner Online GmbH|
-|18|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|19|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|7|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|8|212.98.132.243|80|Lebanon|Beirut|TerraNet sal|
+|9|51.159.115.233|3128|France|Paris|SCALEWAY|
+|10|45.5.92.94|8137|Mexico|Monclova|Señal Interactiva, S.A De C.V|
+|11|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
+|12|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
+|13|146.190.208.249|8080|United States|North Bergen|DigitalOcean, LLC|
+|14|64.225.4.12|9991|United States|Clifton|DigitalOcean, LLC|
+|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|18|5.78.44.6|8080|United States|Portland|Hetzner Online GmbH|
+|19|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|20|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
 
 
 
