@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7189** proxies at the latest update. Usable proxies are below.
+> Scraper found **7136** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|664|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|664|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|664|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|670|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|670|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|670|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1914|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1861|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1230|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3062|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|3|198.167.193.62|8118|Sweden|Malmo|ab stract|
-|4|195.133.45.149|7788|Russia|Moscow|VDS|
-|5|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|3|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|4|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 |6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|8|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
-|9|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|10|131.161.221.139|80|Ecuador|Cuenca|Marvicnet CIA Ltda|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|63.239.220.109|8080|United States|Okeechobee|CenturyLink Communications, LLC|
-|13|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|14|51.79.50.46|9300|Canada|Victoria|OVH SAS|
-|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|16|84.214.150.146|8080|Norway|Oslo|Get AS|
-|17|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
-|18|103.241.178.7|8080|Indonesia|Tengah|PT. Java Digital Nusantara|
-|19|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
-|20|81.89.220.11|3128|Armenia|Yerevan|Crossnet LLC|
+|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|8|18.117.130.153|8118|United States|Dublin|Amazon.com, Inc.|
+|9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|10|8.219.57.127|3128|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|12|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
+|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
+|15|64.225.8.203|9999|United States|Clifton|DigitalOcean, LLC|
+|16|64.225.8.203|9999|United States|Clifton|DigitalOcean, LLC|
+|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|18|172.104.41.13|16379|Singapore|Singapore|Akamai Technologies|
+|19|63.239.220.109|8080|United States|Okeechobee|CenturyLink Communications, LLC|
+|20|138.59.187.13|666|Brazil|Sao Francisco do Conde|Art Compus Serviços de Comunicação Multimídia Ltd|
 
 
 
