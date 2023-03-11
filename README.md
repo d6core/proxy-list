@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6921** proxies at the latest update. Usable proxies are below.
+> Scraper found **6882** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|552|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|552|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|552|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|524|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|524|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|524|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1617|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1578|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|974|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3047|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|3|46.101.85.55|443|United Kingdom|London|DigitalOcean|
-|4|46.101.29.103|443|United Kingdom|London|DigitalOcean, LLC|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|7|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|1|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
+|2|46.101.85.55|443|United Kingdom|London|DigitalOcean|
+|3|46.101.29.103|443|United Kingdom|London|DigitalOcean, LLC|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|6|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|7|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
 |8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|9|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|10|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|11|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|37.152.181.83|89|Iran|Nā’īn|AbrArvan|
-|14|43.229.148.70|8080|Thailand|Ban Mo|Siamdata Communication Co.|
-|15|185.226.118.159|8880|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|17|64.225.8.203|9998|United States|Clifton|DigitalOcean, LLC|
-|18|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|45.61.187.67|4002|United States|Miami|FranTech Solutions|
+|11|177.174.126.203|8080|Brazil|Americana|Vivo|
+|12|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|13|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|14|182.253.174.116|8080|Indonesia|Jakarta|Biznet Metronet|
+|15|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
+|16|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|17|37.152.181.83|89|Iran|Nā’īn|AbrArvan|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|20|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
 
 
 
