@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6834** proxies at the latest update. Usable proxies are below.
+> Scraper found **6902** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|346|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|346|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|346|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|483|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|483|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|483|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1453|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1521|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|972|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3126|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|174.70.1.210|8080|United States|Providence|Cox Communications Inc.|
-|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|5|174.70.1.210|8080|United States|Providence|Cox Communications Inc.|
-|6|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|187.216.93.20|55443|Mexico|Mexico City|Uninet S.A. de C.V.|
+|4|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|5|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|6|114.7.27.98|8080|Indonesia|Jakarta|PT. INDOSAT Tbk|
+|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 |8|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|9|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|189.201.128.8|999|Mexico|Mexico City|ATC HOLDING FIBRA MEXICO, S. DE R.L. DE C.V.|
-|11|191.97.60.198|999|Peru|Chiclayo|Internexa Peru S.A|
-|12|70.177.15.10|8080|United States|Scottsdale|Cox Communications Inc.|
-|13|38.51.243.193|999|Colombia|Tuquerres|INTERCOMM DE NARIÑO SAS|
-|14|187.95.112.36|6666|Brazil|Guarapuava|Ligga Telecomunicações S.A|
-|15|70.177.15.10|8080|United States|Scottsdale|Cox Communications Inc.|
-|16|217.65.5.49|8080|Russia|Moscow|Filanco LLC|
-|17|103.118.175.200|3127|Indonesia|Wanakerta|PT Pedjoeang Digital Networks|
-|18|103.16.133.226|8080|Indonesia|Dumai|ClientStatic Mayatama|
-|19|12.7.109.1|9812|United States|Carrizo Springs|AIRESPRING-ADT SYSTEMS, INC.|
-|20|50.233.228.147|8080|United States|Fort Collins|Comcast Cable Communications, LLC|
+|9|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|10|103.16.133.226|8080|Indonesia|Dumai|ClientStatic Mayatama|
+|11|95.137.240.30|60030|Georgia|Tbilisi|EGRISI|
+|12|66.181.164.125|8080|Mongolia|Ulan Bator|Univision LLC|
+|13|103.22.248.135|3333|Indonesia|Jakarta|CEPATNET|
+|14|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
+|15|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
+|16|212.98.132.243|80|Lebanon|Beirut|TerraNet sal|
+|17|64.225.8.203|9998|United States|Clifton|DigitalOcean, LLC|
+|18|154.72.74.210|80|Tanzania|Dar es Salaam|Liquid Telecommunications Ltd|
+|19|154.64.211.145|999|Puerto Rico|Martorell|OSNET Wireless|
+|20|200.111.182.6|443|Chile|Santiago|Entel Chile S.A.|
 
 
 
