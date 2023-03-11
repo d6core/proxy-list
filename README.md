@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6824** proxies at the latest update. Usable proxies are below.
+> Scraper found **6879** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|541|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|541|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|541|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|582|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|582|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|582|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1537|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1592|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1066|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2938|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|64.225.8.115|9997|United States|Clifton|DigitalOcean, LLC|
-|2|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
-|3|212.98.132.243|80|Lebanon|Beirut|TerraNet sal|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|172.105.229.44|3128|Japan|Tokyo|Akamai Technologies|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|11|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|13|64.225.4.29|9994|United States|Clifton|DigitalOcean, LLC|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|16|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|17|107.152.43.213|8080|United States|Durham|tzulo, inc.|
-|18|185.226.118.159|8880|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|19|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|20|64.225.4.29|9994|United States|Clifton|DigitalOcean, LLC|
+|1|64.225.4.29|9994|United States|Clifton|DigitalOcean, LLC|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|4|107.152.43.213|8080|United States|Durham|tzulo, inc.|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|107.152.43.213|8080|United States|Durham|tzulo, inc.|
+|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|8|64.225.4.29|9994|United States|Clifton|DigitalOcean, LLC|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|12|195.133.45.149|7788|Russia|Moscow|VDS|
+|13|212.98.132.243|80|Lebanon|Beirut|TerraNet sal|
+|14|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
+|17|190.53.46.11|38525|Nicaragua|Rivas|Amnet Telecomunicaciones S.A.|
+|18|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|19|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|20|185.237.99.218|25345|United Kingdom|London|Kamatera Inc|
 
 
 
