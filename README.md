@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6952** proxies at the latest update. Usable proxies are below.
+> Scraper found **6646** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|485|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|485|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|485|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|543|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|543|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|543|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1450|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1444|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1093|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3126|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|2|104.238.215.103|8080|United States|New York|Kamatera, Inc.|
 |3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|104.238.215.103|8080|United States|New York|Kamatera, Inc.|
-|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|7|187.95.112.36|6666|Brazil|Guarapuava|Ligga Telecomunicações S.A|
-|8|125.27.128.217|8080|Thailand|Si Racha|TOT Public Company Limited|
-|9|110.77.170.24|8080|Thailand|Ban Pho|CAT-BB|
-|10|37.152.181.83|89|Iran|Nā’īn|AbrArvan|
-|11|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|12|103.166.28.34|8082|Indonesia|Bojonegoro|PT Global Media Data Prima|
-|13|12.218.209.130|53281|United States|Hollister|AT&T Services, Inc.|
-|14|103.157.116.186|8080|Indonesia|Yogyakarta|PT Cloud Teknologi Nusantara|
-|15|64.225.8.115|9997|United States|Clifton|DigitalOcean, LLC|
-|16|64.225.8.115|9997|United States|Clifton|DigitalOcean, LLC|
-|17|187.62.191.3|61456|Brazil|Bariri|Conexao Networks Provedor de Internet|
-|18|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|19|190.61.84.166|9812|Costa Rica|San José|Ufinet Costa Rica|
-|20|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
+|4|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|5|195.133.45.149|7788|Russia|Moscow|VDS|
+|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|7|197.248.154.82|3128|Kenya|Nairobi|Safaricom Limited|
+|8|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
+|9|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|10|70.177.15.10|8080|United States|Scottsdale|Cox Communications Inc.|
+|11|64.225.8.115|9997|United States|Clifton|DigitalOcean, LLC|
+|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|45.171.145.134|8080|Brazil|Chapadao do Ceu|N3 SOLUCOES TECNOLOGICAS LTDA|
+|14|43.129.223.147|38080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|15|64.225.8.203|9998|United States|Clifton|DigitalOcean, LLC|
+|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|17|185.129.190.1|8080|Iran|Tehran|Pishgaman Toseeh Ertebatat Company (Private Joint Stock)|
+|18|81.89.220.11|3128|Armenia|Yerevan|Crossnet LLC|
+|19|103.1.50.56|3125|Indonesia|Jakarta|CPCNet Hong Kong Ltd. - IP Administrator|
+|20|95.217.137.46|3128|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
