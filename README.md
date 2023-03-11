@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7047** proxies at the latest update. Usable proxies are below.
+> Scraper found **6969** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|477|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|477|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|477|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|522|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|522|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|522|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1793|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1715|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1033|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2938|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|183.89.150.78|8080|Thailand|Mueang Samut Prakan|Triple T Broadband Public Company Limited|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|190.202.94.210|8080|Venezuela|Santa Rita|CANTV Servicios, Venezuela|
-|6|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
-|7|103.216.51.43|32650|Cambodia|Phnom Penh|Today Communication Co|
-|8|181.188.206.32|999|Ecuador|Cuenca|Otecel S.A.|
-|9|200.116.226.210|43049|Colombia|Barranquilla|EPM Telecomunicaciones S.A. E.S.P|
-|10|181.211.255.129|9898|Ecuador|Quito|Corporacion Nacional De Telecomunicaciones - CNT EP|
-|11|193.141.126.54|82|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
-|12|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
-|13|103.180.59.220|8080|Indonesia|Jakarta|PT INDONESIA COMNETS PLUS|
+|1|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|2|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
+|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|4|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
+|5|181.188.206.32|999|Ecuador|Cuenca|Otecel S.A.|
+|6|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
+|7|183.89.150.78|8080|Thailand|Mueang Samut Prakan|Triple T Broadband Public Company Limited|
+|8|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|103.87.168.170|32650|India|Kalwara|Tejays|
+|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|12|202.162.192.85|8080|Indonesia|Medan|Media Antar Nusa PT.|
+|13|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
 |14|163.172.31.44|80|France|Paris|Online S.A.S.|
-|15|202.162.192.85|8080|Indonesia|Medan|Media Antar Nusa PT.|
-|16|5.78.87.47|8080|United States|Portland|Hetzner Online GmbH|
-|17|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|18|38.83.74.2|443|United States|Miami|Cogent Communications|
-|19|24.51.32.59|8080|United States|Chicago|Great Plains Communications LLC|
-|20|107.152.43.213|8080|United States|Durham|tzulo, inc.|
+|15|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|16|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|17|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|18|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|19|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|20|111.225.152.5|8089|China|Gaocheng|Chinanet|
 
 
 
