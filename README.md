@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6821** proxies at the latest update. Usable proxies are below.
+> Scraper found **6887** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|638|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|638|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|638|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|452|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|452|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|452|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1465|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1531|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|990|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3083|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|195.133.45.149|7788|Russia|Moscow|VDS|
-|4|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
-|5|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
-|6|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|181.36.121.222|999|Dominican Republic|San Pedro de Macorís|Altice Dominicana S.A.|
-|9|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
-|10|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
-|11|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|12|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|103.44.162.179|8080|Hong Kong|Tseung Kwan O|Netsec Limited|
-|15|64.225.4.29|9994|United States|Clifton|DigitalOcean, LLC|
-|16|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
-|17|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|18|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
-|19|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
-|20|190.82.105.123|43949|Chile|Santiago|Telefonica Empresas|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
+|4|5.58.110.249|8080|Ukraine|Ternopil|Columbus|
+|5|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|6|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|7|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|64.225.4.29|9994|United States|Clifton|DigitalOcean, LLC|
+|10|78.158.171.26|8080|Iran|Tehran|Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS|
+|11|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
+|12|45.174.78.64|999|Mexico|Ciudad Juárez|Raul Duarte Urita|
+|13|179.48.191.2|8088|Brazil|Goiânia|Libre Telecom Eireli|
+|14|45.177.17.22|999|Guatemala|Chiquimula|MSW S.A.|
+|15|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|16|178.128.219.124|8080|Singapore|Singapore|DigitalOcean, LLC|
+|17|95.137.240.30|60030|Georgia|Tbilisi|EGRISI|
+|18|65.109.135.27|8080|Finland|Helsinki|Hetzner Online GmbH|
+|19|38.83.74.2|3128|United States|Miami|Cogent Communications|
+|20|216.169.73.65|34679|United States|Marysvale|South Central Communications, Inc.|
 
 
 
