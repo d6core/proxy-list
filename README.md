@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7874** proxies at the latest update. Usable proxies are below.
+> Scraper found **7858** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|515|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|515|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|515|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|815|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|815|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|815|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2030|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2014|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1323|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3238|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|3|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
-|6|64.225.8.121|9992|United States|Clifton|DigitalOcean, LLC|
-|7|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
-|8|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
-|9|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|10|134.73.0.194|3129|United States|Los Angeles|LayerHost|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|134.73.3.157|3129|United States|Los Angeles|LayerHost|
-|13|64.225.4.63|9998|United States|Clifton|DigitalOcean, LLC|
-|14|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|15|185.237.99.218|25345|United Kingdom|London|Kamatera Inc|
-|16|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|17|116.203.201.82|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|18|178.216.249.130|8080|Iran|Tehran|Asiatech Data Transmission company|
-|19|64.225.8.121|9992|United States|Clifton|DigitalOcean, LLC|
-|20|181.176.221.151|9812|Peru|Mancora|VIETTEL PERÚ S.A.C.|
+|1|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|2|134.73.1.193|3129|United States|Los Angeles|LayerHost|
+|3|134.73.0.133|3129|United States|Los Angeles|LayerHost|
+|4|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|134.73.0.251|3129|United States|Los Angeles|LayerHost|
+|7|134.73.0.194|3129|United States|Los Angeles|LayerHost|
+|8|134.73.3.157|3129|United States|Los Angeles|LayerHost|
+|9|134.73.1.180|3129|United States|Los Angeles|LayerHost|
+|10|134.73.3.207|3129|United States|Los Angeles|LayerHost|
+|11|134.73.0.60|3129|United States|Los Angeles|LayerHost|
+|12|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
+|13|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|14|134.73.57.136|3129|United States|Los Angeles|LayerHost|
+|15|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|16|134.73.0.23|3129|United States|Los Angeles|LayerHost|
+|17|134.73.57.8|3129|United States|Los Angeles|LayerHost|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|134.73.3.178|3129|United States|Los Angeles|LayerHost|
+|20|113.30.190.204|25345|Germany|Frankfurt am Main|Kamatera Inc|
 
 
 
