@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6993** proxies at the latest update. Usable proxies are below.
+> Scraper found **6948** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|739|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|739|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|739|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|600|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|600|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|600|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1656|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1611|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1058|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2996|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|139.162.67.39|3128|Japan|Tokyo|Akamai Technologies, Inc.|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|64.225.4.12|9995|United States|Clifton|DigitalOcean, LLC|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|4|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
+|5|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|6|185.97.117.48|8082|Iran|Nā’īn|AbrArvan|
 |7|64.225.4.12|9995|United States|Clifton|DigitalOcean, LLC|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|10|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
-|11|103.38.214.21|3128|Philippines|Makati City|IPVG|
-|12|185.97.117.48|8082|Iran|Nā’īn|AbrArvan|
-|13|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
-|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|15|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
-|16|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|17|62.182.94.173|9812|Russia|St Petersburg|WestCall|
-|18|203.210.85.135|8080|Indonesia|Bandung|Infrastruktur STARNET|
-|19|203.150.128.195|8080|Thailand|Vadhana|Internet Thailand Company Ltd|
-|20|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
+|8|64.225.4.12|9995|United States|Clifton|DigitalOcean, LLC|
+|9|203.210.85.135|8080|Indonesia|Bandung|Infrastruktur STARNET|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|5.78.44.6|8080|United States|Portland|Hetzner Online GmbH|
+|12|52.144.46.250|25345|United States|New York|Kamatera, Inc.|
+|13|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|14|64.225.8.115|9996|United States|Clifton|DigitalOcean, LLC|
+|15|203.150.128.195|8080|Thailand|Vadhana|Internet Thailand Company Ltd|
+|16|103.102.14.107|32650|Indonesia|Kebumen Satu|PT.Global Media Data Prima|
+|17|193.138.178.6|8282|Russia|Chelyabinsk|New Communication Technologies|
+|18|173.212.200.30|3128|Germany|Nuremberg|Contabo GmbH|
+|19|5.78.44.6|8080|United States|Portland|Hetzner Online GmbH|
+|20|185.255.46.121|8080|Iraq|Sulaymaniyah|Valin Company for General Trading and Communication LTD|
 
 
 
