@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7740** proxies at the latest update. Usable proxies are below.
+> Scraper found **7756** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|571|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|571|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|571|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|998|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|998|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|998|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1933|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1949|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1286|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3238|✅|
@@ -47,25 +47,25 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
 |2|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|134.73.3.131|3129|United States|Los Angeles|LayerHost|
-|5|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|6|134.73.0.240|3129|United States|Los Angeles|LayerHost|
-|7|134.73.3.90|3129|United States|Los Angeles|LayerHost|
-|8|134.73.1.7|3129|United States|Los Angeles|LayerHost|
-|9|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|201.184.145.59|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|5|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
+|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|7|185.97.117.48|8082|Iran|Nā’īn|AbrArvan|
+|8|134.73.3.207|3129|United States|Los Angeles|LayerHost|
+|9|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
 |10|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
-|11|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|12|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
-|13|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|14|134.73.0.251|3129|United States|Los Angeles|LayerHost|
-|15|134.73.0.116|3129|United States|Los Angeles|LayerHost|
-|16|185.97.117.48|8082|Iran|Nā’īn|AbrArvan|
-|17|115.87.227.34|80|Thailand|Bangkok|TRUEBB|
-|18|134.73.1.193|3129|United States|Los Angeles|LayerHost|
-|19|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
+|11|134.73.57.188|3129|United States|Los Angeles|LayerHost|
+|12|134.73.3.90|3129|United States|Los Angeles|LayerHost|
+|13|115.87.227.34|80|Thailand|Bangkok|TRUEBB|
+|14|134.73.3.211|3129|United States|Los Angeles|LayerHost|
+|15|64.225.4.81|9991|United States|Clifton|DigitalOcean, LLC|
+|16|134.73.0.23|3129|United States|Los Angeles|LayerHost|
+|17|113.30.190.204|25345|Germany|Frankfurt am Main|Kamatera Inc|
+|18|134.73.57.188|3129|United States|Los Angeles|LayerHost|
+|19|183.89.0.93|8080|Thailand|Ban Bueng|Triple T Broadband Public Company Limited|
 |20|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 
 
