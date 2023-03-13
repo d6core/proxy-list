@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6582** proxies at the latest update. Usable proxies are below.
+> Scraper found **6680** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|591|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|591|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|591|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|465|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|465|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|465|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1620|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1426|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|906|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|898|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3073|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|5.78.88.162|8080|United States|Portland|Hetzner Online GmbH|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|5.78.88.162|8080|United States|Portland|Hetzner Online GmbH|
-|7|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
-|8|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|10|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
-|11|187.204.68.176|53281|Mexico|Autlan de Navarro|Uninet S.A. de C.V.|
-|12|159.192.253.54|8080|Thailand|Bangkok|CAT-BB|
-|13|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
-|14|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
-|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
-|17|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|19|167.172.238.6|9989|United States|Clifton|DigitalOcean, LLC|
-|20|5.78.90.214|8080|United States|Portland|Hetzner Online GmbH|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|5.78.88.162|8080|United States|Portland|Hetzner Online GmbH|
+|3|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|4|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|5|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
+|8|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|9|5.78.88.162|8080|United States|Portland|Hetzner Online GmbH|
+|10|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|11|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|14|183.89.45.138|8080|Thailand|Phra Nakhon Si Ayutthaya|Triple T Broadband Public Company Limited|
+|15|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|16|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|176.99.2.43|1081|Russia|Moscow|"Domain names registrar REG.RU", Ltd|
+|19|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|20|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
 
 
 
