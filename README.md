@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7674** proxies at the latest update. Usable proxies are below.
+> Scraper found **7727** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|457|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|457|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|457|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|772|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|772|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|772|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1908|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1961|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1245|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3238|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|3|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|4|116.96.82.22|2019|Vietnam|Hanoi|Viettel Corporation|
-|5|134.73.1.7|3129|United States|Los Angeles|LayerHost|
-|6|134.73.0.25|3129|United States|Los Angeles|LayerHost|
-|7|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|8|134.73.3.90|3129|United States|Los Angeles|LayerHost|
-|9|134.73.57.35|3129|United States|Los Angeles|LayerHost|
-|10|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
-|11|200.152.113.152|3128|Brazil|Rio de Janeiro|MLS Wireless S/A|
-|12|134.73.1.193|3129|United States|Los Angeles|LayerHost|
-|13|95.216.194.46|1081|Finland|Helsinki|Hetzner Online GmbH|
+|1|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|2|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|3|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
+|4|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|5|45.15.16.246|8118|Sweden|Stockholm|Obehosting AB|
+|6|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|7|45.138.157.179|3128|Russia|Moscow|Stark Industries Solutions LTD|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|45.144.30.147|3128|Russia|Moscow|Stark Industries Solutions LTD|
+|10|208.79.8.81|9080|United States|West Monroe|Skyrider Communications LLC|
+|11|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|12|152.230.8.186|999|Chile|Santiago|Gtd Internet S.A.|
+|13|183.89.151.173|8080|Thailand|Mueang Samut Prakan|Triple T Broadband Public Company Limited|
 |14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|92.252.156.212|8080|Russia|Yenganayevo|PJSC Rostelecom|
-|16|134.73.0.194|3129|United States|Los Angeles|LayerHost|
-|17|134.73.3.214|3129|United States|Los Angeles|LayerHost|
-|18|134.73.3.226|3129|United States|Los Angeles|LayerHost|
-|19|134.73.57.105|3129|United States|Los Angeles|LayerHost|
-|20|134.73.3.162|3129|United States|Los Angeles|LayerHost|
+|15|134.73.3.139|3129|United States|Los Angeles|LayerHost|
+|16|1.179.136.98|8080|Thailand|Phra Nakhon Si Ayutthaya|TOT Public Company Limited|
+|17|103.174.175.1|3127|Indonesia|Pulo Gebang|PT Lintas Teknologi Solusindo|
+|18|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|19|181.174.115.10|1994|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|20|64.227.7.192|3128|United States|North Bergen|DigitalOcean, LLC|
 
 
 
