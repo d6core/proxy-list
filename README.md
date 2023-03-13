@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6846** proxies at the latest update. Usable proxies are below.
+> Scraper found **6804** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|455|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|455|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|455|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|437|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|437|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|437|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1588|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1546|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|902|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3073|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|5|159.192.253.54|8080|Thailand|Bangkok|CAT-BB|
-|6|92.116.212.121|8118|Germany|Veitshochheim|VT-POOL Customer Nord|
-|7|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|3|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|4|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
+|7|82.66.210.159|8118|France|Paris|Proxad / Free SAS|
 |8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
 |9|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|10|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|11|51.79.50.46|9300|Canada|Victoria|OVH SAS|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
-|14|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
-|15|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|16|185.237.99.218|25345|United Kingdom|London|Kamatera Inc|
-|17|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
-|18|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
-|19|134.73.0.92|3129|United States|Los Angeles|LayerHost|
-|20|5.78.90.214|8080|United States|Portland|Hetzner Online GmbH|
+|10|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|11|125.17.80.226|8080|India|Chitradurga|Bharti Airtel|
+|12|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
+|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|15|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|16|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|17|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|18|5.78.90.214|8080|United States|Portland|Hetzner Online GmbH|
+|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|217.65.5.49|8080|Russia|Moscow|Filanco LLC|
 
 
 
