@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6365** proxies at the latest update. Usable proxies are below.
+> Scraper found **6449** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|390|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|390|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|390|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|363|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|363|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|363|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1352|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1436|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|811|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2919|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
+|2|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
 |3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|3.222.33.62|3128|United States|Ashburn|Amazon Technologies Inc.|
-|7|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
-|8|5.78.70.161|8080|United States|Portland|Hetzner Online GmbH|
-|9|115.77.20.14|4019|Vietnam|Ho Chi Minh City|Viettel Group|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|3.222.33.62|3128|United States|Ashburn|Amazon Technologies Inc.|
+|6|200.46.204.187|8080|Panama|Panama City|Cable Onda|
+|7|5.78.70.161|8080|United States|Portland|Hetzner Online GmbH|
+|8|51.159.115.233|3128|France|Paris|SCALEWAY|
+|9|5.78.70.161|8080|United States|Portland|Hetzner Online GmbH|
 |10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|11|3.222.33.62|3128|United States|Ashburn|Amazon Technologies Inc.|
-|12|5.78.70.161|8080|United States|Portland|Hetzner Online GmbH|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|12|3.222.33.62|3128|United States|Ashburn|Amazon Technologies Inc.|
+|13|115.77.20.14|4019|Vietnam|Ho Chi Minh City|Viettel Group|
+|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
 |16|52.51.64.165|8118|Ireland|Dublin|Amazon Technologies Inc.|
-|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|18|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
-|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|20|201.182.251.141|999|Colombia|Pasto|SP SISTEMAS PALACIOS LTDA|
+|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|18|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|19|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
+|20|104.255.231.87|3128|United States|Ashburn|Garrison Network Solutions LLC|
 
 
 
