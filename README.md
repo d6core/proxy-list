@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7288** proxies at the latest update. Usable proxies are below.
+> Scraper found **7295** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|529|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|529|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|529|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|782|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|782|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|782|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1924|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1931|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1040|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3041|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|78.46.181.231|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|2|159.69.153.191|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|3|195.201.42.0|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|4|78.47.227.109|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|5|23.88.60.139|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|6|163.172.31.44|80|France|Paris|Online S.A.S.|
-|7|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
-|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|85.192.13.67|8080|Russia|Moscow|LLC "SLAVIYA"|
-|10|212.112.113.178|3128|Kyrgyzstan|Bishkek|AkNet|
-|11|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|12|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
-|13|45.61.187.67|4001|United States|Miami|FranTech Solutions|
-|14|110.77.180.182|80|Thailand|Bangkok|CAT-BB|
-|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|16|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|17|107.161.20.80|80|United States|Atlanta|InMotion Hosting, Inc.|
-|18|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|19|131.161.221.139|80|Ecuador|Cuenca|Marvicnet CIA Ltda|
-|20|81.89.220.11|3128|Armenia|Yerevan|Crossnet LLC|
+|1|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|2|67.205.179.247|8118|United States|North Bergen|DigitalOcean, LLC|
+|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|45.61.187.67|4001|United States|Miami|FranTech Solutions|
+|6|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|7|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|8|67.205.179.247|8118|United States|North Bergen|DigitalOcean, LLC|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|45.61.187.67|4001|United States|Miami|FranTech Solutions|
+|12|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
+|13|195.133.45.149|7788|Russia|Moscow|VDS|
+|14|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|15|92.116.212.121|8118|Germany|Veitshochheim|VT-POOL Customer Nord|
+|16|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
+|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|82.165.184.53|80|Germany|Karlsruhe|IONOS SE|
 
 
 
