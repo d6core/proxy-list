@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7435** proxies at the latest update. Usable proxies are below.
+> Scraper found **7485** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|422|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|422|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|422|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|512|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|512|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|512|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1854|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1904|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1144|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3154|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|2|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|3|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|4|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|3|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|4|51.79.50.31|9300|Canada|Victoria|OVH SAS|
 |5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|6|180.183.135.74|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|7|5.78.77.96|8080|United States|Portland|Hetzner Online GmbH|
-|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|10|51.79.50.46|9300|Canada|Victoria|OVH SAS|
-|11|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
-|12|45.61.187.67|4002|United States|Miami|FranTech Solutions|
-|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|14|213.136.101.40|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|17|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
-|18|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|19|45.61.187.67|4002|United States|Miami|FranTech Solutions|
-|20|64.225.8.191|9987|United States|Clifton|DigitalOcean, LLC|
+|6|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|7|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|8|140.120.15.146|8088|Taiwan|Taichung|National Chung Hsing University|
+|9|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|10|45.61.187.67|4002|United States|Miami|FranTech Solutions|
+|11|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|12|134.73.0.23|3129|United States|Los Angeles|LayerHost|
+|13|5.78.77.96|8080|United States|Portland|Hetzner Online GmbH|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|16|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
+|17|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
+|18|180.183.135.74|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|19|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
+|20|134.73.57.18|3129|United States|Los Angeles|LayerHost|
 
 
 
