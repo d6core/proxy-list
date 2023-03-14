@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6180** proxies at the latest update. Usable proxies are below.
+> Scraper found **6224** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|359|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|359|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|359|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|636|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|636|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|636|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1647|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1616|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|923|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|998|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2327|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
 |3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|9|170.187.152.76|3128|United States|Atlanta|Akamai Technologies, Inc.|
-|10|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|11|193.141.126.54|82|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
-|12|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
-|13|5.78.93.193|8080|United States|Portland|Hetzner Online GmbH|
-|14|5.78.77.169|8080|United States|Portland|Hetzner Online GmbH|
-|15|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|16|103.189.231.222|8181|Indonesia|Tasikmalaya|PT Media Access Telematika|
-|17|103.199.169.30|8080|Bangladesh|Dhaka|House # 127|
-|18|94.45.223.222|8080|Russia|Dolgoprudnyy|Lofis LLC|
-|19|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|20|24.227.247.186|8080|United States|Irving|Spectrum|
+|4|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|6|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|7|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
+|8|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|9|134.73.3.139|3129|United States|Los Angeles|LayerHost|
+|10|190.112.38.193|5555|Argentina|Piguee|Loop Coronel Suarez S.A.|
+|11|170.187.152.76|3128|United States|Atlanta|Akamai Technologies, Inc.|
+|12|5.78.77.169|8080|United States|Portland|Hetzner Online GmbH|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|14|5.78.93.193|8080|United States|Portland|Hetzner Online GmbH|
+|15|23.88.52.140|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|16|95.216.194.46|1081|Finland|Helsinki|Hetzner Online GmbH|
+|17|50.235.247.114|8085|United States|Richmond|Comcast Cable Communications, LLC|
+|18|50.201.51.216|8080|United States|Pittsburgh|Comcast Cable Communications, LLC|
+|19|63.151.67.7|8080|United States|Steamboat Springs|Visionary Communications, Inc.|
+|20|64.225.4.12|9991|United States|Clifton|DigitalOcean, LLC|
 
 
 
