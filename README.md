@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|578|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|578|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|578|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|493|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|493|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|493|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.58|3128|United States|Ashburn|Sprint|
-|2|176.192.70.58|8004|Russia|Moscow|Net By Net Holding LLC|
+|2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
 |3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|5|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
-|6|45.42.177.58|3128|United States|Ashburn|Sprint|
-|7|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|4|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|6|51.79.50.46|9300|Canada|Victoria|OVH SAS|
+|7|45.42.177.58|3128|United States|Ashburn|Sprint|
 |8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|10|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
-|11|118.99.73.99|8080|Indonesia|Jakarta|BIZNET|
-|12|67.9.25.69|9898|United States|Birmingham|Charter Communications|
-|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|15|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|16|180.183.227.176|8080|Thailand|Chiang Mai|Triple T Broadband Public Company Limited|
-|17|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|18|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|19|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
-|20|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|9|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
+|10|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|11|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|12|118.99.73.99|8080|Indonesia|Jakarta|BIZNET|
+|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|16|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|17|134.73.0.171|3129|United States|Los Angeles|LayerHost|
+|18|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|19|45.61.187.67|4002|United States|Miami|FranTech Solutions|
+|20|5.78.94.159|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
