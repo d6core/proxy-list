@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6689** proxies at the latest update. Usable proxies are below.
+> Scraper found **6724** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|717|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|717|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|717|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|515|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|515|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|515|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1604|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1639|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|986|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2816|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.42.177.58|3128|United States|Ashburn|Sprint|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|45.42.177.58|3128|United States|Ashburn|Sprint|
-|6|185.237.99.218|25345|United Kingdom|London|Kamatera Inc|
-|7|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|10|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|11|134.73.3.188|3129|United States|Los Angeles|LayerHost|
-|12|134.73.3.33|3129|United States|Los Angeles|LayerHost|
-|13|134.73.1.180|3129|United States|Los Angeles|LayerHost|
-|14|134.73.1.170|3129|United States|Los Angeles|LayerHost|
-|15|134.73.3.211|3129|United States|Los Angeles|LayerHost|
-|16|45.61.187.67|4001|United States|Miami|FranTech Solutions|
-|17|134.73.3.162|3129|United States|Los Angeles|LayerHost|
-|18|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|19|134.73.1.86|3129|United States|Los Angeles|LayerHost|
-|20|134.73.0.201|3129|United States|Los Angeles|LayerHost|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|45.42.177.58|3128|United States|Ashburn|Sprint|
+|3|134.73.1.170|3129|United States|Los Angeles|LayerHost|
+|4|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|5|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|6|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|8|64.225.8.132|9979|United States|Clifton|DigitalOcean, LLC|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|11|78.138.98.115|3128|France|Strasbourg|Host Europe GmbH|
+|12|134.73.0.199|3129|United States|Los Angeles|LayerHost|
+|13|45.61.187.67|4008|United States|Miami|FranTech Solutions|
+|14|45.42.177.58|3128|United States|Ashburn|Sprint|
+|15|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|16|134.73.3.211|3129|United States|Los Angeles|LayerHost|
+|17|64.225.8.132|9979|United States|Clifton|DigitalOcean, LLC|
+|18|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|19|134.73.0.60|3129|United States|Los Angeles|LayerHost|
+|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 
 
 
