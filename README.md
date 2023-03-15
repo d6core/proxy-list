@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6555** proxies at the latest update. Usable proxies are below.
+> Scraper found **6529** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|624|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|624|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|624|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|637|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|637|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|637|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1298|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1272|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1007|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2967|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|45.42.177.58|3128|United States|Ashburn|Sprint|
-|3|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|7|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|8|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|9|45.42.177.58|3128|United States|Ashburn|Sprint|
-|10|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|12|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
-|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|15|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|16|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|17|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|77.238.79.111|8080|Bulgaria|Sofia|FIBER1|
-|20|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|3|45.42.177.58|3128|United States|Ashburn|Sprint|
+|4|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|5|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
+|10|45.42.177.58|3128|United States|Ashburn|Sprint|
+|11|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|12|134.73.0.251|3129|United States|Los Angeles|LayerHost|
+|13|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|14|45.169.162.1|3128|Brazil|Maceió|TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS|
+|15|24.152.50.85|999|Dominican Republic|Santo Domingo Este|Lightwave S.R.L|
+|16|103.212.94.253|48434|India|Vashi|Best Telnet Services Private Limited|
+|17|116.96.82.22|2019|Vietnam|Hanoi|Viettel Corporation|
+|18|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|19|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
