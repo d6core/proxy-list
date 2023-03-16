@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6905** proxies at the latest update. Usable proxies are below.
+> Scraper found **6904** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|448|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|448|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|448|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|317|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|317|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|317|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1567|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1566|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1043|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3012|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|45.61.187.67|4006|United States|Miami|FranTech Solutions|
-|4|134.73.0.245|3129|United States|Los Angeles|LayerHost|
-|5|45.42.177.58|3128|United States|Ashburn|Sprint|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|45.42.177.58|3128|United States|Ashburn|Sprint|
+|3|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|4|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|5|183.181.8.173|11070|Japan|Shibuya|FreeBit Co., Ltd.|
 |6|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|7|43.154.235.145|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|223.204.97.168|8080|Thailand|Trang|Triple T Broadband Public Company Limited|
+|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|8|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|9|131.255.100.148|8080|Brazil|Francisco Morato|Wireless Comm Services LTDA|
 |10|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
-|11|131.255.100.148|8080|Brazil|Francisco Morato|Wireless Comm Services LTDA|
-|12|134.73.0.161|3129|United States|Los Angeles|LayerHost|
-|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|14|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|15|47.242.12.127|59394|Hong Kong|Hong Kong|Alibaba.com LLC|
-|16|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
-|17|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|18|134.73.0.116|3129|United States|Los Angeles|LayerHost|
-|19|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|20|185.129.168.54|2222|Iran|Tehran|Abazarhaye Farsi Shabakeh (Persian Tools) Co., LTD.|
+|11|45.61.187.67|4006|United States|Miami|FranTech Solutions|
+|12|34.146.144.74|3128|Japan|Tokyo|Google LLC|
+|13|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|14|43.154.235.145|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|17|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|18|45.42.177.58|3128|United States|Ashburn|Sprint|
+|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|20|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
 
 
 
