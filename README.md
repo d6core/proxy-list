@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5956** proxies at the latest update. Usable proxies are below.
+> Scraper found **6042** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|334|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|334|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|334|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|311|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|311|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|311|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1225|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1311|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|691|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2757|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.94.158|8080|United States|Portland|Hetzner Online GmbH|
-|2|5.78.92.134|8080|United States|Portland|Hetzner Online GmbH|
-|3|45.42.177.58|3128|United States|Ashburn|Sprint|
-|4|188.40.96.177|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|5|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|6|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|2|5.78.94.155|8080|United States|Portland|Hetzner Online GmbH|
+|3|5.78.90.201|8080|United States|Portland|Hetzner Online GmbH|
+|4|5.78.84.155|8080|United States|Portland|Hetzner Online GmbH|
+|5|5.78.92.134|8080|United States|Portland|Hetzner Online GmbH|
+|6|5.78.94.158|8080|United States|Portland|Hetzner Online GmbH|
 |7|5.78.94.158|8080|United States|Portland|Hetzner Online GmbH|
-|8|45.42.177.58|3128|United States|Ashburn|Sprint|
-|9|5.78.90.201|8080|United States|Portland|Hetzner Online GmbH|
-|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|11|5.78.94.155|8080|United States|Portland|Hetzner Online GmbH|
+|8|45.152.188.241|3128|United States|Ashburn|Sprint|
+|9|5.78.94.155|8080|United States|Portland|Hetzner Online GmbH|
+|10|5.78.84.155|8080|United States|Portland|Hetzner Online GmbH|
+|11|85.57.68.120|8888|Spain|Barcelona|Uni2 1|
 |12|5.78.92.134|8080|United States|Portland|Hetzner Online GmbH|
-|13|5.78.84.155|8080|United States|Portland|Hetzner Online GmbH|
-|14|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|15|201.184.127.107|999|Colombia|Cajica|EPM Telecomunicaciones S.A. E.S.P.|
-|16|85.57.68.120|8888|Spain|Barcelona|Uni2 1|
-|17|45.152.188.241|3128|United States|Ashburn|Sprint|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|45.152.188.241|3128|United States|Ashburn|Sprint|
-|20|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
+|13|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|14|5.78.90.201|8080|United States|Portland|Hetzner Online GmbH|
+|15|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|16|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|17|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|45.42.177.58|3128|United States|Ashburn|Sprint|
+|20|45.152.188.241|3128|United States|Ashburn|Sprint|
 
 
 
