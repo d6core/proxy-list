@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5886** proxies at the latest update. Usable proxies are below.
+> Scraper found **6051** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|343|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|343|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|343|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|412|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|412|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|412|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1272|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1265|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|569|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|741|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2762|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|45.42.177.58|3128|United States|Ashburn|Sprint|
-|3|5.78.77.158|8080|United States|Portland|Hetzner Online GmbH|
-|4|5.78.79.86|8080|United States|Portland|Hetzner Online GmbH|
-|5|211.114.153.185|443|South Korea|Seongnam-si|Korea Telecom|
-|6|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|1|45.42.177.58|3128|United States|Ashburn|Sprint|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|34.232.212.164|8080|United States|Ashburn|Amazon.com, Inc.|
+|4|45.42.177.58|3128|United States|Ashburn|Sprint|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|103.226.142.26|80|India|Mumbai|Microscan Communications Pvt. Ltd|
 |7|34.232.212.164|8080|United States|Ashburn|Amazon.com, Inc.|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|45.42.177.58|3128|United States|Ashburn|Sprint|
+|8|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |10|5.78.79.86|8080|United States|Portland|Hetzner Online GmbH|
-|11|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|12|5.78.77.158|8080|United States|Portland|Hetzner Online GmbH|
-|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|14|103.226.142.26|80|India|Mumbai|Microscan Communications Pvt. Ltd|
-|15|125.240.183.145|8080|South Korea|Gangwon-do|DACOM-PUBNETPLUS|
-|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|17|34.232.212.164|8080|United States|Ashburn|Amazon.com, Inc.|
-|18|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|19|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|20|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|11|5.78.77.158|8080|United States|Portland|Hetzner Online GmbH|
+|12|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|13|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|14|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|15|143.0.125.156|5566|Brazil|Santa Fe do Sul|FibraON - Fabricio Piloni Bertolo - ME|
+|16|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|17|46.101.13.77|80|United Kingdom|London|DigitalOcean, LLC|
+|18|38.10.249.184|999|Venezuela|Maracaibo|Cogent Communications|
+|19|51.159.115.233|3128|France|Paris|SCALEWAY|
+|20|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
 
 
 
