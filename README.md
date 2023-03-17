@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5936** proxies at the latest update. Usable proxies are below.
+> Scraper found **6047** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|358|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|358|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|358|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|355|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|355|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|355|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1143|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1254|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|753|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2757|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.58|3128|United States|Ashburn|Sprint|
-|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|3|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|4|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|5|45.42.177.58|3128|United States|Ashburn|Sprint|
-|6|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|34.232.212.164|8080|United States|Ashburn|Amazon.com, Inc.|
-|10|45.152.188.241|3128|United States|Ashburn|Sprint|
-|11|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|12|176.192.70.58|8004|Russia|Moscow|Net By Net Holding LLC|
-|13|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|14|103.106.219.142|8080|Indonesia|Pasuruan|PT. ARTHA LINTAS DATA MANDIRI|
-|15|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|16|45.152.188.241|3128|United States|Ashburn|Sprint|
-|17|159.255.188.134|41258|Poland|Warsaw|TOM-NET s.c. Dariusz Koper|
-|18|5.78.72.20|8080|United States|Portland|Hetzner Online GmbH|
-|19|187.102.223.243|32650|Brazil|Coluna|Masternet Telecomunicacao Ltda|
-|20|103.137.110.58|99|Indonesia|Babat|PT. Capoeng Digital Nusantara|
+|2|45.152.188.241|3128|United States|Ashburn|Sprint|
+|3|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|5.75.134.209|40000|Germany|Nuremberg|Hetzner Online GmbH|
+|6|45.42.177.58|3128|United States|Ashburn|Sprint|
+|7|45.152.188.241|3128|United States|Ashburn|Sprint|
+|8|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|9|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|10|5.78.72.20|8080|United States|Portland|Hetzner Online GmbH|
+|11|24.172.82.94|53281|United States|Concord|Spectrum|
+|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|13|159.69.214.139|3128|Germany|Nuremberg|Hetzner Online GmbH|
+|14|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|15|188.116.173.198|3128|Russia|Oryol|JSC Resource-Sviaz Home Networks|
+|16|103.156.248.102|8080|Indonesia|Medan|Trans Media Telekomunikasi|
+|17|117.69.233.115|8089|China|Rongcheng|Chinanet|
+|18|103.137.110.58|99|Indonesia|Babat|PT. Capoeng Digital Nusantara|
+|19|103.252.163.191|80|Indonesia|Jakarta|INFOMEDIA|
+|20|161.97.133.233|3128|Germany|Düsseldorf|Contabo GmbH|
 
 
 
