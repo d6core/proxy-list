@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7160** proxies at the latest update. Usable proxies are below.
+> Scraper found **7135** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|428|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|428|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|428|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|543|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|543|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|543|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1799|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1774|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|918|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3160|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|1|45.42.177.58|3128|United States|Ashburn|Sprint|
 |2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|45.42.177.58|3128|United States|Ashburn|Sprint|
-|4|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|6|45.42.177.58|3128|United States|Ashburn|Sprint|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|45.152.188.241|3128|United States|Ashburn|Sprint|
-|9|45.152.188.241|3128|United States|Ashburn|Sprint|
+|6|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|7|45.42.177.58|3128|United States|Ashburn|Sprint|
+|8|51.159.115.233|3128|France|Paris|SCALEWAY|
+|9|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
 |10|201.182.251.141|999|Colombia|Pasto|SP SISTEMAS PALACIOS LTDA|
-|11|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
-|12|144.217.7.157|9300|Canada|Beauharnois|OVH SAS|
-|13|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|11|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|12|51.79.50.46|9300|Canada|Victoria|OVH SAS|
+|13|45.152.188.241|3128|United States|Ashburn|Sprint|
 |14|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
 |15|111.225.152.105|8089|China|Gaocheng|Chinanet|
-|16|197.232.48.155|32650|Kenya|Nairobi|Jamii Telecommunications Limited|
-|17|45.201.190.125|9898|Cambodia|Phnom Penh|KingCorp Inc|
-|18|123.30.154.38|2008|Vietnam|Hanoi|VietNam Post and Telecom Corporation|
-|19|91.200.102.204|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
-|20|38.49.129.154|999|Mexico|Villa de Arriaga|Ientc S De RL De CV|
+|16|216.169.73.65|34679|United States|Marysvale|South Central Communications, Inc.|
+|17|18.140.185.137|3128|Singapore|Singapore|Amazon.com, Inc.|
+|18|45.152.188.241|3128|United States|Ashburn|Sprint|
+|19|200.106.187.252|999|Argentina|Jose Maria Ezeiza|Fullnet Solutions S.A.S.|
+|20|46.0.203.186|8080|Russia|Samara|JSC "ER-Telecom Holding"|
 
 
 
