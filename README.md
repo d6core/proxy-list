@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7189** proxies at the latest update. Usable proxies are below.
+> Scraper found **7296** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|630|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|630|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|630|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|525|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|525|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|525|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1834|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1941|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|912|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3160|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.42.177.58|3128|United States|Ashburn|Sprint|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|4|170.187.152.76|3128|United States|Atlanta|Akamai Technologies, Inc.|
-|5|173.212.247.75|80|Germany|Nuremberg|Contabo GmbH|
-|6|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|7|170.187.152.76|3128|United States|Atlanta|Akamai Technologies, Inc.|
-|8|45.42.177.58|3128|United States|Ashburn|Sprint|
-|9|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|10|65.21.186.173|3129|Finland|Helsinki|Hetzner Online GmbH|
-|11|195.252.219.142|8080|United States|Normal|Metronet|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|170.187.152.76|3128|United States|Atlanta|Akamai Technologies, Inc.|
+|2|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|3|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|4|65.108.230.239|35913|Finland|Helsinki|Hetzner Online GmbH|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|7|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|8|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|170.187.152.76|3128|United States|Atlanta|Akamai Technologies, Inc.|
+|11|45.42.177.58|3128|United States|Ashburn|Sprint|
+|12|103.171.44.116|80|India|Delhi|Cloudtechtiq Technologies Pvt Ltd|
 |13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|14|64.251.22.220|80|United States|Miami|Infolink Global Corporation|
-|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|18|209.141.62.12|5555|United States|Las Vegas|FranTech Solutions|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|51.159.115.233|3128|France|Paris|SCALEWAY|
+|14|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|15|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|16|64.225.20.229|8888|United States|Clifton|DigitalOcean, LLC|
+|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|18|45.42.177.58|3128|United States|Ashburn|Sprint|
+|19|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 
 
 
