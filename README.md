@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6092** proxies at the latest update. Usable proxies are below.
+> Scraper found **5829** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|331|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|331|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|331|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|293|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|293|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|293|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1272|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1309|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|714|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2823|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |2|23.88.116.89|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|4|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|116.203.11.230|80|Germany|Nuremberg|Hetzner Online GmbH|
-|7|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|8|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|216.215.123.174|8080|United States|Houston|Logix|
+|5|167.249.29.218|999|Chile|Santiago|Grupo Metrowan Telecom SPA|
+|6|190.7.57.58|999|Argentina|Rosario|Gigared S.A|
+|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|9|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|10|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
 |11|45.152.188.241|3128|United States|Ashburn|Sprint|
-|12|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
-|13|5.75.134.209|40000|Germany|Nuremberg|Hetzner Online GmbH|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
-|16|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
-|17|103.172.35.31|8080|Indonesia|Purworejo|PT Lintas Jaringan Nusantara|
-|18|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|19|197.232.95.192|8080|Kenya|Thika|Jamii Telecommunications Limited|
-|20|117.50.159.109|3128|China|Haidian|UCLOUD|
+|12|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|13|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|16|202.162.195.54|8089|Indonesia|Medan|Media Antar Nusa PT.|
+|17|103.157.116.186|8080|Indonesia|Yogyakarta|PT Cloud Teknologi Nusantara|
+|18|45.229.205.219|55555|Argentina|Avellaneda|Visio RED SRL|
+|19|111.225.153.75|8089|China|Gaocheng|Chinanet|
+|20|180.105.117.205|8089|China|Lianyun|Chinanet|
 
 
 
