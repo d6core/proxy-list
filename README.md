@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6846** proxies at the latest update. Usable proxies are below.
+> Scraper found **6836** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|579|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|579|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|579|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|387|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|387|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|387|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1504|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1794|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|899|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3160|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|45.42.177.58|3128|United States|Ashburn|Sprint|
-|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|4|116.203.11.230|80|Germany|Nuremberg|Hetzner Online GmbH|
-|5|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|1|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|4|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|5|116.203.11.230|80|Germany|Nuremberg|Hetzner Online GmbH|
+|6|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
 |7|45.42.177.58|3128|United States|Ashburn|Sprint|
-|8|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|10|45.152.188.241|3128|United States|Ashburn|Sprint|
+|8|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|9|51.159.115.233|3128|France|Paris|SCALEWAY|
+|10|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
 |11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|64.225.8.191|9990|United States|Clifton|DigitalOcean, LLC|
-|13|5.78.46.240|8080|United States|Portland|Hetzner Online GmbH|
-|14|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|15|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|17|51.159.115.233|3128|France|Paris|SCALEWAY|
-|18|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|19|51.79.50.46|9300|Canada|Victoria|OVH SAS|
-|20|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|12|45.42.177.58|3128|United States|Ashburn|Sprint|
+|13|18.140.185.137|3128|Singapore|Singapore|Amazon.com, Inc.|
+|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|16|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|17|45.61.187.67|4000|United States|Miami|FranTech Solutions|
+|18|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|19|49.212.143.246|6666|Japan|Osaka|SAKURA Internet Inc.|
+|20|189.126.34.133|3128|Brazil|Foz do Iguaçu|Linca TelecomunicaÔÔes LTDA|
 
 
 
