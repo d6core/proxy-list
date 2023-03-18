@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6678** proxies at the latest update. Usable proxies are below.
+> Scraper found **6598** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|649|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|649|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|649|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|621|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|621|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|621|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1543|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1463|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|903|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2949|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.42.177.58|3128|United States|Ashburn|Sprint|
-|2|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
-|3|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|4|46.101.85.55|443|United Kingdom|London|DigitalOcean|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|64.227.120.56|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|8|45.234.63.61|999|Venezuela|San Antonio de Los Altos|SOLUCIONES INSTALRED CH&C C.A|
-|9|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|10|45.42.177.58|3128|United States|Ashburn|Sprint|
-|11|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|12|149.19.224.20|3128|United States|Sterling|SPRINT|
-|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|3|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|4|45.42.177.58|3128|United States|Ashburn|Sprint|
+|5|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|6|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|7|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|8|45.42.177.58|3128|United States|Ashburn|Sprint|
+|9|64.227.120.56|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|149.19.224.20|3128|United States|Sterling|SPRINT|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|15|5.161.84.196|8080|United States|Ashburn|Hetzner Online GmbH|
 |16|3.65.247.108|1080|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|17|45.131.66.221|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
-|18|5.161.201.220|8080|United States|Ashburn|Hetzner Online GmbH|
-|19|5.161.84.196|8080|United States|Ashburn|Hetzner Online GmbH|
-|20|5.161.197.232|8080|United States|Ashburn|Hetzner Online GmbH|
+|17|205.233.76.38|999|Dominican Republic|Santo Domingo Este|Trilogy Dominicana, S.A.|
+|18|116.203.11.230|80|Germany|Nuremberg|Hetzner Online GmbH|
+|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|20|45.184.84.12|999|Chile|San Bernardo|Inversiones Hemalass Limitada|
 
 
 
