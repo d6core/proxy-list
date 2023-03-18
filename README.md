@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6272** proxies at the latest update. Usable proxies are below.
+> Scraper found **6538** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|509|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|509|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|509|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|416|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|416|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|416|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1299|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1265|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1023|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2967|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.42.177.58|3128|United States|Ashburn|Sprint|
-|2|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|3|108.165.201.153|4000|United States|Washington|The Constant Company, LLC|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|6|45.42.177.58|3128|United States|Ashburn|Sprint|
-|7|65.108.230.239|43415|Finland|Helsinki|Hetzner Online GmbH|
-|8|108.165.201.153|4000|United States|Washington|The Constant Company, LLC|
-|9|78.158.171.170|8080|Iran|Tehran|Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|107.152.43.213|8080|United States|Durham|tzulo, inc.|
-|12|108.165.201.222|4000|United States|Washington|The Constant Company, LLC|
-|13|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|64.225.8.121|9989|United States|Clifton|DigitalOcean, LLC|
-|16|128.140.4.35|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|17|161.35.211.226|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|18|139.162.128.209|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
-|19|195.201.31.132|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|20|108.165.201.222|4000|United States|Washington|The Constant Company, LLC|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
+|3|45.42.177.58|3128|United States|Ashburn|Sprint|
+|4|108.165.201.153|4000|United States|Washington|The Constant Company, LLC|
+|5|156.241.159.124|5000|Hong Kong|Tseung Kwan O|Fastmos Co Limited|
+|6|156.241.156.113|5000|Hong Kong|Tseung Kwan O|Fastmos Co Limited|
+|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|8|45.42.177.58|3128|United States|Ashburn|Sprint|
+|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|11|95.217.129.31|8080|Finland|Helsinki|Hetzner Online GmbH|
+|12|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|14|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|15|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|16|78.158.171.170|8080|Iran|Tehran|Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS|
+|17|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
+|18|108.165.201.153|4000|United States|Washington|The Constant Company, LLC|
+|19|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|20|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
 
 
 
