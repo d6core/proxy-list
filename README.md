@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6245** proxies at the latest update. Usable proxies are below.
+> Scraper found **6406** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|507|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|507|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|507|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|404|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|404|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|404|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1298|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1459|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|743|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2921|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.58|3128|United States|Ashburn|Sprint|
 |2|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|3|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|4|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
 |5|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|6|45.56.72.106|8080|United States|Richardson|Akamai Technologies, Inc.|
-|7|64.226.80.152|8080|Germany|Frankfurt am Main|DigitalOcean|
-|8|5.78.43.245|8080|United States|Portland|Hetzner Online GmbH|
-|9|135.181.125.159|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|45.56.72.106|8080|United States|Richardson|Akamai Technologies, Inc.|
-|11|103.110.84.246|3128|Vietnam|Da Nang|Representative office of AZDIGI Corporation|
-|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|13|152.67.34.107|8888|Brazil|São Paulo|Oracle Corporation|
-|14|5.78.43.245|8080|United States|Portland|Hetzner Online GmbH|
-|15|139.162.29.240|8080|Singapore|Singapore|LINODE|
-|16|5.78.72.20|8080|United States|Portland|Hetzner Online GmbH|
-|17|45.42.177.58|3128|United States|Ashburn|Sprint|
-|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|19|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
-|20|167.99.251.78|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|167.99.251.78|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|8|20.219.112.20|80|India|Chennai|Microsoft Corporation|
+|9|5.78.43.245|8080|United States|Portland|Hetzner Online GmbH|
+|10|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|11|110.138.185.239|80|Indonesia|Surabaya|PT. TELKOM INDONESIA|
+|12|143.42.61.35|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|13|45.188.79.116|999|Mexico|Jitotol|ONT NETWORKS SA de CV|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|16|194.195.243.121|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|17|167.99.253.17|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|18|66.63.168.119|8000|Netherlands|Amsterdam|QuadraNet Enterprises LLC|
+|19|64.227.116.248|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|20|143.42.48.33|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
 
 
 
