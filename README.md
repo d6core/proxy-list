@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7483** proxies at the latest update. Usable proxies are below.
+> Scraper found **7322** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|489|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|489|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|489|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|415|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|415|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|415|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1980|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1819|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|981|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3239|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.42.177.58|3128|United States|Ashburn|Sprint|
-|2|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|116.202.2.86|80|Germany|Falkenstein|Hetzner Online GmbH|
-|5|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|6|118.163.135.11|9090|Taiwan|Taipei|Chunghwa Telecom Co., Ltd.|
+|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|2|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|3|45.42.177.58|3128|United States|Ashburn|Sprint|
+|4|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|186.201.164.82|8081|Brazil|São Paulo|Vivo|
 |7|45.42.177.58|3128|United States|Ashburn|Sprint|
-|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|10|43.156.109.161|33080|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
-|13|149.19.224.20|3128|United States|Sterling|SPRINT|
-|14|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|15|116.202.6.223|80|Germany|Nuremberg|Hetzner Online GmbH|
-|16|140.120.15.146|8088|Taiwan|Taichung|National Chung Hsing University|
-|17|45.61.187.67|4005|United States|Miami|FranTech Solutions|
-|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|19|142.129.236.41|80|United States|Pomona|Charter Communications Inc|
-|20|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|8|118.163.135.11|9090|Taiwan|Taipei|Chunghwa Telecom Co., Ltd.|
+|9|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|43.156.109.161|33080|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
+|14|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|15|115.112.101.210|9090|India|Chennai|Tata Communications Limited|
+|16|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|17|82.25.224.19|8118|United Kingdom|Exeter|Virgin Media|
+|18|149.19.224.20|3128|United States|Sterling|SPRINT|
+|19|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|20|110.78.159.71|8080|Thailand|Chumphon|CAT-BB|
 
 
 
