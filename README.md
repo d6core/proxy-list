@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6321** proxies at the latest update. Usable proxies are below.
+> Scraper found **6183** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|514|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|514|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|514|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|480|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|480|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|480|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1456|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1318|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|787|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2795|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.42.177.58|3128|United States|Ashburn|Sprint|
-|2|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|45.42.177.58|3128|United States|Ashburn|Sprint|
 |4|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |5|149.19.224.20|3128|United States|Sterling|SPRINT|
-|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|149.19.224.20|3128|United States|Sterling|SPRINT|
-|9|5.78.40.209|8080|United States|Portland|Hetzner Online GmbH|
-|10|45.131.66.221|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
-|11|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|12|5.78.83.222|8080|United States|Portland|Hetzner Online GmbH|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|45.42.177.58|3128|United States|Ashburn|Sprint|
-|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|16|38.83.74.2|3128|United States|Miami|Cogent Communications|
-|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|18|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|19|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|20|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|7|5.78.83.222|8080|United States|Portland|Hetzner Online GmbH|
+|8|5.78.40.209|8080|United States|Portland|Hetzner Online GmbH|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|45.42.177.58|3128|United States|Ashburn|Sprint|
+|11|149.19.224.20|3128|United States|Sterling|SPRINT|
+|12|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|13|38.83.74.2|3128|United States|Miami|Cogent Communications|
+|14|116.203.11.230|80|Germany|Nuremberg|Hetzner Online GmbH|
+|15|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|16|45.131.66.221|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
+|17|162.55.191.25|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
