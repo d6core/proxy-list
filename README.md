@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7162** proxies at the latest update. Usable proxies are below.
+> Scraper found **7055** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|684|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|684|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|684|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|568|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|568|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|568|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1662|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1555|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1052|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3165|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|43.135.44.197|8123|Hong Kong|Central|ACEVILLEPTELTD-SG|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|3|116.203.11.230|80|Germany|Nuremberg|Hetzner Online GmbH|
 |4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|116.203.11.230|80|Germany|Nuremberg|Hetzner Online GmbH|
-|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|7|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|6|13.48.28.53|8080|Sweden|Stockholm|Amazon Technologies Inc.|
+|7|95.217.129.31|8080|Finland|Helsinki|Hetzner Online GmbH|
 |8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
-|10|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
-|11|13.48.28.53|8080|Sweden|Stockholm|Amazon Technologies Inc.|
-|12|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|52.90.243.240|8118|United States|Ashburn|Amazon.com, Inc.|
-|15|45.136.50.113|3128|Netherlands|Amsterdam|Scalaxy B.V.|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|110.74.195.34|25|Cambodia|Phnom Penh|EZECOM limited|
-|18|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
-|19|113.30.190.204|25345|Germany|Frankfurt am Main|Kamatera Inc|
-|20|172.104.41.13|16379|Singapore|Singapore|Akamai Technologies|
+|9|95.217.129.104|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|43.135.44.197|8123|Hong Kong|Central|ACEVILLEPTELTD-SG|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|65.21.106.20|8080|Finland|Helsinki|Hetzner Online GmbH|
+|13|155.50.251.162|3128|United States|Sterling|Sprint|
+|14|155.50.213.0|3128|United States|Sterling|Sprint|
+|15|64.225.8.179|9988|United States|Clifton|DigitalOcean, LLC|
+|16|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|17|155.50.210.58|3128|United States|Sterling|Sprint|
+|18|43.153.73.141|8080|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|19|135.181.125.159|8080|Finland|Helsinki|Hetzner Online GmbH|
+|20|45.162.54.144|80|Brazil|São Paulo|COMPLETA Telecomunicacoes Ltda|
 
 
 
