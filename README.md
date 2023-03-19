@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6295** proxies at the latest update. Usable proxies are below.
+> Scraper found **6003** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|399|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|399|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|399|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|382|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|382|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|382|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1314|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1322|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|819|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2879|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|45.42.177.58|3128|United States|Ashburn|Sprint|
-|3|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|149.19.224.20|3128|United States|Sterling|SPRINT|
-|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|5.75.235.247|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|9|45.42.177.58|3128|United States|Ashburn|Sprint|
-|10|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|11|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
-|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|149.19.224.20|3128|United States|Sterling|SPRINT|
-|14|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|149.19.224.20|3128|United States|Sterling|SPRINT|
+|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|4|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|8|149.19.224.20|3128|United States|Sterling|SPRINT|
+|9|5.75.235.247|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|10|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
+|11|115.112.101.210|9090|India|Chennai|Tata Communications Limited|
+|12|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
+|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|14|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|15|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|115.112.101.210|9090|India|Chennai|Tata Communications Limited|
-|18|167.172.238.15|9996|United States|Clifton|DigitalOcean, LLC|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|167.172.238.15|9996|United States|Clifton|DigitalOcean, LLC|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|19|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|20|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
 
 
 
