@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6408** proxies at the latest update. Usable proxies are below.
+> Scraper found **6388** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|618|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|618|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|618|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|636|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|636|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|636|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1582|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1562|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|877|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2966|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|149.19.224.20|3128|United States|Sterling|SPRINT|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|4|45.42.177.58|3128|United States|Ashburn|Sprint|
-|5|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
-|6|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|149.19.224.20|3128|United States|Sterling|SPRINT|
-|10|45.42.177.58|3128|United States|Ashburn|Sprint|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|2|45.42.177.58|3128|United States|Ashburn|Sprint|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|149.19.224.20|3128|United States|Sterling|SPRINT|
+|7|195.133.45.149|7788|Russia|Moscow|VDS|
+|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|12|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |14|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
-|15|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|16|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
-|17|115.112.101.210|9090|India|Chennai|Tata Communications Limited|
-|18|103.252.117.131|25345|Hong Kong|Central|CLOUDWEBMANAGE|
-|19|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|20|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|16|45.42.177.58|3128|United States|Ashburn|Sprint|
+|17|43.156.109.161|33080|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
+|18|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|19|185.73.202.85|80|Turkey|Istanbul|Comnet International|
+|20|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
 
 
 
