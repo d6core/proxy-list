@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7336** proxies at the latest update. Usable proxies are below.
+> Scraper found **7420** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|759|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|759|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|759|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|727|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|727|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|727|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1898|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1982|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1134|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3021|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.58|3128|United States|Ashburn|Sprint|
 |2|149.19.224.20|3128|United States|Sterling|SPRINT|
-|3|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|4|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|5|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
-|6|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|7|122.176.48.148|80|India|Delhi|Bharti Airtel|
-|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|9|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|10|46.101.85.55|443|United Kingdom|London|DigitalOcean|
-|11|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
-|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|13|52.66.251.90|80|India|Mumbai|Amazon Technologies Inc.|
-|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|15|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|45.42.177.58|3128|United States|Ashburn|Sprint|
-|18|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|19|141.148.41.219|80|United States|Ashburn|Oracle Corporation|
-|20|95.0.84.26|80|Turkey|Istanbul|TTNet|
+|3|35.85.253.80|80|United States|Portland|Amazon.com, Inc.|
+|4|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|7|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|8|186.201.164.82|8081|Brazil|São Paulo|Vivo|
+|9|46.101.85.55|443|United Kingdom|London|DigitalOcean|
+|10|108.61.191.222|1994|United States|Piscataway|The Constant Company|
+|11|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|115.112.101.210|9090|India|Chennai|Tata Communications Limited|
+|14|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|15|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|16|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|18|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
+|19|45.42.177.58|3128|United States|Ashburn|Sprint|
+|20|52.66.251.90|80|India|Mumbai|Amazon Technologies Inc.|
 
 
 
