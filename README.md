@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7346** proxies at the latest update. Usable proxies are below.
+> Scraper found **7098** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1839|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1591|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1041|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3183|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.58|3128|United States|Ashburn|Sprint|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
 |3|149.19.224.20|3128|United States|Sterling|SPRINT|
-|4|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|186.201.164.82|8081|Brazil|São Paulo|Vivo|
+|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
 |7|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|8|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|10|159.69.7.15|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|11|65.109.230.89|8080|Finland|Helsinki|Hetzner Online GmbH|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|5.75.174.62|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|14|91.107.231.163|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|15|149.19.224.20|3128|United States|Sterling|SPRINT|
-|16|142.132.166.141|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|18|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
-|19|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|20|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|9|78.46.137.149|80|Germany|Falkenstein|Hetzner Online GmbH|
+|10|43.251.117.41|45787|Japan|Tokyo|Zenlayer Inc|
+|11|45.42.177.58|3128|United States|Ashburn|Sprint|
+|12|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|88.99.121.68|80|Germany|Falkenstein|Hetzner Online GmbH|
+|16|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|17|149.19.224.20|3128|United States|Sterling|SPRINT|
+|18|45.61.187.67|4004|United States|Miami|FranTech Solutions|
+|19|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|20|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
 
 
 
