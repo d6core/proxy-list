@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6858** proxies at the latest update. Usable proxies are below.
+> Scraper found **6247** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|362|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|362|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|362|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|463|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|463|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|463|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1573|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1262|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1036|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2966|✅|
@@ -47,25 +47,25 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|45.42.177.58|3128|United States|Ashburn|Sprint|
-|4|43.156.109.161|33080|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|149.19.224.20|3128|United States|Sterling|SPRINT|
-|9|118.163.135.11|9090|Taiwan|Taipei|Chunghwa Telecom Co., Ltd.|
+|1|45.42.177.58|3128|United States|Ashburn|Sprint|
+|2|88.198.124.104|80|Germany|Falkenstein|Hetzner Online GmbH|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|5|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|7|149.19.224.20|3128|United States|Sterling|SPRINT|
+|8|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|12|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|13|115.112.101.210|9090|India|Chennai|Tata Communications Limited|
-|14|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|16|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|14|149.19.224.20|3128|United States|Sterling|SPRINT|
+|15|115.112.101.210|9090|India|Chennai|Tata Communications Limited|
+|16|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|18|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|19|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
 |20|45.42.177.58|3128|United States|Ashburn|Sprint|
 
 
