@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7747** proxies at the latest update. Usable proxies are below.
+> Scraper found **7138** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|957|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|957|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|957|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|506|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|506|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|506|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1993|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1384|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1328|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3143|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|149.19.224.20|3128|United States|Sterling|SPRINT|
-|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|3|198.199.123.45|3128|United States|North Bergen|DigitalOcean, LLC|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|45.42.177.58|3128|United States|Ashburn|Sprint|
-|6|116.203.252.129|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|7|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
-|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|9|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|10|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
-|11|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|14|149.19.224.20|3128|United States|Sterling|SPRINT|
-|15|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|17|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
-|18|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|19|118.163.135.11|9090|Taiwan|Taipei|Chunghwa Telecom Co., Ltd.|
-|20|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|2|45.42.177.58|3128|United States|Ashburn|Sprint|
+|3|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|4|186.201.164.82|8081|Brazil|São Paulo|Vivo|
+|5|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|7|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|8|149.19.224.20|3128|United States|Sterling|SPRINT|
+|9|158.69.27.94|9300|Canada|Montreal|OVH SAS|
+|10|80.96.11.15|32100|Romania|Târgu Mureş|Agentia de Administrare a Retelei Nationale de Informatica pentru Educatie si C|
+|11|45.42.177.58|3128|United States|Ashburn|Sprint|
+|12|5.75.141.69|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|15|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|16|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|18|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
 
 
 
