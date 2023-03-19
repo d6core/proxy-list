@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7359** proxies at the latest update. Usable proxies are below.
+> Scraper found **7345** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|548|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|548|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|548|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|689|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|689|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|689|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1809|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1795|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1081|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3186|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|2|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|45.61.187.67|4000|United States|Miami|FranTech Solutions|
-|5|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|6|149.19.224.20|3128|United States|Sterling|SPRINT|
-|7|188.34.162.71|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|8|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|10|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|11|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|12|149.19.224.20|3128|United States|Sterling|SPRINT|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|6|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
+|7|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|8|149.19.224.20|3128|United States|Sterling|SPRINT|
+|9|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|10|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|12|115.112.101.210|9090|India|Chennai|Tata Communications Limited|
 |13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|14|5.78.74.112|8080|United States|Portland|Hetzner Online GmbH|
-|15|95.217.23.57|8080|Finland|Helsinki|Hetzner Online GmbH|
-|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|17|65.109.221.244|8080|Finland|Helsinki|Hetzner Online GmbH|
+|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|15|45.61.187.67|4000|United States|Miami|FranTech Solutions|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|5.78.74.112|8080|United States|Portland|Hetzner Online GmbH|
 |18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|19|5.75.233.193|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|20|167.235.76.141|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|19|186.201.164.82|8081|Brazil|São Paulo|Vivo|
+|20|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
 
 
 
