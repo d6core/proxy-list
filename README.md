@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7060** proxies at the latest update. Usable proxies are below.
+> Scraper found **7265** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|713|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|713|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|713|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|666|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|666|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|666|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1766|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1971|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1073|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2938|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|2|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|4|34.95.154.64|8080|Brazil|Sao Paulo|Google LLC|
-|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|8|151.234.40.215|8080|Iran|Tehran|Iran Telecommunication Company PJS|
-|9|12.7.109.1|9812|United States|Carrizo Springs|AIRESPRING-ADT SYSTEMS, INC.|
-|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|11|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|12|64.225.8.191|9987|United States|Clifton|DigitalOcean, LLC|
-|13|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|2|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|5|151.234.40.215|8080|Iran|Tehran|Iran Telecommunication Company PJS|
+|6|20.219.112.20|80|India|Chennai|Microsoft Corporation|
+|7|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|9|186.201.164.82|8081|Brazil|São Paulo|Vivo|
+|10|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|11|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
+|12|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|13|43.132.184.228|8181|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
 |14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|16|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|17|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
-|18|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|18|103.119.230.60|80|Indonesia|Bogor|PT MITRA VISIONER PRATAMA|
+|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
