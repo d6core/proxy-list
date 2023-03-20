@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7612** proxies at the latest update. Usable proxies are below.
+> Scraper found **7788** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|809|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|809|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|809|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|748|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|748|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|748|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2130|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2220|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1075|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1161|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3124|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|2|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|3|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|4|195.133.45.149|7788|Russia|Moscow|VDS|
-|5|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
-|6|34.82.217.181|5555|United States|The Dalles|Google LLC|
-|7|43.135.158.217|80|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|8|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|9|43.135.158.217|80|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|10|45.61.187.67|4006|United States|Miami|FranTech Solutions|
-|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|12|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|13|149.19.224.20|3128|United States|Sterling|SPRINT|
-|14|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|17|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|18|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|19|45.61.187.67|4006|United States|Miami|FranTech Solutions|
-|20|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|3|34.82.217.181|5555|United States|The Dalles|Google LLC|
+|4|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|5|78.47.191.62|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|6|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|7|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|8|94.26.241.120|8080|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
+|9|5.78.72.20|8080|United States|Portland|Hetzner Online GmbH|
+|10|43.156.109.161|33080|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
+|11|201.182.251.141|999|Colombia|Pasto|SP SISTEMAS PALACIOS LTDA|
+|12|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|13|188.165.249.131|3129|France|Roubaix|OVH SAS|
+|14|91.107.239.124|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|15|63.239.220.11|8080|United States|Okeechobee|CenturyLink Communications, LLC|
+|16|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
+|17|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|19|139.59.239.167|80|Singapore|Singapore|DIGITALOCEAN|
+|20|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
 
 
 
