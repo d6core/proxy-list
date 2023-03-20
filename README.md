@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6701** proxies at the latest update. Usable proxies are below.
+> Scraper found **6594** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|731|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|731|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|731|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|478|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|478|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|478|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1518|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1411|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|963|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2937|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|109.111.132.44|53281|Russia|Kaliningrad|TIS Dialog LLC|
+|3|185.31.160.138|3128|Russia|Moscow|SPACENET|
+|4|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
 |5|46.101.85.55|443|United Kingdom|London|DigitalOcean|
-|6|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|7|185.31.160.138|3128|Russia|Moscow|SPACENET|
-|8|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
-|9|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|10|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|20.219.112.20|80|India|Chennai|Microsoft Corporation|
-|13|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
-|14|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|15|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|17|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
-|18|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|19|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|20|64.225.8.191|9991|United States|Clifton|DigitalOcean, LLC|
+|6|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
+|7|109.111.132.44|53281|Russia|Kaliningrad|TIS Dialog LLC|
+|8|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|9|43.135.158.217|80|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|12|186.201.164.82|8081|Brazil|São Paulo|Vivo|
+|13|45.61.187.67|4000|United States|Miami|FranTech Solutions|
+|14|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|15|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|16|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|17|43.135.158.217|80|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|18|203.150.128.203|8080|Thailand|Vadhana|Internet Thailand Company Ltd|
+|19|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
