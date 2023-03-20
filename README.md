@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7562** proxies at the latest update. Usable proxies are below.
+> Scraper found **8246** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|827|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|827|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|827|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|793|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|793|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|793|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1994|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2310|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1161|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3124|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1235|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3418|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|167.172.238.6|9989|United States|Clifton|DigitalOcean, LLC|
-|3|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
-|4|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
-|5|65.108.212.10|8080|Finland|Helsinki|Hetzner Online GmbH|
-|6|65.38.213.154|8888|Puerto Rico|Guaynabo|AT&T Mobility Puerto Rico|
-|7|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|8|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|3|82.78.231.216|8080|Romania|Satu Mare|RCS & RDS|
+|4|64.225.4.63|9987|United States|Clifton|DigitalOcean, LLC|
+|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|103.42.28.104|45787|Japan|Tokyo|Zenlayer Inc|
+|7|95.141.43.194|8118|Italy|Milan|SEFLOW|
+|8|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
 |9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|10|201.76.218.220|9898|Brazil|Rio de Janeiro|Wnet Internet Ltda.|
-|11|209.141.62.12|5555|United States|Las Vegas|FranTech Solutions|
-|12|64.225.8.82|9996|United States|Clifton|DigitalOcean, LLC|
-|13|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|14|167.172.238.6|9989|United States|Clifton|DigitalOcean, LLC|
-|15|38.83.74.2|3128|United States|Miami|Cogent Communications|
-|16|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|17|118.163.135.11|9090|Taiwan|Taipei|Chunghwa Telecom Co., Ltd.|
-|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|19|157.100.54.11|80|Ecuador|Guayaquil|Nedetel S.A.|
-|20|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|12|115.112.101.210|9090|India|Chennai|Tata Communications Limited|
+|13|34.134.112.160|3128|United States|Council Bluffs|Google LLC|
+|14|51.159.115.233|3128|France|Paris|SCALEWAY|
+|15|45.61.187.67|4000|United States|Miami|FranTech Solutions|
+|16|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|17|162.55.191.25|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|18|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|19|5.202.104.22|3128|Iran|Tehran|Pishgaman Toseeh Ertebatat Company (Private Joint Stock)|
+|20|64.225.8.203|9983|United States|Clifton|DigitalOcean, LLC|
 
 
 
