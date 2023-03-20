@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7123** proxies at the latest update. Usable proxies are below.
+> Scraper found **7060** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|763|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|763|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|763|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|713|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|713|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|713|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1829|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1766|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1073|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2938|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|195.133.45.149|7788|Russia|Moscow|VDS|
-|4|187.111.163.27|8080|Brazil|Sorocaba|super midia tv a cabo ltda|
-|5|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|6|52.51.64.165|8118|Ireland|Dublin|Amazon Technologies Inc.|
-|7|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|8|62.12.146.142|3128|Switzerland|Glattbrugg|Cyberlink Internet Services AG|
-|9|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
-|12|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|13|51.159.115.233|3128|France|Paris|SCALEWAY|
-|14|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|15|115.112.101.210|9090|India|Chennai|Tata Communications Limited|
-|16|200.187.169.215|3128|Brazil|Fortaleza|ALGAR TELECOM S/A|
-|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|18|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|19|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
-|20|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|2|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|4|34.95.154.64|8080|Brazil|Sao Paulo|Google LLC|
+|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|6|40.129.203.4|8080|United States|Philadelphia|Windstream Communications LLC|
+|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|8|151.234.40.215|8080|Iran|Tehran|Iran Telecommunication Company PJS|
+|9|12.7.109.1|9812|United States|Carrizo Springs|AIRESPRING-ADT SYSTEMS, INC.|
+|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|11|186.201.164.82|8081|Brazil|São Paulo|Vivo|
+|12|64.225.8.191|9987|United States|Clifton|DigitalOcean, LLC|
+|13|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|16|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|17|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
+|18|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
