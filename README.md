@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6422** proxies at the latest update. Usable proxies are below.
+> Scraper found **6506** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1608|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1392|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|855|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2976|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
-|2|23.22.20.251|8080|United States|Ashburn|Amazon.com|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
 |4|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|5|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|6|80.14.219.107|3128|France|Paris|France Telecom|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
-|9|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
-|10|45.61.187.67|4008|United States|Miami|FranTech Solutions|
-|11|23.22.20.251|8080|United States|Ashburn|Amazon.com|
-|12|62.12.146.142|3128|Switzerland|Glattbrugg|Cyberlink Internet Services AG|
-|13|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|14|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|15|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
-|16|35.233.162.87|3100|United States|The Dalles|Google LLC|
-|17|65.109.224.81|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|35.233.162.87|3100|United States|The Dalles|Google LLC|
-|19|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
-|20|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|5|186.201.164.82|8081|Brazil|São Paulo|Vivo|
+|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|7|34.95.154.64|8080|Brazil|Sao Paulo|Google LLC|
+|8|23.22.20.251|8080|United States|Ashburn|Amazon.com|
+|9|80.14.219.107|3128|France|Paris|France Telecom|
+|10|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|35.233.162.87|3100|United States|The Dalles|Google LLC|
+|13|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
+|14|62.12.146.142|3128|Switzerland|Glattbrugg|Cyberlink Internet Services AG|
+|15|23.22.20.251|8080|United States|Ashburn|Amazon.com|
+|16|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
+|17|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|18|65.109.224.81|8080|Finland|Helsinki|Hetzner Online GmbH|
+|19|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
 
 
 
