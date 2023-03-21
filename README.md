@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7757** proxies at the latest update. Usable proxies are below.
+> Scraper found **7582** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|517|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|517|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|517|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|696|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|696|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|696|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1923|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1748|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1235|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3316|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|62.12.146.142|3128|Switzerland|Glattbrugg|Cyberlink Internet Services AG|
-|4|107.152.39.44|8080|United States|Chicago|tzulo, inc.|
-|5|92.86.87.227|80|Romania|Odorheiu Secuiesc|Romtelecom|
-|6|34.95.154.64|8080|Brazil|Sao Paulo|Google LLC|
-|7|47.186.56.44|1080|United States|Plano|Frontier Communications Solutions|
-|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|43.132.184.228|8181|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|10|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
-|11|192.53.167.121|8080|United States|Richardson|Akamai Technologies, Inc.|
-|12|192.53.171.137|8080|United States|Richardson|Akamai Technologies, Inc.|
-|13|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|14|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
-|15|35.233.162.87|3100|United States|The Dalles|Google LLC|
-|16|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
-|17|45.33.11.227|8080|United States|Richardson|Akamai Technologies, Inc.|
-|18|35.89.108.65|8080|United States|Portland|Amazon.com, Inc.|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|2|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|3|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|4|45.89.127.125|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
+|5|188.116.173.198|3128|Russia|Oryol|JSC Resource-Sviaz Home Networks|
+|6|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|7|34.95.154.64|8080|Brazil|Sao Paulo|Google LLC|
+|8|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|9|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|11|47.186.56.44|1080|United States|Plano|Frontier Communications Solutions|
+|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|13|35.233.162.87|3100|United States|The Dalles|Google LLC|
+|14|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|15|45.61.187.67|4004|United States|Miami|FranTech Solutions|
+|16|52.5.117.39|8118|United States|Ashburn|Amazon.com, Inc.|
+|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|18|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
 |19|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
-|20|107.152.39.44|8080|United States|Chicago|tzulo, inc.|
+|20|51.79.50.22|9300|Canada|Victoria|OVH SAS|
 
 
 
