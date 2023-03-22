@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7334** proxies at the latest update. Usable proxies are below.
+> Scraper found **7062** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|562|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|562|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|562|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|405|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|405|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|405|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1914|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1642|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|977|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3160|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|2|5.78.67.71|8080|United States|Portland|Hetzner Online GmbH|
-|3|5.78.83.123|8080|United States|Portland|Hetzner Online GmbH|
-|4|69.164.203.59|8080|United States|Richardson|Akamai Technologies, Inc.|
-|5|78.46.202.225|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|193.70.56.227|8118|France|Roubaix|OVH SAS|
-|8|5.78.87.122|8080|United States|Portland|Hetzner Online GmbH|
-|9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|10|5.78.70.54|8080|United States|Portland|Hetzner Online GmbH|
-|11|5.78.80.217|8080|United States|Portland|Hetzner Online GmbH|
-|12|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
-|13|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|14|5.78.72.29|8080|United States|Portland|Hetzner Online GmbH|
-|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|16|5.78.85.64|8080|United States|Portland|Hetzner Online GmbH|
-|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|1|5.78.83.69|8080|United States|Portland|Hetzner Online GmbH|
+|2|5.78.67.105|8080|United States|Portland|Hetzner Online GmbH|
+|3|5.78.78.231|8080|United States|Portland|Hetzner Online GmbH|
+|4|5.78.90.64|8080|United States|Portland|Hetzner Online GmbH|
+|5|5.78.92.29|8080|United States|Portland|Hetzner Online GmbH|
+|6|5.78.87.170|8080|United States|Portland|Hetzner Online GmbH|
+|7|5.78.87.0|8080|United States|Portland|Hetzner Online GmbH|
+|8|5.78.68.128|8080|United States|Portland|Hetzner Online GmbH|
+|9|5.78.92.238|8080|United States|Portland|Hetzner Online GmbH|
+|10|5.78.83.123|8080|United States|Portland|Hetzner Online GmbH|
+|11|5.78.79.185|8080|United States|Portland|Hetzner Online GmbH|
+|12|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|13|5.78.79.185|8080|United States|Portland|Hetzner Online GmbH|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|186.201.164.82|8081|Brazil|São Paulo|Vivo|
+|16|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|17|5.78.70.54|8080|United States|Portland|Hetzner Online GmbH|
 |18|69.164.203.59|8080|United States|Richardson|Akamai Technologies, Inc.|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|5.78.72.29|8080|United States|Portland|Hetzner Online GmbH|
+|19|5.78.87.0|8080|United States|Portland|Hetzner Online GmbH|
+|20|5.78.87.122|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
