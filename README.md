@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6576** proxies at the latest update. Usable proxies are below.
+> Scraper found **7020** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|722|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|722|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|722|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|667|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|667|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|667|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1914|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2058|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1175|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2504|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |2|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
 |3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|6|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|7|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|8|18.167.139.85|8080|Hong Kong|Hong Kong|Amazon Technologies Inc.|
-|9|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
-|10|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
-|11|103.112.163.78|8080|Indonesia|Jakarta|24AS|
-|12|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|13|167.235.157.207|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|14|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|15|173.212.237.47|3128|Germany|Nuremberg|Contabo GmbH|
-|16|5.78.82.49|8080|United States|Portland|Hetzner Online GmbH|
-|17|116.202.16.83|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|18|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
-|19|5.78.84.19|8080|United States|Portland|Hetzner Online GmbH|
-|20|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|4|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
+|5|34.95.154.64|8080|Brazil|Sao Paulo|Google LLC|
+|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|7|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|8|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
+|9|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|10|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|11|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|12|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|13|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|14|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|15|15.222.174.130|80|Canada|Toronto|Amazon Technologies Inc.|
+|16|103.157.117.227|8080|Indonesia|Yogyakarta|PT Cloud Teknologi Nusantara|
+|17|64.225.8.118|9987|United States|Clifton|DigitalOcean, LLC|
+|18|167.235.157.207|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|19|23.88.110.100|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|20|183.221.242.111|8443|China|Mianyang|China Mobile|
 
 
 
