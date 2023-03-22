@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6831** proxies at the latest update. Usable proxies are below.
+> Scraper found **6599** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|422|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|422|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|422|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|589|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|589|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|589|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1923|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1691|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1121|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2504|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.248.14.69|3128|United States|Clifton|DigitalOcean, LLC|
-|2|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|3|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|4|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|5|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|6|43.132.184.228|8181|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|7|5.78.77.0|8080|United States|Portland|Hetzner Online GmbH|
-|8|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|1|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|2|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|3|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|4|167.233.12.242|3128|Germany|Hallbergmoos|Hetzner Online GmbH|
+|5|98.96.174.54|8118|United Kingdom|Fareham|Trooli Ltd|
+|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|7|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|8|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
 |9|5.78.77.0|8080|United States|Portland|Hetzner Online GmbH|
-|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|11|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|12|139.144.224.31|8080|United States|Richardson|Akamai Technologies, Inc.|
-|13|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|14|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|15|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
-|16|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|17|209.182.225.18|2019|United States|Seattle|Shock Hosting LLC|
-|18|172.104.197.215|8080|United States|Richardson|Akamai Technologies|
-|19|107.152.41.108|8080|United States|Cheney|tzulo, inc.|
-|20|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|10|172.104.197.215|8080|United States|Richardson|Akamai Technologies|
+|11|45.77.114.109|6666|United States|Miami|The Constant Company|
+|12|107.152.41.108|8080|United States|Cheney|tzulo, inc.|
+|13|139.144.224.31|8080|United States|Richardson|Akamai Technologies, Inc.|
+|14|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
+|15|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|16|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|17|5.78.93.4|8080|United States|Portland|Hetzner Online GmbH|
+|18|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|19|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|20|65.109.86.182|33229|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
