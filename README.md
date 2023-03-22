@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6875** proxies at the latest update. Usable proxies are below.
+> Scraper found **6588** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|366|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|366|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|366|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|419|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|419|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|419|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1967|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1980|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1121|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2504|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|3|5.78.94.205|8080|United States|Portland|Hetzner Online GmbH|
-|4|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|7|79.174.25.124|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
-|8|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|9|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|1|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|2|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|3|5.78.84.19|8080|United States|Portland|Hetzner Online GmbH|
+|4|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|5|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|6|5.78.94.205|8080|United States|Portland|Hetzner Online GmbH|
+|7|95.217.187.157|8080|Finland|Helsinki|Hetzner Online GmbH|
+|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|9|80.14.219.107|3128|France|Paris|France Telecom|
 |10|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|11|43.132.184.228|8181|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|13|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|14|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|15|167.233.12.242|3128|Germany|Hallbergmoos|Hetzner Online GmbH|
-|16|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|17|107.175.243.183|80|United States|Dallas|ColoCrossing|
-|18|43.153.71.78|19090|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|19|65.109.86.182|33229|Finland|Helsinki|Hetzner Online GmbH|
-|20|159.255.188.134|41258|Poland|Warsaw|TOM-NET s.c. Dariusz Koper|
+|11|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|12|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|13|139.144.224.31|8080|United States|Richardson|Akamai Technologies, Inc.|
+|14|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|15|5.78.84.19|8080|United States|Portland|Hetzner Online GmbH|
+|16|89.252.152.231|2019|Turkey|Denizli|Netinternet Bilisim Teknolojileri AS|
+|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|18|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|19|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|20|107.152.41.108|8080|United States|Cheney|tzulo, inc.|
 
 
 
