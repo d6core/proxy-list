@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6941** proxies at the latest update. Usable proxies are below.
+> Scraper found **7020** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|770|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|770|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|770|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|669|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|669|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|669|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1745|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1801|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|922|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|945|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2991|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|167.114.185.69|3128|Canada|Montreal|OVH SAS|
-|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|150.230.207.167|80|Japan|Tokyo|Oracle Corporation|
-|6|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|62.12.146.142|3128|Switzerland|Glattbrugg|Cyberlink Internet Services AG|
-|10|45.61.187.67|4008|United States|Miami|FranTech Solutions|
-|11|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|12|167.233.12.242|3128|Germany|Hallbergmoos|Hetzner Online GmbH|
-|13|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
-|14|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|15|64.138.255.146|8888|United States|Conway|Horry Telephone Cooperative, Inc.|
-|16|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
-|17|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|18|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|19|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
-|20|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
+|2|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|3|150.230.207.167|80|Japan|Tokyo|Oracle Corporation|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|7|43.132.184.228|8181|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|8|167.114.185.69|3128|Canada|Montreal|OVH SAS|
+|9|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
+|10|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|11|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|12|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|13|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|15|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|16|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
+|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|19|135.181.106.131|3128|Finland|Helsinki|Hetzner Online GmbH|
+|20|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
 
 
 
