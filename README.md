@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|631|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|631|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|631|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|363|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|363|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|363|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|2|167.233.12.242|3128|Germany|Hallbergmoos|Hetzner Online GmbH|
+|1|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|2|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
 |3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|4|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|5|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|6|62.12.146.142|3128|Switzerland|Glattbrugg|Cyberlink Internet Services AG|
-|7|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|51.159.115.233|3128|France|Paris|SCALEWAY|
-|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|11|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|12|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|13|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|14|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|15|80.14.219.107|3128|France|Paris|France Telecom|
-|16|139.144.230.183|8080|United States|Richardson|Akamai Technologies, Inc.|
-|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|18|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|19|5.78.93.4|8080|United States|Portland|Hetzner Online GmbH|
-|20|67.9.25.69|9898|United States|Birmingham|Charter Communications|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|43.153.71.78|19090|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|6|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|7|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|8|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|5.78.93.4|8080|United States|Portland|Hetzner Online GmbH|
+|11|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|12|5.78.93.4|8080|United States|Portland|Hetzner Online GmbH|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|14|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|16|212.100.65.12|3129|Nigeria|Lagos|Autonomous System number for Cyber Space|
+|17|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|18|5.78.67.241|8080|United States|Portland|Hetzner Online GmbH|
+|19|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|20|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
 
 
 
