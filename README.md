@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7150** proxies at the latest update. Usable proxies are below.
+> Scraper found **7315** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|745|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|745|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|745|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|557|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|557|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|557|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1682|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1788|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1014|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1073|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3171|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
-|2|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
-|3|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|4|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|5|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
-|6|62.12.146.142|3128|Switzerland|Glattbrugg|Cyberlink Internet Services AG|
-|7|43.132.184.228|8181|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|8|18.167.139.85|8080|Hong Kong|Hong Kong|Amazon Technologies Inc.|
-|9|150.230.207.167|80|Japan|Tokyo|Oracle Corporation|
-|10|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
-|11|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
-|12|80.210.32.40|441|Iran|Tehran|TIC|
-|13|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|14|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
-|15|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|16|223.205.110.208|8080|Thailand|Krabi|Triple T Broadband Public Company Limited|
-|17|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|18|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|19|5.161.201.220|8080|United States|Ashburn|Hetzner Online GmbH|
-|20|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|1|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|2|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|4|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
+|5|46.101.85.55|443|United Kingdom|London|DigitalOcean|
+|6|43.153.71.78|19090|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|7|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|8|62.12.146.142|3128|Switzerland|Glattbrugg|Cyberlink Internet Services AG|
+|9|43.132.184.228|8181|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|10|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|11|43.133.6.40|8081|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|12|5.161.201.220|8080|United States|Ashburn|Hetzner Online GmbH|
+|13|38.60.192.190|4780|Malaysia|Kuala Lumpur|Kaopu Cloud HK Limited|
+|14|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|15|167.235.197.240|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|16|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
+|19|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
+|20|170.187.152.76|3128|United States|Atlanta|Akamai Technologies, Inc.|
 
 
 
