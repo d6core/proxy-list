@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6784** proxies at the latest update. Usable proxies are below.
+> Scraper found **7172** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|617|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|617|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|617|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|527|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|527|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|527|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1528|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1616|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1155|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3118|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|34.95.154.64|8080|Brazil|Sao Paulo|Google LLC|
-|4|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
-|5|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|6|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|1|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|2|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|3|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|4|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
 |7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|9|164.92.88.134|8080|United States|Santa Clara|DigitalOcean, LLC|
-|10|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|11|5.78.85.141|8080|United States|Portland|Hetzner Online GmbH|
-|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|13|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|15|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|16|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|8|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|9|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|11|164.92.88.134|8080|United States|Santa Clara|DigitalOcean, LLC|
+|12|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|14|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
+|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|16|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
 |17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
 |18|5.78.92.73|8080|United States|Portland|Hetzner Online GmbH|
-|19|91.194.3.215|1080|Russia|Krasnoyarsk|"RealHost" Ltd|
-|20|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|19|5.78.85.141|8080|United States|Portland|Hetzner Online GmbH|
+|20|5.78.90.28|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
