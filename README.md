@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6657** proxies at the latest update. Usable proxies are below.
+> Scraper found **6660** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|550|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|550|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|550|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|549|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|549|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|549|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1383|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1386|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|985|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3006|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|3|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|8|157.90.217.209|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|9|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|10|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
-|11|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
-|12|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|14|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
-|15|188.40.96.177|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|16|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|17|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|18|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
-|19|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|20|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|3|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|4|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
+|5|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|6|167.233.12.242|3128|Germany|Hallbergmoos|Hetzner Online GmbH|
+|7|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|9|157.90.217.209|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|10|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|11|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|14|174.126.217.110|80|United States|Boise|CABLE ONE, INC.|
+|15|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
+|16|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|18|203.150.128.78|8080|Thailand|Vadhana|Internet Thailand Company Ltd|
+|19|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|20|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
 
 
 
