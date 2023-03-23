@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7442** proxies at the latest update. Usable proxies are below.
+> Scraper found **7693** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|422|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|422|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|422|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|421|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|421|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|421|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2008|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1959|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1424|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3027|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|174.138.167.178|8888|United States|Phoenix|Secured Servers LLC|
-|2|5.78.84.99|8080|United States|Portland|Hetzner Online GmbH|
-|3|139.144.225.253|8080|United States|Richardson|Akamai Technologies, Inc.|
-|4|45.56.73.134|8080|United States|Richardson|Akamai Technologies, Inc.|
+|1|45.56.73.134|8080|United States|Richardson|Akamai Technologies, Inc.|
+|2|139.144.225.253|8080|United States|Richardson|Akamai Technologies, Inc.|
+|3|5.78.45.148|8080|United States|Portland|Hetzner Online GmbH|
+|4|5.78.84.99|8080|United States|Portland|Hetzner Online GmbH|
 |5|139.144.224.26|8080|United States|Richardson|Akamai Technologies, Inc.|
-|6|132.145.129.174|6969|United States|Ashburn|Oracle Corporation|
-|7|5.78.86.37|8080|United States|Portland|Hetzner Online GmbH|
-|8|199.38.246.253|4444|United States|Hackensack|WhiteLabel IT Solutions Corp|
-|9|65.109.230.25|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|203.170.129.38|18081|Thailand|Huai Khwang|CS Loxinfo Public Company Limited|
-|11|5.78.85.116|8080|United States|Portland|Hetzner Online GmbH|
-|12|172.105.166.114|31282|Australia|Sydney|Akamai Technologies|
-|13|116.111.127.9|4001|Vietnam|Hanoi|Viettel Corporation|
-|14|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|15|45.61.187.67|4007|United States|Miami|FranTech Solutions|
-|16|114.102.46.10|8089|China|Wuhu|Chinanet|
-|17|181.209.82.195|999|Argentina|Benavidez|ARSAT - Empresa Argentina de Soluciones Satelitales S.A|
-|18|38.56.70.59|999|Dominican Republic|Santo Domingo Este|Orbitek SRL|
-|19|140.246.114.169|59394|China|Jinan|Cloud Computing Corporation|
-|20|5.78.43.193|8080|United States|Portland|Hetzner Online GmbH|
+|6|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|7|43.153.71.78|19090|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|8|5.78.85.116|8080|United States|Portland|Hetzner Online GmbH|
+|9|5.78.86.37|8080|United States|Portland|Hetzner Online GmbH|
+|10|45.142.208.50|3128|Russia|Moscow|Yegor Andreevich trading as FLP Miglovets|
+|11|194.195.243.93|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|12|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|13|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
+|14|5.78.91.156|8080|United States|Portland|Hetzner Online GmbH|
+|15|5.78.74.227|8080|United States|Portland|Hetzner Online GmbH|
+|16|5.78.87.237|8080|United States|Portland|Hetzner Online GmbH|
+|17|5.78.86.6|8080|United States|Portland|Hetzner Online GmbH|
+|18|5.78.65.205|8080|United States|Portland|Hetzner Online GmbH|
+|19|91.196.148.56|10000|Ukraine|Kriukivschina|Maximum-Net LLC|
+|20|212.156.123.218|8080|Turkey|Istanbul|TurkTelekom|
 
 
 
