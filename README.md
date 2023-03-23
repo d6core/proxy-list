@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7026** proxies at the latest update. Usable proxies are below.
+> Scraper found **6864** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|732|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|732|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|732|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|609|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|609|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|609|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1710|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1548|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1109|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2924|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|2|62.12.146.142|3128|Switzerland|Glattbrugg|Cyberlink Internet Services AG|
-|3|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
-|4|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|5|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
-|6|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|7|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|8|34.95.154.64|8080|Brazil|Sao Paulo|Google LLC|
-|9|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|159.89.128.130|8989|United States|Santa Clara|DigitalOcean, LLC|
-|12|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|13|186.201.164.82|8081|Brazil|São Paulo|Vivo|
-|14|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
-|15|80.14.219.107|3128|France|Paris|France Telecom|
-|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|17|12.218.209.130|53281|United States|Hollister|AT&T Services, Inc.|
-|18|64.225.8.191|9996|United States|Clifton|DigitalOcean, LLC|
-|19|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|20|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
+|2|45.81.129.146|45787|United States|Los Angeles|Zenlayer Inc|
+|3|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|4|43.249.10.180|45787|Japan|Tokyo|Zenlayer Inc|
+|5|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|6|195.201.27.198|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|8|170.39.193.86|3128|United States|Ashburn|Rackdog, LLC|
+|9|3.24.58.156|3128|Australia|Sydney|Amazon.com, Inc.|
+|10|34.95.154.64|8080|Brazil|Sao Paulo|Google LLC|
+|11|159.223.62.176|3128|Singapore|Singapore|DigitalOcean, LLC|
+|12|65.21.186.173|3129|Finland|Helsinki|Hetzner Online GmbH|
+|13|45.81.129.146|45787|United States|Los Angeles|Zenlayer Inc|
+|14|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|15|187.73.55.92|3128|Brazil|Amargosa|Mar Provedor de Internet Ltda|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|18|45.81.131.216|45787|United States|Los Angeles|Zenlayer Inc|
+|19|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
