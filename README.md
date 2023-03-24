@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7081** proxies at the latest update. Usable proxies are below.
+> Scraper found **7072** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|682|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|682|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|682|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|650|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|650|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|650|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1703|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1633|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|970|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1031|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3125|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
-|2|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|5|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|6|136.52.136.242|1080|United States|Irvine|Google Fiber Inc.|
-|7|167.99.90.135|443|United Kingdom|London|DigitalOcean, LLC|
-|8|170.64.184.54|443|Australia|Sydney|DigitalOcean, LLC|
-|9|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
-|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|14|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|15|5.78.84.52|8080|United States|Portland|Hetzner Online GmbH|
-|16|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
-|17|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|18|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|19|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|20|5.78.86.167|8080|United States|Portland|Hetzner Online GmbH|
+|1|139.144.224.99|8080|United States|Richardson|Akamai Technologies, Inc.|
+|2|139.144.224.105|8080|United States|Richardson|Akamai Technologies, Inc.|
+|3|107.175.243.183|80|United States|Dallas|ColoCrossing|
+|4|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|5|109.108.107.122|8080|Czechia|Lanskroun|OMEGA tech s.r.o.|
+|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
+|8|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|9|5.78.41.146|8080|United States|Portland|Hetzner Online GmbH|
+|10|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|11|136.52.136.242|1080|United States|Irvine|Google Fiber Inc.|
+|12|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|16|192.3.135.85|1080|United States|Chicago|ColoCrossing|
+|17|136.52.136.242|1080|United States|Irvine|Google Fiber Inc.|
+|18|5.9.139.204|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|19|5.78.86.167|8080|United States|Portland|Hetzner Online GmbH|
+|20|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
 
 
 
