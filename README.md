@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **2601** proxies at the latest update. Usable proxies are below.
+> Scraper found **2725** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|53|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|53|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|53|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|24|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|24|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|24|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2018|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1842|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|0|🚫|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|0|🚫|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|0|🚫|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|2|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
-|3|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|4|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|5|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
-|8|191.252.195.53|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
-|9|159.138.130.126|8999|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|10|188.170.129.251|3128|Russia|Moscow|MegaFon|
-|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|12|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
-|13|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
-|14|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|15|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
-|16|116.111.127.9|4001|Vietnam|Hanoi|Viettel Corporation|
-|17|15.222.174.130|80|Canada|Toronto|Amazon Technologies Inc.|
-|18|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|19|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|20|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|1|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
+|2|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|3|20.191.183.129|3129|Japan|Tokyo|Microsoft Corporation|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|6|79.174.25.124|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|7|20.191.183.126|3129|Japan|Tokyo|Microsoft Corporation|
+|8|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
+|9|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|10|20.191.183.149|3129|Japan|Tokyo|Microsoft Corporation|
+|11|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
+|12|20.191.183.38|3129|Japan|Tokyo|Microsoft Corporation|
+|13|46.4.75.218|20000|Germany|Falkenstein|Hetzner Online GmbH|
+|14|191.252.195.53|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
+|15|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|16|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|17|116.111.127.9|4001|Vietnam|Hanoi|Viettel Corporation|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|45.61.187.67|4008|United States|Miami|FranTech Solutions|
+|20|116.111.127.9|4001|Vietnam|Hanoi|Viettel Corporation|
 
 
 
