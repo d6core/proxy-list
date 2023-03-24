@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7695** proxies at the latest update. Usable proxies are below.
+> Scraper found **7562** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|234|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|234|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|234|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|707|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|707|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|707|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1979|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1846|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1269|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3164|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
-|2|172.104.107.194|8080|Japan|Tokyo|Akamai Technologies|
+|2|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
 |3|172.105.93.12|8080|Germany|Frankfurt am Main|Akamai Technologies|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|139.162.141.208|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
-|6|194.195.243.93|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
-|7|139.177.183.22|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|4|194.195.243.93|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|5|139.177.183.22|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|6|161.35.6.250|443|United States|North Bergen|DigitalOcean, LLC|
+|7|139.162.141.208|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
 |8|139.177.180.55|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
-|9|172.105.90.122|8080|Germany|Frankfurt am Main|Akamai Technologies|
-|10|172.105.166.114|31282|Australia|Sydney|Akamai Technologies|
-|11|43.132.184.228|8181|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|12|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
-|13|198.44.191.221|45787|Japan|Tokyo|Zenlayer Inc|
-|14|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|15|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|16|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
-|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|18|5.78.78.69|8080|United States|Portland|Hetzner Online GmbH|
-|19|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|20|135.181.15.198|3128|Finland|Helsinki|Hetzner Online GmbH|
+|9|45.234.61.229|999|Venezuela|San Antonio de Los Altos|SOLUCIONES INSTALRED CH&C C.A.|
+|10|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|11|172.105.90.122|8080|Germany|Frankfurt am Main|Akamai Technologies|
+|12|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
+|13|172.104.107.194|8080|Japan|Tokyo|Akamai Technologies|
+|14|43.132.184.228|8181|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|15|172.105.166.114|31282|Australia|Sydney|Akamai Technologies|
+|16|92.207.253.226|38157|United Kingdom|London|Gamma Telecom Ltd|
+|17|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|18|51.159.115.233|3128|France|Paris|SCALEWAY|
+|19|45.188.166.50|1994|Mexico|Tecalitlan|Velocom SA De CV|
+|20|190.202.3.22|32650|Venezuela|Caracas|CANTV Servicios, Venezuela|
 
 
 
