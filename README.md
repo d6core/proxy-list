@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7070** proxies at the latest update. Usable proxies are below.
+> Scraper found **7031** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|497|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|497|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|497|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|588|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|588|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|588|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1563|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1524|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1078|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3146|✅|
@@ -47,25 +47,25 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|2|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|3|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|1|46.209.106.202|3128|Iran|Tehran|Respina|
+|2|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|3|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
 |4|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|5|93.177.73.122|8888|Germany|Frankfurt am Main|M247 Europe SRL|
-|6|43.153.71.78|19090|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|7|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|200.145.14.34|21320|Brazil|São Paulo|Universidade Estadual Paulista|
-|11|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|5|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|6|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|185.97.117.48|8082|Iran|Nā’īn|AbrArvan|
+|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|10|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|11|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
 |12|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
-|13|141.94.205.110|8118|France|Gravelines|OVH SAS|
-|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|15|107.152.37.58|8080|United States|Chicago|tzulo, inc.|
-|16|18.182.22.186|1080|Japan|Tokyo|Amazon Technologies Inc.|
-|17|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|18|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|19|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|13|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|14|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
+|15|158.69.53.132|9300|Canada|Montreal|OVH SAS|
+|16|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|17|18.182.22.186|1080|Japan|Tokyo|Amazon Technologies Inc.|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
 |20|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
 
 
