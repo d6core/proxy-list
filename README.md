@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7598** proxies at the latest update. Usable proxies are below.
+> Scraper found **7414** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|709|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|709|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|709|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|738|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|738|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|738|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1882|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1928|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1269|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1339|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3164|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|2|79.174.25.124|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
-|3|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|4|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|5|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|6|20.191.183.126|3129|Japan|Tokyo|Microsoft Corporation|
-|7|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
-|8|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|9|89.252.152.246|2019|Turkey|Denizli|Netinternet Bilisim Teknolojileri AS|
-|10|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
-|11|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|12|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|13|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
-|14|80.14.219.107|3128|France|Paris|France Telecom|
-|15|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|16|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|17|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|18|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|2|47.89.194.131|7328|United States|Minkler|Alibaba.com LLC|
+|3|162.212.157.98|8080|United States|Chicago|tzulo, inc.|
+|4|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|5|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
+|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|7|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|8|167.172.238.6|9989|United States|Clifton|DigitalOcean, LLC|
+|9|79.174.25.124|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|10|18.176.164.160|3128|Japan|Tokyo|Amazon Technologies Inc.|
+|11|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|12|79.143.187.33|3210|Germany|Munich|Contabo GmbH|
+|13|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|14|177.101.0.199|8080|Brazil|Recife|Click.com telecomunicações ltda-me|
+|15|20.191.183.126|3129|Japan|Tokyo|Microsoft Corporation|
+|16|93.177.73.122|8888|Germany|Frankfurt am Main|M247 Europe SRL|
+|17|43.153.71.78|19090|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|18|167.233.12.242|3128|Germany|Hallbergmoos|Hetzner Online GmbH|
+|19|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|20|91.196.148.56|10000|Ukraine|Kriukivschina|Maximum-Net LLC|
 
 
 
