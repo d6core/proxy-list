@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8023** proxies at the latest update. Usable proxies are below.
+> Scraper found **7913** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|691|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|691|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|691|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|831|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|831|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|831|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2103|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1993|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1213|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3424|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|2|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|3|5.161.84.196|8080|United States|Ashburn|Hetzner Online GmbH|
-|4|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|5|138.68.168.20|443|United Kingdom|London|DigitalOcean, LLC|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|104.248.254.139|8118|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|4|5.161.84.196|8080|United States|Ashburn|Hetzner Online GmbH|
+|5|95.217.237.22|8080|Finland|Helsinki|Hetzner Online GmbH|
+|6|167.235.203.241|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|7|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
 |8|5.161.84.196|8080|United States|Ashburn|Hetzner Online GmbH|
-|9|91.194.3.215|1080|Russia|Krasnoyarsk|"RealHost" Ltd|
-|10|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|11|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|12|168.119.110.228|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|13|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|15|89.44.100.120|80|Poland|Warsaw|M247 Europe SRL|
-|16|177.240.4.125|999|Mexico|Monterrey|Mega Cable, S.A. de C.V.|
-|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|18|34.142.224.81|3128|Singapore|Singapore|Google LLC|
+|9|18.182.22.186|1080|Japan|Tokyo|Amazon Technologies Inc.|
+|10|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|12|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|14|91.194.3.215|1080|Russia|Krasnoyarsk|"RealHost" Ltd|
+|15|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|16|168.119.110.228|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|17|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|18|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
 |19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|94.130.43.166|8090|Germany|Falkenstein|Hetzner Online GmbH|
+|20|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
 
 
 
