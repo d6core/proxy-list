@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7010** proxies at the latest update. Usable proxies are below.
+> Scraper found **7061** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|445|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|445|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|445|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|515|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|515|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|515|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1625|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1676|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1078|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3024|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|2|43.153.71.78|19090|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|3|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|4|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|5|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|6|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
-|7|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
-|10|107.152.37.58|8080|United States|Chicago|tzulo, inc.|
-|11|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
-|12|5.161.84.196|8080|United States|Ashburn|Hetzner Online GmbH|
-|13|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|14|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
-|15|18.182.22.186|1080|Japan|Tokyo|Amazon Technologies Inc.|
-|16|78.138.98.115|3128|France|Strasbourg|Host Europe GmbH|
-|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|18|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
-|19|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
-|20|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|2|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|3|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|4|209.141.54.136|5555|United States|Las Vegas|FranTech Solutions|
+|5|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
+|6|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|8|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|9|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|10|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|11|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|12|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|13|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
+|14|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
+|15|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|17|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|18|18.182.22.186|1080|Japan|Tokyo|Amazon Technologies Inc.|
+|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|20|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
 
 
 
