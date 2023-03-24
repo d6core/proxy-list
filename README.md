@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7474** proxies at the latest update. Usable proxies are below.
+> Scraper found **7471** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|688|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|688|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|688|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|867|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|867|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|867|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1645|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1642|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1127|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3419|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|3|139.59.59.122|8118|India|Bengaluru|DigitalOcean|
-|4|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
-|7|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
-|8|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
-|9|162.240.32.213|154|United States|Provo|Unified Layer|
-|10|103.68.194.152|45787|United States|Los Angeles|Zenlayer Inc|
-|11|139.144.74.41|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
-|12|45.61.187.67|4005|United States|Miami|FranTech Solutions|
-|13|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
-|14|139.255.109.27|8080|Indonesia|Jakarta|PT. LINKNET|
-|15|159.192.138.170|8080|Thailand|Tha Muang|CAT-BB|
-|16|183.221.242.111|8443|China|Mianyang|China Mobile|
-|17|93.105.40.62|41258|Poland|Warsaw|Vectra S.A. BUSINESS P2P CONNECTIONS|
-|18|103.165.30.251|32650|India|Noida|MPR INFONET SYSTEMS PRIVATE LIMITED|
-|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|20|38.83.74.2|443|United States|Miami|Cogent Communications|
+|1|13.71.80.61|80|India|Chennai|Microsoft Corporation|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|6|45.61.187.67|4003|United States|Miami|FranTech Solutions|
+|7|103.31.38.122|8118|Indonesia|Cicurug|PT Cloud Hosting Indonesia|
+|8|64.27.27.104|9090|United States|Irvine|Multacom Corporation|
+|9|68.132.18.127|8888|United States|Staten Island|Verizon Communications|
+|10|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|11|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
+|12|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|13|69.63.78.199|3129|Eswatini|Manzini|Swaziland Posts & Telecommunications Corp.|
+|14|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|15|161.35.6.250|443|United States|North Bergen|DigitalOcean, LLC|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|176.193.12.144|55443|Russia|Moscow|Net By Net Holding LLC|
+|18|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|19|64.225.8.82|9991|United States|Clifton|DigitalOcean, LLC|
+|20|162.240.32.213|154|United States|Provo|Unified Layer|
 
 
 
