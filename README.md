@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7291** proxies at the latest update. Usable proxies are below.
+> Scraper found **8013** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|704|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|704|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|704|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|689|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|689|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|689|
 
 ## Sources
 
@@ -36,37 +36,37 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1937|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1953|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1212|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3159|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3565|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|2|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
-|3|20.191.183.134|3129|Japan|Tokyo|Microsoft Corporation|
-|4|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|5|18.182.22.186|1080|Japan|Tokyo|Amazon Technologies Inc.|
-|6|78.47.101.38|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|1|20.191.183.134|3129|Japan|Tokyo|Microsoft Corporation|
+|2|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
+|3|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|4|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
 |7|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|8|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
-|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|10|175.41.22.2|808|Hong Kong|Tseung Kwan O|XLC GLOBAL Limited|
-|11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|13|170.39.194.16|3128|United States|Ashburn|Rackdog, LLC|
-|14|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|15|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|16|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
-|19|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|20|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|8|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|9|175.41.22.2|808|Hong Kong|Tseung Kwan O|XLC GLOBAL Limited|
+|10|88.99.37.187|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|11|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|12|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|170.39.194.16|3128|United States|Ashburn|Rackdog, LLC|
+|16|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|17|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|18|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
+|19|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|20|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
 
 
 
