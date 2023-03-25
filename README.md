@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6976** proxies at the latest update. Usable proxies are below.
+> Scraper found **6524** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|457|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|457|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|457|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|453|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|453|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|453|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1554|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1402|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|980|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3159|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
-|2|18.182.22.186|1080|Japan|Tokyo|Amazon Technologies Inc.|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|20.191.178.74|3129|Japan|Tokyo|Microsoft Corporation|
-|5|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|6|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|7|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|8|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|1|45.146.167.237|3128|Russia|St Petersburg|Beget LLC|
+|2|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|3|168.119.243.181|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|4|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
+|5|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|6|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
+|7|43.132.184.228|8181|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|8|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
 |9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|10|125.240.183.145|8080|South Korea|Gangwon-do|DACOM-PUBNETPLUS|
-|11|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
-|12|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|16|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
-|17|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
-|18|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|19|140.99.2.218|3128|United States|Los Angeles|EpicUp Holdings Inc|
-|20|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|10|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|12|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|13|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|15|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|16|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|18|159.89.128.130|8989|United States|Santa Clara|DigitalOcean, LLC|
+|19|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|20|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
 
 
 
