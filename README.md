@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6915** proxies at the latest update. Usable proxies are below.
+> Scraper found **6804** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|389|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|389|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|389|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|562|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|562|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|562|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1587|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1476|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|987|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3058|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|2|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|5|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|7|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|8|139.144.105.102|8080|Canada|Toronto|Akamai Technologies, Inc.|
-|9|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
-|10|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|11|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|12|112.137.142.8|3128|Vietnam|Hanoi|VietNam National University|
-|13|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|14|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
-|15|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|16|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|17|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|18|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|19|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
-|20|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|1|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|2|139.144.105.102|8080|Canada|Toronto|Akamai Technologies, Inc.|
+|3|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|79.174.25.124|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|5|20.191.183.142|3129|Japan|Tokyo|Microsoft Corporation|
+|6|51.159.115.233|3128|France|Paris|SCALEWAY|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|9|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|10|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
+|11|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|12|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|13|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|14|43.207.156.246|8118|Japan|Tokyo|Amazon.com, Inc.|
+|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|16|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|17|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|18|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|19|125.17.80.229|8080|India|Chitradurga|Bharti Airtel|
+|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 
 
 
