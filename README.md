@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6533** proxies at the latest update. Usable proxies are below.
+> Scraper found **6871** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|691|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|691|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|691|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|754|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|754|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|754|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1490|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1528|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|999|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3061|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
-|2|91.194.3.215|1080|Russia|Krasnoyarsk|"RealHost" Ltd|
-|3|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|4|45.146.167.237|3128|Russia|St Petersburg|Beget LLC|
-|5|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
-|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|189.36.193.74|3128|Brazil|Fortaleza|Orion Telecomunicações Comercio e Serviços LTDA|
-|11|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|12|20.191.183.80|3129|Japan|Tokyo|Microsoft Corporation|
-|13|125.17.80.229|8080|India|Guntur|Bharti Airtel|
-|14|178.205.101.67|3129|Russia|Kazan’|Tattelecom|
-|15|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|16|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|17|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|18|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|19|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|20|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|1|91.194.3.215|1080|Russia|Krasnoyarsk|"RealHost" Ltd|
+|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
+|4|46.4.75.218|20000|Germany|Falkenstein|Hetzner Online GmbH|
+|5|125.17.80.229|8080|India|Guntur|Bharti Airtel|
+|6|18.182.22.186|1080|Japan|Tokyo|Amazon Technologies Inc.|
+|7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|8|45.146.167.237|3128|Russia|St Petersburg|Beget LLC|
+|9|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|10|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|20.191.183.50|3129|Japan|Tokyo|Microsoft Corporation|
+|13|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|14|20.191.183.80|3129|Japan|Tokyo|Microsoft Corporation|
+|15|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|16|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|19|41.220.114.154|8080|Kenya|Nairobi|COMMSOL|
+|20|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
 
 
 
