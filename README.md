@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7714** proxies at the latest update. Usable proxies are below.
+> Scraper found **7771** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|531|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|531|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|531|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|724|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|724|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|724|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1849|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1900|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1240|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3342|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1293|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3295|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|2|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|170.39.194.16|3128|United States|Ashburn|Rackdog, LLC|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|85.193.92.17|8081|Poland|Warsaw|Artnet Sp. z o.o.|
-|8|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|9|170.39.194.16|3128|United States|Ashburn|Rackdog, LLC|
-|10|20.191.178.74|3129|Japan|Tokyo|Microsoft Corporation|
-|11|20.191.183.123|3129|Japan|Tokyo|Microsoft Corporation|
-|12|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|13|18.182.22.186|1080|Japan|Tokyo|Amazon Technologies Inc.|
-|14|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|223.135.172.52|20000|Japan|Osaka|Sony Network Communications Inc|
-|17|20.191.183.38|3129|Japan|Tokyo|Microsoft Corporation|
-|18|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|19|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|20|94.131.114.69|3128|United States|New York|CLOUD LEASE Ltd|
+|1|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|2|20.191.183.38|3129|Japan|Tokyo|Microsoft Corporation|
+|3|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|4|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|5|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|6|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|8|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|9|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|10|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|11|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|13|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|15|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|16|13.71.80.61|80|India|Chennai|Microsoft Corporation|
+|17|175.41.22.2|808|Hong Kong|Tseung Kwan O|XLC GLOBAL Limited|
+|18|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|19|80.14.219.107|3128|France|Paris|France Telecom|
+|20|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
 
 
 
