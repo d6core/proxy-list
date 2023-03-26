@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7643** proxies at the latest update. Usable proxies are below.
+> Scraper found **7740** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|801|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|801|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|801|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|856|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|856|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|856|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1986|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2083|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1163|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3211|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
 |2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|3|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
 |4|46.4.75.218|20000|Germany|Falkenstein|Hetzner Online GmbH|
 |5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |6|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|8|136.52.136.242|1080|United States|Irvine|Google Fiber Inc.|
-|9|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|10|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
-|11|202.65.192.252|9443|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|7|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|8|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|9|194.77.96.179|3128|Germany|Düsseldorf|GTT|
+|10|194.77.96.179|3128|Germany|Düsseldorf|GTT|
+|11|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
 |12|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|15|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|16|91.226.58.100|3128|Sweden|Stockholm|LIMITED LIABILITY COMPANY "I.D.STRATEGY"|
-|17|155.50.255.208|3128|United States|Sterling|Sprint|
-|18|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|19|155.50.253.245|3128|United States|Sterling|Sprint|
-|20|200.116.198.177|35184|Colombia|Manizales|EPM Telecomunicaciones S.A. E.S.P|
+|13|202.65.192.252|443|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|14|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
+|15|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
+|16|136.52.136.242|1080|United States|Irvine|Google Fiber Inc.|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|94.74.127.96|4780|Hong Kong|Hong Kong|Huawei International Pte. LTD|
+|19|103.169.254.164|8061|Indonesia|Banyuwangi|PT Master Star Network|
+|20|91.226.58.100|3128|Sweden|Stockholm|LIMITED LIABILITY COMPANY "I.D.STRATEGY"|
 
 
 
