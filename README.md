@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7926** proxies at the latest update. Usable proxies are below.
+> Scraper found **7959** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|919|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|919|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|919|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|836|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|836|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|836|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2011|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1989|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1269|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3363|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3418|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|2|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|3|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|4|64.225.8.118|9995|United States|Clifton|DigitalOcean, LLC|
-|5|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|6|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|150.230.207.167|80|Japan|Tokyo|Oracle Corporation|
-|9|34.134.112.160|3128|United States|Council Bluffs|Google LLC|
-|10|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|11|190.110.99.190|999|Chile|San Vicente de Tagua Tagua|Silica Networks Argentina S.A.|
-|12|187.45.127.87|20183|Brazil|Chapecó|Mhnet Telecom|
-|13|103.156.233.175|3125|Indonesia|Bogor|MULTIMEDIALINKTECH|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|103.184.66.114|8181|Indonesia|Pandeglang|PT Siber Tech Indonesia|
-|16|124.122.114.171|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|17|64.225.4.63|9993|United States|Clifton|DigitalOcean, LLC|
-|18|103.168.44.114|8080|Indonesia|Pemalang|PT CYB Media Group|
-|19|97.94.121.255|8888|United States|San Gabriel|Charter Communications|
-|20|64.225.4.63|9993|United States|Clifton|DigitalOcean, LLC|
+|1|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|2|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|3|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
+|5|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|6|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
+|7|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|8|91.194.3.215|1080|Russia|Krasnoyarsk|"RealHost" Ltd|
+|9|125.17.80.229|8080|India|Guntur|Bharti Airtel|
+|10|103.153.225.63|3129|India|Mumbai|Nuozen Telecom Private Limited|
+|11|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|13|116.111.127.9|4001|Vietnam|Hanoi|Viettel Corporation|
+|14|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|15|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
+|16|190.131.250.105|999|Colombia|Barranquilla|Columbus Networks Colombia|
+|17|64.27.27.104|9090|United States|Irvine|Multacom Corporation|
+|18|103.169.254.164|8061|Indonesia|Banyuwangi|PT Master Star Network|
+|19|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|20|159.255.188.134|41258|Poland|Warsaw|TOM-NET s.c. Dariusz Koper|
 
 
 
