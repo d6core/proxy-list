@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7445** proxies at the latest update. Usable proxies are below.
+> Scraper found **7383** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|740|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|740|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|740|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|611|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|611|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|611|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1872|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1810|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1079|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3211|✅|
@@ -47,25 +47,25 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
-|6|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|7|79.174.25.124|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
-|8|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
-|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|10|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|11|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|12|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|13|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|14|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|15|20.191.183.56|3129|Japan|Tokyo|Microsoft Corporation|
-|16|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
-|17|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|18|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|19|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|1|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|3|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|4|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
+|5|79.174.25.124|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|6|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|8|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|9|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|12|159.203.0.6|443|Canada|Toronto|DigitalOcean, LLC|
+|13|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|15|5.78.67.208|8080|United States|Portland|Hetzner Online GmbH|
+|16|107.182.18.46|3128|United States|Los Angeles|IT7 Networks Inc|
+|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|19|5.78.79.86|8080|United States|Portland|Hetzner Online GmbH|
 |20|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
 
 
