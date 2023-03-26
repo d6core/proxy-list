@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7456** proxies at the latest update. Usable proxies are below.
+> Scraper found **7460** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|801|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|801|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|801|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|770|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|770|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|770|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1799|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1803|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1132|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3242|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
-|4|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|7|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|8|64.225.4.63|9993|United States|Clifton|DigitalOcean, LLC|
-|9|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|10|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
-|11|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|12|64.225.4.63|9993|United States|Clifton|DigitalOcean, LLC|
-|13|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
+|3|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|4|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|7|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|8|119.207.104.207|8080|South Korea|Ansan-si|Korea Telecom|
+|9|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|10|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|11|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
+|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|172.107.168.159|808|United States|Dallas|Psychz Networks|
 |14|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|16|46.4.75.218|20000|Germany|Falkenstein|Hetzner Online GmbH|
-|17|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|19|131.213.114.245|20000|Japan|Ikoma|Sony Network Communications Inc.|
-|20|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|15|94.130.43.166|8090|Germany|Falkenstein|Hetzner Online GmbH|
+|16|125.17.80.229|8080|India|Guntur|Bharti Airtel|
+|17|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
+|18|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|19|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|20|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
 
 
 
