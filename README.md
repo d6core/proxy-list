@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6418** proxies at the latest update. Usable proxies are below.
+> Scraper found **6706** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|578|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|578|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|578|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|522|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|522|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|522|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1510|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1498|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|982|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2943|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
 |2|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|3|100.20.56.139|80|United States|Portland|Amazon.com, Inc.|
-|4|20.191.183.56|3129|Japan|Tokyo|Microsoft Corporation|
-|5|131.213.114.245|20000|Japan|Ikoma|Sony Network Communications Inc.|
-|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
-|8|119.207.104.207|8080|South Korea|Ansan-si|Korea Telecom|
-|9|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
-|10|46.4.75.218|20000|Germany|Falkenstein|Hetzner Online GmbH|
-|11|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|14|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
-|15|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|16|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|17|5.78.92.107|8080|United States|Portland|Hetzner Online GmbH|
-|18|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|19|91.194.3.215|1080|Russia|Krasnoyarsk|"RealHost" Ltd|
-|20|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|3|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
+|4|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
+|5|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|6|100.20.56.139|80|United States|Portland|Amazon.com, Inc.|
+|7|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
+|8|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
+|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|12|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
+|13|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|14|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|15|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|100.20.56.139|80|United States|Portland|Amazon.com, Inc.|
+|18|119.207.104.207|8080|South Korea|Ansan-si|Korea Telecom|
+|19|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|20|61.80.239.168|1337|South Korea|Daegu|Korea Telecom|
 
 
 
