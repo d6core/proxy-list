@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7446** proxies at the latest update. Usable proxies are below.
+> Scraper found **7399** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|712|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|712|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|712|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|513|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|513|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|513|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1789|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1796|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1132|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1078|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3242|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|2|119.207.104.207|8080|South Korea|Ansan-si|Korea Telecom|
+|2|20.191.183.149|3129|Japan|Tokyo|Microsoft Corporation|
 |3|20.191.183.56|3129|Japan|Tokyo|Microsoft Corporation|
 |4|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|5|20.191.183.149|3129|Japan|Tokyo|Microsoft Corporation|
-|6|190.115.15.21|999|Guatemala|Guatemala City|Ufinet Panama S.A.|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|9|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
-|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|11|201.218.129.16|999|Peru|Lima||
-|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|131.213.114.245|20000|Japan|Ikoma|Sony Network Communications Inc.|
-|14|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
-|15|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|16|124.122.6.177|8080|Thailand|Nakhon Pathom|True Internet Co., Ltd.|
-|17|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
-|18|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
-|19|51.159.115.233|3128|France|Paris|SCALEWAY|
-|20|20.191.183.129|3129|Japan|Tokyo|Microsoft Corporation|
+|5|119.207.104.207|8080|South Korea|Ansan-si|Korea Telecom|
+|6|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
+|7|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|9|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
+|10|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
+|11|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|12|124.122.6.177|8080|Thailand|Nakhon Pathom|True Internet Co., Ltd.|
+|13|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|14|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|15|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
+|16|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|17|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|18|125.17.80.229|8080|India|Guntur|Bharti Airtel|
+|19|45.174.92.152|999|Mexico|Catemaco|Enlace de Datos y Redes SA de CV|
+|20|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 
 
 
