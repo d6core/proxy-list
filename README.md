@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7669** proxies at the latest update. Usable proxies are below.
+> Scraper found **7807** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|395|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|395|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|395|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|858|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|858|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|858|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1704|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1842|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1307|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3375|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|2|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
-|3|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|4|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|195.133.45.149|7788|Russia|Moscow|VDS|
-|6|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|7|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
-|8|91.107.199.87|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|1|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|2|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|3|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|45.61.187.67|4005|United States|Miami|FranTech Solutions|
+|7|20.191.183.124|3129|Japan|Tokyo|Microsoft Corporation|
+|8|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
 |9|43.163.229.25|8088|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|10|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|11|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
-|12|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|13|18.182.22.186|1080|Japan|Tokyo|Amazon Technologies Inc.|
-|14|5.78.92.37|8080|United States|Portland|Hetzner Online GmbH|
-|15|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
-|16|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
-|19|5.78.99.175|8080|United States|Portland|Hetzner Online GmbH|
-|20|5.78.67.208|8080|United States|Portland|Hetzner Online GmbH|
+|10|79.174.25.124|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|11|5.78.92.37|8080|United States|Portland|Hetzner Online GmbH|
+|12|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
+|15|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|16|5.78.84.155|8080|United States|Portland|Hetzner Online GmbH|
+|17|45.61.187.67|4005|United States|Miami|FranTech Solutions|
+|18|5.78.42.122|8080|United States|Portland|Hetzner Online GmbH|
+|19|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|20|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
 
 
 
