@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6777** proxies at the latest update. Usable proxies are below.
+> Scraper found **6824** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|639|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|639|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|639|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|720|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|720|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|720|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1535|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1582|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1016|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2943|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|2|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|3|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
-|4|5.78.81.219|8080|United States|Portland|Hetzner Online GmbH|
-|5|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|6|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|119.207.104.207|8080|South Korea|Ansan-si|Korea Telecom|
-|11|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
-|12|100.20.56.139|80|United States|Portland|Amazon.com, Inc.|
-|13|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
-|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|15|5.78.81.219|8080|United States|Portland|Hetzner Online GmbH|
-|16|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|17|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
+|1|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|2|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|3|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
+|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|5|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|6|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|7|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|8|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|9|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|10|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
+|11|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|12|5.78.81.219|8080|United States|Portland|Hetzner Online GmbH|
+|13|150.230.207.167|80|Japan|Tokyo|Oracle Corporation|
+|14|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
+|15|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
+|16|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|17|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
 |18|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|19|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|20|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|20|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
 
 
 
