@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7290** proxies at the latest update. Usable proxies are below.
+> Scraper found **7258** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|794|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|794|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|794|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|690|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|690|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|690|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1624|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1581|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1121|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1132|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3262|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|2|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|3|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|4|146.59.192.125|3128|France|Gravelines|OVH SAS|
-|5|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|6|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
+|2|5.78.84.56|8080|United States|Portland|Hetzner Online GmbH|
+|3|188.34.161.212|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|4|64.226.85.239|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|5.78.84.56|8080|United States|Portland|Hetzner Online GmbH|
+|6|146.59.192.49|3128|France|Gravelines|OVH SAS|
 |7|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|8|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|10|68.132.18.127|8888|United States|Staten Island|Verizon Communications|
-|11|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
-|12|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|13|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|14|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|15|68.132.18.127|8888|United States|Staten Island|Verizon Communications|
-|16|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|17|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
-|18|64.225.8.132|9998|United States|Clifton|DigitalOcean, LLC|
-|19|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|20|5.78.70.151|8080|United States|Portland|Hetzner Online GmbH|
+|8|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|9|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|10|124.121.104.106|8080|Thailand|Bangkok|TRUEBB|
+|11|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|12|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|13|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|14|5.78.84.155|8080|United States|Portland|Hetzner Online GmbH|
+|15|5.78.70.151|8080|United States|Portland|Hetzner Online GmbH|
+|16|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|17|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|18|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|19|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
+|20|5.78.92.37|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
