@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7938** proxies at the latest update. Usable proxies are below.
+> Scraper found **8005** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|840|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|840|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|840|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|764|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|764|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|764|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1928|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1995|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1309|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3418|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|195.245.239.108|1234|Russia|Zelenograd|LLC Baxet|
-|4|46.4.75.218|20000|Germany|Falkenstein|Hetzner Online GmbH|
-|5|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|6|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|79.174.25.124|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
-|9|20.191.183.142|3129|Japan|Tokyo|Microsoft Corporation|
-|10|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
-|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|12|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|13|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|14|125.17.80.229|8080|India|Guntur|Bharti Airtel|
-|15|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|16|200.71.237.238|23500|Argentina|Gobernador Crespo|Telecom Argentina S.A.|
-|17|190.61.57.45|8080|Colombia|Armenia|Ufinet Panama S.A.|
-|18|38.41.0.91|999|Venezuela|La Tendida|MDS TELECOM C.A.|
-|19|18.182.22.186|1080|Japan|Tokyo|Amazon Technologies Inc.|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|1|65.108.87.181|8080|Finland|Helsinki|Hetzner Online GmbH|
+|2|20.191.183.142|3129|Japan|Tokyo|Microsoft Corporation|
+|3|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
+|4|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|5|5.78.40.150|8080|United States|Portland|Hetzner Online GmbH|
+|6|5.78.88.227|8080|United States|Portland|Hetzner Online GmbH|
+|7|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|8|94.130.43.166|8090|Germany|Falkenstein|Hetzner Online GmbH|
+|9|5.78.99.253|8080|United States|Portland|Hetzner Online GmbH|
+|10|5.78.86.51|8080|United States|Portland|Hetzner Online GmbH|
+|11|5.78.45.181|8080|United States|Portland|Hetzner Online GmbH|
+|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|5.78.73.135|8080|United States|Portland|Hetzner Online GmbH|
+|14|5.78.89.164|8080|United States|Portland|Hetzner Online GmbH|
+|15|5.78.91.40|8080|United States|Portland|Hetzner Online GmbH|
+|16|5.78.99.253|8080|United States|Portland|Hetzner Online GmbH|
+|17|5.78.96.188|8080|United States|Portland|Hetzner Online GmbH|
+|18|5.78.96.178|8080|United States|Portland|Hetzner Online GmbH|
+|19|5.78.83.86|8080|United States|Portland|Hetzner Online GmbH|
+|20|147.50.227.118|18081|Thailand|Huai Khwang|CS Loxinfo Public Company Limited|
 
 
 
