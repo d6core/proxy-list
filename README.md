@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7376** proxies at the latest update. Usable proxies are below.
+> Scraper found **7331** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|727|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|727|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|727|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|748|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|748|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|748|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1641|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1810|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1181|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|967|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3271|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|64.225.8.121|9992|United States|Clifton|DigitalOcean, LLC|
+|1|20.191.183.129|3129|Japan|Tokyo|Microsoft Corporation|
+|2|20.191.183.56|3129|Japan|Tokyo|Microsoft Corporation|
 |3|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|6|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|7|158.69.53.132|9300|Canada|Montreal|OVH SAS|
-|8|125.240.183.145|8080|South Korea|Anyang-si|DACOM-PUBNETPLUS|
-|9|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|10|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|4|79.174.25.124|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|5|119.207.104.207|8080|South Korea|Ansan-si|Korea Telecom|
+|6|65.21.186.173|3129|Finland|Helsinki|Hetzner Online GmbH|
+|7|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|9|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|10|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
 |11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|13|20.191.183.124|3129|Japan|Tokyo|Microsoft Corporation|
-|14|125.17.80.229|8080|India|Guntur|Bharti Airtel|
-|15|20.191.183.56|3129|Japan|Tokyo|Microsoft Corporation|
-|16|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
-|17|20.191.183.129|3129|Japan|Tokyo|Microsoft Corporation|
-|18|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
+|12|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
+|13|125.17.80.229|8080|India|Guntur|Bharti Airtel|
+|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|15|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|16|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|17|94.45.223.222|8080|Russia|Dolgoprudnyy|Lofis LLC|
+|18|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|19|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|20|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
 
 
 
