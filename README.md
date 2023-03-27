@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6077** proxies at the latest update. Usable proxies are below.
+> Scraper found **6414** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|442|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|442|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|442|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|481|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|481|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|481|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1377|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1260|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|802|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|956|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2915|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|6|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|7|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
-|8|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|10|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|12|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|14|20.191.183.129|3129|Japan|Tokyo|Microsoft Corporation|
-|15|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|16|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|17|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|20.191.183.124|3129|Japan|Tokyo|Microsoft Corporation|
-|20|20.191.183.49|3129|Japan|Tokyo|Microsoft Corporation|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|4|168.119.153.21|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|5|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|6|54.209.244.155|8118|United States|Ashburn|Amazon.com, Inc.|
+|7|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|8|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|9|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|12|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
+|13|14.1.30.210|3128|United States|Chicago|Dedicated.com|
+|14|68.132.18.127|8888|United States|Staten Island|Verizon Communications|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|18|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
+|19|45.234.60.209|999|Venezuela|Caracas|SOLUCIONES INSTALRED CH&C C.A.|
+|20|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
 
 
 
