@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6659** proxies at the latest update. Usable proxies are below.
+> Scraper found **6763** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|536|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|536|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|536|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|400|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|400|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|400|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1329|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1433|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|992|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3055|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|2|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
-|6|64.225.8.121|9995|United States|Clifton|DigitalOcean, LLC|
-|7|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
-|8|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|9|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|10|203.78.235.132|3128|Japan|Chiyoda|NTT SmartConnect Corporation|
-|11|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|12|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|13|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
-|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|15|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
-|16|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|18|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
-|19|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
-|20|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|1|198.11.172.137|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
+|2|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|3|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|4|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|7|167.235.232.224|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
+|10|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|11|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|12|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
+|13|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|16|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|17|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|18|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|19|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|20|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
 
 
 
