@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6486** proxies at the latest update. Usable proxies are below.
+> Scraper found **6834** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|437|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|437|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|437|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|557|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|557|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|557|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1754|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1607|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|860|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1055|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2889|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|2|191.252.219.48|8888|Brazil|São Paulo|Locaweb Serviços de Internet S/A|
-|3|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|4|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|5|88.99.136.198|1081|Germany|Falkenstein|Hetzner Online GmbH|
-|6|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|1|191.252.219.48|8888|Brazil|São Paulo|Locaweb Serviços de Internet S/A|
+|2|139.162.67.39|3128|Japan|Tokyo|Akamai Technologies, Inc.|
+|3|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|4|64.225.8.132|9979|United States|Clifton|DigitalOcean, LLC|
+|5|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|6|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
 |7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|8|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|9|98.96.174.54|8118|United Kingdom|Fareham|Trooli Ltd|
-|10|64.225.4.81|9993|United States|Clifton|DigitalOcean, LLC|
-|11|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|139.162.67.39|3128|Japan|Tokyo|Akamai Technologies, Inc.|
-|14|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|16|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|17|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|18|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|19|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
-|20|64.225.8.132|9979|United States|Clifton|DigitalOcean, LLC|
+|8|64.225.8.132|9979|United States|Clifton|DigitalOcean, LLC|
+|9|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|12|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|13|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|5.78.44.142|8080|United States|Portland|Hetzner Online GmbH|
+|16|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
+|17|139.99.77.57|8118|Singapore|Singapore|OVH SAS|
+|18|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|19|173.212.200.30|3128|Germany|Nuremberg|Contabo GmbH|
+|20|85.117.56.147|8080|Georgia|Tbilisi|Caucasus Online Ltd.|
 
 
 
