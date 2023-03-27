@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7059** proxies at the latest update. Usable proxies are below.
+> Scraper found **6976** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|656|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|656|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|656|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|568|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|568|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|568|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1685|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1602|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1022|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3069|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|2|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|3|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
-|4|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|5|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
-|6|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|7|20.191.183.93|3129|Japan|Tokyo|Microsoft Corporation|
-|8|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|9|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|10|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
-|11|128.90.146.44|8118|Belgium|Brussels|Powerhouse Management, Inc.|
-|12|64.225.8.82|9997|United States|Clifton|DigitalOcean, LLC|
-|13|201.182.251.142|999|Colombia|Pasto|SP SISTEMAS PALACIOS LTDA|
-|14|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|15|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|16|201.182.251.141|999|Colombia|Pasto|SP SISTEMAS PALACIOS LTDA|
-|17|161.35.46.209|443|United Kingdom|London|DigitalOcean, LLC|
-|18|64.225.8.82|9997|United States|Clifton|DigitalOcean, LLC|
-|19|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|20|20.191.183.142|3129|Japan|Tokyo|Microsoft Corporation|
+|1|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|2|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|3|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
+|4|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|5|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|7|144.202.100.17|8888|United States|Santa Clara|The Constant Company|
+|8|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|9|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|12|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
+|13|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|14|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|15|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|16|107.175.243.183|80|United States|Dallas|ColoCrossing|
+|17|91.226.58.100|3128|Sweden|Stockholm|LIMITED LIABILITY COMPANY "I.D.STRATEGY"|
+|18|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|19|155.50.246.9|3128|United States|Sterling|Sprint|
+|20|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
 
 
 
