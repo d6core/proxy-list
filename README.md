@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6571** proxies at the latest update. Usable proxies are below.
+> Scraper found **6503** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|514|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|514|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|514|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|470|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|470|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|470|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1617|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1549|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|999|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2972|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|2|64.225.8.121|9983|United States|Clifton|DigitalOcean, LLC|
-|3|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
-|4|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
-|5|139.144.179.24|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|1|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|2|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|3|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|4|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|5|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
 |6|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|7|200.8.57.8|8080|Venezuela|Barquisimeto|Corporación Telemic C.A.|
-|8|5.78.93.4|8080|United States|Portland|Hetzner Online GmbH|
-|9|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
-|10|5.78.67.241|8080|United States|Portland|Hetzner Online GmbH|
-|11|139.144.230.183|8080|United States|Richardson|Akamai Technologies, Inc.|
-|12|5.78.93.4|8080|United States|Portland|Hetzner Online GmbH|
-|13|14.1.30.210|3128|United States|Chicago|Dedicated.com|
-|14|64.225.4.81|9991|United States|Clifton|DigitalOcean, LLC|
-|15|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|16|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
-|17|139.144.230.183|8080|United States|Richardson|Akamai Technologies, Inc.|
-|18|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|19|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|20|116.203.150.248|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|7|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|8|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|9|64.225.8.121|9979|United States|Clifton|DigitalOcean, LLC|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|116.203.150.248|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|12|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
+|13|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|14|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|15|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|16|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|17|54.224.15.204|8118|United States|Ashburn|Amazon.com, Inc.|
+|18|64.225.8.82|9998|United States|Clifton|DigitalOcean, LLC|
+|19|5.78.67.241|8080|United States|Portland|Hetzner Online GmbH|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
