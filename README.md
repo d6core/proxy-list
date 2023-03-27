@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6689** proxies at the latest update. Usable proxies are below.
+> Scraper found **6802** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|578|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|578|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|578|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|463|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|463|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|463|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1389|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1502|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1007|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3010|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|4|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|5|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
-|6|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|7|68.132.18.127|8888|United States|Staten Island|Verizon Communications|
-|8|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|9|68.132.18.127|8888|United States|Staten Island|Verizon Communications|
-|10|106.249.44.10|3128|South Korea|Anyang-si|LG DACOM Corporation|
-|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|2|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|3|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|4|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
+|5|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|6|68.132.18.127|8888|United States|Staten Island|Verizon Communications|
+|7|79.174.25.125|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|8|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|9|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|10|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
+|11|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
 |12|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|13|43.130.134.188|80|United States|Ashburn|Shenzhen Tencent Computer Systems Company Limited|
-|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|17|115.135.60.22|8084|Malaysia|Johor Bahru|Tmnet, Telekom Malaysia Bhd.|
-|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|64.225.4.63|9989|United States|Clifton|DigitalOcean, LLC|
+|13|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|14|146.59.192.125|3128|France|Gravelines|OVH SAS|
+|15|79.174.25.124|3128|Albania|Manzë|PRIAM NET Sh.p.k.|
+|16|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
+|17|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|18|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|19|68.132.18.127|8888|United States|Staten Island|Verizon Communications|
+|20|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
 
 
 
