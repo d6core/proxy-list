@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6386** proxies at the latest update. Usable proxies are below.
+> Scraper found **6300** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|547|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|547|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|547|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|616|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|616|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|616|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1613|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1527|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|974|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2516|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|64.225.8.132|9973|United States|Clifton|DigitalOcean, LLC|
-|4|170.187.152.76|3128|United States|Atlanta|Akamai Technologies, Inc.|
-|5|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|6|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|7|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|8|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|9|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|10|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|13|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|14|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|15|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|16|5.78.76.237|8080|United States|Portland|Hetzner Online GmbH|
-|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|18|64.225.8.132|9973|United States|Clifton|DigitalOcean, LLC|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|2|207.148.16.130|80|United States|Piscataway|Choopa|
+|3|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|5|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|6|64.225.8.132|9973|United States|Clifton|DigitalOcean, LLC|
+|7|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|8|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|9|207.148.16.130|80|United States|Piscataway|Choopa|
+|10|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|11|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|15|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|195.201.231.22|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|19|5.78.93.193|8080|United States|Portland|Hetzner Online GmbH|
+|20|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
 
 
 
