@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6145** proxies at the latest update. Usable proxies are below.
+> Scraper found **6291** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|530|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|530|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|530|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|603|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|603|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|603|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1404|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1550|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1051|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2407|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|2|143.0.176.136|8088|Brazil|Madeiro|Fiberlink Telecom Ltda|
-|3|146.70.76.146|3128|Japan|Shinagawa|M247 Europe Infra|
-|4|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|5|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
-|6|155.50.219.93|3128|United States|Sterling|Sprint|
-|7|187.95.34.135|8080|Brazil|Sao Goncalo|Alta Rede Corporate Network Telecom Ltda - EPP|
-|8|142.132.230.79|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|9|5.78.79.86|8080|United States|Portland|Hetzner Online GmbH|
-|10|103.254.185.195|53281|Nepal|Patan|WorldLink Communications|
-|11|173.212.200.30|3128|Germany|Nuremberg|Contabo GmbH|
-|12|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
-|13|69.75.140.157|8080|United States|Los Angeles|Spectrum|
-|14|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|1|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|2|157.90.159.179|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|3|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|4|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|5|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
+|6|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|7|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|8|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
+|9|103.255.121.117|8089|Indonesia|Padangsambian|PT DEWATA TELEMATIKA|
+|10|74.114.232.162|8080|United States|Valparaiso|Midwest Telecom of America, Inc|
+|11|139.0.4.34|8080|Indonesia|Jakarta|PT. First Media, Tbk|
+|12|69.75.140.157|8080|United States|Los Angeles|Spectrum|
+|13|187.95.34.135|8080|Brazil|Sao Goncalo|Alta Rede Corporate Network Telecom Ltda - EPP|
+|14|5.9.112.247|3128|Germany|Falkenstein|Hetzner Online GmbH|
 |15|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|16|70.90.138.109|8080|United States|Warren|Comcast Cable Communications, LLC|
-|17|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|18|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|20|187.45.127.87|20183|Brazil|Chapecó|Mhnet Telecom|
+|16|88.99.127.56|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|17|135.181.100.95|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|167.235.255.199|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|19|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|20|5.78.78.186|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
