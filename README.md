@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7749** proxies at the latest update. Usable proxies are below.
+> Scraper found **7751** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|543|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|543|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|543|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|572|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|572|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|572|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2340|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2342|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1250|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2876|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|2|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|3|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
-|4|64.225.8.132|9997|United States|Clifton|DigitalOcean, LLC|
-|5|64.225.8.82|9997|United States|Clifton|DigitalOcean, LLC|
-|6|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
-|7|195.248.254.150|80|Poland|Katowice|Uslugi Transportowe I Internetowe Trans-Net Grzegorz Goj|
-|8|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
-|9|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
-|10|94.130.43.166|8090|Germany|Falkenstein|Hetzner Online GmbH|
-|11|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|12|187.44.227.30|8787|Brazil|Salvador|ITS TELECOMUNICACOES LTDA|
-|13|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
-|14|51.159.115.233|3128|France|Paris|SCALEWAY|
-|15|94.232.11.178|46449|Russia|Moscow|PJSC MegaFon|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|64.225.8.118|9982|United States|Clifton|DigitalOcean, LLC|
-|18|64.225.8.118|9982|United States|Clifton|DigitalOcean, LLC|
-|19|20.191.178.74|3129|Japan|Tokyo|Microsoft Corporation|
-|20|103.76.151.133|8181|Indonesia|Tengah|PT. Java Digital Nusantara|
+|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|2|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|3|20.191.178.74|3129|Japan|Tokyo|Microsoft Corporation|
+|4|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|7|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|8|64.225.8.132|9997|United States|Clifton|DigitalOcean, LLC|
+|9|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
+|10|103.171.183.201|8181|Indonesia|Bogor|PT Hayat Teknologi Informatika|
+|11|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|12|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|13|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
+|14|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|15|195.248.254.150|80|Poland|Katowice|Uslugi Transportowe I Internetowe Trans-Net Grzegorz Goj|
+|16|95.216.230.239|80|Finland|Helsinki|Hetzner Online GmbH|
+|17|155.50.251.168|3128|United States|Sterling|Sprint|
+|18|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
+|19|51.159.115.233|3128|France|Paris|SCALEWAY|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
