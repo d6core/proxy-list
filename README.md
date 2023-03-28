@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6074** proxies at the latest update. Usable proxies are below.
+> Scraper found **6506** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|489|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|489|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|489|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|465|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|465|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|465|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1695|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1827|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1063|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2333|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
-|2|124.156.87.32|8000|India|Mumbai|Tencent Cloud Computing (Beijing) Co|
-|3|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|170.64.184.54|443|Australia|Sydney|DigitalOcean, LLC|
-|7|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|8|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|9|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|10|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|11|91.194.3.215|1080|Russia|Krasnoyarsk|"RealHost" Ltd|
-|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|13|188.240.192.92|8090|Spain|Arcos de la Frontera|Onlycable Comunicaciones S.L.|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|91.226.58.100|3128|Sweden|Stockholm|LIMITED LIABILITY COMPANY "I.D.STRATEGY"|
-|18|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|19|74.208.206.170|3128|United States|Philadelphia|IONOS SE|
-|20|161.35.46.209|443|United Kingdom|London|DigitalOcean, LLC|
+|1|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|2|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|4|157.100.56.94|999|Ecuador|Quito|Nedetel S.A.|
+|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|8|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|9|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|12|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|13|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|14|91.226.58.100|3128|Sweden|Stockholm|LIMITED LIABILITY COMPANY "I.D.STRATEGY"|
+|15|34.196.10.189|9090|United States|Ashburn|Amazon.com, Inc.|
+|16|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|17|182.253.93.4|53281|Indonesia|Jakarta|BIZNET|
+|18|103.245.17.77|8080|Indonesia|Jakarta|PT Quantum Tera Network|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
 
 
 
