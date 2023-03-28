@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6302** proxies at the latest update. Usable proxies are below.
+> Scraper found **6976** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|534|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|534|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|534|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|351|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|351|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|351|
 
 ## Sources
 
@@ -36,11 +36,11 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1745|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1972|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1014|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2560|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1119|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2602|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|2|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
-|5|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|6|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|7|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|8|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|20.191.183.49|3129|Japan|Tokyo|Microsoft Corporation|
-|11|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|12|68.132.18.127|8888|United States|Staten Island|Verizon Communications|
-|13|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|14|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|15|111.94.198.140|8080|Indonesia|Bekasi|Linknet-Fastnet ASN|
+|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|4|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|5|46.4.75.218|20000|Germany|Falkenstein|Hetzner Online GmbH|
+|6|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|7|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|8|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|9|68.132.18.127|8888|United States|Staten Island|Verizon Communications|
+|10|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|11|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
+|12|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|14|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|15|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
 |16|91.194.3.215|1080|Russia|Krasnoyarsk|"RealHost" Ltd|
-|17|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|18|38.41.0.88|999|Venezuela|San Carlos del Zulia|MDS TELECOM C.A.|
-|19|155.50.240.32|3128|United States|Sterling|Sprint|
-|20|159.138.130.126|8999|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|17|191.96.164.15|999|Dominican Republic|Santo Domingo|BITNET DOMINICANA, S.R.L.|
+|18|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|19|5.78.43.54|8080|United States|Portland|Hetzner Online GmbH|
+|20|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
 
 
 
