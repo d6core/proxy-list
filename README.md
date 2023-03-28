@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6536** proxies at the latest update. Usable proxies are below.
+> Scraper found **6634** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|596|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|596|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|596|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|641|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|641|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|641|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1741|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1860|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1103|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1082|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2409|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
 |2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|3|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
 |4|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
-|5|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|8|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|20.191.183.124|3129|Japan|Tokyo|Microsoft Corporation|
-|10|139.59.185.218|443|United Kingdom|London|DIGITALOCEAN|
-|11|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|12|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|13|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|14|195.248.254.150|80|Poland|Katowice|Uslugi Transportowe I Internetowe Trans-Net Grzegorz Goj|
-|15|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|16|64.225.8.132|9998|United States|Clifton|DigitalOcean, LLC|
-|17|103.199.169.30|8080|Bangladesh|Dhaka|House # 127|
-|18|20.191.183.93|3129|Japan|Tokyo|Microsoft Corporation|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|20.191.183.134|3129|Japan|Tokyo|Microsoft Corporation|
+|5|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|6|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
+|7|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|8|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|10|20.191.183.102|3129|Japan|Tokyo|Microsoft Corporation|
+|11|20.191.183.56|3129|Japan|Tokyo|Microsoft Corporation|
+|12|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|13|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
+|14|20.191.183.124|3129|Japan|Tokyo|Microsoft Corporation|
+|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|16|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|17|91.226.58.100|3128|Sweden|Stockholm|LIMITED LIABILITY COMPANY "I.D.STRATEGY"|
+|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|20|51.159.115.233|3128|France|Paris|SCALEWAY|
 
 
 
