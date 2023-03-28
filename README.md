@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5964** proxies at the latest update. Usable proxies are below.
+> Scraper found **6424** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|412|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|412|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|412|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|488|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|488|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|488|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1650|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1810|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1040|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2291|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|2|197.13.10.14|3128|Tunisia|Gabès|EO DATACENTER|
-|3|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|4|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|5|103.16.116.228|3128|Indonesia|Tulusrejo|PT. Beon Intermedia|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|8|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
-|9|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
-|12|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|13|201.130.187.143|999|Mexico|Ensenada|Uninet S.A. de C.V.|
-|14|105.213.93.183|4415|South Africa|Kempton Park|MTN SA|
-|15|94.130.43.166|8090|Germany|Falkenstein|Hetzner Online GmbH|
-|16|125.26.206.163|8080|Thailand|Khwaeng Thung Song Hong|TOT Public Company Limited|
-|17|124.13.96.127|80|Malaysia|Seri Kembangan|Tmnet, Telekom Malaysia Bhd.|
-|18|191.102.102.117|8080|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|19|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|2|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|3|91.107.194.183|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|4|197.13.10.14|3128|Tunisia|Gabès|EO DATACENTER|
+|5|104.154.225.3|3128|United States|Council Bluffs|Google LLC|
+|6|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|7|201.105.119.188|999|Mexico|Xalapa|Uninet S.A. de C.V|
+|8|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|9|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|10|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
+|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|181.39.120.7|999|Ecuador|Santo Domingo de los Colorados|Telconet S.A|
+|14|68.132.18.127|8888|United States|Staten Island|Verizon Communications|
+|15|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
+|16|94.130.43.166|8090|Germany|Falkenstein|Hetzner Online GmbH|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|102.68.79.50|8080|Kenya|Nairobi|Unwired Communications Ltd|
+|19|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|20|103.16.116.228|3128|Indonesia|Tulusrejo|PT. Beon Intermedia|
 
 
 
