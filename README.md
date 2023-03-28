@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6468** proxies at the latest update. Usable proxies are below.
+> Scraper found **6500** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|512|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|512|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|512|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|633|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|633|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|633|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1722|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1754|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1034|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2429|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|2|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|3|20.191.183.134|3129|Japan|Tokyo|Microsoft Corporation|
-|4|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|5|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|6|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|7|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|1|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|2|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|3|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
+|4|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|5|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|6|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|7|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
 |8|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|9|64.225.8.132|9973|United States|Clifton|DigitalOcean, LLC|
-|10|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
-|11|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|12|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|13|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|14|85.50.139.97|55443|Spain|Almería|Uni2 1|
-|15|196.202.210.73|32650|Kenya|Nairobi|BROADBAND-ADSL|
-|16|118.99.124.215|8080|Indonesia|Jakarta|BIZNET|
-|17|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|43.251.116.225|45787|United States|Los Angeles|Zenlayer Inc|
-|19|118.98.125.50|8080|Indonesia|Makassar|PT. Telekomunikasi Indonesia|
-|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|9|223.205.74.124|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
+|10|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|103.30.182.116|80|Indonesia|Tegal|PT DES Teknologi Informasi|
+|13|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|14|103.111.82.82|9812|Indonesia|Gandul|ICONPLN|
+|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|16|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|17|5.78.77.144|8080|United States|Portland|Hetzner Online GmbH|
+|18|216.80.39.89|3129|United States|Chicago|RCN|
+|19|5.75.160.177|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|20|161.35.46.209|443|United Kingdom|London|DigitalOcean, LLC|
 
 
 
