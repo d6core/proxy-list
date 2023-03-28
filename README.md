@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6161** proxies at the latest update. Usable proxies are below.
+> Scraper found **6402** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|504|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|504|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|504|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|454|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|454|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|454|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1650|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1621|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1028|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|998|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2500|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
-|2|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|3|64.225.8.132|9972|United States|Clifton|DigitalOcean, LLC|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
-|7|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|8|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|9|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|10|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|11|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|12|162.55.163.209|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|13|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|14|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|15|64.225.8.132|9972|United States|Clifton|DigitalOcean, LLC|
-|16|188.34.162.71|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
-|19|202.8.74.9|8080|Cambodia|Phnom Penh|Turbotech CO.|
-|20|162.55.163.209|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|4|117.54.161.36|9000|Indonesia|Jakarta|PT IndoInternet|
+|5|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
+|8|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|9|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|10|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|27.145.54.5|8080|Thailand|Bangkok|True Internet Corporation CO. Ltd.|
+|12|154.9.24.228|8443|United States|Los Angeles|NetLab Global|
+|13|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|14|5.75.159.173|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|15|170.39.193.234|3128|United States|Ashburn|Rackdog, LLC|
+|16|103.199.18.110|9000|Vietnam|Thanh Xuan|365 Online technology joint stock company|
+|17|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|18|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|19|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|20|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
 
 
 
