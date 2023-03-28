@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|612|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|612|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|612|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|512|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|512|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|512|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
 |2|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|3|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|4|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|5|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
-|6|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|7|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|8|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|11|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|12|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|13|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|14|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|17|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|18|180.183.3.202|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
-|19|91.226.58.100|3128|Sweden|Stockholm|LIMITED LIABILITY COMPANY "I.D.STRATEGY"|
-|20|5.78.77.144|8080|United States|Portland|Hetzner Online GmbH|
+|3|20.191.183.134|3129|Japan|Tokyo|Microsoft Corporation|
+|4|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
+|5|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|6|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|7|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|8|202.65.192.252|80|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|9|64.225.8.132|9973|United States|Clifton|DigitalOcean, LLC|
+|10|52.52.49.93|3128|United States|San Jose|Amazon.com, Inc.|
+|11|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|12|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|13|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|14|85.50.139.97|55443|Spain|Almería|Uni2 1|
+|15|196.202.210.73|32650|Kenya|Nairobi|BROADBAND-ADSL|
+|16|118.99.124.215|8080|Indonesia|Jakarta|BIZNET|
+|17|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|43.251.116.225|45787|United States|Los Angeles|Zenlayer Inc|
+|19|118.98.125.50|8080|Indonesia|Makassar|PT. Telekomunikasi Indonesia|
+|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 
 
 
