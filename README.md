@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7083** proxies at the latest update. Usable proxies are below.
+> Scraper found **7457** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|667|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|667|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|667|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|713|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|713|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|713|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1937|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2011|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1047|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3116|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.191.183.102|3129|Japan|Tokyo|Microsoft Corporation|
-|2|20.191.183.50|3129|Japan|Tokyo|Microsoft Corporation|
-|3|195.201.41.237|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|4|188.34.155.249|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|5|168.119.155.11|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|6|61.28.238.4|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|7|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|8|20.191.183.56|3129|Japan|Tokyo|Microsoft Corporation|
-|9|167.235.78.39|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|10|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
-|11|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|12|5.78.44.142|8080|United States|Portland|Hetzner Online GmbH|
-|13|5.75.234.253|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|14|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|15|172.107.168.159|808|United States|Dallas|Psychz Networks|
-|16|5.78.70.140|8080|United States|Portland|Hetzner Online GmbH|
-|17|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|18|193.141.126.54|82|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
-|19|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|20|216.80.39.89|3129|United States|Chicago|RCN|
+|1|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|2|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
+|3|20.191.183.129|3129|Japan|Tokyo|Microsoft Corporation|
+|4|46.4.75.218|20000|Germany|Falkenstein|Hetzner Online GmbH|
+|5|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|8|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|9|108.61.191.222|1994|United States|Piscataway|The Constant Company|
+|10|20.191.183.102|3129|Japan|Tokyo|Microsoft Corporation|
+|11|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|216.80.39.89|3129|United States|Chicago|RCN|
+|14|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|15|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|16|168.194.33.69|999|Argentina|Córdoba|Cordoba IP SRL|
+|17|217.180.218.36|8080|United States|Lansing|Metronet|
+|18|45.171.156.29|999|Mexico|Cunduacan|Quantatel SA De CV|
+|19|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|20|5.78.70.140|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
