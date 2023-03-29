@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7296** proxies at the latest update. Usable proxies are below.
+> Scraper found **7073** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|802|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|802|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|802|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|674|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|674|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|674|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1804|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1881|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1093|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3116|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|2|20.191.183.80|3129|Japan|Tokyo|Microsoft Corporation|
-|3|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
-|4|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
-|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|6|50.235.247.114|8085|United States|Richmond|Comcast Cable Communications, LLC|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|213.149.182.98|8080|Cyprus|Limassol|CYTANET - Cyprus Telecommunications Authority|
-|9|193.104.57.31|3128|Russia|Moscow|JSC Mediasoft ekspert|
-|10|185.47.88.118|6666|Serbia|Belgrade|Orion Telekom users in Pirot|
+|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|4|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
+|5|20.191.183.124|3129|Japan|Tokyo|Microsoft Corporation|
+|6|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|7|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|8|172.107.168.159|808|United States|Dallas|Psychz Networks|
+|9|20.187.75.228|443|Hong Kong|Hong Kong|Microsoft Corporation|
+|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
 |11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|91.233.115.105|31280|Poland|Dąbrowa Górnicza|DG-NET SA|
-|13|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|14|185.97.117.48|8082|Iran|Nā’īn|AbrArvan|
-|15|91.185.3.126|8080|Kazakhstan|Astana|TTC|
-|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|17|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
-|18|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|19|103.180.194.146|8080|Indonesia|Jakarta|PT INDONESIA COMNETS PLUS|
-|20|20.191.183.126|3129|Japan|Tokyo|Microsoft Corporation|
+|12|51.159.115.233|3128|France|Paris|SCALEWAY|
+|13|185.97.117.48|8082|Iran|Nā’īn|AbrArvan|
+|14|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|15|212.46.230.102|6969|Russia|Moscow|PJSC "Vimpelcom"|
+|16|172.105.166.82|3128|Australia|Sydney|Akamai Technologies|
+|17|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|18|167.172.173.210|45935|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|19|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
+|20|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
 
 
 
