@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8194** proxies at the latest update. Usable proxies are below.
+> Scraper found **7888** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|822|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|822|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|822|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|753|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|753|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|753|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2348|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2025|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1087|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1104|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3476|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|46.4.75.218|20000|Germany|Falkenstein|Hetzner Online GmbH|
-|2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|3|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|1|216.80.39.89|3129|United States|Chicago|RCN|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|172.107.168.159|808|United States|Dallas|Psychz Networks|
 |4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|5.78.45.186|8080|United States|Portland|Hetzner Online GmbH|
-|6|20.191.183.49|3129|Japan|Tokyo|Microsoft Corporation|
-|7|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|8|193.141.126.54|82|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
-|9|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|5|216.80.39.89|3129|United States|Chicago|RCN|
+|6|108.61.191.222|1994|United States|Piscataway|The Constant Company|
+|7|168.119.184.72|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|9|172.107.168.159|808|United States|Dallas|Psychz Networks|
 |10|5.78.70.140|8080|United States|Portland|Hetzner Online GmbH|
-|11|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|12|64.225.4.81|9992|United States|Clifton|DigitalOcean, LLC|
-|13|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|14|20.191.183.129|3129|Japan|Tokyo|Microsoft Corporation|
-|15|108.61.191.222|1994|United States|Piscataway|The Constant Company|
-|16|165.16.103.22|8080|Libya|Tripoli|Aljeel Aljadeed For Technology|
-|17|16.163.217.247|8888|Hong Kong|Hong Kong|Amazon.com|
-|18|64.225.4.81|9992|United States|Clifton|DigitalOcean, LLC|
-|19|138.121.113.182|999|Argentina|Estanislao del Campo|Refsa Telecomunicaciones|
-|20|103.106.219.142|8080|Indonesia|Pasuruan|PT. ARTHA LINTAS DATA MANDIRI|
+|11|8.218.239.205|8888|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|12|187.134.41.197|8080|Mexico|Mexico City|Uninet S.A. de C.V.|
+|13|183.89.162.86|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
+|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|15|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|16|103.36.35.135|8080|Indonesia|Jakarta|PT Mora Telematika Indonesia|
+|17|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|18|131.255.137.51|80|Peru|Lima|Movilmax Telecom S.A|
+|19|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|20|80.87.213.111|8080|Slovakia|Tvrdosin|DSi DATA|
 
 
 
