@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7138** proxies at the latest update. Usable proxies are below.
+> Scraper found **6944** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|447|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|447|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|447|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|433|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|433|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|433|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2000|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2106|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1146|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2709|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|2|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
-|3|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|2|129.153.107.221|80|United States|Phoenix|Oracle Corporation|
+|3|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
+|4|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|6|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
 |7|27.73.210.19|4005|Vietnam|Hanoi|Viettel Group|
-|8|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|9|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
+|8|129.153.107.221|80|United States|Phoenix|Oracle Corporation|
+|9|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
 |10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|11|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|12|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|13|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
-|16|155.50.240.65|3128|United States|Sterling|Sprint|
-|17|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|18|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|19|171.237.237.35|4007|Vietnam|Hanoi|Viettel Corporation|
-|20|27.75.208.178|4011|Vietnam|Ho Chi Minh City|Newass2011xDSLHN|
+|11|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|14|210.95.145.226|3128|South Korea|Seongnam-si|Korea Telecom|
+|15|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|16|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
+|17|20.198.96.26|80|India|Pune|Microsoft Corporation|
+|18|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|19|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|20|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
 
 
 
