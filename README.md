@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7445** proxies at the latest update. Usable proxies are below.
+> Scraper found **7493** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|749|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|749|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|749|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|769|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|769|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|769|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1777|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1825|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1172|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3213|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|2|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
-|3|64.227.6.0|4003|United States|North Bergen|DigitalOcean, LLC|
-|4|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|65.21.251.129|8080|Finland|Helsinki|Hetzner Online GmbH|
-|6|186.159.6.163|1994|Colombia|Medellín|Edatel S.a. E.S.P|
-|7|54.37.4.151|3128|United Kingdom|City of London|OVH SAS|
-|8|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|9|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|11|45.70.236.192|999|Ecuador|Catarama|Nedetel S.A.|
-|12|205.233.78.102|6969|Dominican Republic|Santo Domingo Este|Trilogy Dominicana, S.A.|
-|13|5.78.72.23|8080|United States|Portland|Hetzner Online GmbH|
+|1|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
+|2|54.224.15.204|8118|United States|Ashburn|Amazon.com, Inc.|
+|3|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
+|4|78.138.98.115|3128|France|Strasbourg|Host Europe GmbH|
+|5|20.191.183.123|3129|Japan|Tokyo|Microsoft Corporation|
+|6|187.74.199.2|8085|Brazil|Santo André|Vivo|
+|7|20.191.183.142|3129|Japan|Tokyo|Microsoft Corporation|
+|8|181.78.13.211|999|Colombia|Barranquilla|IFX Networks Argentina S.R.L|
+|9|20.191.183.49|3129|Japan|Tokyo|Microsoft Corporation|
+|10|73.242.86.12|8118|United States|Minnetonka|Comcast Cable Communications|
+|11|24.192.227.234|8080|United States|Albion|WideOpenWest Finance LLC|
+|12|46.122.7.149|8080|Slovenia|Kocevska Reka|A1 Slovenija|
+|13|103.155.62.173|8080|Pakistan|Lahore|KK Networks (Pvt) Ltd.|
 |14|158.51.107.253|8080|United States|Fredericksburg|4 ip Technology and Media, LLC|
-|15|64.27.27.104|9090|United States|Irvine|Multacom Corporation|
-|16|109.121.55.154|6666|Serbia|Belgrade|Orion telekom - DPI Sid|
-|17|196.168.0.50|32650|Togo|Lomé|TogoTelecom|
-|18|45.231.221.193|999|Mexico|Tijuana|Distrokom S De RL De CV|
-|19|77.46.138.38|8080|Serbia|Oraovica|TELEKOM-SRBIJA|
-|20|190.104.1.19|999|Bolivia|La Paz|Telefónica Celular de Bolivia S.A.|
+|15|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|16|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|177.92.71.66|3129|Brazil|São Paulo|Mundivox Do Brasil Ltda|
+|19|20.191.183.56|3129|Japan|Tokyo|Microsoft Corporation|
+|20|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
 
 
 
