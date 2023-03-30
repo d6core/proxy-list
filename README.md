@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7308** proxies at the latest update. Usable proxies are below.
+> Scraper found **7366** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|575|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|575|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|575|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|530|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|530|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|530|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1811|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1812|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1024|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1081|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3190|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|38.83.74.2|443|United States|Miami|Cogent Communications|
-|2|5.78.76.237|8080|United States|Portland|Hetzner Online GmbH|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|7|157.90.159.179|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|8|5.75.233.30|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|9|142.132.177.174|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|4|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|5|38.83.74.2|443|United States|Miami|Cogent Communications|
+|6|157.90.159.179|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|7|5.75.233.30|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|8|146.56.136.237|9090|South Korea|Seoul|Oracle Corporation|
+|9|201.182.251.141|999|Colombia|Pasto|SP SISTEMAS PALACIOS LTDA|
 |10|5.78.76.237|8080|United States|Portland|Hetzner Online GmbH|
-|11|5.75.159.173|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|12|103.169.134.10|8080|Indonesia|Kediri|PT Neo Santara Solusi|
-|13|168.119.48.135|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|14|49.12.235.190|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|15|167.235.52.44|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|16|195.201.41.237|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|17|168.119.155.11|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|18|94.130.43.166|8090|Germany|Falkenstein|Hetzner Online GmbH|
-|19|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
-|20|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|11|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|12|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|13|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|14|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|15|103.245.18.3|8080|Indonesia|Jakarta|PT Quantum Tera Network|
+|16|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|17|142.132.177.174|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|18|182.253.183.131|80|Indonesia|Yogyakarta|BIZNET|
+|19|167.235.157.207|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|20|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
 
 
 
