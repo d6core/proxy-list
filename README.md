@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6416** proxies at the latest update. Usable proxies are below.
+> Scraper found **6965** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|650|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|650|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|650|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|551|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|551|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|551|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1601|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1830|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|976|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|996|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2856|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|2|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|3|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
-|6|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|7|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|8|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|9|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
-|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|11|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
-|12|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|14|129.126.60.74|3128|Singapore|Singapore|M1 NET LTD|
-|15|52.90.243.240|8118|United States|Ashburn|Amazon.com, Inc.|
-|16|20.191.183.129|3129|Japan|Tokyo|Microsoft Corporation|
-|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|19|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|20|159.138.130.126|8999|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|2|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|4|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
+|5|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
+|6|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
+|7|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|8|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
+|9|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|10|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|11|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|15|159.138.130.126|8999|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|16|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|20|103.171.183.201|8181|Indonesia|Bogor|PT Hayat Teknologi Informatika|
 
 
 
