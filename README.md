@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6073** proxies at the latest update. Usable proxies are below.
+> Scraper found **5769** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|347|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|347|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|347|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|483|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|483|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|483|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1368|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1364|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1016|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2406|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|2|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|5|18.117.130.153|8118|United States|Dublin|Amazon.com, Inc.|
-|6|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|9|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|11|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
-|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|187.216.93.20|55443|Mexico|Mexico City|Uninet S.A. de C.V.|
-|14|103.122.168.226|8080|India|New Delhi|Spacetrade Internet Pvt Ltd|
-|15|5.78.74.114|8080|United States|Portland|Hetzner Online GmbH|
-|16|194.44.172.254|23500|Ukraine|Rivne|UARNET-AS|
-|17|5.75.135.217|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|18|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|19|167.235.204.162|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|20|189.48.134.124|8080|Brazil|Salvador|V tal|
+|1|82.66.18.27|8080|France|Cap-d'Ail|Proxad / Free SAS|
+|2|64.225.4.12|9991|United States|Clifton|DigitalOcean, LLC|
+|3|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|6|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|12|5.78.74.114|8080|United States|Portland|Hetzner Online GmbH|
+|13|103.183.63.85|83|Bangladesh|Dhaka|Speed Online|
+|14|174.138.184.82|44853|United States|Secaucus|Interserver, Inc|
+|15|159.255.188.134|41258|Poland|Warsaw|TOM-NET s.c. Dariusz Koper|
+|16|174.138.184.82|44853|United States|Secaucus|Interserver, Inc|
+|17|159.255.188.134|41258|Poland|Warsaw|TOM-NET s.c. Dariusz Koper|
+|18|5.75.135.217|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|19|65.108.230.239|43415|Finland|Helsinki|Hetzner Online GmbH|
+|20|51.79.124.80|3128|Canada|Port Moody|OVH SAS|
 
 
 
