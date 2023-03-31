@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6165** proxies at the latest update. Usable proxies are below.
+> Scraper found **6194** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|553|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|553|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|553|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|578|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|578|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|578|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1386|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1535|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1157|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1037|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2639|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|5.78.81.240|8080|United States|Portland|Hetzner Online GmbH|
-|2|138.201.243.84|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|3|5.78.81.240|8080|United States|Portland|Hetzner Online GmbH|
-|4|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|6|148.244.170.54|32650|Mexico|San Nicolás de los Garza|Alestra, S. de R.L. de C.V.|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|9|176.124.110.231|3128|Romania|Bolintin Vale|SC PIDGIN HOST SRL|
-|10|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|11|37.148.194.219|8080|Netherlands|Amstelveen|ExtraIP B.V.|
-|12|149.255.39.225|8118|United States|Chicago|HIVELOCITY, Inc.|
-|13|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|14|88.210.20.144|20000|Russia|Moscow|LLC KMS-KOM|
-|15|64.27.27.104|9090|United States|Irvine|Multacom Corporation|
-|16|200.24.130.139|999|Ecuador|Guayaquil|Nedetel S.A.|
-|17|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|18|82.165.184.53|80|Germany|Karlsruhe|IONOS SE|
-|19|200.54.194.11|53281|Chile|Providencia|Telefonica Empresas|
-|20|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|2|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|3|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|4|138.201.243.84|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|5|5.78.81.240|8080|United States|Portland|Hetzner Online GmbH|
+|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|7|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|8|176.124.110.231|3128|Romania|Bolintin Vale|SC PIDGIN HOST SRL|
+|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|11|104.248.86.122|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|103.118.175.154|6969|Indonesia|Wanakerta|PT Pedjoeang Digital Networks|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|16|148.244.170.54|32650|Mexico|San Nicolás de los Garza|Alestra, S. de R.L. de C.V.|
+|17|79.111.13.155|50625|Russia|Moscow|PJSC MegaFon|
+|18|197.248.86.237|32650|Kenya|Nairobi|Safaricom Limited|
+|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|20|103.169.189.46|9090|Indonesia|Madiun|Sarana Media Cemerlang|
 
 
 
