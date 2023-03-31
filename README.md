@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6276** proxies at the latest update. Usable proxies are below.
+> Scraper found **6548** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|401|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|401|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|401|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|524|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|524|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|524|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1804|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1776|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|973|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2516|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
-|2|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|3|54.88.171.5|8118|United States|Ashburn|Amazon.com, Inc.|
-|4|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|159.89.34.239|443|United States|Clifton|DigitalOcean, LLC|
-|7|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
-|8|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|9|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|10|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
-|11|113.53.57.179|8080|Thailand|Nakhon Nayok|TOT Public Company Limited|
-|12|101.109.63.86|8080|Thailand|Ban Laeng|TOT Public Company Limited|
+|1|51.178.56.153|3128|France|Gravelines|OVH SAS|
+|2|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|3|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|4|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
+|6|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
+|7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|8|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
+|9|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
+|10|193.141.126.54|82|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
+|11|64.225.4.12|9991|United States|Clifton|DigitalOcean, LLC|
+|12|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
 |13|159.89.34.239|443|United States|Clifton|DigitalOcean, LLC|
-|14|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|17|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|18|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
-|19|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|20|86.107.197.127|8080|Netherlands|Dronten|Mvps LTD|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|16|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|17|159.89.34.239|443|United States|Clifton|DigitalOcean, LLC|
+|18|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|19|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
+|20|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
 
 
 
