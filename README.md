@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5694** proxies at the latest update. Usable proxies are below.
+> Scraper found **6006** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|290|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|290|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|290|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|553|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|553|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|553|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1429|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1441|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|996|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2286|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
 |2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|5|27.64.18.207|4001|Vietnam|Ho Chi Minh City|Viettel Group|
-|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
-|8|64.225.8.132|9979|United States|Clifton|DigitalOcean, LLC|
-|9|114.7.27.98|8080|Indonesia|Jakarta|PT. INDOSAT Tbk|
-|10|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
-|11|78.46.197.100|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|12|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
-|13|159.138.130.126|8999|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|14|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|15|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|16|107.152.37.94|8080|United States|Chicago|tzulo, inc.|
-|17|107.152.36.100|8080|United States|Chicago|tzulo, inc.|
-|18|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|19|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|20|64.225.8.132|9979|United States|Clifton|DigitalOcean, LLC|
+|3|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|64.225.8.132|9976|United States|Clifton|DigitalOcean, LLC|
+|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|6|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|7|78.46.197.100|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|8|5.78.87.179|8080|United States|Portland|Hetzner Online GmbH|
+|9|68.183.25.132|3128|United States|North Bergen|DigitalOcean, LLC|
+|10|185.18.213.246|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
+|11|64.225.8.118|9990|United States|Clifton|DigitalOcean, LLC|
+|12|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|13|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|5.78.99.210|8080|United States|Portland|Hetzner Online GmbH|
+|16|107.152.36.100|8080|United States|Chicago|tzulo, inc.|
+|17|107.152.37.94|8080|United States|Chicago|tzulo, inc.|
+|18|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
+|19|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|20|95.217.129.104|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
