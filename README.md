@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6081** proxies at the latest update. Usable proxies are below.
+> Scraper found **6004** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|586|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|586|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|586|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|473|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|473|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|473|
 
 ## Sources
 
@@ -36,37 +36,37 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1565|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1618|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|947|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2286|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2456|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|1|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
 |2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|3|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
-|4|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|20.191.183.124|3129|Japan|Tokyo|Microsoft Corporation|
-|6|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|7|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
-|8|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
-|9|47.52.133.84|80|Hong Kong|Central|Alibaba.com LLC|
-|10|68.183.25.132|3128|United States|North Bergen|DigitalOcean, LLC|
-|11|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|12|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
-|13|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
-|14|116.0.61.122|3128|Pakistan|Karachi|Telecard|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|20.191.183.102|3129|Japan|Tokyo|Microsoft Corporation|
-|17|107.152.37.94|8080|United States|Chicago|tzulo, inc.|
-|18|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|19|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
-|20|107.152.36.100|8080|United States|Chicago|tzulo, inc.|
+|3|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|4|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|5|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|6|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
+|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|12|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|14|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|15|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|16|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|18|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
+|19|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|20|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
 
 
 
