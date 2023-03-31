@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|586|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|586|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|586|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|540|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|540|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|540|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|3|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|4|134.209.188.167|443|United Kingdom|London|DigitalOcean, LLC|
-|5|68.183.25.132|3128|United States|North Bergen|DigitalOcean, LLC|
-|6|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
-|7|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|8|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
+|2|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|18.162.129.217|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|6|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|7|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
+|8|45.167.124.5|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
 |9|95.217.237.22|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|45.167.124.5|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|12|107.152.36.100|8080|United States|Chicago|tzulo, inc.|
-|13|107.152.37.94|8080|United States|Chicago|tzulo, inc.|
-|14|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|15|5.78.87.179|8080|United States|Portland|Hetzner Online GmbH|
-|16|5.78.99.210|8080|United States|Portland|Hetzner Online GmbH|
-|17|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|18|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|19|203.150.113.221|8080|Thailand|Vadhana|Internet Thailand Company Ltd.|
-|20|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|10|5.78.99.210|8080|United States|Portland|Hetzner Online GmbH|
+|11|68.183.25.132|3128|United States|North Bergen|DigitalOcean, LLC|
+|12|203.150.113.221|8080|Thailand|Vadhana|Internet Thailand Company Ltd.|
+|13|5.78.87.179|8080|United States|Portland|Hetzner Online GmbH|
+|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|15|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|16|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|17|107.152.36.100|8080|United States|Chicago|tzulo, inc.|
+|18|107.152.37.94|8080|United States|Chicago|tzulo, inc.|
+|19|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|20|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
 
 
 
