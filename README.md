@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7640** proxies at the latest update. Usable proxies are below.
+> Scraper found **7542** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|847|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|847|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|847|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|805|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|805|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|805|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2147|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2049|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1507|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2703|✅|
@@ -47,25 +47,25 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|162.212.155.132|8080|United States|Cheney|tzulo, inc.|
-|2|162.212.155.120|8080|United States|Cheney|tzulo, inc.|
-|3|104.248.84.74|8080|Netherlands|Amsterdam|DigitalOcean, LLC|
-|4|162.212.156.115|8080|United States|Chicago|tzulo, inc.|
-|5|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
+|1|213.202.230.241|80|Germany|Düsseldorf|myLoc managed IT AG|
+|2|162.212.156.115|8080|United States|Chicago|tzulo, inc.|
+|3|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|4|137.184.218.10|8080|United States|North Bergen|DigitalOcean, LLC|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |6|162.212.158.91|8080|United States|Cheney|ServerCheap INC|
 |7|137.184.220.105|8080|United States|North Bergen|DigitalOcean, LLC|
-|8|162.212.155.221|8080|United States|Cheney|tzulo, inc.|
-|9|137.184.218.10|8080|United States|North Bergen|DigitalOcean, LLC|
-|10|162.212.156.115|8080|United States|Chicago|tzulo, inc.|
-|11|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|14|46.209.106.202|3128|Iran|Tehran|Respina|
-|15|107.152.42.99|8080|United States|Chicago|tzulo, inc.|
-|16|137.184.220.105|8080|United States|North Bergen|DigitalOcean, LLC|
+|8|104.248.84.74|8080|Netherlands|Amsterdam|DigitalOcean, LLC|
+|9|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|10|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
+|11|137.184.220.105|8080|United States|North Bergen|DigitalOcean, LLC|
+|12|162.212.156.115|8080|United States|Chicago|tzulo, inc.|
+|13|162.212.158.91|8080|United States|Cheney|ServerCheap INC|
+|14|162.212.155.120|8080|United States|Cheney|tzulo, inc.|
+|15|137.184.218.10|8080|United States|North Bergen|DigitalOcean, LLC|
+|16|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
 |17|162.212.155.120|8080|United States|Cheney|tzulo, inc.|
-|18|137.184.218.10|8080|United States|North Bergen|DigitalOcean, LLC|
-|19|162.212.155.221|8080|United States|Cheney|tzulo, inc.|
+|18|107.152.42.99|8080|United States|Chicago|tzulo, inc.|
+|19|209.145.63.235|8888|United States|St Louis|Contabo Inc.|
 |20|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 
 
