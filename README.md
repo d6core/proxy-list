@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **9973** proxies at the latest update. Usable proxies are below.
+> Scraper found **10122** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|996|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|996|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|996|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|267|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|267|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|267|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2819|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2968|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|2051|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3820|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
-|2|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|3|5.78.72.237|8080|United States|Portland|Hetzner Online GmbH|
-|4|5.78.84.6|8080|United States|Portland|Hetzner Online GmbH|
-|5|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|51.158.63.12|3128|France|Paris|SCALEWAY|
-|8|5.78.72.237|8080|United States|Portland|Hetzner Online GmbH|
-|9|187.188.143.100|999|Mexico|Rancho Contento|Total Play Telecomunicaciones SA De CV|
-|10|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|11|5.78.84.6|8080|United States|Portland|Hetzner Online GmbH|
-|12|190.43.92.130|999|Peru|Tacna|Telefonica Del Peru|
-|13|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|16|88.198.26.145|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|103.108.89.159|80|Bangladesh|Narayanganj|BKB Network|
-|19|2.50.153.194|53281|United Arab Emirates|Abu Dhabi|Emirates Telecommunications Corporation|
-|20|182.253.192.226|8080|Indonesia|Padang|BIZNET|
+|1|154.38.160.61|80|United States|St Louis|Contabo Inc.|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|54.37.7.107|3128|United Kingdom|City of London|OVH SAS|
+|4|5.78.72.237|8080|United States|Portland|Hetzner Online GmbH|
+|5|5.78.72.237|8080|United States|Portland|Hetzner Online GmbH|
+|6|200.48.251.20|999|Peru|Santiago|Telefonica del Peru S.A.A.|
+|7|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|8|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|9|5.78.84.6|8080|United States|Portland|Hetzner Online GmbH|
+|10|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|11|190.43.92.130|999|Peru|Tacna|Telefonica Del Peru|
+|12|5.78.84.6|8080|United States|Portland|Hetzner Online GmbH|
+|13|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
+|14|161.117.227.226|8118|Singapore|Singapore|Alibaba.com Singapore E-Commerce Private Limited|
+|15|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
+|16|54.209.244.155|8118|United States|Ashburn|Amazon.com, Inc.|
+|17|64.225.8.118|9983|United States|Clifton|DigitalOcean, LLC|
+|18|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|19|64.225.8.118|9983|United States|Clifton|DigitalOcean, LLC|
+|20|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
 
 
 
