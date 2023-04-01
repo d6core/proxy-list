@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7342** proxies at the latest update. Usable proxies are below.
+> Scraper found **7281** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|587|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|587|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|587|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|285|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|285|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|285|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2123|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2088|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1533|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1507|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2703|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|107.152.42.99|8080|United States|Chicago|tzulo, inc.|
-|2|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|3|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
-|4|5.78.88.155|8080|United States|Portland|Hetzner Online GmbH|
-|5|162.212.155.132|8080|United States|Cheney|tzulo, inc.|
-|6|162.212.158.91|8080|United States|Cheney|ServerCheap INC|
-|7|107.152.42.99|8080|United States|Chicago|tzulo, inc.|
-|8|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|9|5.78.88.155|8080|United States|Portland|Hetzner Online GmbH|
-|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|11|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|1|162.212.155.120|8080|United States|Cheney|tzulo, inc.|
+|2|209.145.63.235|8888|United States|St Louis|Contabo Inc.|
+|3|162.212.156.115|8080|United States|Chicago|tzulo, inc.|
+|4|137.184.220.105|8080|United States|North Bergen|DigitalOcean, LLC|
+|5|104.248.84.74|8080|Netherlands|Amsterdam|DigitalOcean, LLC|
+|6|154.12.242.159|8888|United States|Seattle|Contabo Inc.|
+|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|9|162.212.155.221|8080|United States|Cheney|tzulo, inc.|
+|10|162.212.158.91|8080|United States|Cheney|ServerCheap INC|
+|11|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
 |12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|14|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|16|50.233.228.147|8080|United States|Fort Collins|Comcast Cable Communications, LLC|
-|17|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|18|23.143.160.18|999|Puerto Rico|Villalba|Unonet Corp|
-|19|159.89.128.130|8989|United States|Santa Clara|DigitalOcean, LLC|
-|20|154.12.242.132|8888|United States|Seattle|Contabo Inc.|
+|13|137.184.220.105|8080|United States|North Bergen|DigitalOcean, LLC|
+|14|162.212.155.132|8080|United States|Cheney|tzulo, inc.|
+|15|107.152.42.99|8080|United States|Chicago|tzulo, inc.|
+|16|78.138.98.115|3128|France|Strasbourg|Host Europe GmbH|
+|17|162.212.155.132|8080|United States|Cheney|tzulo, inc.|
+|18|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
+|19|154.12.242.159|8888|United States|Seattle|Contabo Inc.|
+|20|162.212.155.120|8080|United States|Cheney|tzulo, inc.|
 
 
 
