@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6373** proxies at the latest update. Usable proxies are below.
+> Scraper found **6240** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|659|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|659|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|659|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|707|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|707|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|707|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1569|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1736|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1073|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2448|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|207.148.16.130|80|United States|Piscataway|Choopa|
-|2|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|207.148.16.130|80|United States|Piscataway|Choopa|
-|7|5.78.82.94|8080|United States|Portland|Hetzner Online GmbH|
-|8|65.109.161.106|8080|Finland|Helsinki|Hetzner Online GmbH|
-|9|93.118.101.89|800|Iran|Tehran|Telecommunication Company of Iran|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|2|213.202.230.241|80|Germany|Düsseldorf|myLoc managed IT AG|
+|3|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
+|4|207.148.16.130|80|United States|Piscataway|Choopa|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|91.107.199.105|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|8|64.225.8.118|9985|United States|Clifton|DigitalOcean, LLC|
+|9|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|10|64.225.8.118|9985|United States|Clifton|DigitalOcean, LLC|
+|11|51.159.115.233|3128|France|Paris|SCALEWAY|
 |12|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
 |13|135.181.106.37|8080|Finland|Helsinki|Hetzner Online GmbH|
-|14|135.181.248.71|8080|Finland|Helsinki|Hetzner Online GmbH|
-|15|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|16|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|17|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|18|135.181.100.95|8080|Finland|Helsinki|Hetzner Online GmbH|
-|19|103.68.194.52|45787|United States|Los Angeles|Zenlayer Inc|
-|20|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
+|14|20.191.183.49|3129|Japan|Tokyo|Microsoft Corporation|
+|15|65.109.161.106|8080|Finland|Helsinki|Hetzner Online GmbH|
+|16|93.118.101.89|800|Iran|Tehran|Telecommunication Company of Iran|
+|17|138.118.38.3|999|Argentina|Metileo|Aguas Del Colorado Sapem|
+|18|103.152.232.84|8080|Indonesia|Subang|PT Kingpolah Network Solutions|
+|19|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|20|135.181.100.95|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
