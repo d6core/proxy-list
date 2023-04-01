@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7146** proxies at the latest update. Usable proxies are below.
+> Scraper found **7332** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|284|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|284|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|284|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|918|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|918|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|918|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2420|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2306|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1224|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2519|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|20.191.183.49|3129|Japan|Tokyo|Microsoft Corporation|
-|5|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|8|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|190.103.85.143|8080|Argentina|Totoras|Datalink SRL|
-|10|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|12|51.159.115.233|3128|France|Paris|SCALEWAY|
-|13|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
-|14|58.147.187.50|3125|Indonesia|Kampungbali|PT. Transhybrid Communication|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|17|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
-|18|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|19|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|20|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|1|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
+|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|4|189.201.242.146|8888|Mexico|Mexicali|Tecnologías Avanzadas S. de R.L. de C.V.|
+|5|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
+|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|64.225.8.121|9978|United States|Clifton|DigitalOcean, LLC|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|45.171.147.132|8083|Brazil|Chapadao Do Sul|N3 SOLUCOES TECNOLOGICAS LTDA|
+|12|82.138.41.15|3128|Russia|Moscow|comcor.ru|
+|13|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|14|183.82.100.253|3128|India|Hyderabad|Beam Telecom Pvt Ltd|
+|15|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|16|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|17|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
+|18|200.32.51.179|8080|Argentina|Catamarca|Telefonica de Argentina|
+|19|94.45.223.222|8080|Russia|Dolgoprudnyy|Lofis LLC|
+|20|168.90.255.17|999|Argentina|Zárate|Tecnocomp S.R.L.|
 
 
 
