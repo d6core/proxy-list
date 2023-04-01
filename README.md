@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7267** proxies at the latest update. Usable proxies are below.
+> Scraper found **6819** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|599|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|599|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|599|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|753|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|753|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|753|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1826|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1678|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1467|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2691|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
+|1|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
 |2|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
-|3|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|8|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|9|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|10|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
-|11|161.97.97.155|3128|Germany|Nuremberg|Contabo GmbH|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|15|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|16|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|18|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|19|187.189.73.66|999|Mexico|Montebello Della Stanza [Fraccionamiento]|Total Play Telecomunicaciones SA De CV|
-|20|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|3|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
+|4|20.191.183.123|3129|Japan|Tokyo|Microsoft Corporation|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
+|8|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
+|11|187.94.16.59|39665|Brazil|Irece|Holistica Provedor Internet Ltda|
+|12|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|13|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|14|190.124.165.199|3128|Honduras|Tegucigalpa|Redes y Telecomunicaciones|
+|15|45.189.112.193|999|Ecuador|Milagro|Anibal Humberto Enriquez Moncayo(Comunicate)|
+|16|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|17|188.240.192.92|8090|Spain|Arcos de la Frontera|Onlycable Comunicaciones S.L.|
+|18|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|19|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|20|139.255.244.20|8080|Indonesia|Jakarta|PT. LINKNET|
 
 
 
