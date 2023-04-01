@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6639** proxies at the latest update. Usable proxies are below.
+> Scraper found **6855** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|504|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|504|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|504|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|655|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|655|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|655|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1937|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1760|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1022|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1115|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2697|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
-|2|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|73.242.86.12|8118|United States|Minnetonka|Comcast Cable Communications|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|157.90.153.104|8888|Germany|Falkenstein|Hetzner Online GmbH|
+|4|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
 |5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|70.117.36.212|1888|United States|El Paso|Spectrum|
-|7|161.117.227.226|8118|Singapore|Singapore|Alibaba.com Singapore E-Commerce Private Limited|
-|8|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|20.191.183.93|3129|Japan|Tokyo|Microsoft Corporation|
+|8|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
 |9|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|10|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|11|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
-|12|70.117.36.212|1888|United States|El Paso|Spectrum|
-|13|64.225.4.81|9991|United States|Clifton|DigitalOcean, LLC|
-|14|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|16|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|17|54.80.188.7|8118|United States|Ashburn|Amazon.com, Inc.|
-|18|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|19|64.225.4.81|9991|United States|Clifton|DigitalOcean, LLC|
-|20|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|10|103.126.87.17|8080|Indonesia|Klaten|BINTANGPERKASAORION|
+|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|12|73.242.86.12|8118|United States|Minnetonka|Comcast Cable Communications|
+|13|20.191.183.134|3129|Japan|Tokyo|Microsoft Corporation|
+|14|20.191.183.49|3129|Japan|Tokyo|Microsoft Corporation|
+|15|64.225.8.82|9985|United States|Clifton|DigitalOcean, LLC|
+|16|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|17|207.204.241.126|8118|United States|San Francisco|Strong Technology|
+|18|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
+|19|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
+|20|109.121.55.154|6666|Serbia|Belgrade|Orion telekom - DPI Sid|
 
 
 
