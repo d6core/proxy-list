@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8516** proxies at the latest update. Usable proxies are below.
+> Scraper found **8640** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|481|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|481|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|481|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|935|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|935|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|935|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2622|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2446|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1796|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3115|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|2|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|3|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|2|195.133.45.149|7788|Russia|Moscow|VDS|
+|3|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
 |4|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|193.141.126.54|82|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
-|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|7|20.191.183.149|3129|Japan|Tokyo|Microsoft Corporation|
-|8|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|9|180.183.96.201|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|6|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|8|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|9|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
 |11|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
-|12|20.191.183.124|3129|Japan|Tokyo|Microsoft Corporation|
-|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|15|54.164.30.36|8118|United States|Ashburn|Amazon.com, Inc.|
-|16|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|17|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|18|20.191.183.80|3129|Japan|Tokyo|Microsoft Corporation|
-|19|114.7.27.98|8080|Indonesia|Jakarta|PT. INDOSAT Tbk|
-|20|201.217.245.52|8080|Argentina|Resistencia|Ecom Chaco S.A.|
+|12|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|14|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|15|180.183.96.201|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|16|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|17|183.89.184.50|8080|Thailand|Chiang Mai|Triple T Broadband Public Company Limited|
+|18|201.217.245.52|8080|Argentina|Resistencia|Ecom Chaco S.A.|
+|19|135.181.78.242|8118|Finland|Helsinki|Hetzner Online GmbH|
+|20|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
 
 
 
