@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7657** proxies at the latest update. Usable proxies are below.
+> Scraper found **7451** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|756|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|756|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|756|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|301|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|301|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|301|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2197|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1991|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1658|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2519|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
-|2|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|3|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|4|92.137.250.246|3128|France|Gex|France Telecom Orange|
-|5|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|3|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|4|134.195.158.250|3128|United States|Ashburn|AB E-Commerce|
+|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
 |6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|8|61.29.96.146|8000|Australia|Melbourne|AAPT Limited|
-|9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|10|71.197.171.110|1337|United States|Joint Base Lewis McChord|Comcast Cable Communications, LLC|
-|11|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
-|12|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|13|51.159.115.233|3128|France|Paris|SCALEWAY|
-|14|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
-|15|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|16|170.80.202.250|999|Dominican Republic|Santiago de los Caballeros|RUDDY GONZALEZ DIGITAL MEDIA DOMINICANA, RGDIMAX, S.R.L|
-|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|18|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
-|19|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|20|71.197.171.110|1337|United States|Joint Base Lewis McChord|Comcast Cable Communications, LLC|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|41.174.96.38|32650|Zimbabwe|Harare|Liquid Telecommunications Operations Limited|
+|9|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|80.240.203.166|8080|Kenya|Nairobi|Liquid Telecommunications Ltd|
+|12|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|13|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|14|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|15|51.159.115.233|3128|France|Paris|SCALEWAY|
+|16|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|17|103.56.206.65|4995|Indonesia|Jakarta|Argon Data Communication|
+|18|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|19|200.60.111.62|999|Peru|Lima|Telefonica del Peru S.A.A.|
+|20|134.209.188.167|443|United Kingdom|London|DigitalOcean, LLC|
 
 
 
