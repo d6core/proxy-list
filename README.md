@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8673** proxies at the latest update. Usable proxies are below.
+> Scraper found **8417** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|337|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|337|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|337|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|688|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|688|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|688|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2287|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2331|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1505|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3598|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.93.182|8080|United States|Portland|Hetzner Online GmbH|
-|2|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
-|3|51.161.118.103|8118|Canada|Beauharnois|OVH SAS|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|1|5.78.46.206|8080|United States|Portland|Hetzner Online GmbH|
+|2|5.78.93.182|8080|United States|Portland|Hetzner Online GmbH|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|141.94.205.110|8118|France|Gravelines|OVH SAS|
 |5|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|6|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|7|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
-|8|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
+|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|7|5.78.46.206|8080|United States|Portland|Hetzner Online GmbH|
+|8|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
 |9|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|10|5.78.93.182|8080|United States|Portland|Hetzner Online GmbH|
-|11|141.94.205.110|8118|France|Gravelines|OVH SAS|
-|12|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|13|167.250.51.20|999|Venezuela|Caracas|CORPORACIÓN GALA IT, C.A.|
-|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|45.162.135.201|999|Chile|Santiago|Grupo Noredzone ISP SPA|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|159.138.130.126|8999|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|18|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
-|19|93.99.211.233|8080|Czechia|Pilsen|UPC Czech|
-|20|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|12|5.78.93.182|8080|United States|Portland|Hetzner Online GmbH|
+|13|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|16|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|17|94.131.114.69|3128|Israel|Tel Aviv|Stark Industries Solutions LTD|
+|18|50.74.173.82|8080|United States|New York|Charter Communications Inc|
+|19|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|20|181.225.63.0|999|Venezuela|Caracas|Megadatta, C.A.|
 
 
 
