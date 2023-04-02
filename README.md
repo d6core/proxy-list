@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7720** proxies at the latest update. Usable proxies are below.
+> Scraper found **7600** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|698|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|698|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|698|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|804|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|804|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|804|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2314|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2194|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1155|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3268|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|152.67.248.48|8080|United States|San Jose|Oracle Corporation|
 |2|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
 |3|45.56.87.180|3128|United States|Fremont|Akamai Technologies, Inc.|
-|4|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|5|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|6|24.164.58.61|32650|United States|Tampa|Charter Communications|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|10|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|11|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
-|12|152.67.248.48|8080|United States|San Jose|Oracle Corporation|
-|13|173.208.129.98|55443|United States|Kansas City|Nocix|
-|14|8.218.96.132|59394|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|45.56.87.180|3128|United States|Fremont|Akamai Technologies, Inc.|
-|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|17|20.191.183.38|3129|Japan|Tokyo|Microsoft Corporation|
-|18|24.164.58.61|32650|United States|Tampa|Charter Communications|
-|19|187.1.181.125|23500|Brazil|Contagem|Century Telecom Ltda|
-|20|103.154.24.5|3125|Indonesia|Selong|HIJRAHNET|
+|4|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|5|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|6|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
+|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|8|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|10|152.67.248.48|8080|United States|San Jose|Oracle Corporation|
+|11|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|12|45.56.87.180|3128|United States|Fremont|Akamai Technologies, Inc.|
+|13|8.218.96.132|59394|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|14|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|15|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|109.200.155.195|8080|Ukraine|Simferopol|Crelcom LLC|
+|19|188.240.192.92|8090|Spain|Arcos de la Frontera|Onlycable Comunicaciones S.L.|
+|20|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
 
 
 
