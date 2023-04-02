@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6975** proxies at the latest update. Usable proxies are below.
+> Scraper found **6966** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|485|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|485|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|485|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|599|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|599|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|599|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1694|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1685|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1018|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3280|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|152.67.248.48|8080|United States|San Jose|Oracle Corporation|
-|2|139.162.191.224|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
-|3|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|4|135.181.194.113|8080|Finland|Helsinki|Hetzner Online GmbH|
-|5|135.181.207.96|8080|Finland|Helsinki|Hetzner Online GmbH|
-|6|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|7|172.105.238.36|8080|Japan|Tokyo|Akamai Technologies|
-|8|172.105.123.66|8080|Singapore|Singapore|Akamai Technologies|
-|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|139.162.73.81|8080|Japan|Tokyo|Akamai Technologies, Inc.|
-|11|152.67.248.48|8080|United States|San Jose|Oracle Corporation|
-|12|139.162.29.208|8080|Singapore|Singapore|LINODE|
-|13|135.181.193.153|8080|Finland|Helsinki|Hetzner Online GmbH|
-|14|139.162.38.152|8080|Singapore|Singapore|Akamai Technologies, Inc.|
-|15|135.181.28.122|8080|Finland|Helsinki|Hetzner Online GmbH|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|135.181.150.72|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
-|19|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|20|139.162.8.175|8080|Singapore|Singapore|LINODE|
+|2|64.225.8.121|9976|United States|Clifton|DigitalOcean, LLC|
+|3|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|5|64.225.8.191|9977|United States|Clifton|DigitalOcean, LLC|
+|6|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|7|135.181.207.96|8080|Finland|Helsinki|Hetzner Online GmbH|
+|8|139.162.73.81|8080|Japan|Tokyo|Akamai Technologies, Inc.|
+|9|152.67.248.48|8080|United States|San Jose|Oracle Corporation|
+|10|103.148.39.42|84|India|Bengaluru|Broadway Communication Pvt Ltd|
+|11|139.162.191.224|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|12|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|13|172.105.238.36|8080|Japan|Tokyo|Akamai Technologies|
+|14|64.225.8.191|9977|United States|Clifton|DigitalOcean, LLC|
+|15|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|16|64.225.8.121|9976|United States|Clifton|DigitalOcean, LLC|
+|17|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|139.162.8.175|8080|Singapore|Singapore|LINODE|
+|20|139.162.38.152|8080|Singapore|Singapore|Akamai Technologies, Inc.|
 
 
 
