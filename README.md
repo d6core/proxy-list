@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7434** proxies at the latest update. Usable proxies are below.
+> Scraper found **7100** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|785|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|785|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|785|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|734|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|734|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|734|
 
 ## Sources
 
@@ -31,13 +31,13 @@ Click the file format that you want and copy the URL.
 |------|-------------|-------|
 |[free-proxy-list.net](https://free-proxy-list.net)|300|✅|
 |[us-proxy.org](https://www.us-proxy.org)|200|✅|
-|[proxydb.net](http://proxydb.net)|0|🚫|
+|[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1796|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1747|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1230|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3140|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|152.67.248.48|8080|United States|San Jose|Oracle Corporation|
-|2|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|3|152.67.248.48|8080|United States|San Jose|Oracle Corporation|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|6|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|7|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
-|8|190.202.3.22|32650|Venezuela|Caracas|CANTV Servicios, Venezuela|
+|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|4|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|5|64.225.8.118|9994|United States|Clifton|DigitalOcean, LLC|
+|6|64.225.8.118|9994|United States|Clifton|DigitalOcean, LLC|
+|7|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|8|152.67.248.48|8080|United States|San Jose|Oracle Corporation|
 |9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|185.64.209.135|53281|Russia|Kstovo|Svyazist LLC|
-|12|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|13|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|14|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|15|64.225.8.191|9979|United States|Clifton|DigitalOcean, LLC|
-|16|64.225.8.191|9979|United States|Clifton|DigitalOcean, LLC|
-|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|18|152.67.248.48|8080|United States|San Jose|Oracle Corporation|
-|19|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|20|65.109.169.184|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|8.218.96.132|59394|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|190.254.0.110|999|Colombia|Florencia|Colombia Telecomunicaciones S.a. ESP|
+|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|14|27.79.122.71|4011|Vietnam|Da Lat|Viettel Corporation|
+|15|117.1.95.247|4003|Vietnam|Hanoi|Viettel Corporation|
+|16|103.225.11.52|8118|Hong Kong|Causeway Bay|XIM|
+|17|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|18|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|19|182.160.110.154|9898|Bangladesh|Dhaka|Aamra Networks Limited|
+|20|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
 
 
 
