@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8198** proxies at the latest update. Usable proxies are below.
+> Scraper found **8112** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|781|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|781|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|781|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|536|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|536|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|536|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2145|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2120|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1278|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1217|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3492|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
-|2|20.191.183.102|3129|Japan|Tokyo|Microsoft Corporation|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
-|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|6|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
-|7|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|8|68.233.119.157|3128|India|Hyderabad|Oracle Corporation|
-|9|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|10|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|11|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|12|181.45.148.40|32650|Argentina|San Justo|Telecentro S.A.|
-|13|20.191.183.50|3129|Japan|Tokyo|Microsoft Corporation|
-|14|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|15|43.243.142.60|59916|Indonesia|Tangerang|PT. Mora Telematika Indonesia|
-|16|51.159.115.233|3128|France|Paris|SCALEWAY|
-|17|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|18|20.191.183.149|3129|Japan|Tokyo|Microsoft Corporation|
-|19|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
-|20|5.78.93.182|8080|United States|Portland|Hetzner Online GmbH|
+|2|20.191.183.38|3129|Japan|Tokyo|Microsoft Corporation|
+|3|139.59.185.218|443|United Kingdom|London|DIGITALOCEAN|
+|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|5|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
+|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|77.52.178.157|8085|Ukraine|Kyiv|UMC|
+|8|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|9|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|10|20.219.112.20|80|India|Chennai|Microsoft Corporation|
+|11|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|12|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|13|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
+|14|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|15|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
+|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|17|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|18|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|19|50.233.228.147|8080|United States|Denver|Comcast Cable Communications, LLC|
+|20|158.69.71.245|9300|Canada|Montreal|OVH SAS|
 
 
 
