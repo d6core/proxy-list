@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **10694** proxies at the latest update. Usable proxies are below.
+> Scraper found **11243** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|54|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|54|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|54|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|429|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|429|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|429|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|3254|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|3610|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1719|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1912|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|4438|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.191.183.124|3129|Japan|Tokyo|Microsoft Corporation|
-|2|49.12.237.87|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|3|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|7|64.226.96.225|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|103.75.117.21|4443|Hong Kong|Central|BrainStorm Network|
-|9|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|10|116.0.61.122|3128|Pakistan|Karachi|Telecard|
-|11|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|12|5.78.73.61|8080|United States|Portland|Hetzner Online GmbH|
-|13|34.140.70.242|8080|Belgium|Brussels|Google LLC|
-|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|15|5.75.160.177|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|16|43.130.26.47|8080|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|17|5.78.95.86|8080|United States|Portland|Hetzner Online GmbH|
-|18|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
-|19|51.159.115.233|3128|France|Paris|SCALEWAY|
-|20|185.49.170.20|43626|Spain|Madrid|OLIVE|
+|1|54.37.0.178|3128|United Kingdom|City of London|OVH SAS|
+|2|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|4|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|5|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|6|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|10|49.12.237.87|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|11|103.75.117.21|4443|Hong Kong|Central|BrainStorm Network|
+|12|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
+|13|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
+|14|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|15|43.130.26.47|8080|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|16|20.191.183.50|3129|Japan|Tokyo|Microsoft Corporation|
+|17|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|18|5.78.95.86|8080|United States|Portland|Hetzner Online GmbH|
+|19|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|20|50.233.228.147|8080|United States|Denver|Comcast Cable Communications, LLC|
 
 
 
