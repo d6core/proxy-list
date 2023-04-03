@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **10567** proxies at the latest update. Usable proxies are below.
+> Scraper found **10511** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|63|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|63|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|63|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|868|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|868|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|868|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|3409|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|3367|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1804|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1790|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|4371|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|2|20.191.183.38|3129|Japan|Tokyo|Microsoft Corporation|
-|3|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|208.79.8.81|9080|United States|West Monroe|Skyrider Communications LLC|
-|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|9|208.79.8.81|9080|United States|West Monroe|Skyrider Communications LLC|
-|10|200.123.29.41|3128|Peru|Lima region|Wigo S.A.|
-|11|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
-|12|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|13|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
-|14|200.123.29.40|3128|Peru|Lima region|Wigo S.A.|
-|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|16|5.78.75.61|8080|United States|Portland|Hetzner Online GmbH|
-|17|50.23.200.153|3128|United States|Dallas|SoftLayer|
-|18|181.78.20.31|8080|Colombia|Medellín|IFX Networks Argentina S.R.L|
-|19|103.11.106.211|8181|Indonesia|Madiun|PT. Pascal Indonesia|
-|20|5.78.100.75|8080|United States|Portland|Hetzner Online GmbH|
+|1|162.212.155.48|8080|United States|Cheney|tzulo, inc.|
+|2|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|3|165.232.120.168|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|68.183.78.109|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|34.140.70.242|8080|Belgium|Brussels|Google LLC|
+|6|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|7|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|9|20.191.183.126|3129|Japan|Tokyo|Microsoft Corporation|
+|10|154.38.160.61|80|United States|St Louis|Contabo Inc.|
+|11|61.80.239.168|1337|South Korea|Daegu|Korea Telecom|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|213.136.101.36|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|14|162.212.155.48|8080|United States|Cheney|tzulo, inc.|
+|15|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|16|131.100.51.97|999|Colombia|Suaza|Fibernet TV SAS|
+|17|50.246.120.125|8080|United States|Pasadena|Comcast Cable Communications, LLC|
+|18|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|19|51.159.93.212|3128|France|Paris|SCALEWAY|
+|20|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
 
 
 
