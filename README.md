@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **10635** proxies at the latest update. Usable proxies are below.
+> Scraper found **10718** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|181|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|181|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|181|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|64|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|64|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|64|
 
 ## Sources
 
@@ -40,33 +40,33 @@ Click the file format that you want and copy the URL.
 |[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|3416|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1787|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|4149|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|4232|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|2|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|3|20.191.178.74|3129|Japan|Tokyo|Microsoft Corporation|
+|1|34.140.70.242|8080|Belgium|Brussels|Google LLC|
+|2|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|3|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |4|45.89.127.125|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
-|5|34.140.70.242|8080|Belgium|Brussels|Google LLC|
-|6|105.29.164.14|8080|Kenya|Nairobi|SEACOM Limited|
-|7|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
-|8|187.60.219.4|3128|Brazil|Francisco Beltrão|Ampernet Telecomunica??es Ltda|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|189.127.167.3|999|Venezuela|Barquisimeto|RED SERVITEL, CA|
-|11|3.90.234.88|8118|United States|Ashburn|Amazon Technologies Inc.|
-|12|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|6|46.10.209.230|8080|Bulgaria|Sofia|Bulgarian Telecommunications Company Plc.|
+|7|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|9|12.88.29.66|9080|United States|Pauls Valley|AT&T Services, Inc.|
+|10|93.105.40.62|41258|Poland|Warsaw|Vectra S.A. BUSINESS P2P CONNECTIONS|
+|11|36.89.212.252|8080|Indonesia|Bandung|PT. Telekomunikasi Indonesia|
+|12|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
 |13|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
-|14|177.87.144.122|5566|Brazil|Sao Sebastiao da Grama|Videomar Rede Nordeste S/A|
-|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|16|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|17|27.72.104.89|8080|Vietnam|Hanoi|Newass2011xDSLHN|
-|18|64.227.138.43|80|India|Bengaluru|DigitalOcean, LLC|
-|19|74.62.179.122|8080|United States|San Bernardino|Charter Communications Inc|
-|20|142.147.114.50|8080|United States|Weatherford|Nextlink Broadband|
+|14|190.61.100.117|999|Guatemala|Guatemala City|UFINET Guatemala S. A|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|17|20.191.178.74|3129|Japan|Tokyo|Microsoft Corporation|
+|18|103.186.212.73|8080|Indonesia|Banyuwangi|LAROS|
+|19|5.78.100.18|8080|United States|Portland|Hetzner Online GmbH|
+|20|64.227.138.43|80|India|Bengaluru|DigitalOcean, LLC|
 
 
 
