@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **10430** proxies at the latest update. Usable proxies are below.
+> Scraper found **10623** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|215|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|215|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|215|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|80|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|80|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|80|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|3460|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|3611|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1755|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1797|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|4232|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.74.123|3128|United States|Portland|Hetzner Online GmbH|
-|2|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|1|5.78.96.178|8080|United States|Portland|Hetzner Online GmbH|
+|2|66.94.105.234|8080|United States|St Louis|Contabo Inc.|
 |3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|159.148.221.203|8090|Latvia|Riga|SIA "BITE Latvija"|
-|5|20.191.183.123|3129|Japan|Tokyo|Microsoft Corporation|
-|6|20.191.183.49|3129|Japan|Tokyo|Microsoft Corporation|
-|7|20.191.183.134|3129|Japan|Tokyo|Microsoft Corporation|
-|8|20.191.178.74|3129|Japan|Tokyo|Microsoft Corporation|
-|9|20.191.183.142|3129|Japan|Tokyo|Microsoft Corporation|
-|10|51.159.115.233|3128|France|Paris|SCALEWAY|
-|11|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|12|20.191.183.149|3129|Japan|Tokyo|Microsoft Corporation|
-|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|14|206.189.178.47|8080|United States|North Bergen|DigitalOcean, LLC|
-|15|197.155.237.74|8111|Zimbabwe|Harare|Maintainer Liquid Telecommunications Operations Limited|
-|16|197.232.48.155|32650|Kenya|Nairobi|Jamii Telecommunications Limited|
-|17|222.114.44.96|80|South Korea|Daejeon|Korea Telecom|
-|18|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
-|19|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|20|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|4|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|5|20.191.183.124|3129|Japan|Tokyo|Microsoft Corporation|
+|6|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|7|20.191.183.149|3129|Japan|Tokyo|Microsoft Corporation|
+|8|201.222.76.34|999|Bolivia|Santa Cruz|Cotas Ltda.|
+|9|213.136.101.36|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|10|171.237.237.35|4007|Vietnam|Hanoi|Viettel Corporation|
+|11|200.52.148.10|999|Honduras|San Pedro Sula|Redes y Telecomunicaciones|
+|12|186.227.49.186|3128|Brazil|Rio de Janeiro|Voipglobe Servicos De COM Multimidia VIA Internet|
+|13|103.136.82.252|83|India|Dhanbad|Protoact Digital Network Pvt. Ltd|
+|14|202.65.192.252|9480|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|15|202.65.192.252|9480|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|16|171.237.237.35|4007|Vietnam|Hanoi|Viettel Corporation|
+|17|202.65.192.252|9480|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|18|202.65.192.252|9480|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|19|202.65.192.252|9480|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|20|139.177.180.44|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
 
 
 
