@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7753** proxies at the latest update. Usable proxies are below.
+> Scraper found **7990** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|626|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|626|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|626|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|407|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|407|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|407|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1923|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2160|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1191|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3656|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.191.183.124|3129|Japan|Tokyo|Microsoft Corporation|
-|2|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|3|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|162.55.169.39|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|6|168.119.186.235|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|7|168.119.99.159|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|8|5.78.100.18|8080|United States|Portland|Hetzner Online GmbH|
-|9|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|10|5.78.102.252|8080|United States|Portland|Hetzner Online GmbH|
-|11|5.78.102.125|8080|United States|Portland|Hetzner Online GmbH|
-|12|81.26.152.158|8080|Russia|Moscow|LLC "Nauka-Svyaz"|
-|13|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|5.78.100.18|8080|United States|Portland|Hetzner Online GmbH|
-|15|162.55.33.170|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|16|20.191.183.126|3129|Japan|Tokyo|Microsoft Corporation|
-|17|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|65.108.208.126|8080|Finland|Helsinki|Hetzner Online GmbH|
-|20|200.125.170.108|999|Dominican Republic|Santiago de los Caballeros|WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L|
+|1|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
+|2|168.119.48.135|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|3|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
+|4|168.119.186.235|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|5|20.191.183.102|3129|Japan|Tokyo|Microsoft Corporation|
+|6|200.106.184.14|999|Argentina|Carlos Spegazzini|Fullnet Solutions S.A.S.|
+|7|12.7.109.1|9812|United States|Carrizo Springs|AIRESPRING-ADT SYSTEMS, INC.|
+|8|179.189.125.222|8080|Brazil|Parnaiba|IP CARRIER BRASIL|
+|9|109.254.22.41|3128|Ukraine|Donetsk|Donbass Electronic Communications Ltd.|
+|10|5.78.43.153|8080|United States|Portland|Hetzner Online GmbH|
+|11|87.250.63.90|80|Serbia|Belgrade|TELEKOM SRBIJA a.d.|
+|12|182.253.105.123|8080|Indonesia|Cirebon|Biznet Networks|
+|13|41.57.141.24|6060|South Africa|Lephalale|SCr Ellisras|
+|14|120.232.80.235|18081|China|Shenzhen|China Mobile communications corporation|
+|15|36.37.209.130|32650|Cambodia|Phnom Penh|VIETTEL (CAMBODIA) PTE|
+|16|181.65.169.35|999|Peru|Iquitos|Telefonica del Peru S.A.A.|
+|17|157.230.226.230|1202|United States|North Bergen|DigitalOcean, LLC|
+|18|103.155.54.26|83|India|Haldia|abuse-mailbox: (abuse@pegasuswave.com)|
+|19|116.203.77.144|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|20|5.78.102.252|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
