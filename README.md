@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6871** proxies at the latest update. Usable proxies are below.
+> Scraper found **6794** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|534|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|534|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|534|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|580|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|580|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|580|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1668|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1691|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|876|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3344|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|881|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3239|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|3|78.47.101.38|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|4|185.110.91.225|8080|Switzerland|Zurich|Genossenschaft GGA Maur|
-|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|65.109.228.47|8080|Finland|Helsinki|Hetzner Online GmbH|
-|7|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|8|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|9|65.109.233.124|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|65.109.128.247|8080|Finland|Helsinki|Hetzner Online GmbH|
-|11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|13|5.78.81.240|8080|United States|Portland|Hetzner Online GmbH|
-|14|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|167.172.105.123|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|17|65.109.239.119|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
-|19|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
-|20|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|1|5.78.76.237|8080|United States|Portland|Hetzner Online GmbH|
+|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|3|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|4|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
+|5|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|6|185.110.91.225|8080|Switzerland|Zurich|Genossenschaft GGA Maur|
+|7|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|8|65.108.62.123|8080|Finland|Helsinki|Hetzner Online GmbH|
+|9|65.109.173.114|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
+|11|5.78.81.240|8080|United States|Portland|Hetzner Online GmbH|
+|12|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|13|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|14|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
+|15|45.153.131.56|8080|Hong Kong|Hong Kong|Cloudie Limited|
+|16|168.119.158.255|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|17|65.109.129.69|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|65.109.140.227|8080|Finland|Helsinki|Hetzner Online GmbH|
+|19|65.109.142.65|8080|Finland|Helsinki|Hetzner Online GmbH|
+|20|65.109.171.121|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
