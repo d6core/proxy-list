@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7365** proxies at the latest update. Usable proxies are below.
+> Scraper found **6711** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|711|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|711|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|711|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|708|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|708|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|708|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2104|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1750|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1060|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2918|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
-|2|216.80.39.89|3129|United States|Chicago|RCN|
-|3|208.184.163.30|3129|United States|Chicago|Zayo Bandwidth|
-|4|216.80.39.89|3129|United States|Chicago|RCN|
-|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|6|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|7|208.184.163.30|3129|United States|Chicago|Zayo Bandwidth|
-|8|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|9|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|10|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|11|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|2|206.189.98.104|8118|Netherlands|Amsterdam|DigitalOcean, LLC|
+|3|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|4|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
+|5|216.80.39.89|3129|United States|Chicago|RCN|
+|6|208.184.163.30|3129|United States|Chicago|Zayo Bandwidth|
+|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|208.184.163.30|3129|United States|Chicago|Zayo Bandwidth|
+|9|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|10|216.80.39.89|3129|United States|Chicago|RCN|
+|11|51.158.63.12|3128|France|Paris|SCALEWAY|
 |12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|104.238.221.197|8118|United States|Cleveland|ReliableSite.Net LLC|
-|14|209.141.54.136|5555|United States|Las Vegas|FranTech Solutions|
-|15|5.78.42.241|8080|United States|Portland|Hetzner Online GmbH|
-|16|45.61.187.67|4009|United States|Miami|FranTech Solutions|
-|17|51.158.63.12|3128|France|Paris|SCALEWAY|
-|18|5.78.102.82|8080|United States|Portland|Hetzner Online GmbH|
-|19|5.161.84.196|8080|United States|Ashburn|Hetzner Online GmbH|
-|20|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|13|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|14|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|15|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|16|212.46.230.102|6969|Russia|Moscow|PJSC "Vimpelcom"|
+|17|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
+|18|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|19|168.90.255.60|999|Argentina|Zárate|Tecnocomp S.R.L.|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
