@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7177** proxies at the latest update. Usable proxies are below.
+> Scraper found **7099** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|474|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|474|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|474|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|283|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|283|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|283|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1950|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1872|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|953|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2991|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|64.227.109.45|10010|United States|Santa Clara|DigitalOcean, LLC|
-|2|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|3|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|4|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|1|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|2|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|3|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|4|51.79.50.46|9300|Canada|Beauharnois|OVH SAS|
 |5|5.78.89.214|8080|United States|Portland|Hetzner Online GmbH|
-|6|64.227.109.45|10010|United States|Santa Clara|DigitalOcean, LLC|
-|7|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|8|45.61.187.67|4007|United States|Miami|FranTech Solutions|
-|9|5.78.100.46|8080|United States|Portland|Hetzner Online GmbH|
-|10|5.78.69.246|8080|United States|Portland|Hetzner Online GmbH|
-|11|5.78.99.50|8080|United States|Portland|Hetzner Online GmbH|
-|12|5.78.89.214|8080|United States|Portland|Hetzner Online GmbH|
-|13|5.78.100.59|8080|United States|Portland|Hetzner Online GmbH|
-|14|5.78.40.220|8080|United States|Portland|Hetzner Online GmbH|
-|15|5.78.82.170|8080|United States|Portland|Hetzner Online GmbH|
-|16|5.78.65.111|8080|United States|Portland|Hetzner Online GmbH|
+|6|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|7|64.227.109.45|10010|United States|Santa Clara|DigitalOcean, LLC|
+|8|5.78.75.47|8080|United States|Portland|Hetzner Online GmbH|
+|9|5.78.75.168|8080|United States|Portland|Hetzner Online GmbH|
+|10|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|11|103.23.236.194|8080|India|Raisinghnagar|Kappa Internet Services Private Limited|
+|12|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|13|5.78.99.253|8080|United States|Portland|Hetzner Online GmbH|
+|14|5.78.89.214|8080|United States|Portland|Hetzner Online GmbH|
+|15|159.89.128.130|8989|United States|Santa Clara|DigitalOcean, LLC|
+|16|5.78.96.188|8080|United States|Portland|Hetzner Online GmbH|
 |17|5.78.99.33|8080|United States|Portland|Hetzner Online GmbH|
-|18|103.23.236.194|8080|India|Raisinghnagar|Kappa Internet Services Private Limited|
-|19|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|20|5.78.99.44|8080|United States|Portland|Hetzner Online GmbH|
+|18|52.87.187.210|8118|United States|Ashburn|Amazon.com, Inc.|
+|19|5.78.65.111|8080|United States|Portland|Hetzner Online GmbH|
+|20|143.244.205.72|1080|Germany|Frankfurt am Main|DigitalOcean, LLC|
 
 
 
