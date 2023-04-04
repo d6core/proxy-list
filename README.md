@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7637** proxies at the latest update. Usable proxies are below.
+> Scraper found **7183** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|679|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|679|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|679|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|721|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|721|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|721|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2062|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1895|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1126|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1139|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3166|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 |2|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
 |3|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|4|158.101.175.124|5566|Germany|Frankfurt am Main|Oracle Corporation|
-|5|5.161.84.196|8080|United States|Ashburn|Hetzner Online GmbH|
-|6|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
+|4|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|5|65.109.168.43|3128|Finland|Helsinki|Hetzner Online GmbH|
+|6|34.80.195.72|10000|Taiwan|Taipei|Google LLC|
 |7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|5.78.102.82|8080|United States|Portland|Hetzner Online GmbH|
-|12|5.78.101.231|8080|United States|Portland|Hetzner Online GmbH|
-|13|34.80.195.72|10000|Taiwan|Taipei|Google LLC|
-|14|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|15|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
-|16|45.174.79.189|999|Mexico|Ciudad Delicias|Raul Duarte Urita|
-|17|104.238.221.197|8118|United States|Cleveland|ReliableSite.Net LLC|
+|8|186.194.160.210|999|Colombia|Bogotá|Telenet Digital S.A.S|
+|9|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
+|10|180.183.228.155|8080|Thailand|Chiang Mai|Triple T Broadband Public Company Limited|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|80.210.32.40|441|Iran|Tehran|TIC|
+|14|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|15|45.153.131.56|8080|Hong Kong|Hong Kong|Cloudie Limited|
+|16|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|17|5.161.84.196|8080|United States|Ashburn|Hetzner Online GmbH|
 |18|37.210.74.196|8080|Qatar|Doha|Ooredoo Q.S.C.|
-|19|131.100.51.45|999|Colombia|Guadalupe|Fibernet TV SAS|
-|20|5.78.42.241|8080|United States|Portland|Hetzner Online GmbH|
+|19|5.78.42.241|8080|United States|Portland|Hetzner Online GmbH|
+|20|186.195.254.130|53281|Brazil|Rio das Pedras|SOS Internet|
 
 
 
