@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7202** proxies at the latest update. Usable proxies are below.
+> Scraper found **7447** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|102|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|102|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|102|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|599|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|599|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|599|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1941|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2186|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1060|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2918|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|2|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|3|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|4|45.61.187.67|4009|United States|Miami|FranTech Solutions|
-|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|6|34.80.195.72|10000|Taiwan|Taipei|Google LLC|
-|7|216.80.39.89|3129|United States|Chicago|RCN|
-|8|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|208.184.163.30|3129|United States|Chicago|Zayo Bandwidth|
-|10|202.8.74.10|8080|Cambodia|Phnom Penh|Turbotech CO.|
-|11|51.158.63.12|3128|France|Paris|SCALEWAY|
-|12|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|1|5.9.112.247|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|2|208.184.163.30|3129|United States|Chicago|Zayo Bandwidth|
+|3|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|4|185.110.91.225|8080|Switzerland|Zurich|Genossenschaft GGA Maur|
+|5|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|6|216.80.39.89|3129|United States|Chicago|RCN|
+|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|51.158.63.12|3128|France|Paris|SCALEWAY|
+|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
+|11|45.153.131.56|8080|Hong Kong|Hong Kong|Cloudie Limited|
+|12|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
 |13|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|14|216.80.39.89|3129|United States|Chicago|RCN|
-|15|94.131.114.69|3128|Israel|Petah Tikva|Stark Industries Solutions LTD|
-|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|17|156.17.193.1|80|Poland|Legnica|Wroclaw Centre of Networking and Supercomputing|
-|18|80.51.213.226|8118|Poland|Raciborowice Gorne|Orange Polska SA|
-|19|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|20|70.117.36.212|1888|United States|El Paso|Spectrum|
+|14|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|15|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|16|51.159.115.233|3128|France|Paris|SCALEWAY|
+|17|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|18|208.184.163.30|3129|United States|Chicago|Zayo Bandwidth|
+|19|216.80.39.89|3129|United States|Chicago|RCN|
+|20|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
 
 
 
