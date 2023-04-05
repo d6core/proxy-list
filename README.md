@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7327** proxies at the latest update. Usable proxies are below.
+> Scraper found **7353** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|288|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|288|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|288|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|719|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|719|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|719|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1973|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1999|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1081|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2990|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|2|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|3|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
-|5|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|6|64.225.8.191|9995|United States|Clifton|DigitalOcean, LLC|
-|7|64.225.8.191|9995|United States|Clifton|DigitalOcean, LLC|
-|8|5.78.69.28|8080|United States|Portland|Hetzner Online GmbH|
-|9|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|10|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|13|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|14|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|16|194.146.50.194|3128|Turkey|Sisli|Verigom Telekomunikasyon Limited Sirketi|
-|17|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|18|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
-|19|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|20|5.78.100.167|8080|United States|Portland|Hetzner Online GmbH|
+|1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|2|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|3|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
+|4|194.146.50.194|3128|Turkey|Sisli|Verigom Telekomunikasyon Limited Sirketi|
+|5|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|6|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|7|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|8|50.228.226.58|6666|United States|Chicago|Comcast Cable Communications, LLC|
+|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|10|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|14|152.32.187.164|8118|Hong Kong|Central|UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED|
+|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|16|64.225.8.191|9995|United States|Clifton|DigitalOcean, LLC|
+|17|45.185.162.194|999|Ecuador|Guayaquil|Nedetel S.A.|
+|18|85.114.112.22|8080|Palestine|Gaza|Fusion Internet Services Company LLC|
+|19|5.161.55.129|8080|United States|Ashburn|Hetzner Online GmbH|
+|20|5.78.69.28|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
