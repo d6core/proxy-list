@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7977** proxies at the latest update. Usable proxies are below.
+> Scraper found **7545** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|660|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|660|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|660|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|146|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|146|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|146|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2151|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2019|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1085|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3458|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|6|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|7|51.195.115.14|8080|Germany|Saarbrücken|OVH SAS|
-|8|5.78.42.130|8080|United States|Portland|Hetzner Online GmbH|
-|9|143.244.205.72|1080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|11|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|12|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|13|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|14|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|15|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|16|64.225.4.81|9992|United States|Clifton|DigitalOcean, LLC|
-|17|5.78.103.75|8080|United States|Portland|Hetzner Online GmbH|
-|18|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|19|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
-|20|46.101.13.77|80|United Kingdom|London|DigitalOcean, LLC|
+|1|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|3|143.244.205.72|1080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|6|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|7|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|8|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|9|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|11|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|14|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|15|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|17|5.78.42.130|8080|United States|Portland|Hetzner Online GmbH|
+|18|85.133.235.171|8080|Iran|Tehran|Sepanta Internet and MPLS Service Provider|
+|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|20|47.88.0.182|443|United States|San Mateo|Alibaba.com LLC|
 
 
 
