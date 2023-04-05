@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7906** proxies at the latest update. Usable proxies are below.
+> Scraper found **8108** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|363|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|363|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|363|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|764|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|764|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|764|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2206|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2108|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1259|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3458|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|2|5.78.98.52|8080|United States|Portland|Hetzner Online GmbH|
-|3|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|4|5.78.97.39|8080|United States|Portland|Hetzner Online GmbH|
-|5|5.78.101.75|8080|United States|Portland|Hetzner Online GmbH|
-|6|5.78.70.186|8080|United States|Portland|Hetzner Online GmbH|
-|7|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|8|5.78.84.40|8080|United States|Portland|Hetzner Online GmbH|
-|9|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|10|5.78.43.180|8080|United States|Portland|Hetzner Online GmbH|
-|11|5.78.101.75|8080|United States|Portland|Hetzner Online GmbH|
+|2|5.78.70.186|8080|United States|Portland|Hetzner Online GmbH|
+|3|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|4|5.78.101.75|8080|United States|Portland|Hetzner Online GmbH|
+|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|6|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|7|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|8|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|9|185.64.208.157|53281|Russia|Kstovo|Svyazist LLC|
+|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|92.52.45.48|8118|Slovakia|Bratislava|Orange Slovensko|
 |12|5.78.101.78|8080|United States|Portland|Hetzner Online GmbH|
-|13|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|14|185.64.208.157|53281|Russia|Kstovo|Svyazist LLC|
-|15|5.78.98.52|8080|United States|Portland|Hetzner Online GmbH|
-|16|5.78.100.63|8080|United States|Portland|Hetzner Online GmbH|
-|17|65.108.208.224|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|19|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|20|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|5.78.84.40|8080|United States|Portland|Hetzner Online GmbH|
+|14|5.78.66.254|8080|United States|Portland|Hetzner Online GmbH|
+|15|5.78.100.63|8080|United States|Portland|Hetzner Online GmbH|
+|16|5.78.89.48|8080|United States|Portland|Hetzner Online GmbH|
+|17|5.78.99.53|8080|United States|Portland|Hetzner Online GmbH|
+|18|5.78.43.180|8080|United States|Portland|Hetzner Online GmbH|
+|19|5.78.45.160|8080|United States|Portland|Hetzner Online GmbH|
+|20|5.78.102.56|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
