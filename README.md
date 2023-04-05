@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7102** proxies at the latest update. Usable proxies are below.
+> Scraper found **7188** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|37|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|37|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|37|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|49|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|49|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|49|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2099|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2185|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|985|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2735|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.102.219|8080|United States|Portland|Hetzner Online GmbH|
-|2|5.78.100.164|8080|United States|Portland|Hetzner Online GmbH|
-|3|5.78.102.252|8080|United States|Portland|Hetzner Online GmbH|
-|4|5.78.94.65|8080|United States|Portland|Hetzner Online GmbH|
-|5|45.61.187.67|4009|United States|Miami|FranTech Solutions|
-|6|5.78.74.231|8080|United States|Portland|Hetzner Online GmbH|
-|7|103.48.68.34|83|India|Hyderabad|Country Online Services PVT LTD|
-|8|202.65.192.252|443|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|9|5.78.99.50|8080|United States|Portland|Hetzner Online GmbH|
-|10|202.65.192.252|443|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|11|191.102.254.11|8085|Argentina|Rosario|IP·RED|
-|12|5.78.101.199|8080|United States|Portland|Hetzner Online GmbH|
-|13|202.65.192.252|443|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|14|95.56.254.139|3128|Kazakhstan|Almaty|JSC Kazakhtelecom|
-|15|202.65.192.252|443|Hong Kong|Kwun Tong|Diyixian.com Limited|
-|16|200.123.15.250|999|Peru|Lima region|Wigo S.A.|
-|17|45.162.135.201|999|Chile|Santiago|Grupo Noredzone ISP SPA|
-|18|5.161.55.129|8080|United States|Ashburn|Hetzner Online GmbH|
-|19|64.225.4.63|9983|United States|Clifton|DigitalOcean, LLC|
-|20|5.78.85.67|8080|United States|Portland|Hetzner Online GmbH|
+|1|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|2|116.105.25.124|11001|Vietnam|Hanoi|Viettel Corporation|
+|3|202.65.192.250|443|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|4|116.105.25.124|11001|Vietnam|Hanoi|Viettel Corporation|
+|5|202.65.192.252|9401|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|6|45.174.87.18|999|Mexico|Ciudad Juárez|Computadoras y Servicios Especiales SA de CV|
+|7|202.65.192.252|9401|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|8|5.78.46.235|8080|United States|Portland|Hetzner Online GmbH|
+|9|5.78.74.114|8080|United States|Portland|Hetzner Online GmbH|
+|10|5.78.75.168|8080|United States|Portland|Hetzner Online GmbH|
+|11|5.78.88.37|8080|United States|Portland|Hetzner Online GmbH|
+|12|201.91.82.155|3128|Brazil|São Paulo|Vivo|
+|13|116.105.25.124|11001|Vietnam|Hanoi|Viettel Corporation|
+|14|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
+|15|202.65.192.252|9401|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|16|5.78.96.111|8080|United States|Portland|Hetzner Online GmbH|
+|17|202.65.192.252|9401|Hong Kong|Kwun Tong|Diyixian.com Limited|
+|18|66.94.105.234|8080|United States|St Louis|Contabo Inc.|
+|19|64.225.8.118|9988|United States|Clifton|DigitalOcean, LLC|
+|20|183.221.242.103|9443|China|Mianyang|China Mobile|
 
 
 
