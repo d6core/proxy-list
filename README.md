@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7173** proxies at the latest update. Usable proxies are below.
+> Scraper found **7103** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|137|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|137|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|137|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|244|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|244|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|244|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1658|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1649|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1049|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|988|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3183|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|2|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|5.78.81.168|8080|United States|Portland|Hetzner Online GmbH|
-|6|20.210.34.43|3129|Japan|Tokyo|Microsoft Corporation|
-|7|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|8|34.140.70.242|8080|Belgium|Brussels|Google LLC|
-|9|20.210.34.121|3129|Japan|Tokyo|Microsoft Corporation|
+|2|20.210.34.43|3129|Japan|Tokyo|Microsoft Corporation|
+|3|20.210.34.121|3129|Japan|Tokyo|Microsoft Corporation|
+|4|64.225.4.63|9998|United States|Clifton|DigitalOcean, LLC|
+|5|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|34.140.70.242|8080|Belgium|Brussels|Google LLC|
 |10|5.78.81.168|8080|United States|Portland|Hetzner Online GmbH|
-|11|5.78.85.139|8080|United States|Portland|Hetzner Online GmbH|
-|12|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|15|128.140.0.229|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|16|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|17|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|18|5.78.102.65|8080|United States|Portland|Hetzner Online GmbH|
+|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|5.78.102.65|8080|United States|Portland|Hetzner Online GmbH|
+|14|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|15|5.78.85.139|8080|United States|Portland|Hetzner Online GmbH|
+|16|78.138.98.115|3128|France|Strasbourg|Host Europe GmbH|
+|17|64.225.4.63|9998|United States|Clifton|DigitalOcean, LLC|
+|18|128.140.0.229|8080|Germany|Nuremberg|Hetzner Online GmbH|
 |19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|20|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|20|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
 
 
 
