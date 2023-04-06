@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7385** proxies at the latest update. Usable proxies are below.
+> Scraper found **7345** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|380|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|380|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|380|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|708|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|708|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|708|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1920|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1853|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1139|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1166|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3343|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|2|34.140.70.242|8080|Belgium|Brussels|Google LLC|
-|3|5.78.93.19|8080|United States|Portland|Hetzner Online GmbH|
-|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|5.78.69.192|8080|United States|Portland|Hetzner Online GmbH|
-|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|8|5.78.102.247|8080|United States|Portland|Hetzner Online GmbH|
-|9|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|10|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|5.78.71.240|8080|United States|Portland|Hetzner Online GmbH|
-|13|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|14|5.78.102.162|8080|United States|Portland|Hetzner Online GmbH|
-|15|5.78.69.192|8080|United States|Portland|Hetzner Online GmbH|
-|16|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|17|5.78.93.19|8080|United States|Portland|Hetzner Online GmbH|
-|18|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|19|103.143.197.19|8080|Indonesia|Sragen|JERNIHNETWORK|
-|20|5.78.100.193|8080|United States|Portland|Hetzner Online GmbH|
+|1|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|3|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|4|206.189.98.104|8118|Netherlands|Amsterdam|DigitalOcean, LLC|
+|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|6|64.225.4.63|9985|United States|Clifton|DigitalOcean, LLC|
+|7|5.78.102.162|8080|United States|Portland|Hetzner Online GmbH|
+|8|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|10|34.140.70.242|8080|Belgium|Brussels|Google LLC|
+|11|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|13|5.78.69.192|8080|United States|Portland|Hetzner Online GmbH|
+|14|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|15|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|17|5.78.69.192|8080|United States|Portland|Hetzner Online GmbH|
+|18|5.78.93.19|8080|United States|Portland|Hetzner Online GmbH|
+|19|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|20|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
 
 
 
