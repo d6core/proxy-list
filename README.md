@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7333** proxies at the latest update. Usable proxies are below.
+> Scraper found **7260** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|642|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|642|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|642|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|125|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|125|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|125|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1941|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1868|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1020|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3389|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|5|65.21.242.89|4444|Finland|Helsinki|Hetzner Online GmbH|
-|6|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|7|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|9|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|10|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|11|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
-|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|14|103.157.116.186|8080|Indonesia|Yogyakarta|PT Cloud Teknologi Nusantara|
-|15|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|16|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|17|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|80.106.247.145|53410|Greece|Chalcis|Ote SA (Hellenic Telecommunications Organisation)|
-|20|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
+|1|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|2|51.159.115.233|3128|France|Paris|SCALEWAY|
+|3|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|4|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|7|189.57.90.194|8080|Brazil|São Paulo|Vivo|
+|8|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|10|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|103.157.116.186|8080|Indonesia|Yogyakarta|PT Cloud Teknologi Nusantara|
+|13|85.113.156.89|55443|Russia|Voronezh|Intercon JSC|
+|14|105.29.164.28|8080|Kenya|Nairobi|SEACOM Limited|
+|15|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|16|171.247.160.252|4013|Vietnam|Ho Chi Minh City|Viettel Corporation|
+|17|201.163.47.10|999|Mexico|Mérida|Alestra, S. de R.L. de C.V.|
+|18|5.78.67.15|8080|United States|Portland|Hetzner Online GmbH|
+|19|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|20|5.78.78.236|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
