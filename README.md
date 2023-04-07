@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7376** proxies at the latest update. Usable proxies are below.
+> Scraper found **7482** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|591|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|591|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|591|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|657|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|657|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|657|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1826|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1932|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|976|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3291|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|54.39.181.125|3128|Canada|Beauharnois|OVH SAS|
-|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|6|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|7|89.17.153.123|3128|Iceland|Mosfellsbaer|Hringdu ehf|
-|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|2|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|3|161.35.26.157|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
 |9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|10|54.39.182.178|3128|Canada|Beauharnois|OVH SAS|
+|10|3.90.234.88|8118|United States|Ashburn|Amazon Technologies Inc.|
 |11|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|12|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|13|167.172.238.15|9981|United States|Clifton|DigitalOcean, LLC|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
-|16|167.172.238.15|9981|United States|Clifton|DigitalOcean, LLC|
-|17|184.185.105.105|4481|United States|Pawtucket|Cox Communications Inc.|
-|18|101.109.58.28|8080|Thailand|Si Racha|TOT Public Company Limited|
-|19|184.185.105.105|4481|United States|Pawtucket|Cox Communications Inc.|
-|20|45.234.61.229|999|Venezuela|Caracas|SOLUCIONES INSTALRED CH&C C.A.|
+|12|3.90.234.88|8118|United States|Ashburn|Amazon Technologies Inc.|
+|13|50.233.228.147|8080|United States|Denver|Comcast Cable Communications, LLC|
+|14|101.109.58.28|8080|Thailand|Si Racha|TOT Public Company Limited|
+|15|89.17.153.123|3128|Iceland|Mosfellsbaer|Hringdu ehf|
+|16|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|17|167.172.238.15|9981|United States|Clifton|DigitalOcean, LLC|
+|18|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|19|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|20|200.32.51.179|8080|Argentina|Catamarca|Telefonica de Argentina|
 
 
 
