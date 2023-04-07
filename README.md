@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|581|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|581|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|581|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|578|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|578|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|578|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|121.54.190.201|45787|United States|Los Angeles|Zenlayer Inc|
-|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|3|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|1|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|2|121.54.190.201|45787|United States|Los Angeles|Zenlayer Inc|
+|3|121.54.190.201|45787|United States|Los Angeles|Zenlayer Inc|
 |4|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|5|121.54.190.201|45787|United States|Los Angeles|Zenlayer Inc|
+|5|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
 |6|43.249.11.147|45787|United States|Los Angeles|Zenlayer Inc|
-|7|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|8|54.39.180.76|3128|Canada|Beauharnois|OVH SAS|
-|9|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|10|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|11|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|12|1.53.252.228|2022|Vietnam|Ho Chi Minh City|FPT Telecom Company|
-|13|43.249.11.147|45787|United States|Los Angeles|Zenlayer Inc|
-|14|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
-|15|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|16|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|17|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|18|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|80.240.16.149|80|Germany|Frankfurt am Main|The Constant Company, LLC|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|8|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|9|43.249.11.147|45787|United States|Los Angeles|Zenlayer Inc|
+|10|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|11|143.244.205.72|1080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|16|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|17|213.222.34.200|53281|Bulgaria|Sliven|A1 Bulgaria EAD|
+|18|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|19|93.105.40.62|41258|Poland|Warsaw|Vectra S.A. BUSINESS P2P CONNECTIONS|
+|20|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
 
 
 
