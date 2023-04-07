@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8239** proxies at the latest update. Usable proxies are below.
+> Scraper found **8294** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|709|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|709|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|709|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|180|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|180|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|180|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2015|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2278|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1302|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3639|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3431|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.140.70.242|8080|Belgium|Brussels|Google LLC|
-|2|20.210.34.121|3129|Japan|Tokyo|Microsoft Corporation|
-|3|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|5|91.107.227.164|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|7|162.55.168.38|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|8|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|9|103.42.28.41|45787|Japan|Tokyo|Zenlayer Inc|
-|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|11|76.181.159.53|32650|United States|Byesville|Charter Communications Inc|
-|12|50.222.34.43|60808|United States|Houston|Comcast Cable Communications, LLC|
-|13|201.182.251.141|999|Colombia|Pasto|SP SISTEMAS PALACIOS LTDA|
-|14|186.194.160.121|999|Colombia|Bogotá|Telenet Digital S.A.S|
-|15|179.1.192.16|999|Colombia|Neiva|INTERNEXA Brasil Operadora de Telecomunica??es S.A|
-|16|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|17|187.109.40.9|20183|Brazil|São Paulo|Ultranet Telecomunicações Ltda|
-|18|125.25.40.41|32650|Thailand|Khwaeng Thung Song Hong|TOT Public Company Limited|
-|19|139.228.91.66|8080|Indonesia|Surabaya|PT. First Media, Tbk|
-|20|174.138.167.182|8888|United States|Phoenix|Secured Servers LLC|
+|1|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|2|34.140.70.242|8080|Belgium|Brussels|Google LLC|
+|3|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|4|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|20.210.34.121|3129|Japan|Tokyo|Microsoft Corporation|
+|6|5.161.44.221|1234|United States|Ashburn|Hetzner Online GmbH|
+|7|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
+|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|9|162.55.168.38|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|10|50.222.34.43|60808|United States|Houston|Comcast Cable Communications, LLC|
+|11|103.111.191.110|80|Indonesia|Jakarta|PT Cyberindo Aditama|
+|12|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|13|156.253.5.219|1234|Germany|Frankfurt am Main|Bitcommand LLC|
+|14|203.57.1.23|4780|Australia|Adelaide|AAPT Limited|
+|15|61.216.156.222|60808|Taiwan|New Taipei|Chunghwa Telecom Co., Ltd.|
+|16|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|17|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
+|18|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|19|65.108.157.140|8080|Finland|Helsinki|Hetzner Online GmbH|
+|20|182.23.107.211|80|Indonesia|Jakarta|PT Aplikanusa Lintasarta|
 
 
 
