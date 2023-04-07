@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7717** proxies at the latest update. Usable proxies are below.
+> Scraper found **7445** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|650|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|650|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|650|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|146|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|146|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|146|
 
 ## Sources
 
@@ -36,37 +36,37 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1884|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2018|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1129|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3421|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1055|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3389|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|4|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|5|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|6|5.78.75.7|8080|United States|Portland|Hetzner Online GmbH|
-|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|8|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|9|5.78.45.172|8080|United States|Portland|Hetzner Online GmbH|
-|10|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|11|147.75.92.248|80|Japan|Yono|Packet Host, Inc.|
-|12|5.78.102.82|8080|United States|Portland|Hetzner Online GmbH|
-|13|5.78.101.225|8080|United States|Portland|Hetzner Online GmbH|
-|14|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
-|15|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|16|5.78.101.201|8080|United States|Portland|Hetzner Online GmbH|
-|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|18|5.78.100.243|8080|United States|Portland|Hetzner Online GmbH|
-|19|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|20|5.78.71.233|8080|United States|Portland|Hetzner Online GmbH|
+|1|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|2|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|3|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|4|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|5|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|6|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|7|159.138.130.126|8999|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|8|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|9|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|10|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|181.167.81.69|8080|Argentina|Palermo|Telecom Argentina S.A|
+|13|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|14|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|15|5.78.102.82|8080|United States|Portland|Hetzner Online GmbH|
+|16|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|17|94.74.127.96|4780|Hong Kong|Hong Kong|Huawei International Pte. LTD|
+|18|5.78.101.165|8080|United States|Portland|Hetzner Online GmbH|
+|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|20|5.78.46.53|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
