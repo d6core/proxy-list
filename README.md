@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5385** proxies at the latest update. Usable proxies are below.
+> Scraper found **5712** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|614|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|614|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|614|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|76|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|76|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|76|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
 |[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|0|🚫|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1013|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1040|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3389|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.39.183.146|3128|Canada|Beauharnois|OVH SAS|
-|2|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|4|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|5|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|8|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|9|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
-|10|139.59.59.122|8118|India|Bengaluru|DigitalOcean|
-|11|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|14|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|15|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
-|16|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
-|17|206.84.101.110|9090|Indonesia|Kuningan Barat|AGIS|
-|18|103.12.199.242|8080|Pakistan|Lahore|KK Networks (Pvt) Ltd|
-|19|41.174.96.38|32650|Zimbabwe|Harare|Liquid Telecommunications Operations Limited|
-|20|206.84.101.110|9090|Indonesia|Kuningan Barat|AGIS|
+|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|2|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|3|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|4|213.32.75.88|9300|France|Paris|OVH SAS|
+|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|6|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|7|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|8|51.159.115.233|3128|France|Paris|SCALEWAY|
+|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|12|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|13|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|16|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|17|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|18|45.189.113.63|999|Ecuador|Milagro|Anibal Humberto Enriquez Moncayo(Comunicate)|
+|19|93.105.40.62|41258|Poland|Warsaw|Vectra S.A. BUSINESS P2P CONNECTIONS|
+|20|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 
 
 
