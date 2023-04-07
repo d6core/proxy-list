@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7495** proxies at the latest update. Usable proxies are below.
+> Scraper found **7442** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|646|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|646|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|646|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|462|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|462|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|462|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1957|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1962|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1123|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1065|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3432|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.39.181.10|3128|Canada|Beauharnois|OVH SAS|
-|2|107.152.39.80|8080|United States|Chicago|tzulo, inc.|
+|1|20.210.34.43|3129|Japan|Tokyo|Microsoft Corporation|
+|2|20.210.37.125|3129|Japan|Tokyo|Microsoft Corporation|
 |3|20.210.27.159|3129|Japan|Tokyo|Microsoft Corporation|
-|4|20.210.37.125|3129|Japan|Tokyo|Microsoft Corporation|
-|5|107.152.36.101|8080|United States|Chicago|tzulo, inc.|
-|6|162.212.155.48|8080|United States|Cheney|tzulo, inc.|
-|7|20.210.34.43|3129|Japan|Tokyo|Microsoft Corporation|
-|8|107.152.43.213|8080|United States|Durham|tzulo, inc.|
-|9|157.90.117.60|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|10|162.212.155.132|8080|United States|Cheney|tzulo, inc.|
-|11|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|13|51.159.115.233|3128|France|Paris|SCALEWAY|
-|14|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
-|15|162.212.157.252|8080|United States|Chicago|tzulo, inc.|
-|16|162.212.155.48|8080|United States|Cheney|tzulo, inc.|
-|17|142.132.168.22|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|18|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|19|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|107.152.36.100|8080|United States|Chicago|tzulo, inc.|
+|4|107.152.36.101|8080|United States|Chicago|tzulo, inc.|
+|5|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|6|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|7|213.32.75.88|9300|France|Paris|OVH SAS|
+|8|195.201.122.180|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|9|142.132.168.22|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|10|130.51.20.123|8080|United States|Santa Clara|Sharktech|
+|11|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
+|12|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|14|157.90.117.60|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|15|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|17|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|18|51.159.115.233|3128|France|Paris|SCALEWAY|
+|19|130.51.20.123|8080|United States|Santa Clara|Sharktech|
+|20|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
