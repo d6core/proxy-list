@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|145|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|145|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|145|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|570|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|570|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|570|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|3|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|4|54.39.183.146|3128|Canada|Beauharnois|OVH SAS|
-|5|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|6|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|7|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|8|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|9|159.138.130.126|8999|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|1|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|3|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|5|170.64.164.110|8080|Australia|Sydney|DigitalOcean, LLC|
+|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|7|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|10|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
+|11|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
 |12|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|15|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|16|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
-|17|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|18|51.159.115.233|3128|France|Paris|SCALEWAY|
-|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|20|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|13|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|14|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|17|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|18|27.76.82.247|3024|Vietnam|Bac Ninh|Newass2011xDSLHCMC|
+|19|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|20|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
 
 
 
