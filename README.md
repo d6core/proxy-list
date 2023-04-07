@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7170** proxies at the latest update. Usable proxies are below.
+> Scraper found **7184** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|345|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|345|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|345|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|609|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|609|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|609|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1810|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1824|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|891|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3186|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|104.223.164.173|3128|United States|Los Angeles|LayerHost|
-|3|104.223.164.180|3128|United States|Los Angeles|LayerHost|
-|4|207.180.216.251|8118|Germany|Nuremberg|Contabo GmbH|
-|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|6|104.223.164.180|3128|United States|Los Angeles|LayerHost|
-|7|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|8|107.179.9.238|3128|United States|Los Angeles|LayerHost|
-|9|104.148.101.143|3128|United States|Los Angeles|LayerHost|
+|1|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|2|143.244.205.72|1080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|104.223.164.173|3128|United States|Los Angeles|LayerHost|
+|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|5|107.179.9.238|3128|United States|Los Angeles|LayerHost|
+|6|107.179.9.238|3128|United States|Los Angeles|LayerHost|
+|7|23.247.90.167|3128|Australia|Sydney|LayerHost|
+|8|104.223.164.180|3128|United States|Los Angeles|LayerHost|
+|9|210.172.199.88|8080|Japan|Gifu|KITAGATA|
 |10|104.223.164.173|3128|United States|Los Angeles|LayerHost|
-|11|23.247.90.167|3128|Australia|Sydney|LayerHost|
+|11|104.223.164.180|3128|United States|Los Angeles|LayerHost|
 |12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|139.162.18.134|3128|Singapore|Singapore|LINODE|
-|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|103.68.194.157|45787|United States|Los Angeles|Zenlayer Inc|
-|17|116.105.25.124|11001|Vietnam|Hanoi|Viettel Corporation|
-|18|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|19|181.13.246.139|999|Argentina|Concordia|Telecom Argentina S.A.|
-|20|103.154.230.109|5678|Indonesia|Lamongan|DIGITNET|
+|13|104.148.101.143|3128|United States|Los Angeles|LayerHost|
+|14|23.247.90.167|3128|Australia|Sydney|LayerHost|
+|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|16|104.148.101.143|3128|United States|Los Angeles|LayerHost|
+|17|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|18|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|19|94.131.108.61|8443|Turkey|Izmir|Stark Industries Solutions LTD|
+|20|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
 
 
 
