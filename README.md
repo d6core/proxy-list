@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7574** proxies at the latest update. Usable proxies are below.
+> Scraper found **7444** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2024|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1894|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|976|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3291|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|2|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|6|103.31.38.122|8118|Indonesia|Cicurug|PT Cloud Hosting Indonesia|
-|7|35.153.157.84|8118|United States|Ashburn|Amazon Technologies Inc.|
-|8|190.2.212.94|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|9|64.225.8.118|9992|United States|Clifton|DigitalOcean, LLC|
-|10|45.71.113.97|999|Ecuador|Milagro|Nedetel S.A.|
-|11|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|12|64.225.8.118|9992|United States|Clifton|DigitalOcean, LLC|
-|13|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|14|116.105.25.124|11001|Vietnam|Hanoi|Viettel Corporation|
-|15|103.143.197.19|8080|Indonesia|Sragen|JERNIHNETWORK|
-|16|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|17|103.235.199.179|9812|Nepal|Dhulikhel|CCNEP|
-|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|19|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|1|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|7|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|8|195.140.146.3|3128|Russia|Khimki|JSC IOT|
+|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|191.102.254.10|8085|Argentina|Rosario|IP·RED|
+|12|213.136.101.36|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|13|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|14|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|15|103.228.246.41|3131|Indonesia|Ponorogo|Giga Patra Multimedia|
+|16|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|17|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|18|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|19|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
