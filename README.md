@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|638|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|638|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|638|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|661|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|661|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|661|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|54.39.181.71|3128|Canada|Beauharnois|OVH SAS|
 |3|20.210.25.252|3129|Japan|Tokyo|Microsoft Corporation|
-|4|91.107.229.19|7890|Germany|Frankfurt Am Main|Hetzner Online AG|
-|5|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|6|54.39.190.187|3128|Canada|Beauharnois|OVH SAS|
-|7|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|8|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
-|9|45.33.115.144|80|United States|Richardson|Akamai Technologies, Inc.|
-|10|45.33.115.144|80|United States|Richardson|Akamai Technologies, Inc.|
-|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|16|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|17|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|19|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|20|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|4|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|5|91.107.229.19|7890|Germany|Frankfurt Am Main|Hetzner Online AG|
+|6|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|7|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|8|54.39.190.187|3128|Canada|Beauharnois|OVH SAS|
+|9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|10|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|11|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|15|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|16|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|17|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
+|18|38.65.172.97|999|Mexico|Querétaro City|Cogent Communications|
+|19|45.234.60.3|999|Venezuela|Caracas|SOLUCIONES INSTALRED CH&C C.A.|
+|20|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
 
 
 
