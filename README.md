@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|597|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|597|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|597|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|462|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|462|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|462|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.39.177.62|3128|Canada|Beauharnois|OVH SAS|
-|2|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|3|5.78.74.5|8080|United States|Portland|Hetzner Online GmbH|
-|4|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|6|54.39.180.76|3128|Canada|Beauharnois|OVH SAS|
-|7|5.78.70.216|8080|United States|Portland|Hetzner Online GmbH|
-|8|5.78.102.125|8080|United States|Portland|Hetzner Online GmbH|
-|9|5.78.75.61|8080|United States|Portland|Hetzner Online GmbH|
-|10|5.78.81.116|8080|United States|Portland|Hetzner Online GmbH|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|5.78.103.18|8080|United States|Portland|Hetzner Online GmbH|
-|13|5.78.78.23|8080|United States|Portland|Hetzner Online GmbH|
-|14|95.85.24.83|8118|Netherlands|Amsterdam|DigitalOcean, LLC|
-|15|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|16|51.159.115.233|3128|France|Paris|SCALEWAY|
-|17|54.39.182.184|3128|Canada|Beauharnois|OVH SAS|
-|18|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
-|19|5.78.41.44|8080|United States|Portland|Hetzner Online GmbH|
-|20|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|2|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|3|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|4|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|7|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|8|5.78.74.5|8080|United States|Portland|Hetzner Online GmbH|
+|9|5.78.102.125|8080|United States|Portland|Hetzner Online GmbH|
+|10|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|11|5.78.78.23|8080|United States|Portland|Hetzner Online GmbH|
+|12|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
+|13|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|14|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|15|5.78.75.61|8080|United States|Portland|Hetzner Online GmbH|
+|16|5.78.103.18|8080|United States|Portland|Hetzner Online GmbH|
+|17|82.66.75.98|49400|France|Amiens|Proxad / Free SAS|
+|18|5.78.81.116|8080|United States|Portland|Hetzner Online GmbH|
+|19|5.78.70.216|8080|United States|Portland|Hetzner Online GmbH|
+|20|5.78.41.44|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
