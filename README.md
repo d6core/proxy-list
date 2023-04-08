@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|594|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|594|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|594|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|578|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|578|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|578|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
-|2|65.109.166.109|8080|Finland|Helsinki|Hetzner Online GmbH|
-|3|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|6|65.21.189.169|8080|Finland|Helsinki|Hetzner Online GmbH|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|9|65.21.106.20|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|170.64.165.146|8080|Australia|Sydney|DigitalOcean, LLC|
-|11|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
-|12|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
-|13|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|14|195.8.52.158|6666|Poland|Ustrzyki Dolne|WIDE-NET II Sp. z o.o.|
-|15|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|16|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|17|72.201.50.191|8118|United States|Tucson|Cox Communications Inc.|
-|18|143.244.205.72|1080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|20|95.216.141.108|8080|Finland|Helsinki|Hetzner Online GmbH|
+|1|54.39.185.141|3128|Canada|Beauharnois|OVH SAS|
+|2|64.225.8.82|9985|United States|Clifton|DigitalOcean, LLC|
+|3|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
+|4|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|6|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|7|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|8|95.216.141.108|8080|Finland|Helsinki|Hetzner Online GmbH|
+|9|65.109.166.109|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|143.244.205.72|1080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|11|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|79.137.204.108|4444|Netherlands|Amsterdam|AEZA GROUP Ltd|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|18|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|19|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
+|20|64.225.8.82|9985|United States|Clifton|DigitalOcean, LLC|
 
 
 
