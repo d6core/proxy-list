@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|584|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|584|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|584|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|473|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|473|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|473|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|2|35.233.162.87|3100|United States|The Dalles|Google LLC|
-|3|20.210.37.125|3129|Japan|Tokyo|Microsoft Corporation|
-|4|20.210.27.159|3129|Japan|Tokyo|Microsoft Corporation|
-|5|20.210.38.220|3129|Japan|Tokyo|Microsoft Corporation|
-|6|20.210.39.170|3129|Japan|Tokyo|Microsoft Corporation|
-|7|5.78.93.237|8080|United States|Portland|Hetzner Online GmbH|
-|8|5.78.88.155|8080|United States|Portland|Hetzner Online GmbH|
-|9|20.210.25.252|3129|Japan|Tokyo|Microsoft Corporation|
-|10|20.210.26.15|3129|Japan|Tokyo|Microsoft Corporation|
-|11|5.78.95.164|8080|United States|Portland|Hetzner Online GmbH|
-|12|20.210.34.43|3129|Japan|Tokyo|Microsoft Corporation|
-|13|5.78.101.89|8080|United States|Portland|Hetzner Online GmbH|
-|14|5.78.88.155|8080|United States|Portland|Hetzner Online GmbH|
-|15|5.78.101.199|8080|United States|Portland|Hetzner Online GmbH|
-|16|5.78.68.196|8080|United States|Portland|Hetzner Online GmbH|
-|17|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|18|5.78.76.224|8080|United States|Portland|Hetzner Online GmbH|
-|19|5.78.77.147|8080|United States|Portland|Hetzner Online GmbH|
-|20|5.78.95.164|8080|United States|Portland|Hetzner Online GmbH|
+|1|35.233.162.87|3100|United States|The Dalles|Google LLC|
+|2|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|3|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|4|20.210.26.15|3129|Japan|Tokyo|Microsoft Corporation|
+|5|20.210.27.159|3129|Japan|Tokyo|Microsoft Corporation|
+|6|20.210.24.131|3129|Japan|Tokyo|Microsoft Corporation|
+|7|157.90.153.104|8888|Germany|Falkenstein|Hetzner Online GmbH|
+|8|20.210.37.125|3129|Japan|Tokyo|Microsoft Corporation|
+|9|5.78.68.196|8080|United States|Portland|Hetzner Online GmbH|
+|10|20.210.34.43|3129|Japan|Tokyo|Microsoft Corporation|
+|11|20.210.38.220|3129|Japan|Tokyo|Microsoft Corporation|
+|12|20.210.25.252|3129|Japan|Tokyo|Microsoft Corporation|
+|13|35.233.162.87|3100|United States|The Dalles|Google LLC|
+|14|5.78.101.89|8080|United States|Portland|Hetzner Online GmbH|
+|15|5.78.43.23|8080|United States|Portland|Hetzner Online GmbH|
+|16|5.78.65.154|8080|United States|Portland|Hetzner Online GmbH|
+|17|20.210.34.121|3129|Japan|Tokyo|Microsoft Corporation|
+|18|20.210.39.170|3129|Japan|Tokyo|Microsoft Corporation|
+|19|5.78.95.84|8080|United States|Portland|Hetzner Online GmbH|
+|20|5.78.88.155|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
