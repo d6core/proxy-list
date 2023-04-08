@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|709|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|709|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|709|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|689|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|689|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|689|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.39.181.89|3128|Canada|Beauharnois|OVH SAS|
+|1|54.39.187.203|3128|Canada|Beauharnois|OVH SAS|
 |2|54.37.21.230|3128|France|Gravelines|OVH SAS|
 |3|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|54.39.181.71|3128|Canada|Beauharnois|OVH SAS|
-|6|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
-|7|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|165.227.81.188|9958|United States|North Bergen|DigitalOcean, LLC|
-|10|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
-|11|107.152.42.99|8080|United States|Chicago|tzulo, inc.|
-|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|14|192.99.208.7|8050|Brazil|Mairi|OVH Hosting|
-|15|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|16|165.227.81.188|9958|United States|North Bergen|DigitalOcean, LLC|
-|17|179.1.129.93|999|Colombia|Ibague|Internexa S.a. E.S.P|
-|18|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|19|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|20|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|4|107.152.42.99|8080|United States|Chicago|tzulo, inc.|
+|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|7|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|8|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|12|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|13|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
+|14|190.186.1.126|999|Bolivia|Santa Cruz|Cotas Ltda.|
+|15|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|16|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|17|159.196.31.104|3128|Australia|Brisbane|Aussie Broadband|
+|18|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|19|45.70.197.209|999|Ecuador|Latacunga|Nedetel S.A.|
+|20|167.250.47.187|8080|Brazil|Laranjeiras do Sul|Inova Fibra|
 
 
 
