@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7476** proxies at the latest update. Usable proxies are below.
+> Scraper found **7794** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|578|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|578|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|578|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|528|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|528|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|528|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2003|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2021|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1330|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3160|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|2|5.161.110.95|50001|United States|Ashburn|Hetzner Online GmbH|
-|3|80.240.16.149|80|Germany|Frankfurt am Main|The Constant Company, LLC|
-|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|6|143.244.205.72|1080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|20.4.45.95|80|Netherlands|Amsterdam|Microsoft Corporation|
-|8|64.225.8.82|9981|United States|Clifton|DigitalOcean, LLC|
-|9|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|10|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|11|5.78.101.8|8080|United States|Portland|Hetzner Online GmbH|
-|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|13|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|14|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|15|216.74.242.2|8080|United States|Houston|Logix|
-|16|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|17|216.74.242.2|8080|United States|Houston|Logix|
-|18|195.133.45.149|7788|Russia|Moscow|VDS|
-|19|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|5.161.180.82|50001|United States|Ashburn|Hetzner Online GmbH|
+|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|4|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|6|20.4.45.95|80|Netherlands|Amsterdam|Microsoft Corporation|
+|7|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|8|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
+|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|10|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|11|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|12|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|13|5.78.101.8|8080|United States|Portland|Hetzner Online GmbH|
+|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|15|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|16|12.7.109.1|9812|United States|Carrizo Springs|AIRESPRING-ADT SYSTEMS, INC.|
+|17|78.138.98.115|3128|France|Strasbourg|Host Europe GmbH|
+|18|129.213.183.152|80|United States|Ashburn|Oracle Corporation|
+|19|143.244.205.72|1080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|20|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
 
 
 
