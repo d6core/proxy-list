@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|653|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|653|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|653|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|666|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|666|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|666|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|107.152.42.99|8080|United States|Chicago|tzulo, inc.|
-|2|45.61.187.67|4007|United States|Miami|FranTech Solutions|
-|3|65.109.184.9|8080|Finland|Helsinki|Hetzner Online GmbH|
-|4|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
-|5|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|6|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|7|107.152.42.99|8080|United States|Chicago|tzulo, inc.|
+|1|54.39.185.149|3128|Canada|Beauharnois|OVH SAS|
+|2|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|3|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|4|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|5|107.152.42.99|8080|United States|Chicago|tzulo, inc.|
+|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|10|91.107.229.19|7890|Germany|Frankfurt Am Main|Hetzner Online AG|
-|11|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|16|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|5.78.99.194|8080|United States|Portland|Hetzner Online GmbH|
+|9|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|10|165.227.81.188|9983|United States|North Bergen|DigitalOcean, LLC|
+|11|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|12|65.109.184.9|8080|Finland|Helsinki|Hetzner Online GmbH|
+|13|91.107.229.19|7890|Germany|Frankfurt Am Main|Hetzner Online AG|
+|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|15|107.152.42.99|8080|United States|Chicago|tzulo, inc.|
+|16|165.227.81.188|9983|United States|North Bergen|DigitalOcean, LLC|
+|17|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
+|18|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
 |19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|20|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|20|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 
 
 
