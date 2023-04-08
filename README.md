@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|596|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|596|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|596|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|144|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|144|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|144|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.39.189.152|3128|Canada|Beauharnois|OVH SAS|
-|2|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|3|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|4|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
-|5|65.109.86.182|33229|Finland|Helsinki|Hetzner Online GmbH|
-|6|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|5.78.97.38|8080|United States|Portland|Hetzner Online GmbH|
-|9|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|10|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|11|195.133.45.149|7788|Russia|Moscow|VDS|
-|12|5.78.99.194|8080|United States|Portland|Hetzner Online GmbH|
-|13|5.78.97.13|8080|United States|Portland|Hetzner Online GmbH|
-|14|5.78.103.75|8080|United States|Portland|Hetzner Online GmbH|
-|15|66.94.105.234|8080|United States|St Louis|Contabo Inc.|
-|16|5.78.97.210|8080|United States|Portland|Hetzner Online GmbH|
-|17|5.78.95.226|8080|United States|Portland|Hetzner Online GmbH|
-|18|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|19|5.78.69.28|8080|United States|Portland|Hetzner Online GmbH|
-|20|5.78.95.225|8080|United States|Portland|Hetzner Online GmbH|
+|1|54.39.190.136|3128|Canada|Beauharnois|OVH SAS|
+|2|54.39.182.255|3128|Canada|Beauharnois|OVH SAS|
+|3|54.39.181.89|3128|Canada|Beauharnois|OVH SAS|
+|4|195.133.45.149|7788|Russia|Moscow|VDS|
+|5|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|8|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|9|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|10|66.94.105.234|8080|United States|St Louis|Contabo Inc.|
+|11|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|12|54.39.181.125|3128|Canada|Beauharnois|OVH SAS|
+|13|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|14|43.153.212.166|55555|Singapore|Singapore|Aceville Pte.ltd|
+|15|80.51.213.226|8118|Poland|Raciborowice Gorne|Orange Polska SA|
+|16|5.78.82.159|8080|United States|Portland|Hetzner Online GmbH|
+|17|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|19|5.78.99.194|8080|United States|Portland|Hetzner Online GmbH|
+|20|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
 
 
 
