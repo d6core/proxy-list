@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5219** proxies at the latest update. Usable proxies are below.
+> Scraper found **5468** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
 |[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|0|🚫|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1054|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1003|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3182|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.103.18|8080|United States|Portland|Hetzner Online GmbH|
-|2|5.78.41.44|8080|United States|Portland|Hetzner Online GmbH|
-|3|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|4|5.78.81.116|8080|United States|Portland|Hetzner Online GmbH|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|7|5.78.70.216|8080|United States|Portland|Hetzner Online GmbH|
+|1|5.78.70.216|8080|United States|Portland|Hetzner Online GmbH|
+|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|5.78.103.18|8080|United States|Portland|Hetzner Online GmbH|
+|4|5.78.41.44|8080|United States|Portland|Hetzner Online GmbH|
+|5|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|210.172.199.88|8080|Japan|Gifu|KITAGATA|
 |8|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|5.78.99.34|8080|United States|Portland|Hetzner Online GmbH|
-|10|51.159.115.233|3128|France|Paris|SCALEWAY|
-|11|5.78.86.193|8080|United States|Portland|Hetzner Online GmbH|
-|12|5.78.103.18|8080|United States|Portland|Hetzner Online GmbH|
-|13|5.78.89.48|8080|United States|Portland|Hetzner Online GmbH|
-|14|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|15|5.78.92.237|8080|United States|Portland|Hetzner Online GmbH|
-|16|5.78.75.47|8080|United States|Portland|Hetzner Online GmbH|
-|17|5.78.85.75|8080|United States|Portland|Hetzner Online GmbH|
-|18|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|5.78.81.116|8080|United States|Portland|Hetzner Online GmbH|
-|20|5.78.102.153|8080|United States|Portland|Hetzner Online GmbH|
+|9|5.78.81.116|8080|United States|Portland|Hetzner Online GmbH|
+|10|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|11|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
+|12|51.159.115.233|3128|France|Paris|SCALEWAY|
+|13|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|14|5.78.71.243|8080|United States|Portland|Hetzner Online GmbH|
+|15|5.161.55.129|8080|United States|Ashburn|Hetzner Online GmbH|
+|16|5.78.70.216|8080|United States|Portland|Hetzner Online GmbH|
+|17|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|18|5.78.103.18|8080|United States|Portland|Hetzner Online GmbH|
+|19|5.78.97.169|8080|United States|Portland|Hetzner Online GmbH|
+|20|5.78.92.132|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
