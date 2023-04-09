@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7167** proxies at the latest update. Usable proxies are below.
+> Scraper found **7271** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|564|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|564|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|564|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|661|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|661|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|661|
 
 ## Sources
 
@@ -36,11 +36,11 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1647|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1744|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1206|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3331|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1132|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3112|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|52.4.150.19|8080|United States|Ashburn|Amazon.com, Inc.|
-|2|20.159.154.112|8080|United States|Boydton|Microsoft Corporation|
-|3|20.210.27.147|3129|Japan|Tokyo|Microsoft Corporation|
-|4|20.210.39.170|3129|Japan|Tokyo|Microsoft Corporation|
-|5|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|6|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|7|54.39.184.149|3128|Canada|Beauharnois|OVH SAS|
-|8|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|9|20.210.37.125|3129|Japan|Tokyo|Microsoft Corporation|
-|10|54.39.182.198|3128|Canada|Beauharnois|OVH SAS|
-|11|64.52.80.250|8080|United States|Los Angeles|BL Networks|
-|12|52.4.150.19|8080|United States|Ashburn|Amazon.com, Inc.|
-|13|20.210.25.252|3129|Japan|Tokyo|Microsoft Corporation|
-|14|64.52.80.250|8080|United States|Los Angeles|BL Networks|
-|15|20.210.34.43|3129|Japan|Tokyo|Microsoft Corporation|
-|16|20.210.26.15|3129|Japan|Tokyo|Microsoft Corporation|
-|17|20.210.27.159|3129|Japan|Tokyo|Microsoft Corporation|
-|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|19|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|2|64.225.4.29|9491|United States|Clifton|DigitalOcean, LLC|
+|3|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|4|49.12.237.87|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|5|64.225.4.81|9986|United States|Clifton|DigitalOcean, LLC|
+|6|20.210.27.159|3129|Japan|Tokyo|Microsoft Corporation|
+|7|20.210.39.170|3129|Japan|Tokyo|Microsoft Corporation|
+|8|8.222.231.31|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|111.240.205.154|8080|Taiwan|New Taipei|Chunghwa Telecom Co., Ltd.|
+|10|20.210.34.43|3129|Japan|Tokyo|Microsoft Corporation|
+|11|20.210.27.147|3129|Japan|Tokyo|Microsoft Corporation|
+|12|20.159.154.112|8080|United States|Boydton|Microsoft Corporation|
+|13|20.210.26.15|3129|Japan|Tokyo|Microsoft Corporation|
+|14|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|15|5.161.180.82|50001|United States|Ashburn|Hetzner Online GmbH|
+|16|20.210.37.125|3129|Japan|Tokyo|Microsoft Corporation|
+|17|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|18|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|19|20.210.34.121|3129|Japan|Tokyo|Microsoft Corporation|
+|20|158.69.71.245|9300|Canada|Montreal|OVH SAS|
 
 
 
