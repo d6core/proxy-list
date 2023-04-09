@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7796** proxies at the latest update. Usable proxies are below.
+> Scraper found **7867** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|785|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|785|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|785|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|317|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|317|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|317|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1875|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1946|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1366|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3272|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|38.83.74.2|443|United States|Miami|Cogent Communications|
-|2|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|3|5.78.102.82|8080|United States|Portland|Hetzner Online GmbH|
-|4|167.235.197.240|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|5|66.220.129.39|3128|United States|La Grange|COLORADO VALLEY COMMUNICATIONS, INC.|
-|6|185.135.157.89|8080|Netherlands|Amsterdam|Diva-C OOO|
-|7|141.148.41.219|80|United States|Ashburn|Oracle Corporation|
-|8|138.201.172.129|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|9|65.108.62.123|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|91.107.227.164|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|11|190.136.50.67|3128|Argentina|San Miguel de Tucumán|Telecom Argentina S.A|
-|12|1.234.23.159|80|South Korea|Seoul|SK Broadband Co Ltd|
-|13|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
-|14|65.109.233.198|8080|Finland|Helsinki|Hetzner Online GmbH|
-|15|135.181.149.47|8080|Finland|Helsinki|Hetzner Online GmbH|
-|16|95.217.3.133|8080|Finland|Helsinki|Hetzner Online GmbH|
-|17|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|18|65.109.228.231|8080|Finland|Helsinki|Hetzner Online GmbH|
-|19|5.78.100.243|8080|United States|Portland|Hetzner Online GmbH|
-|20|5.78.81.108|8080|United States|Portland|Hetzner Online GmbH|
+|1|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|2|1.234.23.159|80|South Korea|Seoul|SK Broadband Co Ltd|
+|3|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|4|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
+|7|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
+|8|5.78.102.82|8080|United States|Portland|Hetzner Online GmbH|
+|9|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
+|10|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|200.123.29.42|3128|Peru|Lima region|Wigo S.A.|
+|12|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|13|5.78.81.108|8080|United States|Portland|Hetzner Online GmbH|
+|14|202.181.14.23|3128|Bangladesh|Dhaka|BDPEER|
+|15|195.201.34.206|80|Germany|Gunzenhausen|Hetzner Online GmbH|
+|16|38.83.74.2|443|United States|Miami|Cogent Communications|
+|17|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|18|5.78.100.243|8080|United States|Portland|Hetzner Online GmbH|
+|19|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
+|20|61.14.233.155|7890|Vietnam|Ho Chi Minh City|LUUTRUSO|
 
 
 
