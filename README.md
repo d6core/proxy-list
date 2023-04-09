@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7163** proxies at the latest update. Usable proxies are below.
+> Scraper found **7409** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|465|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|465|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|465|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|902|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|902|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|902|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2133|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2079|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1219|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2828|✅|
@@ -51,22 +51,22 @@ Click the file format that you want and copy the URL.
 |2|43.157.66.170|8080|Germany|Frankfurt|Shenzhen Tencent Computer Systems Company Limited|
 |3|152.228.206.188|80|France|Paris|OVH SAS|
 |4|168.119.153.21|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|5|111.240.205.154|8080|Taiwan|New Taipei|Chunghwa Telecom Co., Ltd.|
-|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|20.159.154.112|8080|United States|Boydton|Microsoft Corporation|
-|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|10|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|11|119.8.120.4|80|Hong Kong|Hong Kong|Huawei International Pte. LTD|
-|12|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|13|43.153.120.226|4780|United States|Santa Clara|Aceville Pte.ltd|
-|14|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|16|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
-|17|51.159.115.233|3128|France|Paris|SCALEWAY|
-|18|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
+|5|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|6|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
+|7|23.88.120.35|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|8|111.240.205.154|8080|Taiwan|New Taipei|Chunghwa Telecom Co., Ltd.|
+|9|45.137.65.193|8080|Netherlands|Amsterdam|Zomro B.V.|
+|10|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|11|5.78.101.138|8080|United States|Portland|Hetzner Online GmbH|
+|12|5.78.93.19|8080|United States|Portland|Hetzner Online GmbH|
+|13|20.159.154.112|8080|United States|Boydton|Microsoft Corporation|
+|14|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|15|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|16|91.92.122.215|8080|Iran|Tehran|TIC|
+|17|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|18|73.242.86.12|8118|United States|Minnetonka|Comcast Cable Communications|
 |19|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|20|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
