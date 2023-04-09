@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6719** proxies at the latest update. Usable proxies are below.
+> Scraper found **7042** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|133|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|133|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|133|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|250|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|250|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|250|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1598|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1921|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1028|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2810|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.39.179.23|3128|Canada|Beauharnois|OVH SAS|
-|2|43.157.66.170|8080|Germany|Frankfurt|Shenzhen Tencent Computer Systems Company Limited|
-|3|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|4|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|37.27.3.196|8080|Iran|Tehran|Hetzner Online GmbH|
-|6|65.108.218.176|8080|Finland|Helsinki|Hetzner Online GmbH|
-|7|45.91.132.121|8080|Thailand|Nonthaburi|CAT Telecom Public Company Limited|
-|8|129.24.194.69|8000|United States|Albuquerque|University of New Mexico|
-|9|129.24.194.69|8000|United States|Albuquerque|University of New Mexico|
-|10|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|11|52.4.150.19|8080|United States|Ashburn|Amazon.com, Inc.|
-|12|103.112.254.58|32650|India|Muzaffarpur|Cybernet Introtech Private Limited|
-|13|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|14|172.105.76.87|8080|Germany|Frankfurt am Main|Akamai Technologies|
-|15|143.198.119.86|8080|United States|North Bergen|DigitalOcean, LLC|
-|16|135.181.149.47|8080|Finland|Helsinki|Hetzner Online GmbH|
-|17|139.162.169.179|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
-|18|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|19|46.101.116.205|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|20|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|1|65.108.218.176|8080|Finland|Helsinki|Hetzner Online GmbH|
+|2|37.27.3.196|8080|Iran|Tehran|Hetzner Online GmbH|
+|3|45.91.132.121|8080|Thailand|Nonthaburi|CAT Telecom Public Company Limited|
+|4|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|5|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|6|52.4.150.19|8080|United States|Ashburn|Amazon.com, Inc.|
+|7|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|8|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|9|5.78.42.62|50001|United States|Portland|Hetzner Online GmbH|
+|10|143.198.119.86|8080|United States|North Bergen|DigitalOcean, LLC|
+|11|172.105.76.87|8080|Germany|Frankfurt am Main|Akamai Technologies|
+|12|135.181.149.47|8080|Finland|Helsinki|Hetzner Online GmbH|
+|13|139.162.169.179|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|14|46.101.116.205|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|15|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|16|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|17|103.159.195.228|3127|Indonesia|Demak|PT Giga Digital Nusantara|
+|18|118.137.49.7|8080|Indonesia|Surabaya|Linknet-Fastnet ASN|
+|19|64.225.4.63|9998|United States|Clifton|DigitalOcean, LLC|
+|20|115.127.94.18|32650|Bangladesh|Dhaka|BRACNet Limited|
 
 
 
