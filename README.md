@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6035** proxies at the latest update. Usable proxies are below.
+> Scraper found **6119** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|537|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|537|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|537|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|492|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|492|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|492|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1218|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1302|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|910|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2824|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|52.4.150.19|8080|United States|Ashburn|Amazon.com, Inc.|
-|2|20.159.154.112|8080|United States|Boydton|Microsoft Corporation|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|54.39.189.138|3128|Canada|Beauharnois|OVH SAS|
-|5|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|6|52.4.150.19|8080|United States|Ashburn|Amazon.com, Inc.|
-|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|9|23.94.154.132|8080|Canada|Montreal|ColoCrossing|
-|10|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|158.69.27.94|9300|Canada|Montreal|OVH SAS|
-|13|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|14|193.187.111.227|3129|United States|Ashburn|Cox Communications Inc.|
-|15|20.210.37.125|3129|Japan|Tokyo|Microsoft Corporation|
-|16|193.187.111.55|3129|United States|Ashburn|Cox Communications Inc.|
-|17|193.187.111.134|3129|United States|Ashburn|Cox Communications Inc.|
-|18|202.154.18.108|3127|Indonesia|Lamongan|DIGITNET|
-|19|66.231.77.200|6969|Ecuador|Guayaquil|Cubotelecom Cia. Ltda.|
-|20|193.187.111.239|3129|United States|Ashburn|Cox Communications Inc.|
+|2|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|3|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|4|20.210.37.125|3129|Japan|Tokyo|Microsoft Corporation|
+|5|52.4.150.19|8080|United States|Ashburn|Amazon.com, Inc.|
+|6|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|7|193.187.111.180|3129|United States|Ashburn|Cox Communications Inc.|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|10|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|11|193.187.111.237|3129|United States|Ashburn|Cox Communications Inc.|
+|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|107.186.85.164|3129|United States|Chicago|EGIHosting|
+|14|107.186.85.114|3129|United States|Chicago|EGIHosting|
+|15|107.186.85.116|3129|United States|Chicago|EGIHosting|
+|16|143.244.205.72|1080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|18|193.187.111.55|3129|United States|Ashburn|Cox Communications Inc.|
+|19|193.187.111.68|3129|United States|Ashburn|Cox Communications Inc.|
+|20|107.186.85.227|3129|United States|Chicago|EGIHosting|
 
 
 
