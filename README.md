@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6010** proxies at the latest update. Usable proxies are below.
+> Scraper found **5783** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|297|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|297|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|297|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|333|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|333|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|333|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1140|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1213|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|797|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2690|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.210.37.125|3129|Japan|Tokyo|Microsoft Corporation|
+|1|20.210.39.170|3129|Japan|Tokyo|Microsoft Corporation|
 |2|20.210.26.15|3129|Japan|Tokyo|Microsoft Corporation|
-|3|20.210.27.99|3129|Japan|Tokyo|Microsoft Corporation|
-|4|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|20.210.27.159|3129|Japan|Tokyo|Microsoft Corporation|
-|6|20.210.34.121|3129|Japan|Tokyo|Microsoft Corporation|
-|7|20.210.38.220|3129|Japan|Tokyo|Microsoft Corporation|
-|8|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|9|20.210.25.252|3129|Japan|Tokyo|Microsoft Corporation|
-|10|20.210.24.131|3129|Japan|Tokyo|Microsoft Corporation|
-|11|20.210.34.43|3129|Japan|Tokyo|Microsoft Corporation|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|152.228.206.188|80|France|Paris|OVH SAS|
-|14|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|15|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
-|16|203.150.128.129|8080|Thailand|Vadhana|Internet Thailand Company Ltd|
-|17|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
-|18|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|19|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|20|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|20.210.34.121|3129|Japan|Tokyo|Microsoft Corporation|
+|4|20.210.27.99|3129|Japan|Tokyo|Microsoft Corporation|
+|5|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|213.142.148.43|1343|Turkey|Istanbul|Talha Bogaz|
+|9|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|10|20.210.27.147|3129|Japan|Tokyo|Microsoft Corporation|
+|11|20.210.27.159|3129|Japan|Tokyo|Microsoft Corporation|
+|12|20.210.25.252|3129|Japan|Tokyo|Microsoft Corporation|
+|13|20.210.37.125|3129|Japan|Tokyo|Microsoft Corporation|
+|14|107.152.37.94|8080|United States|Chicago|tzulo, inc.|
+|15|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|17|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|18|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|19|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
+|20|18.232.159.169|8118|United States|Ashburn|Amazon.com, Inc.|
 
 
 
