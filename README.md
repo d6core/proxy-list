@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6582** proxies at the latest update. Usable proxies are below.
+> Scraper found **6474** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|568|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|568|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|568|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|624|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|624|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|624|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1539|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1431|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|927|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3033|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|2|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|3|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|4|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|54.37.21.230|3128|France|Gravelines|OVH SAS|
-|7|165.22.239.217|8080|Canada|Toronto|DigitalOcean, LLC|
-|8|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|9|43.157.66.170|8080|Germany|Frankfurt|Shenzhen Tencent Computer Systems Company Limited|
-|10|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|11|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|12|152.228.206.188|80|France|Paris|OVH SAS|
-|13|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|14|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|38.83.74.2|443|United States|Miami|Cogent Communications|
-|17|38.242.133.174|8080|Germany|Düsseldorf|Cogent Communications|
-|18|167.71.51.240|8118|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|19|65.21.251.129|8080|Finland|Helsinki|Hetzner Online GmbH|
-|20|85.25.4.27|8646|France|Strasbourg|Host Europe GmbH|
+|2|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|3|64.225.8.118|9990|United States|Clifton|DigitalOcean, LLC|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|6|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
+|7|64.225.8.118|9990|United States|Clifton|DigitalOcean, LLC|
+|8|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|9|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|10|165.22.239.217|8080|Canada|Toronto|DigitalOcean, LLC|
+|11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|13|38.83.74.2|443|United States|Miami|Cogent Communications|
+|14|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|15|65.21.251.129|8080|Finland|Helsinki|Hetzner Online GmbH|
+|16|188.49.81.209|8080|Saudi Arabia|Riyadh|Saudinet DSL|
+|17|64.225.8.191|9990|United States|Clifton|DigitalOcean, LLC|
+|18|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|19|38.242.133.174|8080|Germany|Düsseldorf|Cogent Communications|
+|20|54.37.21.230|3128|France|Gravelines|OVH SAS|
 
 
 
