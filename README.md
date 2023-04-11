@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6619** proxies at the latest update. Usable proxies are below.
+> Scraper found **6575** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|657|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|657|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|657|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|422|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|422|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|422|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1576|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1532|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|927|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3033|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
-|4|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|5|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|6|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|7|165.22.239.217|8080|Canada|Toronto|DigitalOcean, LLC|
-|8|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|10|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|11|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|12|38.105.209.110|8080|United States|New York|Contabo Inc.|
-|13|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|14|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|15|38.83.74.2|443|United States|Miami|Cogent Communications|
-|16|38.242.133.174|8080|Germany|Düsseldorf|Cogent Communications|
-|17|65.21.251.129|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|200.32.51.179|8080|Argentina|Catamarca|Telefonica de Argentina|
-|19|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|20|54.37.21.230|3128|France|Gravelines|OVH SAS|
+|1|43.157.66.170|8080|Germany|Frankfurt|Shenzhen Tencent Computer Systems Company Limited|
+|2|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|3|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|4|38.105.209.110|8080|United States|New York|Contabo Inc.|
+|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|7|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|8|45.81.130.120|45787|United States|Los Angeles|Zenlayer Inc|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|168.11.52.41|8080|United States|Lyons|Board of Regents of the University System of Georgia|
+|11|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|12|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|13|95.217.135.29|8080|Finland|Helsinki|Hetzner Online GmbH|
+|14|38.105.209.110|8080|United States|New York|Contabo Inc.|
+|15|109.123.232.106|8080|Singapore|Singapore|Contabo Asia Private Limited|
+|16|54.92.167.233|8118|United States|Ashburn|Amazon.com, Inc.|
+|17|152.67.72.19|8888|Switzerland|Zurich|Oracle Corporation|
+|18|20.24.12.255|3128|Singapore|Singapore|Microsoft Corporation|
+|19|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|20|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
 
 
 
