@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5571** proxies at the latest update. Usable proxies are below.
+> Scraper found **5458** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|197|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|197|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|197|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|248|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|248|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|248|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1126|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1095|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|645|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2717|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2635|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|2|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|3|63.250.53.181|3128|United Kingdom|London|HIVELOCITY, Inc.|
-|4|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|8|24.152.49.229|999|Dominican Republic|Santo Domingo Este|Lightwave S.R.L|
-|9|179.1.113.22|999|Colombia|Bogotá|InterNexa Global Network|
-|10|45.5.2.246|8084|Argentina|Bariloche|Altec S.e. Alta Tecnologia Sociedad Del Estado|
-|11|103.87.169.185|32650|India|Jaipur|Tejays Industries Pvt Ltd|
-|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|165.227.81.188|9984|United States|North Bergen|DigitalOcean, LLC|
-|14|65.108.230.239|42041|Finland|Helsinki|Hetzner Online GmbH|
-|15|65.108.230.239|42041|Finland|Helsinki|Hetzner Online GmbH|
-|16|65.108.230.238|42747|Finland|Helsinki|Hetzner Online GmbH|
-|17|183.221.242.111|8443|China|Mianyang|China Mobile|
-|18|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|19|181.10.204.85|999|Argentina|Catamarca|Telecom Argentina S.A.|
-|20|65.108.230.239|42041|Finland|Helsinki|Hetzner Online GmbH|
+|1|64.225.8.191|9998|United States|Clifton|DigitalOcean, LLC|
+|2|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|3|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|152.228.206.188|80|France|Paris|OVH SAS|
+|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
+|8|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
+|9|181.204.45.179|999|Colombia|Cúcuta|EPM Telecomunicaciones S.A. E.S.P.|
+|10|110.168.255.170|8118|Thailand|Bangkok|TRUENET|
+|11|63.250.53.181|3128|United Kingdom|London|HIVELOCITY, Inc.|
+|12|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
+|13|46.105.35.193|8080|France|Roubaix|OVH SAS|
+|14|165.16.60.192|8080|Libya|Zintan|Aljeel Aljadeed For Technology|
+|15|65.108.230.239|34920|Finland|Helsinki|Hetzner Online GmbH|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|152.228.206.188|80|France|Paris|OVH SAS|
+|18|65.108.230.239|34920|Finland|Helsinki|Hetzner Online GmbH|
+|19|117.69.236.249|8089|China|Rongcheng|Chinanet|
+|20|79.135.219.223|8080|Ukraine|Odesa|ICN Ltd.|
 
 
 
