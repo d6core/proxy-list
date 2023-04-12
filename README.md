@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|494|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|494|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|494|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|571|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|571|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|571|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|162.212.154.19|8080|United States|Chicago|tzulo, inc.|
-|2|111.240.217.154|8080|Taiwan|Keelung|Chunghwa Telecom Co., Ltd.|
-|3|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|4|157.245.255.127|8080|United States|North Bergen|DigitalOcean, LLC|
-|5|162.212.156.146|8080|United States|Chicago|tzulo, inc.|
-|6|65.109.0.41|8080|Finland|Helsinki|Hetzner Online GmbH|
+|2|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|3|95.217.157.1|8080|Finland|Helsinki|Hetzner Online GmbH|
+|4|134.209.102.107|8080|Singapore|Singapore|DigitalOcean, LLC|
+|5|157.245.255.127|8080|United States|North Bergen|DigitalOcean, LLC|
+|6|37.27.17.59|8080|Finland|Helsinki|Hetzner Online GmbH|
 |7|64.226.124.172|8080|Germany|Frankfurt am Main|DigitalOcean|
-|8|64.225.105.92|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|134.209.102.107|8080|Singapore|Singapore|DigitalOcean, LLC|
-|10|13.92.136.193|3128|United States|Boydton|Microsoft Corporation|
-|11|164.92.172.95|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|95.217.157.1|8080|Finland|Helsinki|Hetzner Online GmbH|
-|13|101.109.186.224|8080|Thailand|Mueang Samut Prakan|TOT Public Company Limited|
-|14|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|15|143.42.18.77|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
-|16|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
-|17|149.102.132.174|8080|United Kingdom|Portsmouth|Cogent Communications|
-|18|162.212.156.146|8080|United States|Chicago|tzulo, inc.|
-|19|139.144.176.211|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
-|20|46.101.112.85|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|43.157.66.170|8080|Germany|Frankfurt|Shenzhen Tencent Computer Systems Company Limited|
+|9|134.209.157.53|8080|India|Bengaluru|DigitalOcean, LLC|
+|10|64.225.105.92|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|11|104.248.40.133|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|198.44.191.152|45787|Japan|Tokyo|Zenlayer Inc|
+|13|164.92.172.95|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|14|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|15|157.245.255.127|8080|United States|North Bergen|DigitalOcean, LLC|
+|16|143.42.18.77|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|17|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|18|165.232.123.132|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|19|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|20|90.68.198.89|39485|Spain|Lorca|UNI2|
 
 
 
