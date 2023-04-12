@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6065** proxies at the latest update. Usable proxies are below.
+> Scraper found **6118** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|372|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|372|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|372|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|347|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|347|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|347|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1190|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1243|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|828|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2664|✅|
@@ -47,25 +47,25 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.68.51|8080|United States|Portland|Hetzner Online GmbH|
-|2|5.78.45.87|8080|United States|Portland|Hetzner Online GmbH|
-|3|5.78.99.255|50001|United States|Portland|Hetzner Online GmbH|
-|4|64.225.107.74|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|190.61.32.25|999|Mexico|Mexico City|Ufinet Mexico S. De R.l. De C.V.|
-|6|45.176.204.155|3128|Brazil|Uberlândia|MZ NET FIBRA|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|5.78.68.51|8080|United States|Portland|Hetzner Online GmbH|
-|10|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|11|165.16.60.205|8080|Libya|Tripoli|Aljeel Aljadeed For Technology|
-|12|95.217.213.211|8080|Finland|Helsinki|Hetzner Online GmbH|
+|1|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|2|5.78.68.51|8080|United States|Portland|Hetzner Online GmbH|
+|3|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|4|5.78.68.51|8080|United States|Portland|Hetzner Online GmbH|
+|5|64.225.107.74|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|134.35.0.149|8080|Yemen|Sanaa|Public Telecommunication Corporation|
+|7|5.78.76.159|8080|United States|Portland|Hetzner Online GmbH|
+|8|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|9|5.78.45.87|8080|United States|Portland|Hetzner Online GmbH|
+|10|95.217.213.211|8080|Finland|Helsinki|Hetzner Online GmbH|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|5.78.45.87|8080|United States|Portland|Hetzner Online GmbH|
 |13|5.78.76.159|8080|United States|Portland|Hetzner Online GmbH|
-|14|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|15|5.78.45.87|8080|United States|Portland|Hetzner Online GmbH|
-|16|5.78.76.159|8080|United States|Portland|Hetzner Online GmbH|
-|17|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|18|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|19|149.57.11.129|8181|United States|Frankton|Swayzee Telephone Company, Inc.|
+|14|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|15|165.16.60.205|8080|Libya|Tripoli|Aljeel Aljadeed For Technology|
+|16|190.61.32.25|999|Mexico|Mexico City|Ufinet Mexico S. De R.l. De C.V.|
+|17|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|18|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|19|191.7.208.34|8080|Brazil|Quiterianopolis|HTM SERVICOS DE TELECOMUNICACOES LTDA|
 |20|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
 
 
