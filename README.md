@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5587** proxies at the latest update. Usable proxies are below.
+> Scraper found **5311** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|189|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|189|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|189|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|164|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|164|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|164|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|962|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|986|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|607|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2635|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|2|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|3|181.233.62.14|999|Guatemala|Guatemala City|Cross Connect LAC|
+|1|23.254.209.174|8888|United States|Seattle|Hostwinds LLC.|
+|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|5.161.180.82|50001|United States|Ashburn|Hetzner Online GmbH|
 |4|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|6|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|7|94.232.11.178|46449|Russia|Moscow|MEGAFON-AS|
-|8|83.171.122.21|8080|Russia|Pechora|Rostelecom networks|
-|9|178.150.148.38|8282|Ukraine|Kharkiv|Triolan|
-|10|95.217.131.34|8080|Finland|Helsinki|Hetzner Online GmbH|
-|11|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|12|175.106.10.226|51630|Indonesia|Jakarta|Quantum Dist POP GC|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|51.79.50.46|9300|Canada|Beauharnois|OVH SAS|
-|15|158.140.169.86|80|Indonesia|Sidokare|MYREPUBLIC|
-|16|36.37.86.27|9812|Indonesia|Tangerang|LINTASARTA|
-|17|41.242.116.150|50001|Mayotte|Mamoudzou|STOI-block1|
-|18|103.179.253.202|8181|Indonesia|Depok|PT Pusaka Kreasi Mandiri|
-|19|154.26.156.195|8080|Australia|Sydney|Cogent Communications|
-|20|64.225.4.29|9492|United States|Clifton|DigitalOcean, LLC|
+|5|103.211.26.249|8080|Indonesia|Madiun|PT Olean Permata Telematika|
+|6|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|7|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
+|8|64.225.8.118|9990|United States|Clifton|DigitalOcean, LLC|
+|9|103.124.225.216|8081|Bangladesh|Dhaka|Level3|
+|10|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
+|11|103.169.43.235|55443|Indonesia|Gunungsitoli|PT Digital Gemilang Solusi|
+|12|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|13|95.217.131.34|8080|Finland|Helsinki|Hetzner Online GmbH|
+|14|13.38.115.52|8001|France|Paris|Amazon Technologies Inc.|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|94.232.11.178|46449|Russia|Moscow|MEGAFON-AS|
+|17|109.236.86.4|37913|Netherlands|Naaldwijk|WorldStream B.V.|
+|18|200.106.184.12|999|Argentina|Carlos Spegazzini|Fullnet Solutions S.A.S.|
+|19|203.112.223.126|8080|Bangladesh|Dhaka|Bangladesh Telecommunications Company Ltd.|
+|20|65.108.230.239|43827|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
