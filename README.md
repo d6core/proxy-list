@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5766** proxies at the latest update. Usable proxies are below.
+> Scraper found **5497** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|214|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|214|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|214|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|213|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|213|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|213|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|999|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1030|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|667|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2717|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
 |2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|7|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
-|8|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|181.209.111.146|999|Argentina|Benavidez|ARSAT - Empresa Argentina de Soluciones Satelitales S.A|
-|10|103.156.249.52|8080|Indonesia|Malang|Trans Media Telekomunikasi|
-|11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|68.64.250.38|8080|United States|Dallas|SimpleFiber Communications LLC|
-|13|121.46.64.170|8080|Pakistan|Lahore|Gerrys Information Technology (PVT) Ltd|
-|14|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|15|180.184.91.187|443|China|Beijing|China Internet Network Information Center|
-|16|182.241.132.30|80|China|Jianshui|Chinanet|
-|17|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|18|212.156.123.218|8080|Turkey|Istanbul|Turk Telekomunikasyon A.S|
-|19|149.126.101.162|8080|Russia|Moscow|Netone Rus|
-|20|183.221.242.102|9443|China|Mianyang|China Mobile|
+|3|5.78.92.68|50001|United States|Portland|Hetzner Online GmbH|
+|4|64.225.8.191|9989|United States|Clifton|DigitalOcean, LLC|
+|5|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|6|195.3.245.193|3128|Russia|Simferopol|CrimeaCom South LLC|
+|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|45.184.84.26|999|Chile|San Bernardo|Inversiones Hemalass Limitada|
+|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|12|5.78.99.255|50001|United States|Portland|Hetzner Online GmbH|
+|13|201.229.250.21|8080|Dominican Republic|Santo Domingo|Compañía Dominicana de Teléfonos S. A.|
+|14|159.138.130.126|8999|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|15|103.236.191.83|8080|Indonesia|Jakarta|PT Victory Network Indonesia|
+|16|174.138.184.82|37705|United States|Secaucus|Interserver, Inc|
+|17|72.50.33.170|999|Puerto Rico|San Juan|DATACOM CARIBE, INC.|
+|18|65.108.230.239|36949|Finland|Helsinki|Hetzner Online GmbH|
+|19|45.251.139.207|45787|United States| Los Angeles|Zenlayer Inc|
+|20|154.26.156.195|8080|Australia|Sydney|Cogent Communications|
 
 
 
