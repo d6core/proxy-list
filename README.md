@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6144** proxies at the latest update. Usable proxies are below.
+> Scraper found **6402** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|360|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|360|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|360|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|356|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|356|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|356|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1196|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1154|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|856|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3009|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
-|2|157.90.165.195|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|3|5.78.45.87|8080|United States|Portland|Hetzner Online GmbH|
-|4|95.216.141.108|8080|Finland|Helsinki|Hetzner Online GmbH|
-|5|65.21.106.20|8080|Finland|Helsinki|Hetzner Online GmbH|
-|6|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
-|7|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
-|8|64.225.8.191|9986|United States|Clifton|DigitalOcean, LLC|
-|9|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|10|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
-|11|5.78.42.62|50001|United States|Portland|Hetzner Online GmbH|
-|12|5.78.92.68|50001|United States|Portland|Hetzner Online GmbH|
-|13|191.97.32.175|23500|Argentina|General Roca|TELCOCOM|
-|14|103.169.19.130|8080|Indonesia|Sleman|PT Aplikanusa Lintasarta|
-|15|198.44.164.156|45787|United States| Los Angeles|Zenlayer Inc|
-|16|71.19.248.67|8001|Canada|Vancouver|eSecureData|
-|17|23.132.185.101|53128|Norway|Sandefjord|Joseph Farnell|
-|18|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|20|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|1|64.138.255.146|80|United States|Conway|Horry Telephone Cooperative, Inc.|
+|2|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
+|3|157.90.165.195|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|4|5.78.45.87|8080|United States|Portland|Hetzner Online GmbH|
+|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|95.216.141.108|8080|Finland|Helsinki|Hetzner Online GmbH|
+|7|65.21.106.20|8080|Finland|Helsinki|Hetzner Online GmbH|
+|8|180.183.1.105|8080|Thailand|Ban Bueng|Triple T Broadband Public Company Limited|
+|9|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|207.204.241.126|8118|United States|San Francisco|Strong Technology|
+|12|64.225.8.82|9975|United States|Clifton|DigitalOcean, LLC|
+|13|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
+|14|5.78.92.68|50001|United States|Portland|Hetzner Online GmbH|
+|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|16|103.163.13.15|3125|Indonesia|Tuban|PT Solusi Media Telekomunikasi|
+|17|64.225.8.118|9976|United States|Clifton|DigitalOcean, LLC|
+|18|43.129.223.147|38080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|19|182.253.109.14|8080|Indonesia|Semarang|Biznet Metronet|
+|20|159.255.188.134|41258|Poland|Zamość|TOM-NET s.c. Dariusz Koper|
 
 
 
