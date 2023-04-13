@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6179** proxies at the latest update. Usable proxies are below.
+> Scraper found **5959** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|390|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|390|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|390|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|422|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|422|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|422|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1254|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1334|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|827|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2715|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|5.78.40.66|8080|United States|Portland|Hetzner Online GmbH|
-|2|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|3|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|4|5.78.40.66|8080|United States|Portland|Hetzner Online GmbH|
-|5|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|6|5.161.180.82|50001|United States|Ashburn|Hetzner Online GmbH|
-|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|138.68.184.18|3128|United Kingdom|London|DigitalOcean, LLC|
-|9|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|10|103.156.249.114|8181|Indonesia|Malang|Trans Media Telekomunikasi|
-|11|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|12|193.187.111.56|3129|United States|Ashburn|Cox Communications Inc.|
-|13|88.87.95.143|5948|Russia|Volgograd|CJSC "ER-Telecom Holding" Volgograd branch|
-|14|159.138.130.126|8999|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|15|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|16|35.156.214.174|8080|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|17|192.109.244.221|8080|Poland|Lodz|IWACOM Sp. z o.o.|
-|18|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|19|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|20|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|2|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|3|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|5|43.157.66.170|8080|Germany|Frankfurt|Shenzhen Tencent Computer Systems Company Limited|
+|6|5.78.40.66|8080|United States|Portland|Hetzner Online GmbH|
+|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|9|192.109.244.221|8080|Poland|Lodz|IWACOM Sp. z o.o.|
+|10|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|12|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|13|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|14|51.79.50.46|9300|Canada|Beauharnois|OVH SAS|
+|15|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|16|149.255.39.225|8118|United States|Chicago|HIVELOCITY, Inc.|
+|17|64.225.4.81|9979|United States|Clifton|DigitalOcean, LLC|
+|18|107.186.85.106|3129|United States|Chicago|EGIHosting|
+|19|183.82.100.253|3128|India|Hyderabad|Beam Telecom Pvt Ltd|
+|20|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
 
 
 
