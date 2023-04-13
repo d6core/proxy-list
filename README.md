@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5737** proxies at the latest update. Usable proxies are below.
+> Scraper found **5676** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|376|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|376|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|376|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|304|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|304|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|304|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1169|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1108|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|807|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2678|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|2|5.78.92.68|50001|United States|Portland|Hetzner Online GmbH|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|103.145.200.13|6969|Indonesia|Jakarta|DNE|
-|9|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|10|113.160.214.209|19132|Vietnam|Hanoi|VietNam Post and Telecom Corporation|
-|11|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|12|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|13|103.139.144.9|8080|Bangladesh|Dhāmrai|Rakib Hasan|
-|14|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|15|5.161.110.95|50001|United States|Ashburn|Hetzner Online GmbH|
-|16|180.183.1.105|8080|Thailand|Ban Bueng|Triple T Broadband Public Company Limited|
-|17|181.209.95.13|999|Argentina|Corrientes|ARSAT - Empresa Argentina de Soluciones Satelitales S.A|
-|18|85.117.56.85|8080|Georgia|Tbilisi|Caucasus Online Ltd.|
-|19|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|20|5.78.42.62|50001|United States|Portland|Hetzner Online GmbH|
+|1|20.119.224.62|8080|United States|Boydton|Microsoft Corporation|
+|2|20.119.224.62|8080|United States|Boydton|Microsoft Corporation|
+|3|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|5|5.161.110.95|50001|United States|Ashburn|Hetzner Online GmbH|
+|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|8|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|9|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|192.109.244.221|8080|Poland|Lodz|IWACOM Sp. z o.o.|
+|12|104.37.102.181|8181|United States|Attica|ALTIUS Broadband, LLC|
+|13|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|14|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|15|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|16|46.105.35.193|8080|France|Roubaix|OVH SAS|
+|17|102.38.31.8|80|Libya|Tripoli|GZA|
+|18|158.51.107.253|8080|United States|Fredericksburg|4 ip Technology and Media, LLC|
+|19|202.51.106.229|8080|Indonesia|Bulanbulan|PT Solusi Infostruktur Nusantara|
+|20|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
