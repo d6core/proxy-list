@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6172** proxies at the latest update. Usable proxies are below.
+> Scraper found **6150** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|388|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|388|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|388|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|418|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|418|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|418|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1193|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1242|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|887|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|816|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3009|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.61.187.67|4005|United States|Miami|FranTech Solutions|
-|2|45.61.187.67|4005|United States|Miami|FranTech Solutions|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|5|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
-|6|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
-|7|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|8|154.72.73.58|8080|Tanzania|Dar es Salaam|RAHA-LTZ|
-|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|11|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|12|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|13|176.98.234.124|8080|Kazakhstan|Astana|JSC Transtelecom|
-|14|37.204.157.91|41890|Russia|Moscow|NCNET|
-|15|74.62.179.122|8080|United States|San Bernardino|Charter Communications Inc|
-|16|64.225.8.191|9977|United States|Clifton|DigitalOcean, LLC|
-|17|165.16.60.209|8080|Libya|Tripoli|Aljeel Aljadeed For Technology|
-|18|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|19|46.101.112.85|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|20|95.216.203.124|8080|Finland|Helsinki|Hetzner Online GmbH|
+|1|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
+|2|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
+|3|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|4|5.161.110.95|50001|United States|Ashburn|Hetzner Online GmbH|
+|5|157.90.165.195|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|6|65.21.106.20|8080|Finland|Helsinki|Hetzner Online GmbH|
+|7|95.216.141.108|8080|Finland|Helsinki|Hetzner Online GmbH|
+|8|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
+|9|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
+|10|5.78.92.68|50001|United States|Portland|Hetzner Online GmbH|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|14|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
+|15|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|16|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|185.14.233.173|8080|Czechia|Ricany|INTERCONNECT s.r.o.|
+|18|23.132.185.101|53128|Norway|Sandefjord|Joseph Farnell|
+|19|176.98.234.124|8080|Kazakhstan|Astana|JSC Transtelecom|
+|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 
 
 
