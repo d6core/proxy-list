@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|504|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|504|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|504|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|627|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|627|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|627|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1538|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1580|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1061|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1019|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2907|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.233.162.87|3100|United States|The Dalles|Google LLC|
-|2|157.90.153.104|8888|Germany|Falkenstein|Hetzner Online GmbH|
-|3|43.157.66.170|8080|Germany|Frankfurt|Shenzhen Tencent Computer Systems Company Limited|
-|4|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|35.233.162.87|3100|United States|The Dalles|Google LLC|
-|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|8|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
-|11|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|13|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|14|37.148.217.40|999|Dominican Republic|Juan Santiago|idear4business international LTD|
-|15|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
-|16|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|17|45.184.86.1|999|Chile|Puente Alto|Inversiones Hemalass Limitada|
-|18|5.161.110.95|50001|United States|Ashburn|Hetzner Online GmbH|
-|19|5.78.40.66|8080|United States|Portland|Hetzner Online GmbH|
-|20|5.78.64.217|8080|United States|Portland|Hetzner Online GmbH|
+|2|51.159.115.233|3128|France|Paris|SCALEWAY|
+|3|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|4|192.109.244.221|8080|Poland|Lodz|IWACOM Sp. z o.o.|
+|5|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|6|157.90.153.104|8888|Germany|Falkenstein|Hetzner Online GmbH|
+|7|35.233.162.87|3100|United States|The Dalles|Google LLC|
+|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|10|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
+|12|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|13|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|14|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|15|24.164.58.61|32650|United States|Riverview|Charter Communications|
+|16|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|17|180.183.7.178|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
+|18|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|19|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 
 
 
