@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5916** proxies at the latest update. Usable proxies are below.
+> Scraper found **5794** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|393|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|393|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|393|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|376|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|376|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|376|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1193|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1173|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|925|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|823|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2715|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|35.233.162.87|3100|United States|The Dalles|Google LLC|
 |2|5.78.95.86|8080|United States|Portland|Hetzner Online GmbH|
-|3|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|35.233.162.87|3100|United States|The Dalles|Google LLC|
-|5|5.78.95.86|8080|United States|Portland|Hetzner Online GmbH|
-|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|7|5.78.40.66|8080|United States|Portland|Hetzner Online GmbH|
-|8|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
-|13|74.208.206.170|3128|United States|Philadelphia|IONOS SE|
-|14|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|15|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|16|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|17|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|18|213.207.195.178|8080|Iran|Tehran|Farabord Dadeh Haye Iranian Co.|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|3|35.233.162.87|3100|United States|The Dalles|Google LLC|
+|4|5.78.95.86|8080|United States|Portland|Hetzner Online GmbH|
+|5|5.78.40.66|8080|United States|Portland|Hetzner Online GmbH|
+|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|64.138.255.146|80|United States|Conway|Horry Telephone Cooperative, Inc.|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|149.57.11.145|8181|United States|Frankton|Swayzee Telephone Company, Inc.|
+|11|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|12|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|13|45.229.206.8|55551|Argentina|Avellaneda|Visio RED SRL|
+|14|103.127.38.46|7070|Pakistan|Sialkot|Redtone Telecommunications Pakistan (Private) Limited|
+|15|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|16|107.186.85.189|3129|United States|Chicago|EGIHosting|
+|17|35.233.162.87|3100|United States|The Dalles|Google LLC|
+|18|185.135.157.89|8080|Netherlands|Amsterdam|Diva-C OOO|
+|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 
 
 
