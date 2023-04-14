@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|730|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|730|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|730|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|747|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|747|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|747|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|43.157.66.170|8080|Germany|Frankfurt|Shenzhen Tencent Computer Systems Company Limited|
-|2|121.54.191.214|45787|United States|Los Angeles|Zenlayer Inc|
-|3|35.156.214.174|8080|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|4|149.102.243.172|8080|United States|Los Angeles|Datacamp Limited|
-|5|5.75.144.136|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|6|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|5.78.65.205|8080|United States|Portland|Hetzner Online GmbH|
-|9|5.78.42.170|8080|United States|Portland|Hetzner Online GmbH|
-|10|5.78.71.36|8080|United States|Portland|Hetzner Online GmbH|
+|1|121.54.191.214|45787|United States|Los Angeles|Zenlayer Inc|
+|2|35.156.214.174|8080|Germany|Frankfurt am Main|Amazon Technologies Inc.|
+|3|149.102.243.172|8080|United States|Los Angeles|Datacamp Limited|
+|4|121.54.191.214|45787|United States|Los Angeles|Zenlayer Inc|
+|5|149.102.243.172|8080|United States|Los Angeles|Datacamp Limited|
+|6|5.78.66.187|8080|United States|Portland|Hetzner Online GmbH|
+|7|88.255.243.14|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
+|8|5.78.42.170|8080|United States|Portland|Hetzner Online GmbH|
+|9|5.75.144.136|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |11|5.78.41.146|8080|United States|Portland|Hetzner Online GmbH|
-|12|5.78.45.181|8080|United States|Portland|Hetzner Online GmbH|
-|13|5.78.83.222|8080|United States|Portland|Hetzner Online GmbH|
-|14|149.102.243.172|8080|United States|Los Angeles|Datacamp Limited|
-|15|121.54.191.214|45787|United States|Los Angeles|Zenlayer Inc|
-|16|5.78.66.187|8080|United States|Portland|Hetzner Online GmbH|
-|17|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|18|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|19|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
-|20|45.136.238.69|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|12|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|13|5.78.71.36|8080|United States|Portland|Hetzner Online GmbH|
+|14|5.78.83.222|8080|United States|Portland|Hetzner Online GmbH|
+|15|5.78.45.181|8080|United States|Portland|Hetzner Online GmbH|
+|16|5.78.65.205|8080|United States|Portland|Hetzner Online GmbH|
+|17|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|18|187.252.154.202|999|Mexico|Mérida|Cablemas Telecomunicaciones SA de CV|
+|19|45.136.238.69|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|20|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
 
 
 
