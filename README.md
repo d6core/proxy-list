@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5364** proxies at the latest update. Usable proxies are below.
+> Scraper found **5407** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|405|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|405|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|405|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|455|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|455|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|455|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1269|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1312|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|915|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2097|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|2|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
-|3|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|6|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|7|168.119.209.102|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|8|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|9|85.192.165.18|8080|Russia|Orenburg|Orenburg branch office of VolgaTelecom company|
-|10|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|11|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|1|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
+|2|43.157.66.170|8080|Germany|Frankfurt|Shenzhen Tencent Computer Systems Company Limited|
+|3|168.119.209.102|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|4|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
+|5|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|6|85.192.165.18|8080|Russia|Orenburg|Orenburg branch office of VolgaTelecom company|
+|7|5.78.76.117|8080|United States|Portland|Hetzner Online GmbH|
+|8|5.78.96.253|8080|United States|Portland|Hetzner Online GmbH|
+|9|195.133.45.149|7788|Russia|Moscow|VDS|
+|10|5.78.65.172|8080|United States|Portland|Hetzner Online GmbH|
+|11|5.78.80.94|8080|United States|Portland|Hetzner Online GmbH|
 |12|5.78.98.68|8080|United States|Portland|Hetzner Online GmbH|
-|13|5.78.65.172|8080|United States|Portland|Hetzner Online GmbH|
-|14|195.133.45.149|7788|Russia|Moscow|VDS|
-|15|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|16|5.78.103.180|8080|United States|Portland|Hetzner Online GmbH|
-|17|5.78.80.94|8080|United States|Portland|Hetzner Online GmbH|
-|18|5.78.96.253|8080|United States|Portland|Hetzner Online GmbH|
-|19|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|20|5.78.88.216|8080|United States|Portland|Hetzner Online GmbH|
+|13|5.78.88.216|8080|United States|Portland|Hetzner Online GmbH|
+|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|16|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|17|5.78.103.180|8080|United States|Portland|Hetzner Online GmbH|
+|18|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|19|5.8.53.7|18081|Russia|St Petersburg|Petersburg Internet Network ltd|
+|20|5.78.42.62|50001|United States|Portland|Hetzner Online GmbH|
 
 
 
