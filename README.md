@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|408|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|408|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|408|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|385|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|385|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|385|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|51.68.43.49|3128|France|Gravelines|OVH SAS|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|5.78.42.62|50001|United States|Portland|Hetzner Online GmbH|
-|5|65.108.245.144|8080|Finland|Helsinki|Hetzner Online GmbH|
-|6|5.78.99.255|50001|United States|Portland|Hetzner Online GmbH|
-|7|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|5.78.87.84|8080|United States|Portland|Hetzner Online GmbH|
+|3|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|5.78.87.84|8080|United States|Portland|Hetzner Online GmbH|
+|6|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
+|7|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|8|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|9|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
 |10|43.229.149.154|8080|Thailand|Pak Kret|Siamdata Communication Co.|
-|11|77.52.178.157|8087|Ukraine|Kyiv|UMC|
-|12|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
-|13|45.61.187.67|4001|United States|Miami|FranTech Solutions|
-|14|187.251.222.69|8080|Mexico|Mexicali|Total Play Telecomunicaciones SA De CV|
-|15|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|16|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|17|89.237.21.119|3128|Russia|Trekhgornyy|SUTTK Chelyabinsk|
-|18|103.156.86.147|8080|Indonesia|Beringinjaya|PT Chacha Networking System|
-|19|91.132.167.31|9876|United States|Springfield|Innovative Telecom Systems FZE|
-|20|82.165.184.53|80|Germany|Essen|IONOS SE|
+|11|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|12|73.242.86.12|8118|United States|Minnetonka|Comcast Cable Communications|
+|13|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|16|181.129.139.13|999|Colombia|Riosucio|EPM Telecomunicaciones S.A. E.S.P.|
+|17|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|5.78.92.135|50001|United States|Portland|Hetzner Online GmbH|
+|20|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
 
 
 
