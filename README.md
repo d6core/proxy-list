@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|289|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|289|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|289|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|327|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|327|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|327|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|2|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |4|128.140.10.178|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|149.255.39.225|8118|United States|Chicago|HIVELOCITY, Inc.|
-|8|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
-|10|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|11|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|12|5.78.42.62|50001|United States|Portland|Hetzner Online GmbH|
-|13|43.229.149.154|8080|Thailand|Pak Kret|Siamdata Communication Co.|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|16|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|18|198.229.231.13|8080|United States|Spring Valley|MTCO Communications|
-|19|208.79.11.97|9080|United States|West Monroe|Skyrider Communications LLC|
-|20|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
+|5|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
+|6|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|7|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|8|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|9|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
+|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|12|149.57.11.17|8181|United States|Frankton|Swayzee Telephone Company, Inc.|
+|13|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
+|14|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|15|183.221.242.111|8443|China|Mianyang|China Mobile|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|18|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|19|103.118.124.137|6969|Indonesia|Jakarta|Tele|
+|20|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
 
 
 
