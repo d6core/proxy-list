@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6260** proxies at the latest update. Usable proxies are below.
+> Scraper found **6289** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1273|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1302|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|914|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2990|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|1|5.78.99.255|50001|United States|Portland|Hetzner Online GmbH|
 |2|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|3|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|43.229.149.154|8080|Thailand|Pak Kret|Siamdata Communication Co.|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|168.11.52.41|8080|United States|Lyons|Board of Regents of the University System of Georgia|
-|7|103.211.26.210|8181|Indonesia|Madiun|PT Olean Permata Telematika|
-|8|5.78.93.237|8080|United States|Portland|Hetzner Online GmbH|
-|9|37.228.65.107|32052|Kazakhstan|Aktau|Jusan Mobile JSC|
-|10|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|11|5.78.95.164|8080|United States|Portland|Hetzner Online GmbH|
+|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|43.229.149.154|8080|Thailand|Pak Kret|Siamdata Communication Co.|
+|7|116.0.61.122|3128|Pakistan|Karachi|Telecard|
+|8|188.132.222.4|8080|Turkey|Reyhanli|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
+|9|103.154.230.138|8080|Indonesia|Lamongan|DIGITNET|
+|10|45.229.206.16|55551|Argentina|Avellaneda|Visio RED SRL|
+|11|103.212.94.253|48434|India|Khopoli|Best Telnet Services Private Limited|
 |12|5.78.88.155|8080|United States|Portland|Hetzner Online GmbH|
-|13|41.76.219.21|8088|South Africa|Dewetsdorp|Green Flash Trading|
-|14|128.140.10.220|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|15|128.140.10.216|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|16|43.157.66.170|8080|Germany|Frankfurt|Shenzhen Tencent Computer Systems Company Limited|
-|17|5.78.102.25|8080|United States|Portland|Hetzner Online GmbH|
-|18|43.138.216.160|8080|China|Haidian|Shenzhen Tencent Computer Systems Company Limited|
-|19|128.140.10.196|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|13|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|14|5.78.95.164|8080|United States|Portland|Hetzner Online GmbH|
+|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|16|5.78.90.12|8080|United States|Portland|Hetzner Online GmbH|
+|17|149.102.243.172|8080|United States|Los Angeles|Datacamp Limited|
+|18|128.140.10.196|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|19|128.140.10.220|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|20|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
 
 
 
