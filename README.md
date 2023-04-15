@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6357** proxies at the latest update. Usable proxies are below.
+> Scraper found **6371** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|487|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|487|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|487|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|433|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|433|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|433|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1410|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1424|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|939|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2925|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |2|5.78.102.252|8080|United States|Portland|Hetzner Online GmbH|
-|3|5.78.64.217|8080|United States|Portland|Hetzner Online GmbH|
-|4|5.9.112.247|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|5|157.90.169.85|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|3|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|5.78.64.217|8080|United States|Portland|Hetzner Online GmbH|
+|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |6|5.78.102.252|8080|United States|Portland|Hetzner Online GmbH|
-|7|65.109.135.90|8080|Finland|Helsinki|Hetzner Online GmbH|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|10|5.161.110.95|50001|United States|Ashburn|Hetzner Online GmbH|
-|11|5.78.64.217|8080|United States|Portland|Hetzner Online GmbH|
-|12|65.109.233.198|8080|Finland|Helsinki|Hetzner Online GmbH|
-|13|43.229.149.154|8080|Thailand|Pak Kret|Siamdata Communication Co.|
-|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|77.52.178.157|8087|Ukraine|Kyiv|UMC|
-|17|187.60.166.58|8080|Brazil|Sooretama|Linhares Serviços Online LTDA EPP|
-|18|91.132.167.31|9876|United States|Springfield|Innovative Telecom Systems FZE|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|8|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|9|65.109.233.198|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|5.78.64.217|8080|United States|Portland|Hetzner Online GmbH|
+|11|65.109.135.90|8080|Finland|Helsinki|Hetzner Online GmbH|
+|12|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
+|13|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|14|43.229.149.154|8080|Thailand|Pak Kret|Siamdata Communication Co.|
+|15|5.78.42.62|50001|United States|Portland|Hetzner Online GmbH|
+|16|187.60.166.58|8080|Brazil|Sooretama|Linhares Serviços Online LTDA EPP|
+|17|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|18|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
 
 
 
