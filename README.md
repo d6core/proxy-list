@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|272|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|272|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|272|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|274|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|274|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|274|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|65.108.245.144|8080|Finland|Helsinki|Hetzner Online GmbH|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|65.108.245.144|8080|Finland|Helsinki|Hetzner Online GmbH|
 |4|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
-|5|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|6|192.99.208.0|8050|Brazil|Mairi|OVH Hosting|
-|7|187.141.184.235|8080|Mexico|Cabo San Lucas|Uninet S.A. de C.V.|
-|8|43.229.149.154|8080|Thailand|Pak Kret|Siamdata Communication Co.|
-|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|11|3.89.73.90|8118|United States|Ashburn|Amazon Technologies Inc.|
-|12|77.52.178.157|8087|Ukraine|Kyiv|UMC|
-|13|157.119.211.133|8080|India|Ramagundam|Finecom Internet services Pvt Ltd|
-|14|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|15|64.225.8.118|9995|United States|Clifton|DigitalOcean, LLC|
-|16|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|5|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|6|5.161.110.95|50001|United States|Ashburn|Hetzner Online GmbH|
+|7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|8|158.69.53.132|9300|Canada|Montreal|OVH SAS|
+|9|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|10|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|78.98.170.186|8080|Slovakia|Zaborske|Slovak Telecom AS6855|
+|14|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|15|43.229.149.154|8080|Thailand|Pak Kret|Siamdata Communication Co.|
+|16|103.171.183.201|8181|Indonesia|Cideng|PT Hayat Teknologi Informatika|
 |17|183.221.242.111|8443|China|Mianyang|China Mobile|
-|18|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|19|187.251.222.69|8080|Mexico|Mexicali|Total Play Telecomunicaciones SA De CV|
-|20|62.68.36.98|8080|Libya|Marādah|LTT Autonomous System, Tripoli Libya|
+|18|167.172.238.15|9990|United States|Clifton|DigitalOcean, LLC|
+|19|149.57.11.17|8181|United States|Frankton|Swayzee Telephone Company, Inc.|
+|20|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
 
 
 
