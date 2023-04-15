@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|313|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|313|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|313|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|272|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|272|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|272|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|2|65.108.245.144|8080|Finland|Helsinki|Hetzner Online GmbH|
 |3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
-|6|128.140.10.178|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|7|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|8|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|4|167.71.205.47|8080|Singapore|Singapore|DigitalOcean, LLC|
+|5|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|6|192.99.208.0|8050|Brazil|Mairi|OVH Hosting|
+|7|187.141.184.235|8080|Mexico|Cabo San Lucas|Uninet S.A. de C.V.|
+|8|43.229.149.154|8080|Thailand|Pak Kret|Siamdata Communication Co.|
 |9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|43.229.149.154|8080|Thailand|Pak Kret|Siamdata Communication Co.|
-|11|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|12|167.172.238.15|9986|United States|Clifton|DigitalOcean, LLC|
-|13|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|14|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|15|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|16|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|17|103.144.38.74|8080|Indonesia|Batam|BIG|
-|18|202.154.18.13|8080|Indonesia|Lamongan|DIGITNET|
-|19|64.225.4.12|9971|United States|Clifton|DigitalOcean, LLC|
-|20|187.141.184.235|8080|Mexico|Cabo San Lucas|Uninet S.A. de C.V.|
+|10|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|11|3.89.73.90|8118|United States|Ashburn|Amazon Technologies Inc.|
+|12|77.52.178.157|8087|Ukraine|Kyiv|UMC|
+|13|157.119.211.133|8080|India|Ramagundam|Finecom Internet services Pvt Ltd|
+|14|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|15|64.225.8.118|9995|United States|Clifton|DigitalOcean, LLC|
+|16|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|17|183.221.242.111|8443|China|Mianyang|China Mobile|
+|18|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|19|187.251.222.69|8080|Mexico|Mexicali|Total Play Telecomunicaciones SA De CV|
+|20|62.68.36.98|8080|Libya|Marādah|LTT Autonomous System, Tripoli Libya|
 
 
 
