@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6392** proxies at the latest update. Usable proxies are below.
+> Scraper found **6360** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|483|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|483|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|483|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|426|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|426|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|426|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1417|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1385|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|985|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2907|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|152.228.206.188|80|France|Paris|OVH SAS|
-|3|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
+|2|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
+|3|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
 |4|167.99.238.124|80|United States|North Bergen|DigitalOcean, LLC|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|7|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
 |8|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
-|9|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|10|167.99.238.124|80|United States|North Bergen|DigitalOcean, LLC|
-|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|12|24.172.82.94|53281|United States|Concord|Spectrum|
-|13|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|14|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|15|34.207.96.203|8118|United States|Ashburn|Amazon.com, Inc.|
-|16|143.110.230.78|80|United States|Santa Clara|DigitalOcean, LLC|
-|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|18|31.222.98.47|3128|Spain|Pilar de la Horadada|TVHoradada Multimedia S.L|
-|19|187.216.229.150|8080|Mexico|Mérida|Uninet S.A. de C.V.|
-|20|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|11|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|13|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|14|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
+|15|143.44.191.108|8080|Philippines|NIA Valencia|ComClark Network & Technology Corp|
+|16|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
+|17|186.215.68.51|3127|Brazil|Brasília|Vivo|
+|18|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|19|5.78.99.255|50001|United States|Portland|Hetzner Online GmbH|
+|20|125.26.4.219|8080|Thailand|Ban Kaeng|TOT Public Company Limited|
 
 
 
