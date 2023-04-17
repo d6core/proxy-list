@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6757** proxies at the latest update. Usable proxies are below.
+> Scraper found **6692** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|532|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|532|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|532|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|539|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|539|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|539|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1576|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1511|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1126|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2972|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|38.83.74.2|443|United States|Miami|Cogent Communications|
-|4|5.161.180.82|50001|United States|Ashburn|Hetzner Online GmbH|
-|5|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|38.83.74.2|443|United States|Miami|Cogent Communications|
+|3|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
+|4|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
+|5|163.172.31.44|80|France|Paris|Online S.A.S.|
 |6|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
-|7|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
+|7|159.255.188.134|41258|Poland|Zamość|TOM-NET s.c. Dariusz Koper|
 |8|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
-|9|51.159.36.88|29652|France|Paris|SCALEWAY|
-|10|137.74.167.5|9898|France|Gravelines|OVH SAS|
-|11|103.76.164.50|3128|New Zealand|Auckland|Intergrid Group Pty Ltd|
-|12|91.107.207.116|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|13|187.63.157.34|999|Dominican Republic|Santo Domingo Este|Derivalnet Y Comunicaciones SRL|
-|14|59.15.28.113|3128|South Korea|Guro-gu|Korea Telecom|
-|15|162.55.47.78|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|16|65.108.230.239|34477|Finland|Helsinki|Hetzner Online GmbH|
-|17|65.108.230.239|34477|Finland|Helsinki|Hetzner Online GmbH|
-|18|163.172.31.44|80|France|Paris|Online S.A.S.|
-|19|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|20|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|159.255.188.134|41258|Poland|Zamość|TOM-NET s.c. Dariusz Koper|
+|10|142.132.239.210|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|11|165.227.81.188|9975|United States|North Bergen|DigitalOcean, LLC|
+|12|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|13|103.76.164.50|3128|New Zealand|Auckland|Intergrid Group Pty Ltd|
+|14|65.108.230.239|45653|Finland|Helsinki|Hetzner Online GmbH|
+|15|173.212.200.30|3128|Germany|Nuremberg|Contabo GmbH|
+|16|51.159.115.233|3128|France|Paris|SCALEWAY|
+|17|200.116.198.222|9812|Colombia|Manizales|EPM Telecomunicaciones S.A. E.S.P|
+|18|64.225.4.12|9980|United States|Clifton|DigitalOcean, LLC|
+|19|50.233.228.147|8080|United States|Woodstock|Comcast Cable Communications, LLC|
+|20|222.190.215.125|8089|China|Taizhou|Chinanet|
 
 
 
