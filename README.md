@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5844** proxies at the latest update. Usable proxies are below.
+> Scraper found **5937** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|344|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|344|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|344|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|350|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|350|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|350|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1181|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1274|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|861|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2719|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|3|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
-|4|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
+|2|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|3|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|8|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|11|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|12|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|13|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|14|187.60.219.4|3128|Brazil|Francisco Beltrão|Ampernet Telecomunica??es Ltda|
-|15|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
-|16|51.159.115.233|3128|France|Paris|SCALEWAY|
-|17|93.177.126.79|8088|Russia|Moscow|G COM Ltd.|
-|18|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|19|5.78.42.62|50001|United States|Portland|Hetzner Online GmbH|
-|20|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|6|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
+|7|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
+|8|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|10|90.154.124.211|8080|Russia|Chernogolovka|CTC-B2B|
+|11|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|71.19.248.67|8001|Canada|Vancouver|eSecureData|
+|14|51.75.6.247|3128|France|Gravelines|OVH SAS|
+|15|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|16|94.232.11.178|46449|Russia|Moscow|MEGAFON-AS|
+|17|191.97.60.126|999|Peru|Callao|Internexa Peru S.A|
+|18|152.32.68.171|65535|Philippines|Mandaluyong City|Converge ICT Solution Inc|
+|19|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
+|20|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
 
 
 
