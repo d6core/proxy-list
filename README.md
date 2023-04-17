@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6361** proxies at the latest update. Usable proxies are below.
+> Scraper found **6369** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|323|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|323|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|323|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|489|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|489|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|489|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1534|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1542|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1001|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2743|✅|
@@ -51,22 +51,22 @@ Click the file format that you want and copy the URL.
 |2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |3|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
 |4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|134.209.102.107|8080|Singapore|Singapore|DigitalOcean, LLC|
-|7|51.159.0.236|3128|France|Paris|SCALEWAY|
-|8|8.218.239.151|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|10|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|140.120.15.146|8088|Taiwan|Taichung|National Chung Hsing University|
-|13|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
-|14|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|15|152.228.206.188|80|France|Paris|OVH SAS|
-|16|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
-|17|45.61.187.67|4007|United States|Miami|FranTech Solutions|
+|5|134.209.102.107|8080|Singapore|Singapore|DigitalOcean, LLC|
+|6|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
+|7|140.120.15.146|8088|Taiwan|Taichung|National Chung Hsing University|
+|8|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|9|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|13|152.228.206.188|80|France|Paris|OVH SAS|
+|14|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
+|15|80.14.219.107|3128|France|Livry-Gargan|France Telecom|
+|16|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|17|51.159.0.236|3128|France|Paris|SCALEWAY|
 |18|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
-|19|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
-|20|183.221.242.111|8443|China|Mianyang|China Mobile|
+|19|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|20|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
 
 
 
