@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6215** proxies at the latest update. Usable proxies are below.
+> Scraper found **6133** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|459|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|459|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|459|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|452|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|452|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|452|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1345|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1263|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|872|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2915|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|209.126.9.81|3128|United States|St Louis|Contabo Inc.|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |2|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|3|209.126.9.81|3128|United States|St Louis|Contabo Inc.|
-|4|201.6.117.108|8082|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
-|5|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
-|6|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
-|7|51.159.0.236|3128|France|Paris|SCALEWAY|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|159.192.233.231|8080|Thailand|Sing Buri|CAT-BB|
-|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
+|4|209.126.9.81|3128|United States|St Louis|Contabo Inc.|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|209.126.9.81|3128|United States|St Louis|Contabo Inc.|
+|7|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
+|8|159.192.233.231|8080|Thailand|Sing Buri|CAT-BB|
+|9|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|10|51.159.0.236|3128|France|Paris|SCALEWAY|
 |11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|13|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
-|14|45.136.58.22|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|15|190.210.223.90|8080|Argentina|Buenos Aires|NSS S.A.|
-|16|190.15.158.183|8080|Cuba|Havana|Empresa de Telecomunicaciones de Cuba, S.A.|
-|17|5.78.92.68|50001|United States|Portland|Hetzner Online GmbH|
-|18|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|19|64.225.8.82|9998|United States|Clifton|DigitalOcean, LLC|
-|20|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|12|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
+|13|45.229.206.8|55551|Argentina|Avellaneda|Visio RED SRL|
+|14|36.89.214.21|4480|Indonesia|Bandung|PT. Telekomunikasi Indonesia|
+|15|187.62.64.155|45005|Brazil|Aracaju|GN TELECOM|
+|16|103.149.194.9|32650|India|Delhi|Kavya Internet Services Pvt Ltd|
+|17|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|18|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
+|19|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|20|201.6.117.108|8082|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
 
 
 
