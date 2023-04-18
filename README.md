@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6430** proxies at the latest update. Usable proxies are below.
+> Scraper found **6472** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|564|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|564|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|564|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|541|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|541|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|541|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1420|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1462|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1029|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2898|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|152.228.206.188|80|France|Paris|OVH SAS|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|6|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
-|7|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
-|10|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
-|11|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|12|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
-|13|187.188.143.100|999|Mexico|Rancho Contento|Total Play Telecomunicaciones SA De CV|
-|14|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
-|15|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|17|38.83.74.2|443|United States|Miami|Cogent Communications|
-|18|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|19|64.225.8.82|9992|United States|Clifton|DigitalOcean, LLC|
-|20|64.225.8.82|9992|United States|Clifton|DigitalOcean, LLC|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
+|3|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|4|152.228.206.188|80|France|Paris|OVH SAS|
+|5|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
+|6|100.21.80.30|80|United States|Portland|Amazon.com, Inc.|
+|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|8|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|10|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|11|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|116.105.25.124|11001|Vietnam|Liên Chiểu|Viettel Corporation|
+|13|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|51.159.0.236|3128|France|Paris|SCALEWAY|
+|16|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
+|17|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
+|18|200.123.15.250|999|Peru|Lima region|Wigo S.A.|
+|19|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|20|24.51.32.59|8080|United States|Kearney|Great Plains Communications LLC|
 
 
 
