@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6088** proxies at the latest update. Usable proxies are below.
+> Scraper found **6436** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|343|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|343|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|343|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|422|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|422|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|422|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1274|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1322|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|831|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2900|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|2|43.134.211.34|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|3|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|7|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
-|8|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|9|95.216.219.253|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|95.216.162.125|8080|Finland|Helsinki|Hetzner Online GmbH|
-|11|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
-|12|95.217.132.176|8080|Finland|Helsinki|Hetzner Online GmbH|
-|13|152.228.206.188|80|France|Paris|OVH SAS|
-|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|15|187.60.219.4|3128|Brazil|Francisco Beltrão|Ampernet Telecomunica??es Ltda|
-|16|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|1|64.225.8.82|9974|United States|Clifton|DigitalOcean, LLC|
+|2|5.75.253.45|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|3|167.235.143.162|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|4|64.226.86.199|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|6|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
+|7|210.186.107.228|8083|Malaysia|Johor Bahru|ADSL Streamyx Telekom Malaysia|
+|8|102.165.4.52|8001|United States|Ashburn|Tier.Net Technologies LLC|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
+|11|136.243.146.112|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|12|159.138.130.126|8999|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|13|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|170.81.78.151|8080|Brazil|João Pessoa|Sigtel Servicos De Telecomunicacoes Ltda|
+|15|216.215.123.174|8080|United States|Houston|Logix|
+|16|45.229.33.218|999|Dominican Republic|Santo Domingo Este|Gold Data C.A.|
 |17|64.225.4.29|9499|United States|Clifton|DigitalOcean, LLC|
-|18|216.215.123.174|8080|United States|Houston|Logix|
-|19|64.225.4.29|9499|United States|Clifton|DigitalOcean, LLC|
-|20|64.226.86.199|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|18|184.95.3.146|8888|Puerto Rico|La Fermina|PREPA Networks|
+|19|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|20|83.171.122.21|8080|Russia|St Petersburg|Rostelecom networks|
 
 
 
