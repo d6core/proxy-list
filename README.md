@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6026** proxies at the latest update. Usable proxies are below.
+> Scraper found **6063** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|359|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|359|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|359|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|357|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|357|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|357|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1256|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1293|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|820|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2867|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|2|79.137.20.39|11211|France|Gravelines|OVH SAS|
-|3|129.159.254.112|8118|Germany|Frankfurt am Main|Oracle Corporation|
-|4|152.228.206.188|80|France|Paris|OVH SAS|
-|5|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|6|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|210.186.107.228|8083|Malaysia|Johor Bahru|ADSL Streamyx Telekom Malaysia|
-|8|76.169.129.241|8080|United States|Santa Ana|Charter Communications|
-|9|103.165.155.72|1111|Indonesia|Tangerang|PT Jaringan Keluarga Bersama|
-|10|201.20.94.93|8080|Brazil|Petrolina|MOB SERVICOS DE TELECOMUNICACOES S.A.|
-|11|178.32.196.197|11211|United Kingdom|City of London|OVH ISP|
-|12|103.170.115.223|2020|Indonesia|Bengkalis|PT Mega Data Akses|
-|13|164.52.206.180|80|India|Noida|E2E Networks Limited|
+|2|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|3|51.159.0.236|3128|France|Paris|SCALEWAY|
+|4|210.186.107.228|8083|Malaysia|Johor Bahru|ADSL Streamyx Telekom Malaysia|
+|5|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|6|152.228.206.188|80|France|Paris|OVH SAS|
+|7|190.110.99.188|999|Chile|San Vicente de Tagua Tagua|Silica Networks Argentina S.A.|
+|8|40.127.201.29|80|Ireland|Dublin|Microsoft Corporation|
+|9|24.172.34.114|49920|United States|Darlington|Charter Communications Inc|
+|10|146.190.80.98|8080|Singapore|Singapore|DigitalOcean, LLC|
+|11|183.221.242.111|8443|China|Mianyang|China Mobile|
+|12|183.221.242.103|9443|China|Mianyang|China Mobile|
+|13|154.70.107.81|3128|Cameroon|Douala|MTN Network Solutions (Cameroon)|
 |14|183.221.242.111|8443|China|Mianyang|China Mobile|
-|15|64.225.4.81|9976|United States|Clifton|DigitalOcean, LLC|
-|16|40.117.59.214|3128|United States|Boydton|Microsoft Corporation|
-|17|47.74.34.81|1111|Japan|Tokyo|Alibaba.com LLC|
-|18|123.182.59.96|8089|China|Zhangjiakou|Chinanet|
-|19|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|20|62.112.10.35|41899|Netherlands|Naaldwijk|WorldStream B.V.|
+|15|217.23.13.32|36819|Netherlands|Naaldwijk|CUSTOMERPANEL|
+|16|192.154.253.67|8123|United States|Charlotte|Tier.Net Technologies LLC|
+|17|123.182.58.183|8089|China|Zhangjiakou|Chinanet|
+|18|111.225.153.172|8089|China|Gaocheng|Chinanet|
+|19|64.225.4.81|9976|United States|Clifton|DigitalOcean, LLC|
+|20|123.182.59.94|8089|China|Zhangjiakou|Chinanet|
 
 
 
