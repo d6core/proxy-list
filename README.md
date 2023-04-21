@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6354** proxies at the latest update. Usable proxies are below.
+> Scraper found **6193** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|322|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|322|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|322|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|298|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|298|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|298|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1244|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1383|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|894|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2833|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.3.76.94|8080|United States|Quincy|Microsoft Corporation|
-|2|208.82.63.6|3128|United States|Ashburn|Bernardi Sounds|
+|1|208.82.63.6|3128|United States|Ashburn|Bernardi Sounds|
+|2|104.171.160.138|3128|United States|Ashburn|Sneaker Server|
 |3|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
-|4|104.171.160.138|3128|United States|Ashburn|Sneaker Server|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|167.99.116.111|8000|United States|Clifton|DigitalOcean, LLC|
-|7|170.39.195.202|3128|United States|Ashburn|Rackdog, LLC|
-|8|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|129.226.169.77|8080|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|10|65.21.58.32|8080|Finland|Helsinki|Hetzner Online GmbH|
-|11|13.212.131.211|3128|Singapore|Singapore|Amazon Technologies Inc.|
-|12|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|13|150.109.150.22|8080|Hong Kong|Central|Aceville Pte.ltd|
-|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|15|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
-|16|168.119.241.143|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|17|170.39.195.202|3128|United States|Ashburn|Rackdog, LLC|
-|18|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|19|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|20|135.181.85.92|8080|Finland|Helsinki|Hetzner Online GmbH|
+|4|170.39.195.202|3128|United States|Ashburn|Rackdog, LLC|
+|5|168.119.241.143|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|6|51.91.118.79|8080|France|Strasbourg|OVH SAS|
+|7|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|13.212.131.211|3128|Singapore|Singapore|Amazon Technologies Inc.|
+|9|135.181.85.92|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|152.228.206.188|80|France|Paris|OVH SAS|
+|11|65.21.58.32|8080|Finland|Helsinki|Hetzner Online GmbH|
+|12|208.82.63.6|3128|United States|Ashburn|Bernardi Sounds|
+|13|104.171.160.138|3128|United States|Ashburn|Sneaker Server|
+|14|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|15|14.32.161.114|8080|South Korea|Gangbuk-gu|Korea Telecom|
+|16|170.39.195.202|3128|United States|Ashburn|Rackdog, LLC|
+|17|164.155.254.23|8888|United States|Chicago|Aodao Inc|
+|18|150.109.150.22|8080|Hong Kong|Central|Aceville Pte.ltd|
+|19|158.101.93.164|8080|Japan|Tokyo|Oracle Corporation|
+|20|5.78.42.238|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
