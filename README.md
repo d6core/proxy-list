@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|420|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|420|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|420|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|495|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|495|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|495|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|1|104.171.160.138|3128|United States|Ashburn|Sneaker Server|
 |2|208.82.63.6|3128|United States|Ashburn|Bernardi Sounds|
-|3|104.171.160.138|3128|United States|Ashburn|Sneaker Server|
-|4|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
+|3|51.91.118.79|8080|France|Strasbourg|OVH SAS|
+|4|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
 |5|20.3.76.94|8080|United States|Quincy|Microsoft Corporation|
-|6|82.66.18.27|8080|France|Bordeaux|Proxad / Free SAS|
-|7|208.82.63.6|3128|United States|Ashburn|Bernardi Sounds|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|5.161.44.221|1234|United States|Ashburn|Hetzner Online GmbH|
-|10|104.171.160.138|3128|United States|Ashburn|Sneaker Server|
-|11|20.3.76.94|8080|United States|Quincy|Microsoft Corporation|
-|12|152.228.206.188|80|France|Paris|OVH SAS|
-|13|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
-|15|51.159.0.236|3128|France|Paris|SCALEWAY|
-|16|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|17|47.244.32.96|80|Hong Kong|Central|Alibaba.com LLC|
-|18|129.226.169.77|8080|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|19|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
-|20|216.250.114.245|7777|United States|Philadelphia|IONOS SE|
+|6|208.82.63.6|3128|United States|Ashburn|Bernardi Sounds|
+|7|150.109.150.22|8080|Hong Kong|Central|Aceville Pte.ltd|
+|8|43.135.13.39|8080|Hong Kong|Central|ACEVILLEPTELTD-SG|
+|9|104.171.160.138|3128|United States|Ashburn|Sneaker Server|
+|10|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
+|11|14.32.161.114|8080|South Korea|Gangbuk-gu|Korea Telecom|
+|12|129.226.169.77|8080|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|5.161.217.202|3128|United States|Ashburn|Hetzner Online GmbH|
+|15|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
+|16|20.3.76.94|8080|United States|Quincy|Microsoft Corporation|
+|17|152.228.206.188|80|France|Paris|OVH SAS|
+|18|216.250.114.245|7777|United States|Philadelphia|IONOS SE|
+|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|20|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
 
 
 
