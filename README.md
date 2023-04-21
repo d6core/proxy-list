@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6662** proxies at the latest update. Usable proxies are below.
+> Scraper found **6574** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|518|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|518|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|518|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|507|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|507|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|507|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1687|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1599|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|946|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2946|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
 |2|20.3.76.94|8080|United States|Quincy|Microsoft Corporation|
-|3|104.171.160.138|3128|United States|Ashburn|Sneaker Server|
-|4|43.135.13.39|8080|Hong Kong|Central|ACEVILLEPTELTD-SG|
-|5|8.219.249.172|8888|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|129.226.169.77|8080|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|7|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|95.216.170.84|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|65.108.230.238|44591|Finland|Helsinki|Hetzner Online GmbH|
-|11|208.82.63.6|3128|United States|Ashburn|Bernardi Sounds|
-|12|65.109.170.164|8080|Finland|Helsinki|Hetzner Online GmbH|
-|13|20.3.76.94|8080|United States|Quincy|Microsoft Corporation|
-|14|43.134.211.34|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|15|101.109.53.12|8080|Thailand|Klaeng|TOT Public Company Limited|
-|16|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|17|208.82.63.6|3128|United States|Ashburn|Bernardi Sounds|
-|18|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|19|116.0.61.122|3128|Pakistan|Karachi|Telecard|
-|20|139.99.238.83|8080|Australia|Sydney|OVH SAS|
+|3|208.82.63.6|3128|United States|Ashburn|Bernardi Sounds|
+|4|167.71.1.130|3128|Netherlands|Amsterdam|DigitalOcean, LLC|
+|5|104.171.160.138|3128|United States|Ashburn|Sneaker Server|
+|6|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|7|208.82.63.6|3128|United States|Ashburn|Bernardi Sounds|
+|8|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|9|65.108.230.238|44591|Finland|Helsinki|Hetzner Online GmbH|
+|10|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|11|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|12|68.132.12.228|8888|United States|Staten Island|Verizon Communications|
+|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
+|15|95.216.170.84|8080|Finland|Helsinki|Hetzner Online GmbH|
+|16|5.161.44.221|1234|United States|Ashburn|Hetzner Online GmbH|
+|17|104.171.160.138|3128|United States|Ashburn|Sneaker Server|
+|18|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|37.130.26.136|8081|Poland|Lowicz|"InterKAM" S.C|
+|20|158.69.53.98|9300|Canada|Montreal|OVH SAS|
 
 
 
