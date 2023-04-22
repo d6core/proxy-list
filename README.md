@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7810** proxies at the latest update. Usable proxies are below.
+> Scraper found **8054** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|482|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|482|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|482|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|333|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|333|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|333|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2135|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2079|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1342|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3250|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
-|2|65.21.242.89|4444|Finland|Helsinki|Hetzner Online GmbH|
-|3|152.228.206.188|80|France|Paris|OVH SAS|
-|4|88.99.136.198|1081|Germany|Falkenstein|Hetzner Online GmbH|
-|5|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
-|6|43.134.211.34|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|7|167.99.238.124|80|United States|North Bergen|DigitalOcean, LLC|
-|8|164.155.254.23|8888|United States|Chicago|Aodao Inc|
-|9|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|10|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
-|11|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|192.158.15.201|60684|Canada|Vaughan|Ontario Inc.|
-|13|200.54.194.12|53281|Chile|Providencia|Telefonica Empresas|
-|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|189.90.255.208|3128|Brazil|Ouro Preto|Companhia Itabirana Telecomunicações Ltda|
-|16|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|17|85.50.139.97|55443|Spain|Alicante|Uni2 1|
-|18|161.132.96.155|999|Peru|Lima|Optical Technologies S.A.C.|
-|19|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|20|104.171.160.138|3128|United States|Ashburn|Sneaker Server|
+|1|5.161.44.221|1234|United States|Ashburn|Hetzner Online GmbH|
+|2|65.109.13.0|8080|Finland|Helsinki|Hetzner Online GmbH|
+|3|65.109.2.186|8080|Finland|Helsinki|Hetzner Online GmbH|
+|4|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
+|5|95.216.218.186|8080|Finland|Helsinki|Hetzner Online GmbH|
+|6|65.109.230.89|8080|Finland|Helsinki|Hetzner Online GmbH|
+|7|135.181.252.39|8080|Finland|Helsinki|Hetzner Online GmbH|
+|8|5.78.99.255|50001|United States|Portland|Hetzner Online GmbH|
+|9|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
+|10|5.161.44.221|1234|United States|Ashburn|Hetzner Online GmbH|
+|11|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
+|12|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|14|167.99.238.124|80|United States|North Bergen|DigitalOcean, LLC|
+|15|24.164.58.61|32650|United States|Riverview|Charter Communications|
+|16|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
+|17|164.155.254.23|8888|United States|Chicago|Aodao Inc|
+|18|27.147.174.107|8080|Bangladesh|Azimpur|Link3 Technologies Limited|
+|19|187.189.79.169|999|Mexico|Guadalajara|Total Play Telecomunicaciones SA De CV|
+|20|164.155.254.23|8888|United States|Chicago|Aodao Inc|
 
 
 
