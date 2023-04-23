@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5797** proxies at the latest update. Usable proxies are below.
+> Scraper found **5713** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|311|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|311|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|311|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|469|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|469|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|469|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1159|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1075|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|785|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2770|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.247.230.119|3129|Brazil|Sao Paulo|Google LLC|
-|2|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
-|3|35.247.228.137|3129|Brazil|Sao Paulo|Google LLC|
-|4|35.247.208.170|3129|Brazil|Sao Paulo|Google LLC|
-|5|35.247.218.230|3129|Brazil|Sao Paulo|Google LLC|
-|6|35.247.242.101|3129|Brazil|Sao Paulo|Google LLC|
-|7|35.247.243.231|3129|Brazil|Sao Paulo|Google LLC|
-|8|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|35.247.249.215|3129|Brazil|Sao Paulo|Google LLC|
-|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|12|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
-|13|162.55.191.29|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|14|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|5.78.75.128|8080|United States|Portland|Hetzner Online GmbH|
-|17|35.247.213.229|3129|Brazil|Sao Paulo|Google LLC|
-|18|206.189.234.208|8080|United States|North Bergen|DigitalOcean, LLC|
-|19|5.161.110.95|50001|United States|Ashburn|Hetzner Online GmbH|
-|20|35.247.255.188|3129|Brazil|Sao Paulo|Google LLC|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|35.247.230.119|3129|Brazil|Sao Paulo|Google LLC|
+|3|35.247.199.249|3129|Brazil|Sao Paulo|Google LLC|
+|4|35.247.228.137|3129|Brazil|Sao Paulo|Google LLC|
+|5|35.247.243.231|3129|Brazil|Sao Paulo|Google LLC|
+|6|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
+|7|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|8|35.247.230.245|3129|Brazil|Sao Paulo|Google LLC|
+|9|107.152.39.88|50001|United States|Chicago|tzulo, inc.|
+|10|35.247.218.230|3129|Brazil|Sao Paulo|Google LLC|
+|11|35.247.209.205|3129|Brazil|Sao Paulo|Google LLC|
+|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|13|35.247.224.13|3129|Brazil|Sao Paulo|Google LLC|
+|14|206.189.234.208|8080|United States|North Bergen|DigitalOcean, LLC|
+|15|35.247.255.188|3129|Brazil|Sao Paulo|Google LLC|
+|16|8.219.176.202|8080|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|18|35.247.240.206|3129|Brazil|Sao Paulo|Google LLC|
+|19|35.247.218.29|3129|Brazil|Sao Paulo|Google LLC|
+|20|162.55.191.29|8080|Germany|Nuremberg|Hetzner Online GmbH|
 
 
 
