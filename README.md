@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|418|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|418|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|418|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|382|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|382|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|382|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.247.232.115|3129|Brazil|Sao Paulo|Google LLC|
-|2|35.247.254.240|3129|Brazil|Sao Paulo|Google LLC|
-|3|35.247.197.18|3129|Brazil|Sao Paulo|Google LLC|
-|4|35.247.255.188|3129|Brazil|Sao Paulo|Google LLC|
-|5|35.247.248.104|3129|Brazil|Sao Paulo|Google LLC|
-|6|35.247.204.82|3129|Brazil|Sao Paulo|Google LLC|
-|7|35.247.198.196|3129|Brazil|Sao Paulo|Google LLC|
-|8|68.132.12.228|8888|United States|Staten Island|Verizon Communications|
-|9|3.120.141.33|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|10|35.247.241.193|3129|Brazil|Sao Paulo|Google LLC|
-|11|68.132.12.228|8888|United States|Staten Island|Verizon Communications|
-|12|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|13|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|14|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|15|35.247.246.68|3129|Brazil|Sao Paulo|Google LLC|
-|16|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|17|35.247.240.117|3129|Brazil|Sao Paulo|Google LLC|
-|18|5.161.110.95|50001|United States|Ashburn|Hetzner Online GmbH|
-|19|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
-|20|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|1|35.247.249.71|3129|Brazil|Sao Paulo|Google LLC|
+|2|35.247.237.131|3129|Brazil|Sao Paulo|Google LLC|
+|3|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|4|35.247.241.115|3129|Brazil|Sao Paulo|Google LLC|
+|5|35.247.197.18|3129|Brazil|Sao Paulo|Google LLC|
+|6|35.247.209.65|3129|Brazil|Sao Paulo|Google LLC|
+|7|35.247.232.115|3129|Brazil|Sao Paulo|Google LLC|
+|8|35.247.219.61|3129|Brazil|Sao Paulo|Google LLC|
+|9|35.247.209.139|3129|Brazil|Sao Paulo|Google LLC|
+|10|35.247.243.231|3129|Brazil|Sao Paulo|Google LLC|
+|11|35.247.198.196|3129|Brazil|Sao Paulo|Google LLC|
+|12|20.121.242.93|3128|United States|Boydton|Microsoft Corporation|
+|13|20.3.76.94|8080|United States|Quincy|Microsoft Corporation|
+|14|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|15|35.247.248.45|3129|Brazil|Sao Paulo|Google LLC|
+|16|35.247.248.104|3129|Brazil|Sao Paulo|Google LLC|
+|17|20.3.76.94|8080|United States|Quincy|Microsoft Corporation|
+|18|35.247.213.138|3129|Brazil|Sao Paulo|Google LLC|
+|19|35.247.240.117|3129|Brazil|Sao Paulo|Google LLC|
+|20|35.247.204.82|3129|Brazil|Sao Paulo|Google LLC|
 
 
 
