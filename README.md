@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6216** proxies at the latest update. Usable proxies are below.
+> Scraper found **6225** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|513|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|513|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|513|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|509|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|509|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|509|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1366|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1275|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|800|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2767|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|192.155.82.99|8080|United States|Fremont|Akamai Technologies, Inc.|
-|2|35.247.243.35|3129|Brazil|Sao Paulo|Google LLC|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|5|35.247.192.233|3129|Brazil|Sao Paulo|Google LLC|
-|6|65.108.216.154|8080|Finland|Helsinki|Hetzner Online GmbH|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|35.247.219.133|3129|Brazil|Sao Paulo|Google LLC|
-|9|66.228.53.77|8080|United States|Richardson|Akamai Technologies, Inc.|
-|10|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|11|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
-|12|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|13|192.155.82.99|8080|United States|Fremont|Akamai Technologies, Inc.|
-|14|35.247.240.117|3129|Brazil|Sao Paulo|Google LLC|
-|15|95.217.5.249|8080|Finland|Helsinki|Hetzner Online GmbH|
-|16|213.83.46.204|3128|Germany|Frankfurt am Main|Plus.line AG|
-|17|51.159.0.236|3128|France|Paris|SCALEWAY|
-|18|172.104.47.162|8080|Singapore|Singapore|Akamai Technologies|
-|19|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|20|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|3|35.247.237.131|3129|Brazil|Sao Paulo|Google LLC|
+|4|192.46.237.78|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|5|65.108.216.154|8080|Finland|Helsinki|Hetzner Online GmbH|
+|6|51.159.0.236|3128|France|Paris|SCALEWAY|
+|7|178.79.157.134|8080|United Kingdom|London|Linode|
+|8|66.228.53.77|8080|United States|Richardson|Akamai Technologies, Inc.|
+|9|35.247.204.80|3129|Brazil|Sao Paulo|Google LLC|
+|10|35.247.213.138|3129|Brazil|Sao Paulo|Google LLC|
+|11|35.247.208.123|3129|Brazil|Sao Paulo|Google LLC|
+|12|61.198.81.181|8080|Japan|Komatsu|NSK Co., Ltd.|
+|13|35.247.192.233|3129|Brazil|Sao Paulo|Google LLC|
+|14|95.217.217.185|8080|Finland|Helsinki|Hetzner Online GmbH|
+|15|143.42.192.103|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|16|192.155.82.99|8080|United States|Fremont|Akamai Technologies, Inc.|
+|17|65.109.229.127|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|35.247.209.139|3129|Brazil|Sao Paulo|Google LLC|
+|19|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|3.8.209.4|3128|United Kingdom|London|Amazon Technologies Inc.|
 
 
 
