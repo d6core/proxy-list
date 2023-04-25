@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5299** proxies at the latest update. Usable proxies are below.
+> Scraper found **5714** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|240|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|240|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|240|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|278|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|278|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|278|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1064|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1151|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|560|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|588|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2592|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|148.251.123.98|7777|Germany|Sangerhausen|Hetzner Online GmbH|
-|2|91.107.207.116|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|3|35.247.248.46|3129|Brazil|Sao Paulo|Google LLC|
-|4|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|5|49.12.209.36|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|6|23.122.184.9|8888|United States|Davie|AT&T Services, Inc.|
-|7|68.132.12.228|8888|United States|Staten Island|Verizon Communications|
-|8|154.70.107.81|3128|Cameroon|Douala|MTN Network Solutions (Cameroon)|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|35.247.245.218|3129|Brazil|Sao Paulo|Google LLC|
-|11|35.247.227.219|3129|Brazil|Sao Paulo|Google LLC|
-|12|51.68.97.175|22560|France|Strasbourg|OVH SAS|
-|13|177.8.169.79|8082|Brazil|São Paulo|Grupohost Comunicacao Multimidia Ltda|
-|14|193.190.127.247|3128|Belgium|Olen|BELNET|
-|15|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|18|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|20|176.95.54.202|83|Germany|Wirft|Vodafone GmbH|
+|1|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|2|35.247.221.112|3129|Brazil|Sao Paulo|Google LLC|
+|3|193.190.127.247|3128|Belgium|Olen|BELNET|
+|4|35.247.219.61|3129|Brazil|Sao Paulo|Google LLC|
+|5|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|6|35.247.247.254|3129|Brazil|Sao Paulo|Google LLC|
+|7|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|8|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|154.70.107.81|3128|Cameroon|Douala|MTN Network Solutions (Cameroon)|
+|10|148.251.123.98|7777|Germany|Sangerhausen|Hetzner Online GmbH|
+|11|91.107.207.116|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|12|35.247.213.229|3129|Brazil|Sao Paulo|Google LLC|
+|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|15|68.132.12.228|8888|United States|Staten Island|Verizon Communications|
+|16|35.247.243.231|3129|Brazil|Sao Paulo|Google LLC|
+|17|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|18|178.18.206.184|53128|Turkey|Bayrakli|Vargonen Teknoloji ve Bilisim Sanayi Ticaret Anonim Sirketi|
+|19|164.155.254.23|8888|United States|Chicago|Aodao Inc|
+|20|186.101.84.214|999|Ecuador|Simon Bolivar|Telconet S.A|
 
 
 
