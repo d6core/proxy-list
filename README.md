@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5714** proxies at the latest update. Usable proxies are below.
+> Scraper found **5539** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|278|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|278|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|278|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|286|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|286|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|286|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1151|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|976|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|588|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2592|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|2|35.247.221.112|3129|Brazil|Sao Paulo|Google LLC|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|94.23.1.178|3128|France|Roubaix|OVH ISP|
 |3|193.190.127.247|3128|Belgium|Olen|BELNET|
-|4|35.247.219.61|3129|Brazil|Sao Paulo|Google LLC|
-|5|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|6|35.247.247.254|3129|Brazil|Sao Paulo|Google LLC|
-|7|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|8|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|154.70.107.81|3128|Cameroon|Douala|MTN Network Solutions (Cameroon)|
-|10|148.251.123.98|7777|Germany|Sangerhausen|Hetzner Online GmbH|
-|11|91.107.207.116|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|12|35.247.213.229|3129|Brazil|Sao Paulo|Google LLC|
-|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|15|68.132.12.228|8888|United States|Staten Island|Verizon Communications|
-|16|35.247.243.231|3129|Brazil|Sao Paulo|Google LLC|
-|17|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|18|178.18.206.184|53128|Turkey|Bayrakli|Vargonen Teknoloji ve Bilisim Sanayi Ticaret Anonim Sirketi|
-|19|164.155.254.23|8888|United States|Chicago|Aodao Inc|
-|20|186.101.84.214|999|Ecuador|Simon Bolivar|Telconet S.A|
+|4|74.249.8.183|3128|United States|Boydton|Microsoft Corporation|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|178.18.206.184|53128|Turkey|Bayrakli|Vargonen Teknoloji ve Bilisim Sanayi Ticaret Anonim Sirketi|
+|7|91.107.211.49|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|8|62.210.209.223|3128|France|Paris|Online S.A.S.|
+|9|74.249.8.183|3128|United States|Boydton|Microsoft Corporation|
+|10|154.70.107.81|3128|Cameroon|Douala|MTN Network Solutions (Cameroon)|
+|11|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|186.101.84.214|999|Ecuador|Simon Bolivar|Telconet S.A|
+|13|35.247.248.104|3129|Brazil|Sao Paulo|Google LLC|
+|14|148.251.123.98|7777|Germany|Sangerhausen|Hetzner Online GmbH|
+|15|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|68.132.12.228|8888|United States|Staten Island|Verizon Communications|
+|18|91.107.207.116|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|19|138.117.229.17|999|Guatemala|Huehuetenango|Fibernet S.A|
+|20|35.247.243.231|3129|Brazil|Sao Paulo|Google LLC|
 
 
 
