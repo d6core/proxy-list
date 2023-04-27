@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6286** proxies at the latest update. Usable proxies are below.
+> Scraper found **6015** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|412|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|412|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|412|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|470|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|470|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|470|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1352|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1347|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|759|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|793|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2792|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|2|64.225.4.29|9815|United States|Clifton|DigitalOcean, LLC|
-|3|64.225.4.29|9815|United States|Clifton|DigitalOcean, LLC|
-|4|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|5|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|6|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|7|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|8|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|10|8.219.234.30|7777|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|12|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|13|210.172.199.88|8080|Japan|Gifu|KITAGATA|
-|14|51.159.0.236|3128|France|Paris|SCALEWAY|
-|15|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|65.108.48.232|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|180.184.91.187|443|China|Beijing|China Internet Network Information Center|
-|19|183.221.242.107|8443|China|Mianyang|China Mobile|
-|20|50.236.203.15|8080|United States|Peru|Comcast Cable Communications, LLC|
+|2|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
+|3|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|5|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
+|6|210.172.199.88|8080|Japan|Gifu|KITAGATA|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|9|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|10|154.204.58.155|8090|Hong Kong|Hong Kong|Sondercloud Limited|
+|11|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|12|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|13|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|14|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|16|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|17|35.247.253.239|3129|Brazil|Sao Paulo|Google LLC|
+|18|137.184.100.15|3128|United States|North Bergen|DigitalOcean, LLC|
+|19|181.129.1.226|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|20|65.108.48.232|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
