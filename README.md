@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6123** proxies at the latest update. Usable proxies are below.
+> Scraper found **6150** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|456|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|456|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|456|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|469|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|469|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|469|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1230|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1257|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|702|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2808|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.247.241.193|3129|Brazil|Sao Paulo|Google LLC|
-|2|35.247.218.29|3129|Brazil|Sao Paulo|Google LLC|
-|3|35.247.234.213|3129|Brazil|Sao Paulo|Google LLC|
-|4|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|5|35.247.254.240|3129|Brazil|Sao Paulo|Google LLC|
-|6|35.247.229.47|3129|Brazil|Sao Paulo|Google LLC|
-|7|194.213.18.81|50098|United States|Ashburn|Clouvider Limited|
-|8|107.152.42.222|8080|United States|Chicago|Cloudfanatic.NET|
-|9|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|1|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|2|64.225.4.12|9985|United States|Clifton|DigitalOcean, LLC|
+|3|35.247.254.240|3129|Brazil|Sao Paulo|Google LLC|
+|4|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|5|35.247.241.193|3129|Brazil|Sao Paulo|Google LLC|
+|6|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
+|7|35.247.228.137|3129|Brazil|Sao Paulo|Google LLC|
+|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|9|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
 |10|162.212.155.211|8080|United States|Cheney|tzulo, inc.|
-|11|162.212.154.19|8080|United States|Chicago|tzulo, inc.|
-|12|162.212.156.133|8080|United States|Chicago|tzulo, inc.|
-|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|14|107.152.42.5|8080|United States|Chicago|tzulo, inc.|
-|15|107.152.33.219|8080|United States|Chicago|tzulo, inc.|
-|16|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|18|162.212.154.177|8080|United States|Chicago|tzulo, inc.|
-|19|162.212.155.87|8080|United States|Cheney|tzulo, inc.|
-|20|162.212.155.148|8080|United States|Cheney|tzulo, inc.|
+|11|162.212.156.133|8080|United States|Chicago|tzulo, inc.|
+|12|162.212.155.87|8080|United States|Cheney|tzulo, inc.|
+|13|107.152.42.222|8080|United States|Chicago|Cloudfanatic.NET|
+|14|162.212.155.148|8080|United States|Cheney|tzulo, inc.|
+|15|162.212.155.187|8080|United States|Cheney|tzulo, inc.|
+|16|162.212.154.177|8080|United States|Chicago|tzulo, inc.|
+|17|107.152.42.5|8080|United States|Chicago|tzulo, inc.|
+|18|162.212.154.19|8080|United States|Chicago|tzulo, inc.|
+|19|107.152.33.219|8080|United States|Chicago|tzulo, inc.|
+|20|107.152.41.75|8080|United States|Cheney|tzulo, inc.|
 
 
 
