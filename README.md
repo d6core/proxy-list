@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5632** proxies at the latest update. Usable proxies are below.
+> Scraper found **5379** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|282|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|282|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|282|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|278|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|278|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|278|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1136|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|883|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|595|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2818|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.247.237.131|3129|Brazil|Sao Paulo|Google LLC|
-|2|35.247.199.47|3129|Brazil|Sao Paulo|Google LLC|
-|3|35.247.229.47|3129|Brazil|Sao Paulo|Google LLC|
-|4|5.75.173.70|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|5|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
-|6|35.247.247.73|3129|Brazil|Sao Paulo|Google LLC|
-|7|35.247.248.104|3129|Brazil|Sao Paulo|Google LLC|
-|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|9|35.247.224.13|3129|Brazil|Sao Paulo|Google LLC|
-|10|35.247.244.162|3129|Brazil|Sao Paulo|Google LLC|
-|11|116.58.232.251|8080|Thailand|Ban Nong Sala|CAT-BB|
-|12|8.219.234.30|7777|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|14|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|15|5.161.217.202|3128|United States|Ashburn|Hetzner Online GmbH|
-|16|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|190.97.247.210|999|Venezuela|Vigia|Viginet C.A|
-|18|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|19|181.205.44.219|8080|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|20|185.16.61.36|45212|Germany|Karlsruhe|netcup GmbH|
+|1|35.247.223.9|3129|Brazil|Sao Paulo|Google LLC|
+|2|35.247.248.46|3129|Brazil|Sao Paulo|Google LLC|
+|3|35.247.197.36|3129|Brazil|Sao Paulo|Google LLC|
+|4|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|5|35.247.248.45|3129|Brazil|Sao Paulo|Google LLC|
+|6|5.75.173.70|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|7|35.247.243.5|3129|Brazil|Sao Paulo|Google LLC|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|35.247.236.135|3129|Brazil|Sao Paulo|Google LLC|
+|10|35.247.199.47|3129|Brazil|Sao Paulo|Google LLC|
+|11|35.247.243.35|3129|Brazil|Sao Paulo|Google LLC|
+|12|35.247.244.162|3129|Brazil|Sao Paulo|Google LLC|
+|13|35.247.204.82|3129|Brazil|Sao Paulo|Google LLC|
+|14|35.247.224.13|3129|Brazil|Sao Paulo|Google LLC|
+|15|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|16|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|17|181.205.44.219|8080|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|18|190.97.247.210|999|Venezuela|Vigia|Viginet C.A|
+|19|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
 
 
 
