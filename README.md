@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6121** proxies at the latest update. Usable proxies are below.
+> Scraper found **6098** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|354|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|354|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|354|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|372|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|372|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|372|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1335|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1312|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|812|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2891|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|1|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
+|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
 |3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|4|152.32.64.43|8095|Philippines|Mandaluyong City|Converge ICT Solution Inc|
-|5|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|35.247.243.231|3129|Brazil|Sao Paulo|Google LLC|
-|10|35.247.228.52|3129|Brazil|Sao Paulo|Google LLC|
-|11|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|12|181.205.44.219|8080|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|13|35.227.57.1|3128|United States|North Charleston|Google LLC|
-|14|35.227.57.1|3128|United States|North Charleston|Google LLC|
-|15|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|16|148.244.112.233|999|Mexico|Centro|Alestra, S. de R.L. de C.V.|
-|17|185.16.61.36|45212|Germany|Karlsruhe|netcup GmbH|
-|18|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|19|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|20|213.83.46.204|3128|Germany|Frankfurt am Main|Plus.line AG|
+|4|186.96.101.76|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
+|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|6|185.93.73.41|8080|Poland|Czluchow|Przedsiebiorstwo Handlowo Uslugowe " Kamdex" Grzegorz Sztuczka|
+|7|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
+|8|35.247.247.141|3129|Brazil|Sao Paulo|Google LLC|
+|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|11|35.247.213.229|3129|Brazil|Sao Paulo|Google LLC|
+|12|35.247.198.196|3129|Brazil|Sao Paulo|Google LLC|
+|13|35.247.205.199|3129|Brazil|Sao Paulo|Google LLC|
+|14|43.134.211.34|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|16|35.247.243.231|3129|Brazil|Sao Paulo|Google LLC|
+|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|18|47.251.37.41|3128|United States|Santa Clara|Alibaba.com LLC|
+|19|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|20|171.99.252.175|8080|Thailand|Bangkok|True Internet Corporation CO. Ltd.|
 
 
 
