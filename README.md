@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6435** proxies at the latest update. Usable proxies are below.
+> Scraper found **6700** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|355|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|355|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|355|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|509|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|509|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|509|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1531|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1496|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|805|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3016|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|165.22.238.85|8080|Canada|Toronto|DigitalOcean, LLC|
-|2|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|3|35.247.198.109|3129|Brazil|Sao Paulo|Google LLC|
+|2|35.247.249.71|3129|Brazil|Sao Paulo|Google LLC|
+|3|213.83.46.204|3128|Germany|Frankfurt am Main|Plus.line AG|
 |4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|213.83.46.204|3128|Germany|Frankfurt am Main|Plus.line AG|
-|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|35.247.237.131|3129|Brazil|Sao Paulo|Google LLC|
+|6|205.213.80.8|8009|United States|Siren|WiscNet|
+|7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|8|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
 |9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|10|181.129.1.226|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|11|216.74.242.2|8080|United States|Houston|Logix|
-|12|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|13|181.129.1.229|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|10|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|12|205.213.80.8|8009|United States|Siren|WiscNet|
+|13|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
 |14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|15|24.164.58.61|32650|United States|Riverview|Charter Communications|
-|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|17|103.151.140.165|8080|Indonesia|Jakarta|PT Indotechno Digital Komputasi|
-|18|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|19|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|20|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|15|35.247.242.101|3129|Brazil|Sao Paulo|Google LLC|
+|16|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|17|159.223.93.121|3128|Singapore|Singapore|DigitalOcean, LLC|
+|18|181.129.1.229|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|19|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|20|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
 
 
 
