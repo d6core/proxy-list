@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6426** proxies at the latest update. Usable proxies are below.
+> Scraper found **6469** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|430|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|430|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|430|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|321|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|321|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|321|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1431|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1474|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|742|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2870|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.247.227.219|3129|Brazil|Sao Paulo|Google LLC|
+|1|35.247.248.46|3129|Brazil|Sao Paulo|Google LLC|
 |2|35.247.198.196|3129|Brazil|Sao Paulo|Google LLC|
-|3|35.247.236.135|3129|Brazil|Sao Paulo|Google LLC|
-|4|156.67.172.185|3128|Germany|Willich|Deutsche Glasfaser Business GmbH|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|7|102.38.26.224|8080|Libya|Tripoli|GQA|
-|8|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|91.236.156.30|8282|Ukraine|Shyshaky|Limited Liability Company AVATOR ISP|
-|10|23.132.185.101|53128|Norway|Sandefjord|Joseph Farnell|
-|11|35.247.253.239|3129|Brazil|Sao Paulo|Google LLC|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|178.124.146.77|3128|Belarus|Minsk|Belpak HQ Endusers|
-|14|35.247.243.5|3129|Brazil|Sao Paulo|Google LLC|
-|15|103.169.254.164|8061|Indonesia|Banyuwangi|PT Master Star Network|
-|16|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|17|51.159.0.236|3128|France|Paris|SCALEWAY|
-|18|177.66.101.223|8024|Brazil|Estrela do Sul|WN TELECOM LTDA - ME|
-|19|45.61.187.67|4007|United States|Miami|FranTech Solutions|
-|20|180.184.91.187|443|China|Beijing|China Internet Network Information Center|
+|3|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|6|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|7|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|8|34.94.57.195|8080|United States|Los Angeles|Google LLC|
+|9|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|10|45.61.187.67|4004|United States|Miami|FranTech Solutions|
+|11|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|14|205.213.80.8|8009|United States|Siren|WiscNet|
+|15|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|16|205.213.80.8|8009|United States|Siren|WiscNet|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
+|19|51.159.0.236|3128|France|Paris|SCALEWAY|
+|20|12.144.254.185|9080|United States|Little Rock|AT&T Services, Inc.|
 
 
 
