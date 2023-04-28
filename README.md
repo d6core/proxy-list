@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|382|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|382|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|382|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|506|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|506|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|506|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|176.95.54.202|83|Germany|Wirft|Vodafone GmbH|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|4|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
-|5|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|8|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
-|9|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
-|10|41.60.235.237|8080|Kenya|Nairobi|Maintainer Liquid Telecommunications Operations Limited|
-|11|183.89.118.8|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|14|198.12.122.226|3128|United States|Chicago|ColoCrossing|
-|15|51.159.0.236|3128|France|Paris|SCALEWAY|
-|16|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|17|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|18|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|35.247.205.199|3129|Brazil|Sao Paulo|Google LLC|
-|20|128.199.116.34|4444|Singapore|Singapore|DigitalOcean, LLC|
+|1|35.247.248.46|3129|Brazil|Sao Paulo|Google LLC|
+|2|35.247.219.133|3129|Brazil|Sao Paulo|Google LLC|
+|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|4|51.159.0.236|3128|France|Paris|SCALEWAY|
+|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|6|46.101.13.77|80|United Kingdom|London|DigitalOcean, LLC|
+|7|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
+|8|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|11|64.225.4.29|9487|United States|Clifton|DigitalOcean, LLC|
+|12|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|13|27.76.189.117|1003|Vietnam|Hai Duong|Newass2011xDSLHCMC|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|119.76.142.204|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
+|16|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|37.204.157.91|41890|Russia|Moscow|NCNET|
+|18|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|19|103.68.194.117|45787|United States|Los Angeles|Zenlayer Inc|
+|20|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 
 
 
