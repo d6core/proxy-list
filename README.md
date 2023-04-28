@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|350|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|350|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|350|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|383|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|383|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|383|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.247.223.9|3129|Brazil|Sao Paulo|Google LLC|
-|2|35.247.241.193|3129|Brazil|Sao Paulo|Google LLC|
-|3|35.247.197.18|3129|Brazil|Sao Paulo|Google LLC|
-|4|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|5|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|6|20.113.45.50|80|Germany|Frankfurt am Main|Microsoft Corporation|
-|7|35.247.218.71|3129|Brazil|Sao Paulo|Google LLC|
-|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|11|205.213.80.8|8009|United States|Siren|WiscNet|
-|12|205.213.80.8|8009|United States|Siren|WiscNet|
-|13|35.247.243.35|3129|Brazil|Sao Paulo|Google LLC|
-|14|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|181.129.1.226|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|19|66.160.164.249|3128|United States|Chestertown|Hurricane Electric LLC|
-|20|5.172.24.68|61444|Russia|Pervouralsk|INSYS network|
+|1|104.248.249.240|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|35.247.218.71|3129|Brazil|Sao Paulo|Google LLC|
+|3|35.247.224.13|3129|Brazil|Sao Paulo|Google LLC|
+|4|35.247.199.47|3129|Brazil|Sao Paulo|Google LLC|
+|5|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|6|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|35.247.218.29|3129|Brazil|Sao Paulo|Google LLC|
+|9|205.213.80.8|8009|United States|Siren|WiscNet|
+|10|205.213.80.8|8009|United States|Siren|WiscNet|
+|11|5.172.24.68|61444|Russia|Pervouralsk|INSYS network|
+|12|45.142.122.27|55555|Russia|Moscow|AEZA GROUP Ltd|
+|13|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|15|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|17|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|19|213.83.46.204|3128|Germany|Frankfurt am Main|Plus.line AG|
+|20|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
 
 
 
