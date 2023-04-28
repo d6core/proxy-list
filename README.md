@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5935** proxies at the latest update. Usable proxies are below.
+> Scraper found **5936** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|331|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|331|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|331|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|429|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|429|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|429|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1228|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1229|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|651|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2673|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|2|34.140.70.242|8080|Belgium|Brussels|Google LLC|
+|1|34.140.70.242|8080|Belgium|Brussels|Google LLC|
+|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
 |3|35.247.245.133|3129|Brazil|Sao Paulo|Google LLC|
-|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|68.132.12.228|8888|United States|Staten Island|Verizon Communications|
 |5|205.213.80.8|8009|United States|Siren|WiscNet|
-|6|35.247.224.13|3129|Brazil|Sao Paulo|Google LLC|
-|7|35.247.230.245|3129|Brazil|Sao Paulo|Google LLC|
-|8|45.173.130.117|80|Chile|Santiago|VPS GURU CHILE SPA|
-|9|95.216.197.185|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|35.247.253.239|3129|Brazil|Sao Paulo|Google LLC|
-|11|205.213.80.8|8009|United States|Siren|WiscNet|
-|12|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|13|65.21.188.131|8080|Finland|Helsinki|Hetzner Online GmbH|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|17|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|18|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|20|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|6|35.247.230.245|3129|Brazil|Sao Paulo|Google LLC|
+|7|35.247.236.135|3129|Brazil|Sao Paulo|Google LLC|
+|8|95.216.197.185|8080|Finland|Helsinki|Hetzner Online GmbH|
+|9|35.247.242.101|3129|Brazil|Sao Paulo|Google LLC|
+|10|35.247.240.117|3129|Brazil|Sao Paulo|Google LLC|
+|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|12|77.231.220.221|8118|Spain|Barcelona|Vodafone Espana, S.A.U.|
+|13|35.247.248.46|3129|Brazil|Sao Paulo|Google LLC|
+|14|46.29.165.166|8123|Russia|Moscow|BNET|
+|15|45.173.130.117|80|Chile|Santiago|VPS GURU CHILE SPA|
+|16|35.247.197.36|3129|Brazil|Sao Paulo|Google LLC|
+|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|18|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|19|35.247.241.193|3129|Brazil|Sao Paulo|Google LLC|
+|20|205.213.80.8|8009|United States|Siren|WiscNet|
 
 
 
