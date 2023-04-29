@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5987** proxies at the latest update. Usable proxies are below.
+> Scraper found **6187** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|373|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|373|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|373|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|434|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|434|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|434|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1500|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1400|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|797|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2607|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.215.240.70|3128|United States|San Jose|Amazon.com, Inc.|
-|2|205.213.80.8|8009|United States|Siren|WiscNet|
-|3|43.249.10.145|45787|Japan|Tokyo|Zenlayer Inc|
-|4|18.144.155.131|3128|United States|San Jose|Amazon.com, Inc.|
+|1|35.247.214.238|3129|Brazil|Sao Paulo|Google LLC|
+|2|35.247.236.135|3129|Brazil|Sao Paulo|Google LLC|
+|3|54.215.240.70|3128|United States|San Jose|Amazon.com, Inc.|
+|4|35.247.199.47|3129|Brazil|Sao Paulo|Google LLC|
 |5|54.153.1.136|3128|United States|San Jose|Amazon.com, Inc.|
-|6|35.247.243.5|3129|Brazil|Sao Paulo|Google LLC|
-|7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|8|35.247.241.193|3129|Brazil|Sao Paulo|Google LLC|
-|9|54.153.55.30|3128|United States|San Jose|Amazon.com, Inc.|
-|10|54.153.1.136|3128|United States|San Jose|Amazon.com, Inc.|
-|11|34.211.147.86|3128|United States|Portland|Amazon.com, Inc.|
-|12|43.153.108.112|8888|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|13|180.183.135.151|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|14|54.153.55.30|3128|United States|San Jose|Amazon.com, Inc.|
-|15|35.247.205.199|3129|Brazil|Sao Paulo|Google LLC|
-|16|34.211.147.86|3128|United States|Portland|Amazon.com, Inc.|
-|17|35.247.237.131|3129|Brazil|Sao Paulo|Google LLC|
-|18|18.144.155.131|3128|United States|San Jose|Amazon.com, Inc.|
-|19|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|20|101.255.164.145|3125|Indonesia|Bekasi|PT Remala Abadi|
+|6|35.247.228.52|3129|Brazil|Sao Paulo|Google LLC|
+|7|35.247.243.5|3129|Brazil|Sao Paulo|Google LLC|
+|8|35.247.198.196|3129|Brazil|Sao Paulo|Google LLC|
+|9|35.247.234.213|3129|Brazil|Sao Paulo|Google LLC|
+|10|34.174.127.177|8585|United States|Dallas|Google LLC|
+|11|35.247.208.139|3129|Brazil|Sao Paulo|Google LLC|
+|12|54.153.1.136|3128|United States|San Jose|Amazon.com, Inc.|
+|13|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|14|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|15|54.215.240.70|3128|United States|San Jose|Amazon.com, Inc.|
+|16|8.219.234.30|7777|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|18|180.183.135.151|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|19|35.247.209.139|3129|Brazil|Sao Paulo|Google LLC|
+|20|34.174.127.177|8585|United States|Dallas|Google LLC|
 
 
 
