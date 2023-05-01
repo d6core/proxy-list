@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7069** proxies at the latest update. Usable proxies are below.
+> Scraper found **7136** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|432|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|432|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|432|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|750|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|750|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|750|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1793|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1860|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1017|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2876|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.247.208.139|3129|Brazil|Sao Paulo|Google LLC|
-|2|35.247.218.60|3129|Brazil|Sao Paulo|Google LLC|
-|3|35.247.210.164|3129|Brazil|Sao Paulo|Google LLC|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|6|188.253.3.202|1080|Iran|Tehran|Atieh Ertebat Kish|
-|7|34.106.168.29|8585|United States|Salt Lake City|Google LLC|
-|8|35.247.255.1|3129|Brazil|Sao Paulo|Google LLC|
-|9|35.247.243.35|3129|Brazil|Sao Paulo|Google LLC|
-|10|35.247.197.18|3129|Brazil|Sao Paulo|Google LLC|
-|11|35.247.228.52|3129|Brazil|Sao Paulo|Google LLC|
-|12|51.159.115.233|3128|France|Paris|SCALEWAY|
-|13|205.213.80.8|8009|United States|Siren|WiscNet|
-|14|89.179.244.233|20000|Russia|Moscow|CORBINA-BROADBAND|
-|15|34.125.69.90|8585|United States|Las Vegas|Google LLC|
-|16|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
-|18|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|19|35.247.236.134|3129|Brazil|Sao Paulo|Google LLC|
-|20|34.125.73.8|8585|United States|Las Vegas|Google LLC|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|64.225.8.82|9958|United States|Clifton|DigitalOcean, LLC|
+|3|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|4|35.247.254.207|3129|Brazil|Sao Paulo|Google LLC|
+|5|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|6|35.247.248.46|3129|Brazil|Sao Paulo|Google LLC|
+|7|35.247.243.35|3129|Brazil|Sao Paulo|Google LLC|
+|8|35.247.210.164|3129|Brazil|Sao Paulo|Google LLC|
+|9|51.159.115.233|3128|France|Paris|SCALEWAY|
+|10|35.247.236.134|3129|Brazil|Sao Paulo|Google LLC|
+|11|35.247.255.1|3129|Brazil|Sao Paulo|Google LLC|
+|12|35.247.218.60|3129|Brazil|Sao Paulo|Google LLC|
+|13|35.247.208.139|3129|Brazil|Sao Paulo|Google LLC|
+|14|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
+|15|27.70.167.104|10001|Vietnam|Hanoi|Viettel Group|
+|16|205.213.80.8|8009|United States|Siren|WiscNet|
+|17|34.174.129.40|8585|United States|Dallas|Google LLC|
+|18|35.247.195.26|3129|Brazil|Sao Paulo|Google LLC|
+|19|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|35.247.240.47|3129|Brazil|Sao Paulo|Google LLC|
 
 
 
