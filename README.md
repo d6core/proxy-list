@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6531** proxies at the latest update. Usable proxies are below.
+> Scraper found **6548** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|210|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|210|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|210|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|526|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|526|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|526|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1496|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1627|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|773|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|959|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2879|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|5.161.141.247|8080|United States|Ashburn|Hetzner Online GmbH|
-|4|185.149.23.121|443|United States|Los Angeles|DediPath|
-|5|35.247.219.133|3129|Brazil|Sao Paulo|Google LLC|
-|6|34.125.153.124|8585|United States|Las Vegas|Google LLC|
-|7|107.152.32.30|8080|United States|Chicago|tzulo, inc.|
-|8|35.247.198.109|3129|Brazil|Sao Paulo|Google LLC|
-|9|119.42.115.129|3128|Thailand|Bangkok|CAT-BB|
-|10|35.247.248.46|3129|Brazil|Sao Paulo|Google LLC|
-|11|35.247.205.198|3129|Brazil|Sao Paulo|Google LLC|
-|12|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
-|13|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|14|107.152.37.95|8080|United States|Chicago|tzulo, inc.|
-|15|138.68.195.70|31290|United States|San Francisco|DigitalOcean, LLC|
-|16|34.95.192.47|3129|Brazil|Sao Paulo|Google LLC|
-|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|18|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|20|164.90.253.93|3128|United States|North Bergen|DigitalOcean, LLC|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|3|157.90.157.82|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|4|107.152.42.73|8080|United States|Chicago|tzulo, inc.|
+|5|35.247.219.108|3129|Brazil|Sao Paulo|Google LLC|
+|6|35.247.247.183|3129|Brazil|Sao Paulo|Google LLC|
+|7|34.125.153.124|8585|United States|Las Vegas|Google LLC|
+|8|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|10|35.247.198.109|3129|Brazil|Sao Paulo|Google LLC|
+|11|185.149.23.121|443|United States|Los Angeles|DediPath|
+|12|35.247.228.7|3129|Brazil|Sao Paulo|Google LLC|
+|13|35.247.205.198|3129|Brazil|Sao Paulo|Google LLC|
+|14|35.247.237.131|3129|Brazil|Sao Paulo|Google LLC|
+|15|35.247.248.104|3129|Brazil|Sao Paulo|Google LLC|
+|16|35.247.230.178|3129|Brazil|Sao Paulo|Google LLC|
+|17|35.247.241.193|3129|Brazil|Sao Paulo|Google LLC|
+|18|34.125.153.124|8585|United States|Las Vegas|Google LLC|
+|19|73.242.86.12|8118|United States|Minnetonka|Comcast Cable Communications|
+|20|51.158.189.189|8080|France|Paris|SCALEWAY|
 
 
 
