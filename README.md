@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|453|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|453|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|453|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|192|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|192|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|192|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|506|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|508|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|535|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|533|🚫|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|1609|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|2|35.198.57.230|3129|Brazil|Sao Paulo|Google LLC|
-|3|34.125.194.93|8585|United States|Las Vegas|Google LLC|
-|4|34.95.197.9|3129|Brazil|Sao Paulo|Google LLC|
-|5|34.95.188.9|3129|Brazil|Sao Paulo|Google LLC|
-|6|35.198.19.253|3129|Brazil|Sao Paulo|Google LLC|
-|7|35.198.33.67|3129|Brazil|Sao Paulo|Google LLC|
-|8|35.247.255.13|3129|Brazil|Sao Paulo|Google LLC|
-|9|34.151.240.16|3129|Brazil|Sao Paulo|Google LLC|
-|10|185.125.169.24|8118|Norway|Sandefjord|TerraHost AS|
-|11|34.151.231.78|3129|Brazil|Sao Paulo|Google LLC|
-|12|35.198.13.134|3129|Brazil|Sao Paulo|Google LLC|
-|13|35.198.59.230|3129|Brazil|Sao Paulo|Google LLC|
-|14|35.247.243.5|3129|Brazil|Sao Paulo|Google LLC|
-|15|54.64.93.105|3128|Japan|Tokyo|Amazon.com, Inc.|
-|16|34.151.231.232|3129|Brazil|Sao Paulo|Google LLC|
-|17|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|18|35.247.223.9|3129|Brazil|Sao Paulo|Google LLC|
-|19|34.95.187.154|3129|Brazil|Sao Paulo|Google LLC|
-|20|35.198.53.155|3129|Brazil|Sao Paulo|Google LLC|
+|1|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|2|34.151.228.25|3129|Brazil|Sao Paulo|Google LLC|
+|3|35.199.84.54|3129|Brazil|Sao Paulo|Google LLC|
+|4|35.198.53.155|3129|Brazil|Sao Paulo|Google LLC|
+|5|34.151.230.190|3129|Brazil|Sao Paulo|Google LLC|
+|6|35.199.81.224|3129|Brazil|Sao Paulo|Google LLC|
+|7|35.198.7.15|3129|Brazil|Sao Paulo|Google LLC|
+|8|35.247.245.218|3129|Brazil|Sao Paulo|Google LLC|
+|9|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|10|35.247.228.213|3129|Brazil|Sao Paulo|Google LLC|
+|11|195.133.45.149|7788|Russia|Moscow|VDS|
+|12|54.64.93.105|3128|Japan|Tokyo|Amazon.com, Inc.|
+|13|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|14|34.95.201.131|3129|Brazil|Sao Paulo|Google LLC|
+|15|35.247.203.94|3129|Brazil|Sao Paulo|Google LLC|
+|16|35.199.76.117|3129|Brazil|Sao Paulo|Google LLC|
+|17|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|18|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|19|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|20|35.247.241.32|3129|Brazil|Sao Paulo|Google LLC|
 
 
 
