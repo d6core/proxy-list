@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6021** proxies at the latest update. Usable proxies are below.
+> Scraper found **6064** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|418|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|418|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|418|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|272|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|272|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|272|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1329|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|759|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|773|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2879|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|167.99.116.111|8001|United States|Clifton|DigitalOcean, LLC|
-|2|107.152.37.95|8080|United States|Chicago|tzulo, inc.|
+|1|107.152.37.95|8080|United States|Chicago|tzulo, inc.|
+|2|138.68.195.70|31290|United States|San Francisco|DigitalOcean, LLC|
 |3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|138.68.195.70|31290|United States|San Francisco|DigitalOcean, LLC|
-|5|45.79.29.188|8080|United States|Richardson|Akamai Technologies, Inc.|
-|6|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|7|139.162.78.208|8080|Japan|Tokyo|Akamai Technologies, Inc.|
-|8|65.108.210.197|8080|Finland|Helsinki|Hetzner Online GmbH|
-|9|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|10|65.109.128.221|8080|Finland|Helsinki|Hetzner Online GmbH|
-|11|135.181.101.53|8080|Finland|Helsinki|Hetzner Online GmbH|
-|12|167.99.116.111|8001|United States|Clifton|DigitalOcean, LLC|
-|13|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|14|95.217.20.186|8080|Finland|Helsinki|Hetzner Online GmbH|
-|15|45.79.29.188|8080|United States|Richardson|Akamai Technologies, Inc.|
+|4|45.79.29.188|8080|United States|Richardson|Akamai Technologies, Inc.|
+|5|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|6|35.247.245.133|3129|Brazil|Sao Paulo|Google LLC|
+|7|51.159.115.233|3128|France|Paris|SCALEWAY|
+|8|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|9|65.21.146.223|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|135.181.101.53|8080|Finland|Helsinki|Hetzner Online GmbH|
+|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|12|5.161.141.247|8080|United States|Ashburn|Hetzner Online GmbH|
+|13|65.109.128.221|8080|Finland|Helsinki|Hetzner Online GmbH|
+|14|192.227.128.179|8080|United States|Buffalo|ColoCrossing|
+|15|139.162.78.208|8080|Japan|Tokyo|Akamai Technologies, Inc.|
 |16|135.181.150.104|8080|Finland|Helsinki|Hetzner Online GmbH|
-|17|205.213.80.8|8009|United States|Siren|WiscNet|
-|18|139.162.78.170|8080|Japan|Tokyo|Akamai Technologies, Inc.|
-|19|79.132.204.207|8080|Iran|Tehran|Cooperative Afra ertebatat-e-sabet-e Rasa Co|
-|20|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|17|107.152.37.95|8080|United States|Chicago|tzulo, inc.|
+|18|138.68.195.70|31290|United States|San Francisco|DigitalOcean, LLC|
+|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|20|139.144.0.103|8080|India|Mumbai|Akamai Technologies, Inc.|
 
 
 
