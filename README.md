@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6409** proxies at the latest update. Usable proxies are below.
+> Scraper found **6490** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|339|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|339|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|339|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|557|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|557|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|557|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1310|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1391|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|749|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2967|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|2|205.213.80.8|8009|United States|Siren|WiscNet|
-|3|35.198.42.124|3129|Brazil|Sao Paulo|Google LLC|
-|4|35.247.228.137|3129|Brazil|Sao Paulo|Google LLC|
-|5|35.198.21.162|3129|Brazil|Sao Paulo|Google LLC|
-|6|103.84.234.118|80|Indonesia|Jakarta|PT Maxindo Mitra Solusi|
-|7|35.198.35.173|3129|Brazil|Sao Paulo|Google LLC|
-|8|34.151.236.26|3129|Brazil|Sao Paulo|Google LLC|
-|9|35.247.253.239|3129|Brazil|Sao Paulo|Google LLC|
-|10|35.247.218.29|3129|Brazil|Sao Paulo|Google LLC|
-|11|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|12|35.198.33.143|3129|Brazil|Sao Paulo|Google LLC|
-|13|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|14|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|15|35.199.84.54|3129|Brazil|Sao Paulo|Google LLC|
-|16|35.198.33.46|3129|Brazil|Sao Paulo|Google LLC|
-|17|65.108.55.44|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|35.198.7.15|3129|Brazil|Sao Paulo|Google LLC|
-|19|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|20|35.199.82.243|3129|Brazil|Sao Paulo|Google LLC|
+|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|4|167.99.238.124|80|United States|North Bergen|DigitalOcean, LLC|
+|5|205.213.80.8|8009|United States|Siren|WiscNet|
+|6|35.198.44.184|3129|Brazil|Sao Paulo|Google LLC|
+|7|35.247.227.219|3129|Brazil|Sao Paulo|Google LLC|
+|8|34.140.70.242|8080|Belgium|Brussels|Google LLC|
+|9|35.247.221.112|3129|Brazil|Sao Paulo|Google LLC|
+|10|34.151.225.79|3129|Brazil|Sao Paulo|Google LLC|
+|11|35.198.42.124|3129|Brazil|Sao Paulo|Google LLC|
+|12|156.234.39.152|8080|Hong Kong|Central|Sun Network (Hong Kong) Limited|
+|13|35.247.214.238|3129|Brazil|Sao Paulo|Google LLC|
+|14|34.151.230.125|3129|Brazil|Sao Paulo|Google LLC|
+|15|103.84.234.118|80|Indonesia|Jakarta|PT Maxindo Mitra Solusi|
+|16|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|17|101.109.7.127|8080|Thailand|Chanthaburi|TOT Public Company Limited|
+|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|19|167.99.238.124|80|United States|North Bergen|DigitalOcean, LLC|
+|20|34.95.177.90|3129|Brazil|Sao Paulo|Google LLC|
 
 
 
