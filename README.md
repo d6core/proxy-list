@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8020** proxies at the latest update. Usable proxies are below.
+> Scraper found **8115** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|251|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|251|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|251|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|804|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|804|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|804|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2357|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2435|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1079|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1096|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3201|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.174.58.40|8585|United States|Dallas|Google LLC|
-|2|34.106.232.186|8585|United States|Salt Lake City|Google LLC|
-|3|209.141.62.12|5555|United States|Las Vegas|FranTech Solutions|
-|4|164.90.253.93|3128|United States|North Bergen|DigitalOcean, LLC|
-|5|35.198.22.18|3129|Brazil|Sao Paulo|Google LLC|
-|6|34.83.251.103|8585|United States|The Dalles|Google LLC|
-|7|192.227.128.179|8080|United States|Buffalo|ColoCrossing|
-|8|35.198.50.181|3129|Brazil|Sao Paulo|Google LLC|
-|9|35.199.82.214|3129|Brazil|Sao Paulo|Google LLC|
-|10|34.162.164.150|8585|United States|Columbus|Google LLC|
-|11|34.162.164.150|8585|United States|Columbus|Google LLC|
-|12|14.207.145.163|8080|Thailand|Nakhon Pathom|Triple T Broadband Public Company Limited|
-|13|35.247.248.45|3129|Brazil|Sao Paulo|Google LLC|
-|14|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|15|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|16|35.236.57.44|8080|United States|Los Angeles|Google LLC|
-|17|35.247.248.104|3129|Brazil|Sao Paulo|Google LLC|
+|1|34.127.91.245|8585|United States|The Dalles|Google LLC|
+|2|52.53.238.127|3128|United States|San Jose|Amazon.com, Inc.|
+|3|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|198.44.189.134|45787|Japan|Tokyo|Zenlayer Inc|
+|6|79.137.20.39|11211|France|Gravelines|OVH SAS|
+|7|34.106.84.247|8585|United States|Salt Lake City|Google LLC|
+|8|52.53.238.127|3128|United States|San Jose|Amazon.com, Inc.|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|35.247.227.219|3129|Brazil|Sao Paulo|Google LLC|
+|11|34.125.76.148|8585|United States|Las Vegas|Google LLC|
+|12|140.238.1.77|8080|South Korea|Seoul|Oracle Corporation|
+|13|34.127.91.245|8585|United States|The Dalles|Google LLC|
+|14|13.233.222.84|80|India|Mumbai|Amazon Technologies Inc.|
+|15|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|16|167.235.142.180|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|17|114.142.182.122|8080|Japan|Kanazawa|NSK Co., Ltd.|
 |18|164.90.253.93|3128|United States|North Bergen|DigitalOcean, LLC|
-|19|82.165.184.53|80|Germany|Essen|IONOS SE|
-|20|34.174.105.164|8585|United States|Dallas|Google LLC|
+|19|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|20|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
 
 
 
