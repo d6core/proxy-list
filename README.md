@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7145** proxies at the latest update. Usable proxies are below.
+> Scraper found **6957** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1996|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1808|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1002|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2764|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.118.6.63|8585|Poland|Warsaw|Google LLC|
-|2|35.198.60.192|3129|Brazil|Sao Paulo|Google LLC|
-|3|35.247.199.47|3129|Brazil|Sao Paulo|Google LLC|
-|4|34.116.245.150|8585|Poland|Warsaw|Google LLC|
-|5|34.151.232.18|3129|Brazil|Sao Paulo|Google LLC|
-|6|35.198.16.85|3129|Brazil|Sao Paulo|Google LLC|
-|7|35.198.42.124|3129|Brazil|Sao Paulo|Google LLC|
-|8|34.95.180.164|3129|Brazil|Sao Paulo|Google LLC|
-|9|35.198.33.46|3129|Brazil|Sao Paulo|Google LLC|
-|10|34.151.236.74|3129|Brazil|Sao Paulo|Google LLC|
-|11|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|12|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|13|43.156.100.152|80|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|14|164.90.253.93|3128|United States|North Bergen|DigitalOcean, LLC|
-|15|86.57.156.106|2222|Belarus|Minsk|Republican Unitary Telecommunication Enterprise Beltelecom|
-|16|34.162.134.214|8585|United States|Columbus|Google LLC|
-|17|34.106.100.216|8585|United States|Salt Lake City|Google LLC|
-|18|206.189.186.128|8080|United States|North Bergen|DigitalOcean, LLC|
-|19|167.71.28.219|8080|United States|North Bergen|DigitalOcean, LLC|
-|20|34.95.192.47|3129|Brazil|Sao Paulo|Google LLC|
+|1|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|35.198.45.239|3129|Brazil|Sao Paulo|Google LLC|
+|4|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|5|34.151.245.107|3129|Brazil|Sao Paulo|Google LLC|
+|6|34.151.243.198|3129|Brazil|Sao Paulo|Google LLC|
+|7|35.198.30.35|3129|Brazil|Sao Paulo|Google LLC|
+|8|35.247.228.137|3129|Brazil|Sao Paulo|Google LLC|
+|9|94.103.97.60|8080|Switzerland|Belmont-sur-Lausanne|OpenBusiness Ltd / SwissCenter / SwissLink|
+|10|194.195.244.116|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|11|34.162.67.101|8585|United States|Columbus|Google LLC|
+|12|37.27.1.95|8080|Finland|Helsinki|Hetzner Online GmbH|
+|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|14|35.198.6.67|3129|Brazil|Sao Paulo|Google LLC|
+|15|35.199.84.54|3129|Brazil|Sao Paulo|Google LLC|
+|16|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|17|65.21.144.129|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|19|172.105.255.151|8080|Australia|Sydney|Akamai Technologies|
+|20|115.85.183.23|3128|South Korea|Seongnam-si|NBP|
 
 
 
