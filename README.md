@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6249** proxies at the latest update. Usable proxies are below.
+> Scraper found **6423** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|303|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|303|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|303|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|677|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|677|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|677|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1431|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1605|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|796|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2939|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|34.95.185.169|3129|Brazil|Sao Paulo|Google LLC|
-|3|34.151.236.26|3129|Brazil|Sao Paulo|Google LLC|
-|4|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|5|34.95.207.20|3129|Brazil|Sao Paulo|Google LLC|
-|6|35.198.60.192|3129|Brazil|Sao Paulo|Google LLC|
-|7|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
-|8|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|9|35.198.9.82|3129|Brazil|Sao Paulo|Google LLC|
-|10|34.151.227.20|3129|Brazil|Sao Paulo|Google LLC|
-|11|34.95.192.47|3129|Brazil|Sao Paulo|Google LLC|
-|12|34.151.225.79|3129|Brazil|Sao Paulo|Google LLC|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|45.61.187.67|4007|United States|Miami|FranTech Solutions|
-|15|35.247.243.5|3129|Brazil|Sao Paulo|Google LLC|
-|16|34.95.188.9|3129|Brazil|Sao Paulo|Google LLC|
-|17|34.95.197.9|3129|Brazil|Sao Paulo|Google LLC|
-|18|35.199.74.74|3129|Brazil|Sao Paulo|Google LLC|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|205.213.80.8|8009|United States|Siren|WiscNet|
+|1|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|2|5.161.110.95|50272|United States|Ashburn|Hetzner Online GmbH|
+|3|35.198.13.220|3129|Brazil|Sao Paulo|Google LLC|
+|4|35.247.243.5|3129|Brazil|Sao Paulo|Google LLC|
+|5|35.198.17.39|3129|Brazil|Sao Paulo|Google LLC|
+|6|35.198.16.85|3129|Brazil|Sao Paulo|Google LLC|
+|7|35.198.9.82|3129|Brazil|Sao Paulo|Google LLC|
+|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|9|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
+|10|34.95.207.20|3129|Brazil|Sao Paulo|Google LLC|
+|11|34.95.204.47|3129|Brazil|Sao Paulo|Google LLC|
+|12|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|13|34.151.227.20|3129|Brazil|Sao Paulo|Google LLC|
+|14|34.151.236.26|3129|Brazil|Sao Paulo|Google LLC|
+|15|34.95.197.9|3129|Brazil|Sao Paulo|Google LLC|
+|16|35.247.232.87|3129|Brazil|Sao Paulo|Google LLC|
+|17|34.95.207.20|3129|Brazil|Sao Paulo|Google LLC|
+|18|158.69.73.79|9300|Canada|Montreal|OVH SAS|
+|19|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
+|20|34.151.245.107|3129|Brazil|Sao Paulo|Google LLC|
 
 
 
