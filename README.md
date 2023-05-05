@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6728** proxies at the latest update. Usable proxies are below.
+> Scraper found **6336** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|526|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|526|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|526|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|533|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|533|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|533|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1361|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1311|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|825|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|783|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3159|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.95.197.9|3129|Brazil|Sao Paulo|Google LLC|
-|2|35.198.3.68|3129|Brazil|Sao Paulo|Google LLC|
-|3|35.198.7.3|3129|Brazil|Sao Paulo|Google LLC|
-|4|34.151.234.55|3129|Brazil|Sao Paulo|Google LLC|
-|5|34.151.241.207|3129|Brazil|Sao Paulo|Google LLC|
-|6|35.247.249.215|3129|Brazil|Sao Paulo|Google LLC|
-|7|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
-|8|35.198.6.67|3129|Brazil|Sao Paulo|Google LLC|
-|9|35.199.74.62|3129|Brazil|Sao Paulo|Google LLC|
-|10|35.199.82.243|3129|Brazil|Sao Paulo|Google LLC|
-|11|35.247.199.249|3129|Brazil|Sao Paulo|Google LLC|
-|12|35.198.7.123|3129|Brazil|Sao Paulo|Google LLC|
-|13|35.198.60.192|3129|Brazil|Sao Paulo|Google LLC|
-|14|34.151.224.188|3129|Brazil|Sao Paulo|Google LLC|
-|15|35.198.33.67|3129|Brazil|Sao Paulo|Google LLC|
-|16|157.90.157.82|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|17|35.198.37.50|3129|Brazil|Sao Paulo|Google LLC|
-|18|34.95.197.9|3129|Brazil|Sao Paulo|Google LLC|
-|19|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|20|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
+|1|35.198.44.184|3129|Brazil|Sao Paulo|Google LLC|
+|2|34.95.197.9|3129|Brazil|Sao Paulo|Google LLC|
+|3|34.151.224.188|3129|Brazil|Sao Paulo|Google LLC|
+|4|157.90.157.82|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|5|35.247.199.249|3129|Brazil|Sao Paulo|Google LLC|
+|6|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|7|35.247.240.117|3129|Brazil|Sao Paulo|Google LLC|
+|8|35.247.236.135|3129|Brazil|Sao Paulo|Google LLC|
+|9|34.94.82.186|8585|United States|Los Angeles|Google LLC|
+|10|35.198.38.173|3129|Brazil|Sao Paulo|Google LLC|
+|11|35.198.37.50|3129|Brazil|Sao Paulo|Google LLC|
+|12|35.198.35.173|3129|Brazil|Sao Paulo|Google LLC|
+|13|35.198.5.86|3129|Brazil|Sao Paulo|Google LLC|
+|14|35.247.219.133|3129|Brazil|Sao Paulo|Google LLC|
+|15|34.151.232.117|3129|Brazil|Sao Paulo|Google LLC|
+|16|34.94.82.186|8585|United States|Los Angeles|Google LLC|
+|17|34.151.234.30|3129|Brazil|Sao Paulo|Google LLC|
+|18|35.247.253.239|3129|Brazil|Sao Paulo|Google LLC|
+|19|35.247.192.233|3129|Brazil|Sao Paulo|Google LLC|
+|20|35.247.248.104|3129|Brazil|Sao Paulo|Google LLC|
 
 
 
