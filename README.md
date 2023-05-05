@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7427** proxies at the latest update. Usable proxies are below.
+> Scraper found **7175** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|457|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|457|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|457|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|533|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|533|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|533|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1801|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1549|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|802|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3441|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.162.159.27|8585|United States|Columbus|Google LLC|
-|2|34.162.45.90|8585|United States|Columbus|Google LLC|
-|3|34.162.250.232|8585|United States|Columbus|Google LLC|
-|4|34.106.135.119|8080|United States|Salt Lake City|Google LLC|
-|5|34.174.21.11|8585|United States|Dallas|Google LLC|
-|6|34.86.169.80|8585|United States|Washington|Google LLC|
-|7|34.125.26.113|8585|United States|Las Vegas|Google LLC|
-|8|34.95.211.101|3129|Brazil|Sao Paulo|Google LLC|
-|9|34.174.132.120|8585|United States|Dallas|Google LLC|
-|10|35.236.23.97|8080|United States|Los Angeles|Google LLC|
-|11|34.95.231.100|3129|Brazil|Sao Paulo|Google LLC|
-|12|34.85.153.50|8585|United States|Washington|Google LLC|
-|13|34.95.199.125|3129|Brazil|Sao Paulo|Google LLC|
-|14|34.150.157.243|8585|United States|Washington|Google LLC|
-|15|34.95.156.78|3129|Brazil|Sao Paulo|Google LLC|
-|16|34.162.68.66|8585|United States|Columbus|Google LLC|
-|17|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|18|34.174.132.120|8585|United States|Dallas|Google LLC|
-|19|34.162.45.90|8585|United States|Columbus|Google LLC|
-|20|34.168.6.71|8080|United States|The Dalles|Google LLC|
+|1|34.174.176.240|8585|United States|Dallas|Google LLC|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|34.106.166.61|8585|United States|Salt Lake City|Google LLC|
+|4|34.174.101.218|8585|United States|Dallas|Google LLC|
+|5|34.125.191.199|8585|United States|Las Vegas|Google LLC|
+|6|34.162.126.116|8585|United States|Columbus|Google LLC|
+|7|35.228.55.99|8080|Finland|Lappeenranta|Google LLC|
+|8|34.174.38.232|8585|United States|Dallas|Google LLC|
+|9|35.199.71.6|3129|Brazil|Sao Paulo|Google LLC|
+|10|34.168.32.197|8585|United States|The Dalles|Google LLC|
+|11|35.247.218.60|3129|Brazil|Sao Paulo|Google LLC|
+|12|34.95.163.147|3129|Brazil|Sao Paulo|Google LLC|
+|13|34.106.193.14|8585|United States|Salt Lake City|Google LLC|
+|14|34.118.62.236|8585|Poland|Warsaw|Google LLC|
+|15|34.106.143.3|8585|United States|Salt Lake City|Google LLC|
+|16|34.102.82.215|8585|United States|Los Angeles|Google LLC|
+|17|34.125.4.80|8585|United States|Las Vegas|Google LLC|
+|18|35.247.208.170|3129|Brazil|Sao Paulo|Google LLC|
+|19|34.151.212.65|3129|Brazil|Sao Paulo|Google LLC|
+|20|34.125.26.113|8585|United States|Las Vegas|Google LLC|
 
 
 
