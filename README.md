@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7006** proxies at the latest update. Usable proxies are below.
+> Scraper found **6862** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|567|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|567|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|567|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|219|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|219|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|219|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1676|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1832|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|966|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2981|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.102.25.123|8585|United States|Los Angeles|Google LLC|
-|2|167.114.96.13|9300|Canada|Montreal|OVH SAS|
-|3|35.236.90.199|8585|United States|Los Angeles|Google LLC|
-|4|34.73.11.120|8080|United States|North Charleston|Google LLC|
-|5|119.42.115.129|3128|Thailand|Bangkok|CAT-BB|
-|6|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|7|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|8|34.73.11.120|8080|United States|North Charleston|Google LLC|
-|9|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|10|34.102.25.123|8585|United States|Los Angeles|Google LLC|
-|11|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
-|12|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|13|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|14|27.70.165.153|20065|Vietnam|Hanoi|Viettel Group|
-|15|61.14.233.155|7890|Vietnam|Ho Chi Minh City|LUUTRUSO|
-|16|35.236.90.199|8585|United States|Los Angeles|Google LLC|
-|17|34.94.179.84|8585|United States|Los Angeles|Google LLC|
-|18|34.174.231.247|8585|United States|Dallas|Google LLC|
-|19|35.236.83.168|8080|United States|Los Angeles|Google LLC|
-|20|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|1|35.236.52.224|8585|United States|Los Angeles|Google LLC|
+|2|34.125.212.123|8585|United States|Las Vegas|Google LLC|
+|3|34.125.53.208|8585|United States|Las Vegas|Google LLC|
+|4|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|5|34.106.184.164|8585|United States|Salt Lake City|Google LLC|
+|6|34.162.97.133|8585|United States|Columbus|Google LLC|
+|7|34.16.138.15|8585|United States|Las Vegas|Google LLC|
+|8|34.94.82.211|8585|United States|Los Angeles|Google LLC|
+|9|35.245.188.158|8585|United States|Washington|Google LLC|
+|10|34.125.52.61|8585|United States|Las Vegas|Google LLC|
+|11|34.102.25.123|8585|United States|Los Angeles|Google LLC|
+|12|34.82.237.139|8585|United States|The Dalles|Google LLC|
+|13|34.106.136.1|8585|United States|Salt Lake City|Google LLC|
+|14|34.148.249.206|8585|United States|North Charleston|Google LLC|
+|15|34.174.206.35|8585|United States|Dallas|Google LLC|
+|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|17|38.49.141.102|999|Mexico|Huichapan|Ientc S De RL De CV|
+|18|34.86.27.139|8585|United States|Washington|Google LLC|
+|19|34.88.106.208|8080|Finland|Lappeenranta|Google LLC|
+|20|140.238.1.77|8080|South Korea|Seoul|Oracle Corporation|
 
 
 
