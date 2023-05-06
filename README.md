@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5752** proxies at the latest update. Usable proxies are below.
+> Scraper found **5694** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|342|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|342|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|342|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|445|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|445|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|445|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1148|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1390|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|638|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2583|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|2|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|3|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|8|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
-|9|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|10|34.125.65.200|8585|United States|Las Vegas|Google LLC|
-|11|140.238.1.77|8080|South Korea|Seoul|Oracle Corporation|
-|12|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|14|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|15|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|17|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|18|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|19|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|45.61.187.67|4004|United States|Miami|FranTech Solutions|
+|1|34.174.75.1|8585|United States|Dallas|Google LLC|
+|2|34.106.77.213|8585|United States|Salt Lake City|Google LLC|
+|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|4|34.162.168.12|8585|United States|Columbus|Google LLC|
+|5|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|6|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|7|34.125.170.129|8585|United States|Las Vegas|Google LLC|
+|8|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|9|142.93.118.86|8080|United States|North Bergen|DigitalOcean, LLC|
+|10|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
+|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|12|34.162.168.12|8585|United States|Columbus|Google LLC|
+|13|34.106.77.213|8585|United States|Salt Lake City|Google LLC|
+|14|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|15|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|16|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|17|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|18|34.125.170.129|8585|United States|Las Vegas|Google LLC|
+|19|34.174.75.1|8585|United States|Dallas|Google LLC|
+|20|142.93.118.86|8080|United States|North Bergen|DigitalOcean, LLC|
 
 
 
