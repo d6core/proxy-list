@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5875** proxies at the latest update. Usable proxies are below.
+> Scraper found **5930** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|149|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|149|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|149|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|221|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|221|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|221|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|932|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|987|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|556|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3004|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|3|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|7|71.19.248.67|8001|Canada|Vancouver|eSecureData|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|10|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|11|203.190.53.197|8080|Indonesia|Surakarta|PT POWER TELECOM|
-|12|140.238.1.77|8080|South Korea|Seoul|Oracle Corporation|
-|13|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|14|103.168.44.41|9191|Indonesia|Semarang|PT CYB Media Group|
-|15|154.70.107.81|3128|Cameroon|Douala|MTN Network Solutions (Cameroon)|
-|16|34.209.232.77|3128|United States|Portland|Amazon.com, Inc.|
-|17|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|18|174.138.184.82|35025|United States|Secaucus|Interserver, Inc|
-|19|112.35.204.111|80|China|Shenzhen|China Mobile|
-|20|180.184.91.187|443|China|Beijing|Beijing Volcano Engine Technology Co., Ltd.|
+|1|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|2|140.238.1.77|8080|South Korea|Seoul|Oracle Corporation|
+|3|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|4|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
+|5|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|6|71.19.248.67|8001|Canada|Vancouver|eSecureData|
+|7|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|8|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|9|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|10|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|167.99.116.111|8001|United States|Clifton|DigitalOcean, LLC|
+|13|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
+|16|154.70.107.81|3128|Cameroon|Douala|MTN Network Solutions (Cameroon)|
+|17|109.160.97.163|8080|Bulgaria|Krepcha|Global Communication Net Plc|
+|18|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|19|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|20|44.56.0.1|8118|United States|Level Corner|University of California, San Diego|
 
 
 
