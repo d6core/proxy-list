@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6435** proxies at the latest update. Usable proxies are below.
+> Scraper found **6649** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|522|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|522|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|522|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|547|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|547|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|547|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1475|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1525|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|781|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|945|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2796|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
 |2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|3|34.106.167.164|8585|United States|Salt Lake City|Google LLC|
 |4|65.108.152.157|8080|Finland|Helsinki|Hetzner Online GmbH|
-|5|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
-|6|3.8.216.193|3128|United Kingdom|London|Amazon Technologies Inc.|
+|5|65.21.61.55|80|Finland|Helsinki|Hetzner Online GmbH|
+|6|34.174.7.171|8585|United States|Dallas|Google LLC|
 |7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |8|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|9|65.21.61.55|80|Finland|Helsinki|Hetzner Online GmbH|
-|10|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|9|140.238.1.77|8080|South Korea|Seoul|Oracle Corporation|
+|10|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
 |11|65.21.55.90|8080|Finland|Helsinki|Hetzner Online GmbH|
-|12|65.108.245.180|8080|Finland|Helsinki|Hetzner Online GmbH|
-|13|125.240.183.145|8080|South Korea|Anyang-si|DACOM-PUBNETPLUS|
-|14|140.238.1.77|8080|South Korea|Seoul|Oracle Corporation|
-|15|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|16|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
-|17|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|18|45.234.61.7|999|Venezuela|Caracas|SOLUCIONES INSTALRED CH&C C.A.|
-|19|158.69.74.53|9300|Canada|Montreal|OVH SAS|
-|20|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|12|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|13|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|14|65.108.245.180|8080|Finland|Helsinki|Hetzner Online GmbH|
+|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|16|34.106.167.164|8585|United States|Salt Lake City|Google LLC|
+|17|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|18|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|19|34.125.205.109|8585|United States|Las Vegas|Google LLC|
+|20|34.125.205.109|8585|United States|Las Vegas|Google LLC|
 
 
 
