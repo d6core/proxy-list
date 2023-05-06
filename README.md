@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7033** proxies at the latest update. Usable proxies are below.
+> Scraper found **6592** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|657|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|657|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|657|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|523|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|523|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|523|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1701|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1564|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|968|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|964|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2981|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.94.82.211|8585|United States|Los Angeles|Google LLC|
+|1|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
 |2|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|3|34.168.90.135|8585|United States|The Dalles|Google LLC|
-|4|34.106.30.186|8585|United States|Salt Lake City|Google LLC|
-|5|35.245.90.235|8585|United States|Washington|Google LLC|
-|6|34.138.129.232|8585|United States|North Charleston|Google LLC|
-|7|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|8|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|9|35.236.123.110|8585|United States|Los Angeles|Google LLC|
-|10|35.228.17.135|8080|Finland|Lappeenranta|Google LLC|
-|11|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|12|35.245.90.235|8585|United States|Washington|Google LLC|
-|13|167.99.238.124|80|United States|North Bergen|DigitalOcean, LLC|
-|14|34.168.90.135|8585|United States|The Dalles|Google LLC|
-|15|167.99.238.124|80|United States|North Bergen|DigitalOcean, LLC|
-|16|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|17|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|18|34.106.30.186|8585|United States|Salt Lake City|Google LLC|
-|19|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|91.196.148.56|10000|Ukraine|Kriukivschina|Maximum-Net LLC|
+|3|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|4|205.213.80.8|8009|United States|Siren|WiscNet|
+|5|35.228.17.135|8080|Finland|Lappeenranta|Google LLC|
+|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|7|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
+|8|46.246.4.10|3128|Sweden|Stockholm|Portlane Network|
+|9|52.76.60.40|80|Singapore|Singapore|Amazon.com, Inc.|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|13|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|14|27.70.165.153|20065|Vietnam|Hanoi|Viettel Group|
+|15|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|16|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|17|205.213.80.8|8009|United States|Siren|WiscNet|
+|18|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|19|167.99.238.124|80|United States|North Bergen|DigitalOcean, LLC|
+|20|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
 
 
 
