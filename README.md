@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6250** proxies at the latest update. Usable proxies are below.
+> Scraper found **6167** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|365|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|365|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|365|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|432|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|432|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|432|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1260|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1477|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|548|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3059|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|2|34.125.246.29|8585|United States|Las Vegas|Google LLC|
-|3|34.95.250.176|3129|Brazil|Sao Paulo|Google LLC|
-|4|34.95.253.212|3129|Brazil|Sao Paulo|Google LLC|
-|5|35.198.38.173|3129|Brazil|Sao Paulo|Google LLC|
-|6|34.174.150.218|8585|United States|Dallas|Google LLC|
-|7|35.198.26.92|3129|Brazil|Sao Paulo|Google LLC|
-|8|34.95.140.158|3129|Brazil|Sao Paulo|Google LLC|
-|9|35.199.69.126|3129|Brazil|Sao Paulo|Google LLC|
-|10|34.95.247.154|3129|Brazil|Sao Paulo|Google LLC|
-|11|34.95.210.155|3129|Brazil|Sao Paulo|Google LLC|
-|12|34.125.246.29|8585|United States|Las Vegas|Google LLC|
-|13|34.95.177.91|3129|Brazil|Sao Paulo|Google LLC|
-|14|34.95.218.51|3129|Brazil|Sao Paulo|Google LLC|
-|15|34.162.43.153|8585|United States|Columbus|Google LLC|
-|16|3.10.226.229|3128|United Kingdom|London|Amazon Technologies Inc.|
-|17|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
-|18|34.95.132.177|3129|Brazil|Sao Paulo|Google LLC|
-|19|34.151.207.207|3129|Brazil|Sao Paulo|Google LLC|
-|20|34.95.211.126|3129|Brazil|Sao Paulo|Google LLC|
+|1|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|2|35.198.36.109|3129|Brazil|Sao Paulo|Google LLC|
+|3|18.237.189.240|3128|United States|Portland|Amazon.com, Inc.|
+|4|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|5|18.237.159.139|3128|United States|Portland|Amazon.com, Inc.|
+|6|35.158.227.84|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
+|7|34.95.132.177|3129|Brazil|Sao Paulo|Google LLC|
+|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|9|35.198.37.50|3129|Brazil|Sao Paulo|Google LLC|
+|10|34.95.218.51|3129|Brazil|Sao Paulo|Google LLC|
+|11|18.237.159.139|3128|United States|Portland|Amazon.com, Inc.|
+|12|140.238.1.77|8080|South Korea|Seoul|Oracle Corporation|
+|13|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|14|34.95.160.183|3129|Brazil|Sao Paulo|Google LLC|
+|15|18.237.162.168|3128|United States|Portland|Amazon.com, Inc.|
+|16|18.237.162.168|3128|United States|Portland|Amazon.com, Inc.|
+|17|18.130.200.57|3128|United Kingdom|London|Amazon Technologies Inc.|
+|18|34.95.144.132|3129|Brazil|Sao Paulo|Google LLC|
+|19|35.199.69.156|3129|Brazil|Sao Paulo|Google LLC|
+|20|34.95.253.212|3129|Brazil|Sao Paulo|Google LLC|
 
 
 
