@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7356** proxies at the latest update. Usable proxies are below.
+> Scraper found **7663** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|801|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|801|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|801|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|692|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|692|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|692|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1930|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2225|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1041|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1053|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3002|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|34.174.228.28|8585|United States|Dallas|Google LLC|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|35.198.36.111|3129|Brazil|Sao Paulo|Google LLC|
-|5|34.95.204.47|3129|Brazil|Sao Paulo|Google LLC|
-|6|34.95.194.169|3129|Brazil|Sao Paulo|Google LLC|
-|7|34.95.163.147|3129|Brazil|Sao Paulo|Google LLC|
-|8|35.198.9.82|3129|Brazil|Sao Paulo|Google LLC|
-|9|35.245.235.106|8585|United States|Washington|Google LLC|
-|10|35.247.240.117|3129|Brazil|Sao Paulo|Google LLC|
-|11|34.151.211.14|3129|Brazil|Sao Paulo|Google LLC|
-|12|35.198.49.91|3129|Brazil|Sao Paulo|Google LLC|
-|13|54.245.214.1|3128|United States|Portland|Amazon.com, Inc.|
-|14|54.245.214.1|3128|United States|Portland|Amazon.com, Inc.|
-|15|35.247.241.115|3129|Brazil|Sao Paulo|Google LLC|
-|16|34.174.132.120|8585|United States|Dallas|Google LLC|
-|17|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|18|35.247.247.141|3129|Brazil|Sao Paulo|Google LLC|
-|19|18.130.179.36|3128|United Kingdom|London|Amazon Technologies Inc.|
-|20|34.151.215.95|3129|Brazil|Sao Paulo|Google LLC|
+|1|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|2|35.247.209.139|3129|Brazil|Sao Paulo|Google LLC|
+|3|34.174.124.202|8585|United States|Dallas|Google LLC|
+|4|34.116.156.90|8585|Poland|Warsaw|Google LLC|
+|5|178.18.206.184|53128|Turkey|Bayrakli|Vargonen Teknoloji ve Bilisim Sanayi Ticaret Anonim Sirketi|
+|6|45.188.164.13|1994|Mexico|Cotija de la Paz|Velocom SA De CV|
+|7|35.198.53.155|3129|Brazil|Sao Paulo|Google LLC|
+|8|35.198.60.192|3129|Brazil|Sao Paulo|Google LLC|
+|9|135.181.26.24|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|34.162.200.25|8585|United States|Columbus|Google LLC|
+|11|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|12|34.82.19.57|8585|United States|The Dalles|Google LLC|
+|13|34.125.183.125|8585|United States|Las Vegas|Google LLC|
+|14|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|15|34.94.79.252|8585|United States|Los Angeles|Google LLC|
+|16|34.86.140.177|8585|United States|Washington|Google LLC|
+|17|34.95.201.131|3129|Brazil|Sao Paulo|Google LLC|
+|18|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|19|200.251.41.61|8002|Brazil|Belo Horizonte|Claro S.A|
+|20|34.174.202.141|8585|United States|Dallas|Google LLC|
 
 
 
