@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8802** proxies at the latest update. Usable proxies are below.
+> Scraper found **8986** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|1267|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|1267|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|1267|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|866|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|866|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|866|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2558|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2742|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1113|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3748|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.106.191.239|8585|United States|Salt Lake City|Google LLC|
-|2|34.86.118.112|8585|United States|Washington|Google LLC|
-|3|34.174.184.88|8585|United States|Dallas|Google LLC|
-|4|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|5|34.86.147.39|8585|United States|Washington|Google LLC|
-|6|34.162.21.4|8585|United States|Columbus|Google LLC|
-|7|34.162.4.97|8585|United States|Columbus|Google LLC|
-|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|10|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|34.162.169.90|8585|United States|Columbus|Google LLC|
-|12|34.174.141.164|8585|United States|Dallas|Google LLC|
-|13|34.174.102.129|8585|United States|Dallas|Google LLC|
-|14|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|15|34.106.128.134|8585|United States|Salt Lake City|Google LLC|
-|16|34.162.214.176|8585|United States|Columbus|Google LLC|
-|17|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|18|34.31.106.111|8080|United States|Council Bluffs|Google LLC|
-|19|34.150.240.3|8585|United States|Washington|Google LLC|
-|20|34.16.131.8|8585|United States|Las Vegas|Google LLC|
+|1|167.99.238.124|80|United States|North Bergen|DigitalOcean, LLC|
+|2|34.174.173.73|8585|United States|Dallas|Google LLC|
+|3|34.162.161.74|8585|United States|Columbus|Google LLC|
+|4|34.174.153.255|8585|United States|Dallas|Google LLC|
+|5|34.174.59.116|8585|United States|Dallas|Google LLC|
+|6|34.162.238.236|8585|United States|Columbus|Google LLC|
+|7|34.85.135.1|8585|United States|Washington|Google LLC|
+|8|34.94.118.183|8585|United States|Los Angeles|Google LLC|
+|9|23.95.186.182|3128|United States|Washington|ColoCrossing|
+|10|35.236.90.199|8585|United States|Los Angeles|Google LLC|
+|11|35.202.25.64|8080|United States|Council Bluffs|Google LLC|
+|12|34.94.107.215|8585|United States|Los Angeles|Google LLC|
+|13|182.253.175.133|8080|Indonesia|Jakarta|Biznet Metronet|
+|14|34.162.28.10|8585|United States|Columbus|Google LLC|
+|15|34.118.83.49|8080|Poland|Warsaw|Google LLC|
+|16|34.174.68.231|8585|United States|Dallas|Google LLC|
+|17|34.106.152.117|8585|United States|Salt Lake City|Google LLC|
+|18|34.94.118.183|8585|United States|Los Angeles|Google LLC|
+|19|34.162.24.63|8585|United States|Columbus|Google LLC|
+|20|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
 
 
 
