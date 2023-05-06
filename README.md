@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6637** proxies at the latest update. Usable proxies are below.
+> Scraper found **6755** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|394|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|394|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|394|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|380|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|380|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|380|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1261|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1379|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|864|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3129|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|2|34.162.196.151|8585|United States|Columbus|Google LLC|
-|3|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|4|158.69.73.79|9300|Canada|Montreal|OVH SAS|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|65.21.61.55|80|Finland|Helsinki|Hetzner Online GmbH|
+|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|6|65.109.227.16|8080|Finland|Helsinki|Hetzner Online GmbH|
 |7|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
-|8|18.130.24.250|3128|United Kingdom|London|Amazon Technologies Inc.|
-|9|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|140.238.1.77|8080|South Korea|Seoul|Oracle Corporation|
-|11|34.162.196.151|8585|United States|Columbus|Google LLC|
-|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|13|65.109.227.16|8080|Finland|Helsinki|Hetzner Online GmbH|
-|14|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
-|15|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|16|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|17|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|18|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|154.70.115.81|8080|Cameroon|Douala|MTN Network Solutions (Cameroon)|
+|8|140.238.1.77|8080|South Korea|Seoul|Oracle Corporation|
+|9|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|10|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|11|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|14|154.70.115.81|8080|Cameroon|Douala|MTN Network Solutions (Cameroon)|
+|15|34.116.185.129|8585|Poland|Warsaw|Google LLC|
+|16|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|17|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|18|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|19|34.174.149.225|8585|United States|Dallas|Google LLC|
+|20|103.136.162.250|8181|Indonesia|Palembang|TPN-LINK|
 
 
 
