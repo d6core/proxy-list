@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6766** proxies at the latest update. Usable proxies are below.
+> Scraper found **6704** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|556|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|556|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|556|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|548|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|548|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|548|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1234|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1380|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1017|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|809|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3132|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|3|107.152.38.171|8080|United States|Chicago|tzulo, inc.|
-|4|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|162.212.156.146|8080|United States|Chicago|tzulo, inc.|
-|7|107.152.38.218|8080|United States|Chicago|tzulo, inc.|
-|8|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|9|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|10|128.140.80.27|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|11|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|13|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|14|162.55.218.221|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|16|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|17|162.212.156.146|8080|United States|Chicago|tzulo, inc.|
-|18|107.152.38.218|8080|United States|Chicago|tzulo, inc.|
-|19|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|20|51.159.0.236|3128|France|Paris|SCALEWAY|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|35.245.29.57|8080|United States|Washington|Google LLC|
+|3|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|4|135.181.29.103|8080|Finland|Helsinki|Hetzner Online GmbH|
+|5|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
+|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|7|35.245.29.57|8080|United States|Washington|Google LLC|
+|8|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|9|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|10|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|11|72.14.191.110|8080|United States|Richardson|Akamai Technologies, Inc.|
+|12|107.152.38.218|8080|United States|Chicago|tzulo, inc.|
+|13|107.152.38.252|8080|United States|Chicago|tzulo, inc.|
+|14|107.152.38.171|8080|United States|Chicago|tzulo, inc.|
+|15|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|16|162.212.156.146|8080|United States|Chicago|tzulo, inc.|
+|17|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|18|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|19|27.70.165.153|20065|Vietnam|Hanoi|Viettel Group|
+|20|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
 
 
 
