@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7262** proxies at the latest update. Usable proxies are below.
+> Scraper found **7055** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|518|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|518|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|518|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|501|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|501|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|501|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1678|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1471|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1054|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3147|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|2|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
 |3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|8|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|9|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|7|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
 |10|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|11|134.122.26.11|80|United States|North Bergen|DigitalOcean, LLC|
-|12|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|13|43.243.142.60|59916|Indonesia|Tangerang|PT. Mora Telematika Indonesia|
-|14|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|15|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|16|94.177.249.42|3128|United Kingdom|Slough|ArubaCloud UK Network|
-|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|18|103.151.177.105|80|Indonesia|Jakarta|PT JASAMARGA TOLLROAD OPERATOR|
-|19|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|20|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|11|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|13|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|14|204.157.251.182|999|Dominican Republic|Nagua|Sequre Networks SRL|
+|15|160.19.232.85|3128|South Africa|Caledon|TWK-COMM|
+|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|17|175.139.179.65|42580|Malaysia|Shah Alam|Telekom Malaysia Berhad|
+|18|45.186.60.10|8085|Brazil|Umuarama|SEMPRENET TELECOM - PROVEDOR DE TELECOMUNICAÇÕES L|
+|19|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
+|20|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
 
 
 
