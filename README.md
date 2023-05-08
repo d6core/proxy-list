@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5445** proxies at the latest update. Usable proxies are below.
+> Scraper found **5417** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|125|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|125|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|125|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|147|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|147|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|147|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|843|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|834|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|588|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|569|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2631|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.202.239.3|3128|United States|Portland|Amazon.com, Inc.|
-|2|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|3|54.202.239.3|3128|United States|Portland|Amazon.com, Inc.|
-|4|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|5|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|6|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|7|205.213.80.8|8009|United States|Siren|WiscNet|
-|8|125.240.183.145|8080|South Korea|Anyang-si|DACOM-PUBNETPLUS|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|167.235.203.129|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|11|205.213.80.8|8009|United States|Siren|WiscNet|
-|12|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|13|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|51.159.0.236|3128|France|Paris|SCALEWAY|
-|15|185.191.215.123|3128|Russia|Moscow|JSC Mediasoft ekspert|
-|16|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|122.155.165.191|3128|Thailand|Vadhana|CAT Telecom Public Company Limited|
-|20|50.232.250.157|8080|United States|Ferndale|Comcast Cable Communications, LLC|
+|1|167.235.203.129|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|2|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|3|181.204.21.163|999|Colombia|Cartagena|EPM Telecomunicaciones S.A. E.S.P.|
+|4|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|5|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|6|149.56.96.252|5566|Canada|Montreal|OVH SAS|
+|7|43.135.158.217|80|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|8|122.155.165.191|3128|Thailand|Vadhana|CAT Telecom Public Company Limited|
+|9|187.102.216.169|999|Argentina|Montecarlo|Cretton Lisandro Maximiliano|
+|10|193.138.178.6|8282|Russia|Chelyabinsk|New Communication Technologies|
+|11|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|174.138.184.82|39185|United States|Secaucus|Interserver, Inc|
+|14|167.235.203.129|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|15|121.46.64.170|8080|Pakistan|Lahore|Gerrys Information Technology (PVT) Ltd|
+|16|185.57.237.32|4411|Russia|Yablonitsy|LTD AtelRybinsk|
+|17|111.225.153.215|8089|China|Gaocheng|Chinanet|
+|18|111.225.153.9|8089|China|Gaocheng|Chinanet|
+|19|123.182.58.180|8089|China|Zhangjiakou|Chinanet|
+|20|123.182.58.137|8089|China|Zhangjiakou|Chinanet|
 
 
 
