@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5690** proxies at the latest update. Usable proxies are below.
+> Scraper found **5746** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|169|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|169|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|169|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|328|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|328|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|328|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1045|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|965|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|581|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|717|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2681|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|1|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
 |2|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|3|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|4|116.58.232.141|8080|Thailand|Ban Nong Sala|CAT-BB|
-|5|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|7|194.5.25.34|443|Singapore|Singapore|Mod Mission Critical LLC|
-|8|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
-|9|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|4|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
+|5|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
+|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|7|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |10|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
-|11|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|13|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|14|194.5.64.23|3128|Turkey|Istanbul|Invermae Solutions SL|
-|15|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|17|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|18|45.173.231.195|999|Ecuador|Guayaquil|Eliana Vanessa Morocho Oña|
-|19|117.69.232.111|8089|China|Rongcheng|Chinanet|
-|20|123.182.59.12|8089|China|Zhangjiakou|Chinanet|
+|11|194.5.64.23|3128|Turkey|Istanbul|Invermae Solutions SL|
+|12|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|13|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|14|194.5.25.34|443|Singapore|Singapore|Mod Mission Critical LLC|
+|15|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|16|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|65.108.55.44|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|121.46.64.170|8080|Pakistan|Lahore|Gerrys Information Technology (PVT) Ltd|
+|19|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|20|180.183.228.213|8080|Thailand|Chiang Mai|Triple T Broadband Public Company Limited|
 
 
 
