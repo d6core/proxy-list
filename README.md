@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6179** proxies at the latest update. Usable proxies are below.
+> Scraper found **5947** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|334|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|334|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|334|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|399|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|399|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|399|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1139|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1234|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|916|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|889|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2741|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|18.237.232.222|3128|United States|Portland|Amazon.com, Inc.|
+|2|64.225.8.121|9991|United States|Clifton|DigitalOcean, LLC|
 |3|34.98.65.22|5222|United States|Kansas City|Google LLC|
 |4|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|13.92.136.193|3128|United States|Boydton|Microsoft Corporation|
-|8|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|9|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|10|209.141.54.136|5555|United States|Las Vegas|FranTech Solutions|
-|11|18.237.232.222|3128|United States|Portland|Amazon.com, Inc.|
-|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|14|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|15|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|16|178.128.124.230|8000|Singapore|Singapore|DigitalOcean, LLC|
-|17|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|18|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|19|116.0.61.122|3128|Pakistan|Karachi|Telecard|
-|20|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|5|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|6|34.221.143.209|3128|United States|Portland|Amazon.com, Inc.|
+|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|8|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|9|13.92.136.193|3128|United States|Boydton|Microsoft Corporation|
+|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|11|64.225.8.121|9991|United States|Clifton|DigitalOcean, LLC|
+|12|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|13|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|14|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|15|34.221.143.209|3128|United States|Portland|Amazon.com, Inc.|
+|16|183.89.163.88|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
+|17|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|18|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|19|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|20|64.225.4.85|9998|United States|Clifton|DigitalOcean, LLC|
 
 
 
