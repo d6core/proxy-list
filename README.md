@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6616** proxies at the latest update. Usable proxies are below.
+> Scraper found **6519** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|421|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|421|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|421|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|268|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|268|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|268|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1406|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1309|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|951|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2876|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.190.74.49|3128|United States|Portland|Amazon.com, Inc.|
-|2|18.179.12.217|3128|Japan|Tokyo|Amazon Technologies Inc.|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|5|204.2.218.145|8080|United States|Calhoun|North Georgia Network Cooperative, Inc.|
-|6|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|7|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|8|18.228.42.41|3128|Brazil|São Paulo|Amazon Technologies Inc.|
-|9|54.190.74.49|3128|United States|Portland|Amazon.com, Inc.|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|1|18.179.12.217|3128|Japan|Tokyo|Amazon Technologies Inc.|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|18.228.42.41|3128|Brazil|São Paulo|Amazon Technologies Inc.|
+|4|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|194.5.25.34|443|Singapore|Singapore|Mod Mission Critical LLC|
+|9|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|10|34.98.65.22|5222|United States|Kansas City|Google LLC|
 |11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|12|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|13|194.5.25.34|443|Singapore|Singapore|Mod Mission Critical LLC|
-|14|182.253.232.182|8080|Indonesia|Jakarta|BIZNET|
-|15|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|16|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|18|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|19|51.159.0.236|3128|France|Paris|SCALEWAY|
-|20|167.99.116.111|8001|United States|Clifton|DigitalOcean, LLC|
+|12|182.253.232.182|8080|Indonesia|Jakarta|BIZNET|
+|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|14|51.159.0.236|3128|France|Paris|SCALEWAY|
+|15|65.108.215.183|8080|Finland|Helsinki|Hetzner Online GmbH|
+|16|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|17|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|18|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|19|222.104.128.205|48678|South Korea|Buk-gu|Korea Telecom|
+|20|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 
 
 
