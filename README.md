@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|299|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|299|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|299|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|283|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|283|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|283|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|158.69.66.131|9300|Canada|Montreal|OVH SAS|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|8|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|9|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|10|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|11|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|12|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|13|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|14|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|16|103.56.206.65|4995|Indonesia|Jakarta|Argon Data Communication|
-|17|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|18|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|19|13.92.136.193|3128|United States|Boydton|Microsoft Corporation|
-|20|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|4|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|6|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|8|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|9|13.92.136.193|3128|United States|Boydton|Microsoft Corporation|
+|10|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|14|110.136.177.203|8080|Indonesia|Yogyakarta|PT. TELKOM INDONESIA|
+|15|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|16|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|18|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|51.68.218.61|8585|United Kingdom|London|OVH SAS|
+|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 
 
 
