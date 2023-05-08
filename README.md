@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|283|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|283|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|283|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|307|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|307|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|307|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|3|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|4|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|5|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|6|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|9|13.92.136.193|3128|United States|Boydton|Microsoft Corporation|
-|10|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|13|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
-|14|110.136.177.203|8080|Indonesia|Yogyakarta|PT. TELKOM INDONESIA|
-|15|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|16|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|18|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|51.68.218.61|8585|United Kingdom|London|OVH SAS|
-|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|3|64.225.4.12|9987|United States|Clifton|DigitalOcean, LLC|
+|4|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|7|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|8|5.161.110.95|50272|United States|Ashburn|Hetzner Online GmbH|
+|9|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|10|64.225.4.12|9987|United States|Clifton|DigitalOcean, LLC|
+|11|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|14|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|15|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|16|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|17|13.92.136.193|3128|United States|Boydton|Microsoft Corporation|
+|18|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|19|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|20|87.251.153.16|8080|Iran|Tehran|Iran Telecommunication Company PJS|
 
 
 
