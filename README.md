@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5488** proxies at the latest update. Usable proxies are below.
+> Scraper found **5235** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|201|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|201|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|201|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|236|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|236|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|236|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|843|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|890|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|581|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2681|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|13.56.227.91|3128|United States|San Jose|Amazon.com, Inc.|
 |2|13.56.227.91|3128|United States|San Jose|Amazon.com, Inc.|
-|3|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
-|4|49.50.174.37|3128|South Korea|Seongnam-si|NBP|
-|5|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|6|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|7|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|181.191.94.126|8999|Brazil|Teresina|Fernanda Danielly Sousa Almeida - Me|
-|11|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|12|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|13|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|14|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|15|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
-|16|103.147.247.15|3127|Indonesia|Tangerang|PLBNET|
-|17|181.129.183.19|53281|Colombia|Bucaramanga|EPM Telecomunicaciones S.A. E.S.P.|
-|18|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|19|134.236.9.135|8080|Thailand|Samphanthawong|CAT-BB|
-|20|193.138.178.6|8282|Russia|Chelyabinsk|New Communication Technologies|
+|3|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|4|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|5|49.50.174.37|3128|South Korea|Seongnam-si|NBP|
+|6|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|7|200.85.169.18|47548|Nicaragua|Managua|IBW Communications|
+|8|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
+|9|128.140.3.26|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|10|65.21.178.161|8080|Finland|Helsinki|Hetzner Online GmbH|
+|11|49.50.174.37|3128|South Korea|Seongnam-si|NBP|
+|12|111.225.153.137|8089|China|Gaocheng|Chinanet|
+|13|123.182.58.137|8089|China|Zhangjiakou|Chinanet|
+|14|202.43.147.167|6666|China|Chaowai|CSTNET|
+|15|123.182.59.14|8089|China|Zhangjiakou|Chinanet|
+|16|117.69.233.32|8089|China|Rongcheng|Chinanet|
+|17|123.182.59.205|8089|China|Zhangjiakou|Chinanet|
+|18|123.182.58.48|8089|China|Zhangjiakou|Chinanet|
+|19|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|180.184.91.187|443|China|Beijing|Beijing Volcano Engine Technology Co., Ltd.|
 
 
 
