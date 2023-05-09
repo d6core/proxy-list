@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5367** proxies at the latest update. Usable proxies are below.
+> Scraper found **5638** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|385|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|385|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|385|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|290|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|290|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|290|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1262|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1233|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|942|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2080|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|3|5.78.84.56|8080|United States|Portland|Hetzner Online GmbH|
-|4|138.201.139.36|81|Germany|Falkenstein|Hetzner Online GmbH|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|176.95.54.202|83|Germany|Wirft|Vodafone GmbH|
-|7|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
-|8|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|9|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|10|159.69.246.246|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|11|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|12|5.78.84.56|8080|United States|Portland|Hetzner Online GmbH|
-|13|195.133.45.149|7788|Russia|Moscow|VDS|
-|14|143.202.97.170|999|Argentina|Guernica|Wireless Provider|
-|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|45.5.92.94|8137|Mexico|Monclova|Señal Interactiva, S.A De C.V|
-|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|18|185.141.39.144|8080|Iran|Qarnābād|Cooperative Afra ertebatat-e-sabet-e Rasa Co|
-|19|149.57.11.129|8181|United States|Frankton|Swayzee Telephone Company, Inc.|
-|20|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|2|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|3|54.183.154.132|3128|United States|San Jose|Amazon.com, Inc.|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|6|138.201.139.36|81|Germany|Falkenstein|Hetzner Online GmbH|
+|7|54.183.154.132|3128|United States|San Jose|Amazon.com, Inc.|
+|8|5.78.84.56|8080|United States|Portland|Hetzner Online GmbH|
+|9|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
+|10|158.69.53.132|9300|Canada|Montreal|OVH SAS|
+|11|20.99.187.69|8443|United States|Quincy|Microsoft Corporation|
+|12|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
+|13|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|14|194.213.18.81|50098|United States|Ashburn|Clouvider Limited|
+|15|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|16|5.78.84.56|8080|United States|Portland|Hetzner Online GmbH|
+|17|46.101.13.77|80|United Kingdom|Enfield|DigitalOcean, LLC|
+|18|40.76.245.70|8080|United States|Boydton|Microsoft Corporation|
+|19|45.5.92.94|8137|Mexico|Monclova|Señal Interactiva, S.A De C.V|
+|20|20.69.79.158|8443|United States|Quincy|Microsoft Corporation|
 
 
 
