@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5305** proxies at the latest update. Usable proxies are below.
+> Scraper found **5304** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|364|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|364|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|364|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|377|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|377|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|377|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|842|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|841|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|475|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2605|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|65.109.131.240|8080|Finland|Helsinki|Hetzner Online GmbH|
-|3|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|4|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|5|128.140.3.26|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|6|37.27.5.254|8080|Finland|Helsinki|Hetzner Online GmbH|
-|7|194.213.18.81|50098|United States|Ashburn|Clouvider Limited|
-|8|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|65.21.178.161|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|11|91.107.200.75|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|12|88.255.243.14|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
-|13|34.222.169.155|3128|United States|Portland|Amazon.com, Inc.|
-|14|91.107.199.127|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|15|65.108.86.170|8080|Finland|Helsinki|Hetzner Online GmbH|
-|16|170.187.226.70|8080|Singapore|Singapore|Akamai Technologies, Inc.|
-|17|157.230.34.219|3128|Singapore|Singapore|DigitalOcean, LLC|
-|18|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|45.234.60.3|999|Venezuela|Caracas|SOLUCIONES INSTALRED CH&C C.A.|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|3|65.109.131.240|8080|Finland|Helsinki|Hetzner Online GmbH|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|91.107.199.127|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|7|65.21.178.161|8080|Finland|Helsinki|Hetzner Online GmbH|
+|8|37.27.5.254|8080|Finland|Helsinki|Hetzner Online GmbH|
+|9|91.107.200.75|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|10|128.140.3.26|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|11|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|12|45.177.177.26|999|Mexico|San Juan del Río|Wantelco SAS de CV|
+|13|157.230.34.219|3128|Singapore|Singapore|DigitalOcean, LLC|
+|14|65.108.86.170|8080|Finland|Helsinki|Hetzner Online GmbH|
+|15|5.161.110.95|50272|United States|Ashburn|Hetzner Online GmbH|
+|16|194.5.25.34|443|Singapore|Singapore|Mod Mission Critical LLC|
+|17|170.187.226.70|8080|Singapore|Singapore|Akamai Technologies, Inc.|
+|18|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|19|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|20|135.181.45.15|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
