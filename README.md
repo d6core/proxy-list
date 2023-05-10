@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|416|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|416|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|416|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|339|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|339|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|339|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|51.195.246.56|1080|United Kingdom|Purfleet|OVH|
-|4|194.213.18.81|50098|United States|Ashburn|Clouvider Limited|
-|5|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|6|188.121.102.170|1080|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|7|94.198.66.102|8888|Sweden|Umeå|Telecom3|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|11|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|27.70.160.80|20065|Vietnam|Hanoi|Viettel Group|
-|14|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|15|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|16|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|2|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|6|27.70.160.80|20065|Vietnam|Hanoi|Viettel Group|
+|7|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|8|51.159.0.236|3128|France|Paris|SCALEWAY|
+|9|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|10|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|11|104.199.190.177|10000|Taiwan|Taipei|Google LLC|
+|12|36.90.102.68|8080|Indonesia|Jakarta Pusat|PT. Telekomunikasi Indonesia|
+|13|161.117.227.226|8118|Singapore|Singapore|Alibaba.com Singapore E-Commerce Private Limited|
+|14|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|15|27.70.164.169|20065|Vietnam|Hanoi|Viettel Group|
+|16|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
 |17|27.70.161.127|20065|Vietnam|Hanoi|Viettel Group|
-|18|43.133.180.107|7890|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|19|177.52.221.99|999|Dominican Republic|Santiago de los Caballeros|TELERY NETWORKS, S.R.L|
-|20|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|18|94.198.66.102|8888|Sweden|Umeå|Telecom3|
+|19|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|20|43.133.180.107|7890|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
 
 
 
