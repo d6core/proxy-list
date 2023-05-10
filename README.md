@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5509** proxies at the latest update. Usable proxies are below.
+> Scraper found **5464** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|245|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|245|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|245|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|205|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|205|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|205|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|827|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|782|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|729|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2570|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|5.161.110.95|50272|United States|Ashburn|Hetzner Online GmbH|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|5|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|6|158.69.73.79|9300|Canada|Montreal|OVH SAS|
-|7|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|8|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|9|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|10|65.21.58.148|9300|Finland|Helsinki|Hetzner Online GmbH|
-|11|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|12|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|13|216.169.73.65|34679|United States|Duck Creek Village|South Central Communications, Inc.|
-|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|16|183.80.73.61|8080|Vietnam|Ho Chi Minh City|FPT Telecom Company|
-|17|5.78.81.37|8080|United States|Portland|Hetzner Online GmbH|
-|18|5.78.69.21|8080|United States|Portland|Hetzner Online GmbH|
-|19|177.66.101.223|8024|Brazil|Araguari|WN TELECOM LTDA - ME|
-|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|4|92.255.7.162|8080|Russia|St Petersburg|JSC "Severen-Telecom"|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|7|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|8|61.216.156.222|60808|Taiwan|Neihu District|Chunghwa Telecom Co., Ltd.|
+|9|191.97.14.26|999|Colombia|Chita|TV AZTECA SUCURSAL COLOMBIA|
+|10|74.114.232.162|8080|United States|Valparaiso|Midwest Telecom of America, Inc|
+|11|203.210.85.61|8080|Indonesia|Bandung|Infrastruktur STARNET|
+|12|142.132.233.188|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|13|65.109.175.185|8080|Finland|Helsinki|Hetzner Online GmbH|
+|14|103.243.114.206|8080|India|Beed|Gazon Communications India Limited|
+|15|179.43.96.178|8080|Peru|Arequipa|GLG PERU SAC|
+|16|84.204.40.156|8080|Russia|St Petersburg|PJSC MegaFon|
+|17|181.209.82.154|23500|Argentina|Benavidez|ARSAT - Empresa Argentina de Soluciones Satelitales S.A|
+|18|103.168.44.41|9191|Indonesia|Semarang|PT CYB Media Group|
+|19|5.78.84.56|8080|United States|Portland|Hetzner Online GmbH|
+|20|45.231.220.67|999|Mexico|Tijuana|Distrokom S De RL De CV|
 
 
 
