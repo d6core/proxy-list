@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5266** proxies at the latest update. Usable proxies are below.
+> Scraper found **4944** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|220|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|220|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|220|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|211|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|211|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|211|
 
 ## Sources
 
@@ -36,37 +36,37 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|794|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|741|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|629|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2460|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2491|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|18.237.18.49|3128|United States|Portland|Amazon.com, Inc.|
-|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|2|205.213.80.8|8009|United States|Siren|WiscNet|
 |3|65.109.175.185|8080|Finland|Helsinki|Hetzner Online GmbH|
 |4|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
-|5|65.109.130.188|8080|Finland|Helsinki|Hetzner Online GmbH|
-|6|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
-|7|18.237.18.49|3128|United States|Portland|Amazon.com, Inc.|
-|8|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|9|107.152.37.26|8080|United States|Chicago|tzulo, inc.|
-|10|13.233.156.241|3128|India|Mumbai|Amazon Technologies Inc.|
-|11|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|12|37.255.134.145|8080|Iran|Isfahan|Iran Telecommunication Company PJS|
-|13|94.130.231.73|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|14|189.201.242.146|8888|Mexico|Mexicali|Tecnologías Avanzadas S. de R.L. de C.V.|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|36.80.150.70|8080|Indonesia|Semarang|PT. TELKOM INDONESIA|
-|17|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
-|18|107.152.37.26|8080|United States|Chicago|tzulo, inc.|
-|19|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
-|20|157.90.16.197|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|5|95.217.8.160|8080|Finland|Helsinki|Hetzner Online GmbH|
+|6|94.130.231.73|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|7|65.109.130.188|8080|Finland|Helsinki|Hetzner Online GmbH|
+|8|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|9|135.181.43.130|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|157.90.16.197|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|11|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
+|12|65.109.233.44|8080|Finland|Helsinki|Hetzner Online GmbH|
+|13|205.213.80.8|8009|United States|Siren|WiscNet|
+|14|65.21.52.117|8080|Finland|Helsinki|Hetzner Online GmbH|
+|15|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|16|189.201.242.146|8888|Mexico|Mexicali|Tecnologías Avanzadas S. de R.L. de C.V.|
+|17|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|19|27.70.164.192|10005|Vietnam|Hanoi|Viettel Group|
+|20|41.169.72.4|8090|South Africa|Mid-Ennerdale|Liquid Telecommunications South Africa (Pty) Ltd|
 
 
 
