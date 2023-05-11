@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5500** proxies at the latest update. Usable proxies are below.
+> Scraper found **5554** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|296|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|296|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|296|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|295|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|295|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|295|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|844|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|898|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|662|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2611|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.193.183.207|3128|United States|San Jose|Amazon.com, Inc.|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|18.237.54.139|3128|United States|Portland|Amazon.com, Inc.|
-|4|34.219.23.211|3128|United States|Portland|Amazon.com, Inc.|
-|5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|54.193.183.207|3128|United States|San Jose|Amazon.com, Inc.|
+|3|34.219.23.211|3128|United States|Portland|Amazon.com, Inc.|
+|4|18.237.54.139|3128|United States|Portland|Amazon.com, Inc.|
+|5|34.219.180.88|3128|United States|Portland|Amazon.com, Inc.|
 |6|34.212.119.163|3128|United States|Portland|Amazon.com, Inc.|
 |7|3.120.130.9|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|8|35.179.77.29|3128|United Kingdom|London|Amazon Technologies Inc.|
-|9|18.130.237.74|3128|United Kingdom|London|Amazon Technologies Inc.|
-|10|18.130.86.182|3128|United Kingdom|London|Amazon Technologies Inc.|
-|11|34.212.119.163|3128|United States|Portland|Amazon.com, Inc.|
-|12|23.88.109.55|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|14|54.193.183.207|3128|United States|San Jose|Amazon.com, Inc.|
-|15|54.189.96.142|3128|United States|Portland|Amazon.com, Inc.|
-|16|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|17|13.251.156.150|3128|Singapore|Singapore|Amazon Technologies Inc.|
-|18|13.232.254.42|3128|India|Mumbai|Amazon Technologies Inc.|
-|19|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|20|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|8|64.225.8.135|9991|United States|Clifton|DigitalOcean, LLC|
+|9|23.88.109.55|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|10|18.130.237.74|3128|United Kingdom|London|Amazon Technologies Inc.|
+|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|12|54.193.183.207|3128|United States|San Jose|Amazon.com, Inc.|
+|13|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
+|14|34.219.23.211|3128|United States|Portland|Amazon.com, Inc.|
+|15|34.212.119.163|3128|United States|Portland|Amazon.com, Inc.|
+|16|64.225.8.135|9991|United States|Clifton|DigitalOcean, LLC|
+|17|34.219.180.88|3128|United States|Portland|Amazon.com, Inc.|
+|18|158.69.66.131|9300|Canada|Montreal|OVH SAS|
+|19|18.237.54.139|3128|United States|Portland|Amazon.com, Inc.|
+|20|13.251.156.150|3128|Singapore|Singapore|Amazon Technologies Inc.|
 
 
 
