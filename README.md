@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5218** proxies at the latest update. Usable proxies are below.
+> Scraper found **5266** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|200|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|200|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|200|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|220|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|220|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|220|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|704|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|794|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|671|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|629|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2460|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|65.109.130.188|8080|Finland|Helsinki|Hetzner Online GmbH|
-|2|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
-|3|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|1|18.237.18.49|3128|United States|Portland|Amazon.com, Inc.|
+|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|3|65.109.175.185|8080|Finland|Helsinki|Hetzner Online GmbH|
 |4|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
-|5|189.201.242.146|8888|Mexico|Mexicali|Tecnologías Avanzadas S. de R.L. de C.V.|
-|6|95.216.203.8|8080|Finland|Helsinki|Hetzner Online GmbH|
-|7|181.233.90.70|999|Venezuela|Cabimas|Colnetwork C.A.|
-|8|158.69.72.138|9300|Canada|Montreal|OVH SAS|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|91.233.115.105|31280|Poland|Dąbrowa Górnicza|DG-NET SA|
-|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|12|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|13|18.130.188.60|3128|United Kingdom|London|Amazon Technologies Inc.|
-|14|36.80.150.70|8080|Indonesia|Semarang|PT. TELKOM INDONESIA|
-|15|183.89.188.115|8080|Thailand|Chiang Mai|Triple T Broadband Public Company Limited|
-|16|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|17|190.254.0.110|999|Colombia|Cartagena|Colombia Telecomunicaciones S.a. ESP|
-|18|200.119.218.89|999|Bolivia|Santa Cruz|Cotas Ltda.|
-|19|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|20|200.24.64.42|9913|Brazil|Itatinga|NET INFINITO INTERNET FIBRA OPTICA|
+|5|65.109.130.188|8080|Finland|Helsinki|Hetzner Online GmbH|
+|6|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
+|7|18.237.18.49|3128|United States|Portland|Amazon.com, Inc.|
+|8|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|9|107.152.37.26|8080|United States|Chicago|tzulo, inc.|
+|10|13.233.156.241|3128|India|Mumbai|Amazon Technologies Inc.|
+|11|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|12|37.255.134.145|8080|Iran|Isfahan|Iran Telecommunication Company PJS|
+|13|94.130.231.73|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|14|189.201.242.146|8888|Mexico|Mexicali|Tecnologías Avanzadas S. de R.L. de C.V.|
+|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|16|36.80.150.70|8080|Indonesia|Semarang|PT. TELKOM INDONESIA|
+|17|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|18|107.152.37.26|8080|United States|Chicago|tzulo, inc.|
+|19|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|20|157.90.16.197|8080|Germany|Nuremberg|Hetzner Online GmbH|
 
 
 
