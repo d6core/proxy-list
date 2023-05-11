@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5190** proxies at the latest update. Usable proxies are below.
+> Scraper found **5248** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|227|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|227|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|227|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|207|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|207|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|207|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|810|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|793|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|537|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|612|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2460|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|2|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|3|206.189.34.231|8080|Singapore|Singapore|DigitalOcean, LLC|
-|4|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|7|163.29.45.122|8080|Taiwan|Taipei|Government Service Network|
-|8|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|9|167.99.116.111|8000|United States|Clifton|DigitalOcean, LLC|
-|10|65.108.208.95|8080|Finland|Helsinki|Hetzner Online GmbH|
-|11|65.109.12.77|8080|Finland|Helsinki|Hetzner Online GmbH|
-|12|50.235.247.114|8085|United States|Marietta|Comcast Cable Communications, LLC|
-|13|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|14|107.178.9.186|8080|United States|Hudson Oaks|Nextlink Broadband|
-|15|179.43.96.178|8080|Peru|Arequipa|GLG PERU SAC|
-|16|65.109.130.188|8080|Finland|Helsinki|Hetzner Online GmbH|
-|17|114.255.132.60|3128|China|Beijing|China Unicom Beijing Province Network|
-|18|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|19|68.183.53.101|9997|United States|Clifton|DigitalOcean, LLC|
-|20|66.211.155.34|8080|United States|Albany|FirstLight Fiber|
+|1|35.203.0.3|80|Canada|Montreal|Google LLC|
+|2|51.159.0.236|3128|France|Paris|SCALEWAY|
+|3|188.121.102.170|1080|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|5|194.213.18.81|50230|United States|Ashburn|Clouvider Limited|
+|6|64.225.4.85|9998|United States|Clifton|DigitalOcean, LLC|
+|7|206.189.34.231|8080|Singapore|Singapore|DigitalOcean, LLC|
+|8|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|9|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|10|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|11|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|12|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|13|45.174.76.22|999|Mexico|Jimenez|Raul Duarte Urita|
+|14|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|15|62.205.169.74|53281|Russia|Moscow|CORBINA|
+|16|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|17|65.109.12.77|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|65.108.208.95|8080|Finland|Helsinki|Hetzner Online GmbH|
+|19|138.68.195.70|31290|United States|San Francisco|DigitalOcean, LLC|
+|20|188.121.102.170|1080|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
 
 
 
