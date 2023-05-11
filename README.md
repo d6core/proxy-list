@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5393** proxies at the latest update. Usable proxies are below.
+> Scraper found **4974** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|197|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|197|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|197|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|194|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|194|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|194|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|771|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|652|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|710|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2529|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|116.203.88.223|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|94.130.231.73|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|5|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|6|188.121.102.170|1080|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|188.121.102.170|1080|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|5|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|6|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
 |7|27.70.164.169|20065|Vietnam|Hanoi|Viettel Group|
-|8|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|9|171.226.89.159|20066|Vietnam|Nha Trang|Viettel Corporation|
-|10|41.60.235.251|8080|Kenya|Nairobi|Maintainer Liquid Telecommunications Operations Limited|
-|11|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|12|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|13|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|14|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|15|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|72.52.91.101|3128|United States|Fremont|Hurricane Electric LLC|
-|17|163.172.31.44|80|France|Paris|Online S.A.S.|
-|18|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|19|138.68.195.70|31290|United States|San Francisco|DigitalOcean, LLC|
-|20|103.149.239.214|8088|Indonesia|Malang|PT BITNIAGA CIPTA GEMILANG|
+|8|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|9|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|12|85.239.53.152|53757|United States|Los Angeles|BlueVPS OU|
+|13|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|14|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|15|163.172.31.44|80|France|Paris|Online S.A.S.|
+|16|65.109.160.131|8080|Finland|Helsinki|Hetzner Online GmbH|
+|17|138.68.195.70|31290|United States|San Francisco|DigitalOcean, LLC|
+|18|188.121.102.170|1080|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|19|142.132.233.188|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|20|65.109.130.188|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
