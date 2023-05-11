@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5568** proxies at the latest update. Usable proxies are below.
+> Scraper found **5365** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|295|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|295|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|295|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|321|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|321|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|321|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|954|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|917|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|668|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|802|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2563|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.213.80.8|8009|United States|Siren|WiscNet|
-|2|65.109.130.188|8080|Finland|Helsinki|Hetzner Online GmbH|
-|3|158.69.74.53|9300|Canada|Montreal|OVH SAS|
-|4|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|5|195.201.115.230|8118|Germany|Gunzenhausen|Hetzner Online GmbH|
-|6|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|7|94.198.66.102|8888|Sweden|Umeå|Telecom3|
-|8|200.145.14.34|21320|Brazil|São Paulo|Universidade Estadual Paulista|
-|9|104.199.190.177|10000|Taiwan|Taipei|Google LLC|
-|10|205.213.80.8|8009|United States|Siren|WiscNet|
-|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|12|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|13|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|14|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|15|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|16|5.135.170.126|8080|France|Givors|OVH SAS|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|2|94.198.66.102|8888|Sweden|Umeå|Telecom3|
+|3|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|4|65.109.130.188|8080|Finland|Helsinki|Hetzner Online GmbH|
+|5|64.225.4.85|9996|United States|Clifton|DigitalOcean, LLC|
+|6|64.225.8.132|9996|United States|Clifton|DigitalOcean, LLC|
+|7|64.225.4.85|9996|United States|Clifton|DigitalOcean, LLC|
+|8|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|9|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|10|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|11|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
+|12|194.213.18.81|50230|United States|Ashburn|Clouvider Limited|
+|13|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|14|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|15|41.169.72.4|8090|South Africa|Mid-Ennerdale|Liquid Telecommunications South Africa (Pty) Ltd|
+|16|5.78.67.59|8080|United States|Portland|Hetzner Online GmbH|
 |17|94.127.219.99|8080|Russia|Moscow|ISP-company COMPLAT|
-|18|5.78.67.59|8080|United States|Portland|Hetzner Online GmbH|
-|19|190.217.105.194|8080|Colombia|Ocaña|Level 3 Colombia S.A|
-|20|51.159.115.233|3128|France|Paris|SCALEWAY|
+|18|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|19|139.5.153.94|63123|Indonesia|Tangerang|PT Maxindo Mitra Solusi|
+|20|181.78.94.168|999|Paraguay|Asunción|Ufinet Paraguay S.A|
 
 
 
