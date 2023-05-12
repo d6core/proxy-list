@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6569** proxies at the latest update. Usable proxies are below.
+> Scraper found **6132** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|481|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|481|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|481|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|533|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|533|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|533|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1274|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1137|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1141|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2771|✅|
@@ -48,24 +48,24 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|3|192.99.208.7|8050|Brazil|Mairi|OVH Hosting|
+|2|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|3|64.225.4.81|9986|United States|Clifton|DigitalOcean, LLC|
 |4|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|5|64.225.4.81|9998|United States|Clifton|DigitalOcean, LLC|
-|6|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|6|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
 |7|65.21.154.41|8080|Finland|Helsinki|Hetzner Online GmbH|
-|8|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|73.242.86.12|8118|United States|Minnetonka|Comcast Cable Communications|
-|10|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
-|11|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
-|12|144.76.42.215|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|13|94.139.204.51|8080|Bulgaria|Galata|Lukovitnet Ltd.|
-|14|74.208.128.166|3128|United States|Philadelphia|IONOS SE|
-|15|27.70.164.192|10005|Vietnam|Hanoi|Viettel Group|
-|16|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|17|74.208.128.166|3128|United States|Philadelphia|IONOS SE|
-|18|103.247.217.17|8080|Indonesia|Depok|PT. Parsaoran Global Datatrans|
-|19|192.140.42.83|31511|Brazil|Boa Vista|Allfiber Telecom ServiÔos de TelecomunicaÔÔes|
+|8|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|9|185.189.151.187|3128|Switzerland|Bern|Datasource AG|
+|10|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|11|73.242.86.12|8118|United States|Minnetonka|Comcast Cable Communications|
+|12|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|13|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|14|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
+|15|64.225.8.191|9991|United States|Clifton|DigitalOcean, LLC|
+|16|64.225.8.191|9991|United States|Clifton|DigitalOcean, LLC|
+|17|64.225.4.85|9996|United States|Clifton|DigitalOcean, LLC|
+|18|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|19|205.213.80.8|8009|United States|Siren|WiscNet|
 |20|165.16.60.209|8080|Libya|Tripoli|Aljeel Aljadeed For Technology|
 
 
