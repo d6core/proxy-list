@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6079** proxies at the latest update. Usable proxies are below.
+> Scraper found **6104** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|549|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|549|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|549|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|307|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|307|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|307|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1096|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1121|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|905|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2695|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|185.125.125.157|80|Poland|Warsaw|Data Techno Park Sp. z o. o.|
-|2|3.8.150.239|3128|United Kingdom|London|Amazon Technologies Inc.|
+|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|2|3.25.79.63|3128|Australia|Sydney|Amazon.com, Inc.|
 |3|157.90.157.82|8080|Germany|Falkenstein|Hetzner Online GmbH|
 |4|78.46.205.73|8080|Germany|Falkenstein|Hetzner Online GmbH|
 |5|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|6|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|7|3.25.79.63|3128|Australia|Sydney|Amazon.com, Inc.|
-|8|178.210.51.118|8080|Russia|Voronezh|JSC KVANT-TELEKOM|
-|9|181.189.135.90|8080|Guatemala|Guatemala City|Comcel Guatemala S.A.|
-|10|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|11|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|12|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|13|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|14|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|15|186.159.3.193|56861|Colombia|Medellín|Edatel S.a. E.S.P|
-|16|27.70.163.61|20065|Vietnam|Hanoi|Viettel Group|
-|17|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
-|18|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|19|27.70.164.9|20065|Vietnam|Hanoi|Viettel Group|
-|20|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|6|150.109.12.63|8999|Singapore|Singapore|Aceville Pte.ltd|
+|7|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|8|78.138.98.115|3128|France|Strasbourg|Host Europe GmbH|
+|9|171.226.89.159|20066|Vietnam|Nha Trang|Viettel Corporation|
+|10|143.198.86.172|8080|Singapore|Singapore|DigitalOcean, LLC|
+|11|167.99.116.111|8001|United States|Clifton|DigitalOcean, LLC|
+|12|186.159.3.193|56861|Colombia|Medellín|Edatel S.a. E.S.P|
+|13|144.217.253.209|9300|Canada|Beauharnois|OVH SAS|
+|14|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|15|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
+|16|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
+|17|66.70.197.196|8050|Brazil|Mairi|OVH Hosting|
+|18|185.125.125.157|80|Poland|Warsaw|Data Techno Park Sp. z o. o.|
+|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|20|3.8.150.239|3128|United Kingdom|London|Amazon Technologies Inc.|
 
 
 
