@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6850** proxies at the latest update. Usable proxies are below.
+> Scraper found **6654** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|425|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|425|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|425|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|525|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|525|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|525|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1434|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1238|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1150|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2883|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.204.214.23|3129|India|Pune|Microsoft Corporation|
-|2|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
-|3|20.204.214.79|3129|India|Pune|Microsoft Corporation|
-|4|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|5|20.204.190.254|3129|India|Pune|Microsoft Corporation|
-|6|20.204.212.76|3129|India|Pune|Microsoft Corporation|
-|7|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|8|205.213.80.8|8009|United States|Siren|WiscNet|
-|9|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|10|162.212.158.91|8080|United States|Chicago|ServerCheap INC|
-|11|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|12|182.52.131.236|8080|Thailand|Nong Yai|TOT Public Company Limited|
-|13|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|14|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|15|194.213.18.81|50098|United States|Ashburn|Clouvider Limited|
-|16|65.109.175.185|8080|Finland|Helsinki|Hetzner Online GmbH|
-|17|114.255.132.60|3128|China|Beijing|China Unicom Beijing Province Network|
-|18|181.129.112.19|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|19|68.64.250.38|8080|United States|Dallas|SimpleFiber Communications LLC|
-|20|70.90.138.109|8080|United States|Warren|Comcast Cable Communications, LLC|
+|1|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|3|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
+|4|20.204.212.76|3129|India|Pune|Microsoft Corporation|
+|5|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|6|144.217.253.209|9300|Canada|Beauharnois|OVH SAS|
+|7|20.204.214.23|3129|India|Pune|Microsoft Corporation|
+|8|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|9|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|20.204.214.79|3129|India|Pune|Microsoft Corporation|
+|13|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|14|65.108.215.183|8080|Finland|Helsinki|Hetzner Online GmbH|
+|15|65.109.175.185|8080|Finland|Helsinki|Hetzner Online GmbH|
+|16|103.169.254.164|8061|Indonesia|Banyuwangi|PT Master Star Network|
+|17|182.52.131.236|8080|Thailand|Nong Yai|TOT Public Company Limited|
+|18|128.90.160.2|8118|Sweden|Stockholm|Powerhouse Management, Inc.|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|194.169.167.5|8080|Albania|Lumas|Kadri Haxhiaj trading as "B.I."|
 
 
 
