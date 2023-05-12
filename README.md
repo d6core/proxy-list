@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6466** proxies at the latest update. Usable proxies are below.
+> Scraper found **6437** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|513|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|513|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|513|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|505|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|505|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|505|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1391|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1362|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1064|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2928|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
-|2|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|3|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|4|20.204.190.254|3129|India|Pune|Microsoft Corporation|
-|5|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|6|20.204.214.23|3129|India|Pune|Microsoft Corporation|
-|7|158.69.73.79|9300|Canada|Montreal|OVH SAS|
-|8|20.204.212.76|3129|India|Pune|Microsoft Corporation|
-|9|167.250.51.71|999|Venezuela|Caracas|CORPORACIÓN GALA IT, C.A.|
-|10|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|11|156.67.172.185|3128|Germany|Emmerich|Deutsche Glasfaser Business GmbH|
-|12|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
-|13|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|14|64.225.4.63|9990|United States|Clifton|DigitalOcean, LLC|
+|1|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|2|20.204.190.254|3129|India|Pune|Microsoft Corporation|
+|3|20.204.214.23|3129|India|Pune|Microsoft Corporation|
+|4|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|5|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
+|6|27.70.164.192|10005|Vietnam|Hanoi|Viettel Group|
+|7|51.159.0.236|3128|France|Paris|SCALEWAY|
+|8|20.204.214.79|3129|India|Pune|Microsoft Corporation|
+|9|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|10|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|11|20.204.212.76|3129|India|Pune|Microsoft Corporation|
+|12|41.57.182.22|6060|South Africa|Centurion|FTH SCR P20|
+|13|103.167.68.77|8080|Indonesia|Tasikmalaya|PT Kataji Nukami Indonesia|
+|14|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
 |15|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|16|110.78.164.224|8888|Thailand|Nakhon Ratchasima|CAT-BB|
-|17|45.238.220.1|8181|Argentina|Curuzu Cuatia|CA VI CU SRL|
-|18|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|19|45.136.58.51|8888|Kazakhstan|Oral|Megahost Kazakhstan TOO|
-|20|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|16|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
+|17|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|94.73.239.124|55443|Russia|Krasnoyarsk|Orion Telecom LLC|
+|19|201.222.76.34|999|Bolivia|Santa Cruz|Cotas Ltda.|
+|20|103.147.246.84|8080|Indonesia|Jakarta|PLBNET|
 
 
 
