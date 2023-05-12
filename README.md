@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5844** proxies at the latest update. Usable proxies are below.
+> Scraper found **6077** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1041|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|974|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|952|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2768|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|2|86.57.156.106|2222|Belarus|Minsk|Republican Unitary Telecommunication Enterprise Beltelecom|
-|3|205.213.80.8|8009|United States|Siren|WiscNet|
-|4|205.213.80.8|8009|United States|Siren|WiscNet|
-|5|144.217.253.209|9300|Canada|Beauharnois|OVH SAS|
-|6|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
-|7|134.209.236.211|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|139.162.74.203|8888|Japan|Tokyo|Akamai Technologies, Inc.|
-|9|5.78.103.46|8080|United States|Portland|Hetzner Online GmbH|
-|10|37.27.5.254|8080|Finland|Helsinki|Hetzner Online GmbH|
-|11|134.122.26.11|80|United States|North Bergen|DigitalOcean, LLC|
-|12|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|13|152.32.187.164|8118|Hong Kong|Central|UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED|
-|14|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|15|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|17|41.169.72.4|8090|South Africa|Mid-Ennerdale|Liquid Telecommunications South Africa (Pty) Ltd|
-|18|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|19|5.78.73.209|8080|United States|Portland|Hetzner Online GmbH|
-|20|103.118.175.154|6969|Indonesia|Wanakerta|PT Pedjoeang Digital Networks|
+|1|205.213.80.8|8009|United States|Siren|WiscNet|
+|2|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|3|139.162.74.203|8888|Japan|Tokyo|Akamai Technologies, Inc.|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|6|5.78.103.46|8080|United States|Portland|Hetzner Online GmbH|
+|7|78.138.98.115|3128|France|Strasbourg|Host Europe GmbH|
+|8|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|9|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|10|205.213.80.8|8009|United States|Siren|WiscNet|
+|11|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
+|12|37.27.5.254|8080|Finland|Helsinki|Hetzner Online GmbH|
+|13|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|14|95.137.240.30|60030|Georgia|Tbilisi|EGRISI|
+|15|116.197.130.24|4995|Indonesia|South Tangerang|PT. Fiber Networks Indonesia|
+|16|134.122.26.11|80|United States|North Bergen|DigitalOcean, LLC|
+|17|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
+|18|5.78.73.209|8080|United States|Portland|Hetzner Online GmbH|
+|19|77.242.21.133|8080|Albania|Elbasan|Business Custommers|
+|20|134.209.236.211|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
 
 
 
