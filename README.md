@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5763** proxies at the latest update. Usable proxies are below.
+> Scraper found **6166** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|571|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|571|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|571|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|525|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|525|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|525|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1012|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1115|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|925|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2743|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|2|65.21.180.254|8080|Finland|Helsinki|Hetzner Online GmbH|
+|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|2|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 |3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|5|5.78.102.213|8080|United States|Portland|Hetzner Online GmbH|
+|4|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|5|34.98.65.22|5222|United States|Kansas City|Google LLC|
 |6|5.161.206.32|8080|United States|Ashburn|Hetzner Online GmbH|
-|7|5.78.72.162|8080|United States|Portland|Hetzner Online GmbH|
-|8|41.169.72.4|8090|South Africa|Mid-Ennerdale|Liquid Telecommunications South Africa (Pty) Ltd|
-|9|5.78.41.154|8080|United States|Portland|Hetzner Online GmbH|
-|10|162.212.155.186|8080|United States|Chicago|tzulo, inc.|
-|11|5.78.98.249|8080|United States|Portland|Hetzner Online GmbH|
-|12|5.78.76.187|8080|United States|Portland|Hetzner Online GmbH|
-|13|27.79.61.167|10001|Vietnam|Buon Ma Thuot|Viettel Corporation|
-|14|5.78.78.63|8080|United States|Portland|Hetzner Online GmbH|
-|15|205.213.80.8|8009|United States|Siren|WiscNet|
-|16|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|17|5.78.90.137|8080|United States|Portland|Hetzner Online GmbH|
-|18|45.76.199.54|9199|Japan|Shinagawa|The Constant Company|
-|19|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|20|213.32.75.88|9300|France|Paris|OVH SAS|
+|7|5.78.102.213|8080|United States|Portland|Hetzner Online GmbH|
+|8|5.78.90.137|8080|United States|Portland|Hetzner Online GmbH|
+|9|5.78.98.249|8080|United States|Portland|Hetzner Online GmbH|
+|10|5.78.78.63|8080|United States|Portland|Hetzner Online GmbH|
+|11|65.21.180.254|8080|Finland|Helsinki|Hetzner Online GmbH|
+|12|5.78.41.154|8080|United States|Portland|Hetzner Online GmbH|
+|13|5.78.72.162|8080|United States|Portland|Hetzner Online GmbH|
+|14|5.78.76.187|8080|United States|Portland|Hetzner Online GmbH|
+|15|162.212.155.186|8080|United States|Chicago|tzulo, inc.|
+|16|5.78.72.176|8080|United States|Portland|Hetzner Online GmbH|
+|17|5.78.98.96|8080|United States|Portland|Hetzner Online GmbH|
+|18|5.78.77.114|8080|United States|Portland|Hetzner Online GmbH|
+|19|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|20|5.78.78.39|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
