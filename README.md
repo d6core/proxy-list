@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6288** proxies at the latest update. Usable proxies are below.
+> Scraper found **6069** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|368|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|368|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|368|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|491|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|491|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|491|
 
 ## Sources
 
@@ -36,37 +36,37 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1115|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1210|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|931|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2859|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|948|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2828|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|52.53.237.38|3128|United States|San Jose|Amazon.com, Inc.|
-|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|3.68.102.129|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|5|3.8.48.142|3128|United Kingdom|London|Amazon Technologies Inc.|
-|6|52.53.237.38|3128|United States|San Jose|Amazon.com, Inc.|
-|7|54.93.45.209|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|8|185.160.217.2|8123|Russia|Moscow|Rucomtech LLC|
-|9|181.64.11.148|3128|Peru|Yurimaguas|Telefonica del Peru|
-|10|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|11|195.133.45.149|7788|Russia|Moscow|VDS|
-|12|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|13|205.213.80.8|8009|United States|Siren|WiscNet|
-|14|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|15|205.213.80.8|8009|United States|Siren|WiscNet|
-|16|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|17|149.56.96.252|9300|Canada|Montreal|OVH SAS|
-|18|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|19|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|1|18.236.213.147|3128|United States|Portland|Amazon.com, Inc.|
+|2|54.190.10.30|3128|United States|Portland|Amazon.com, Inc.|
+|3|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|4|18.236.213.147|3128|United States|Portland|Amazon.com, Inc.|
+|5|54.190.10.30|3128|United States|Portland|Amazon.com, Inc.|
+|6|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|7|82.65.205.55|8118|France|Paris|Proxad / Free SAS|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|23.122.184.9|8888|United States|Davie|AT&T Services, Inc.|
+|10|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|11|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|12|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|13|61.29.96.146|80|Australia|Melbourne|AAPT Limited|
+|14|41.159.154.43|3128|Gabon|Libreville|Gabon Telecom Internet Network Autonomous System|
+|15|172.104.41.13|16379|Singapore|Singapore|Akamai Technologies|
+|16|5.78.42.109|8080|United States|Portland|Hetzner Online GmbH|
+|17|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|5.161.206.32|8080|United States|Ashburn|Hetzner Online GmbH|
+|19|45.177.177.26|999|Mexico|San Juan del Río|Wantelco SAS de CV|
+|20|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
 
 
 
