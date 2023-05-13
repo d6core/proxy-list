@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6023** proxies at the latest update. Usable proxies are below.
+> Scraper found **5967** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1084|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1028|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|832|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2724|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|34.98.65.22|5222|United States|Kansas City|Google LLC|
 |2|3.14.248.180|3128|United States|Dublin|Amazon.com, Inc.|
-|3|54.93.42.159|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|4|205.213.80.8|8009|United States|Siren|WiscNet|
-|5|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|6|205.213.80.8|8009|United States|Siren|WiscNet|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|20.204.214.79|3129|India|Pune|Microsoft Corporation|
-|9|20.204.214.23|3129|India|Pune|Microsoft Corporation|
-|10|20.204.190.254|3129|India|Pune|Microsoft Corporation|
-|11|51.79.50.46|9300|Canada|Beauharnois|OVH SAS|
-|12|41.169.72.4|8090|South Africa|Mid-Ennerdale|Liquid Telecommunications South Africa (Pty) Ltd|
-|13|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|14|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|16|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|17|190.122.185.170|999|Guatemala|Chiquimula|Comunicaciones Metropolitanas Cablecolor|
-|18|202.40.177.69|80|Bangladesh|Dhaka|Ranks ITT|
-|19|5.161.205.246|8080|United States|Ashburn|Hetzner Online GmbH|
-|20|5.78.76.187|8080|United States|Portland|Hetzner Online GmbH|
+|3|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|64.225.8.132|9996|United States|Clifton|DigitalOcean, LLC|
+|6|20.204.190.254|3129|India|Pune|Microsoft Corporation|
+|7|20.204.214.23|3129|India|Pune|Microsoft Corporation|
+|8|64.225.8.132|9996|United States|Clifton|DigitalOcean, LLC|
+|9|20.204.214.79|3129|India|Pune|Microsoft Corporation|
+|10|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
+|11|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|12|190.194.150.88|8080|Argentina|Buenos Aires|Telecom Argentina S.A.|
+|13|41.169.72.4|8090|South Africa|Mid-Ennerdale|Liquid Telecommunications South Africa (Pty) Ltd|
+|14|27.70.166.127|20065|Vietnam|Hanoi|Viettel Group|
+|15|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|16|181.129.74.58|40667|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|17|27.70.164.9|20065|Vietnam|Hanoi|Viettel Group|
+|18|27.70.163.61|20065|Vietnam|Hanoi|Viettel Group|
+|19|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|20|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
