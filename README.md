@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|364|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|364|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|364|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|389|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|389|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|389|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|20.204.190.254|3129|India|Pune|Microsoft Corporation|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|4|5.78.107.4|8080|United States|Portland|Hetzner Online GmbH|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |6|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
-|7|20.204.214.23|3129|India|Pune|Microsoft Corporation|
+|7|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
 |8|20.204.214.79|3129|India|Pune|Microsoft Corporation|
-|9|43.250.175.237|45787|Japan|Tokyo|Zenlayer Inc|
-|10|51.159.0.236|3128|France|Paris|SCALEWAY|
-|11|41.169.72.4|8090|South Africa|Mid-Ennerdale|Liquid Telecommunications South Africa (Pty) Ltd|
-|12|205.213.80.8|8009|United States|Siren|WiscNet|
-|13|171.226.89.159|20066|Vietnam|Nha Trang|Viettel Corporation|
-|14|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|15|5.78.107.4|8080|United States|Portland|Hetzner Online GmbH|
-|16|8.213.135.37|443|South Korea|Seoul|Alibaba (US) Technology Co., Ltd.|
-|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|18|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|179.48.191.2|8088|Brazil|Goiânia|Libre Telecom Eireli|
+|9|20.204.214.23|3129|India|Pune|Microsoft Corporation|
+|10|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|11|5.78.107.4|8080|United States|Portland|Hetzner Online GmbH|
+|12|72.52.91.123|3128|United States|Fremont|Hurricane Electric LLC|
+|13|181.205.41.210|7654|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|14|182.23.113.179|8080|Indonesia|Jakarta|PT Aplikanusa Lintasarta|
+|15|45.76.199.54|9199|Japan|Shinagawa|The Constant Company|
+|16|51.159.0.236|3128|France|Paris|SCALEWAY|
+|17|117.1.242.35|4003|Vietnam|Hanoi|Viettel Corporation|
+|18|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|19|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|20|103.160.206.43|32650|India|Moradabad|Moradabad Internet Services Private Limited|
 
 
 
