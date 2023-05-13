@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|353|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|353|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|353|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|372|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|372|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|372|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|3|27.70.163.61|20065|Vietnam|Hanoi|Viettel Group|
-|4|27.70.164.9|20065|Vietnam|Hanoi|Viettel Group|
-|5|5.78.107.4|8080|United States|Portland|Hetzner Online GmbH|
-|6|20.204.214.23|3129|India|Pune|Microsoft Corporation|
-|7|27.70.166.127|20065|Vietnam|Hanoi|Viettel Group|
-|8|27.70.162.129|20065|Vietnam|Hanoi|Viettel Group|
-|9|138.201.229.234|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|10|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
-|11|5.78.41.154|8080|United States|Portland|Hetzner Online GmbH|
-|12|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|13|5.78.70.104|8080|United States|Portland|Hetzner Online GmbH|
-|14|5.78.77.114|8080|United States|Portland|Hetzner Online GmbH|
-|15|205.213.80.8|8009|United States|Siren|WiscNet|
-|16|27.70.164.133|20065|Vietnam|Hanoi|Viettel Group|
-|17|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
-|18|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|19|99.20.24.9|8888|United States|Miami|AT&T Services, Inc.|
-|20|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
+|2|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|3|64.225.8.115|9996|United States|Clifton|DigitalOcean, LLC|
+|4|20.204.214.23|3129|India|Pune|Microsoft Corporation|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|5.78.70.104|8080|United States|Portland|Hetzner Online GmbH|
+|7|64.225.8.115|9996|United States|Clifton|DigitalOcean, LLC|
+|8|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
+|9|5.78.41.154|8080|United States|Portland|Hetzner Online GmbH|
+|10|144.217.253.209|9300|Canada|Beauharnois|OVH SAS|
+|11|5.78.77.114|8080|United States|Portland|Hetzner Online GmbH|
+|12|8.213.135.37|443|South Korea|Seoul|Alibaba (US) Technology Co., Ltd.|
+|13|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|14|5.78.107.4|8080|United States|Portland|Hetzner Online GmbH|
+|15|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
+|16|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|17|179.48.191.2|8088|Brazil|Goiânia|Libre Telecom Eireli|
+|18|205.213.80.8|8009|United States|Siren|WiscNet|
+|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|20|34.98.65.22|5222|United States|Kansas City|Google LLC|
 
 
 
