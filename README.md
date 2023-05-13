@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|321|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|321|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|321|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|287|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|287|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|287|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|87.255.12.183|3129|Russia|Khimki|BIG TELECOM CLOSED JSC|
-|3|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|6|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|7|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|10|167.99.116.111|8001|United States|Clifton|DigitalOcean, LLC|
-|11|5.78.77.114|8080|United States|Portland|Hetzner Online GmbH|
-|12|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|13|5.78.94.139|8080|United States|Portland|Hetzner Online GmbH|
-|14|195.133.45.149|7788|Russia|Moscow|VDS|
-|15|51.159.0.236|3128|France|Paris|SCALEWAY|
-|16|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|17|65.21.49.164|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|162.212.155.186|8080|United States|Chicago|tzulo, inc.|
-|19|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|20|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|3|167.172.238.15|9992|United States|Clifton|DigitalOcean, LLC|
+|4|35.193.239.194|3128|United States|Council Bluffs|Google LLC|
+|5|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
+|6|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|7|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|8|5.78.67.222|8080|United States|Portland|Hetzner Online GmbH|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|12|5.78.77.114|8080|United States|Portland|Hetzner Online GmbH|
+|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|14|5.78.43.207|8080|United States|Portland|Hetzner Online GmbH|
+|15|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|16|5.78.94.139|8080|United States|Portland|Hetzner Online GmbH|
+|17|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|18|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|19|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|20|65.21.49.164|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
