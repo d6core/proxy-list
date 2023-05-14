@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5928** proxies at the latest update. Usable proxies are below.
+> Scraper found **6001** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|413|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|413|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|413|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|528|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|528|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|528|
 
 ## Sources
 
@@ -39,7 +39,7 @@ Click the file format that you want and copy the URL.
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
 |[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|0|🚫|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1456|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1529|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3089|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|134.195.211.13|8080|United States|Los Angeles|Spectero|
 |3|172.187.163.192|8080|United Kingdom|City of London|Microsoft|
-|4|134.195.211.13|8080|United States|Los Angeles|Spectero|
-|5|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|116.0.61.122|3128|Pakistan|Karachi|Telecard|
-|7|176.9.86.117|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|8|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|9|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|10|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|11|3.111.208.135|80|India|Mumbai|Amazon Technologies Inc.|
-|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|4|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|5|176.9.86.117|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|6|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|8|159.89.0.250|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|10|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|11|109.228.39.127|8080|United Kingdom|Gloucester|Fasthosts Internet Ltd|
+|12|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
 |13|116.203.209.74|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|14|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|15|163.29.45.122|8080|Taiwan|Taipei|Government Service Network|
+|14|64.225.8.135|9988|United States|Clifton|DigitalOcean, LLC|
+|15|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
 |16|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|17|119.76.142.136|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
-|18|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|20|183.82.100.253|3128|India|Hyderabad|Beam Telecom Pvt Ltd|
+|17|51.159.0.236|3128|France|Paris|SCALEWAY|
+|18|64.225.8.135|9988|United States|Clifton|DigitalOcean, LLC|
+|19|134.195.211.13|8080|United States|Los Angeles|Spectero|
+|20|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
 
 
 
