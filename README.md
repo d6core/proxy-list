@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|433|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|433|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|433|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|591|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|591|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|591|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|18.237.120.46|3128|United States|Portland|Amazon.com, Inc.|
-|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|3|170.64.173.57|8080|Australia|Sydney|DigitalOcean, LLC|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|54.151.132.183|3128|Singapore|Singapore|Amazon Technologies Inc.|
-|6|18.230.193.236|3128|Brazil|São Paulo|Amazon Technologies Inc.|
-|7|3.8.172.197|3128|United Kingdom|London|Amazon Technologies Inc.|
-|8|18.197.19.62|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|9|3.8.211.43|3128|United Kingdom|London|Amazon Technologies Inc.|
+|1|3.8.172.197|3128|United Kingdom|London|Amazon Technologies Inc.|
+|2|18.237.120.46|3128|United States|Portland|Amazon.com, Inc.|
+|3|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|3.8.211.43|3128|United Kingdom|London|Amazon Technologies Inc.|
+|6|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|7|176.95.54.202|83|Germany|Wirft|Vodafone GmbH|
+|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|9|18.237.120.46|3128|United States|Portland|Amazon.com, Inc.|
 |10|138.68.161.99|1234|United Kingdom|Enfield|DigitalOcean, LLC|
-|11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|116.58.239.5|53281|Thailand|Samphanthawong|CAT-BB|
-|13|176.95.54.202|83|Germany|Wirft|Vodafone GmbH|
-|14|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|15|65.108.90.68|8080|Finland|Helsinki|Hetzner Online GmbH|
-|16|40.85.152.26|8080|United States|San Francisco|Microsoft Corporation|
-|17|18.237.120.46|3128|United States|Portland|Amazon.com, Inc.|
-|18|154.204.58.155|8090|Hong Kong|Hong Kong|Sondercloud Limited|
-|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|20|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|11|18.230.193.236|3128|Brazil|São Paulo|Amazon Technologies Inc.|
+|12|40.85.152.26|8080|United States|San Francisco|Microsoft Corporation|
+|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|14|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|15|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|16|95.217.217.185|8080|Finland|Helsinki|Hetzner Online GmbH|
+|17|170.64.173.57|8080|Australia|Sydney|DigitalOcean, LLC|
+|18|65.108.90.68|8080|Finland|Helsinki|Hetzner Online GmbH|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|116.58.239.5|53281|Thailand|Samphanthawong|CAT-BB|
 
 
 
