@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6066** proxies at the latest update. Usable proxies are below.
+> Scraper found **5776** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|532|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|532|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|532|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|258|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|258|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|258|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|953|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|963|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|986|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2744|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|159.223.120.149|8080|United States|North Bergen|DigitalOcean, LLC|
-|2|18.130.243.249|3128|United Kingdom|London|Amazon Technologies Inc.|
-|3|18.193.124.9|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|4|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|159.223.120.149|8080|United States|North Bergen|DigitalOcean, LLC|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|67.9.25.69|9898|United States|Birmingham|Charter Communications|
-|9|40.85.152.26|8080|United States|San Francisco|Microsoft Corporation|
-|10|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|11|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|12|51.159.0.236|3128|France|Paris|SCALEWAY|
-|13|170.64.173.57|8080|Australia|Sydney|DigitalOcean, LLC|
-|14|64.225.4.12|9991|United States|Clifton|DigitalOcean, LLC|
-|15|176.95.54.202|83|Germany|Wirft|Vodafone GmbH|
-|16|201.220.102.146|8080|Chile|Talca|Telefonica del Sur S.A.|
-|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|19|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|165.90.225.15|3389|South Africa|Burgersfort|VD1|
+|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|20.204.190.254|3129|India|Pune|Microsoft Corporation|
+|5|94.198.66.102|8888|Sweden|Umeå|Telecom3|
+|6|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|7|159.223.120.149|8080|United States|North Bergen|DigitalOcean, LLC|
+|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|9|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|10|23.88.53.90|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|11|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|54.233.169.77|3128|Brazil|São Paulo|Amazon.com, Inc.|
+|13|20.204.212.76|3129|India|Pune|Microsoft Corporation|
+|14|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|15|20.204.214.79|3129|India|Pune|Microsoft Corporation|
+|16|20.204.214.23|3129|India|Pune|Microsoft Corporation|
+|17|159.223.120.149|8080|United States|North Bergen|DigitalOcean, LLC|
+|18|40.85.152.26|8080|United States|San Francisco|Microsoft Corporation|
+|19|103.169.19.130|8080|Indonesia|Jakarta Pusat|PT Aplikanusa Lintasarta|
+|20|64.225.8.121|9993|United States|Clifton|DigitalOcean, LLC|
 
 
 
