@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|74|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|74|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|74|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|280|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|280|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|280|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|109.228.39.127|8080|United Kingdom|Gloucester|Fasthosts Internet Ltd|
-|3|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|4|172.187.163.192|8080|United Kingdom|City of London|Microsoft|
-|5|176.9.86.117|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|176.9.86.117|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|4|109.228.39.127|8080|United Kingdom|Gloucester|Fasthosts Internet Ltd|
+|5|172.187.163.192|8080|United Kingdom|City of London|Microsoft|
 |6|87.236.197.232|3128|Czechia|Prague|Network of Coolhousing|
-|7|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|51.159.0.236|3128|France|Paris|SCALEWAY|
-|10|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|11|27.70.162.129|20065|Vietnam|Hanoi|Viettel Group|
-|12|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|13|5.58.58.209|8080|Ukraine|Ternopil|Columbus|
-|14|27.70.163.61|20065|Vietnam|Hanoi|Viettel Group|
-|15|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|16|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|18|41.186.44.106|3128|Rwanda|Kigali|MTN Rwandacell|
-|19|183.82.100.253|3128|India|Hyderabad|Beam Telecom Pvt Ltd|
-|20|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|7|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|51.159.0.236|3128|France|Paris|SCALEWAY|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|13|158.69.73.79|9300|Canada|Montreal|OVH SAS|
+|14|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|16|163.29.45.122|8080|Taiwan|Taipei|Government Service Network|
+|17|61.16.138.238|8080|India|Chandigarh|TTL|
+|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|19|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|20|43.129.223.147|38080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
 
 
 
