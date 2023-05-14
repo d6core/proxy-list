@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|258|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|258|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|258|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|127|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|127|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|127|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|155.94.178.6|8080|United States|Houston|QuadraNet Enterprises LLC|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|176.9.86.117|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|4|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|5|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|6|205.213.80.8|8009|United States|Siren|WiscNet|
-|7|109.228.39.127|8080|United Kingdom|Gloucester|Fasthosts Internet Ltd|
-|8|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|9|172.187.163.192|8080|United Kingdom|City of London|Microsoft|
-|10|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|11|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|12|24.199.81.237|8080|United States|North Bergen|DigitalOcean, LLC|
-|13|27.70.162.129|20065|Vietnam|Hanoi|Viettel Group|
-|14|205.213.80.8|8009|United States|Siren|WiscNet|
+|1|172.187.163.192|8080|United Kingdom|City of London|Microsoft|
+|2|176.9.86.117|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|3|155.94.178.6|8080|United States|Houston|QuadraNet Enterprises LLC|
+|4|134.195.211.13|8080|United States|Los Angeles|Spectero|
+|5|109.228.39.127|8080|United Kingdom|Gloucester|Fasthosts Internet Ltd|
+|6|135.181.253.44|8080|Finland|Helsinki|Hetzner Online GmbH|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|177.43.213.80|8090|Brazil|Araraquara|TELEFÔNICA BRASIL S.A|
+|9|68.183.117.152|8080|United States|North Bergen|DigitalOcean, LLC|
+|10|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|12|206.189.176.63|8080|United States|North Bergen|DigitalOcean, LLC|
+|13|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|14|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
 |15|51.159.0.236|3128|France|Paris|SCALEWAY|
-|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|17|159.223.163.51|8080|United States|North Bergen|DigitalOcean, LLC|
-|18|155.94.178.6|8080|United States|Houston|QuadraNet Enterprises LLC|
-|19|206.189.176.63|8080|United States|North Bergen|DigitalOcean, LLC|
-|20|159.203.190.193|8080|United States|North Bergen|DigitalOcean, LLC|
+|16|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|18|192.81.214.198|8080|United States|North Bergen|DigitalOcean, LLC|
+|19|130.61.183.55|3128|Germany|Frankfurt am Main|Oracle Corporation|
+|20|185.226.182.95|8080|Spain|Cuevas del Almanzora|WorldStream B.V.|
 
 
 
