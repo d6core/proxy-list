@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|199|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|199|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|199|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|208|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|208|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|208|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|109.228.39.127|8080|United Kingdom|Gloucester|Fasthosts Internet Ltd|
-|3|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|4|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|5|185.226.182.95|8080|Spain|Cuevas del Almanzora|WorldStream B.V.|
-|6|64.226.124.177|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|158.69.53.132|9300|Canada|Montreal|OVH SAS|
-|8|176.9.86.117|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|9|170.187.186.194|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
-|10|144.217.253.209|9300|Canada|Beauharnois|OVH SAS|
-|11|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|12|176.95.54.202|83|Germany|Wirft|Vodafone GmbH|
-|13|159.203.190.193|8080|United States|North Bergen|DigitalOcean, LLC|
-|14|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
-|15|43.135.158.217|80|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|16|27.70.165.50|10011|Vietnam|Hanoi|Viettel Group|
-|17|167.172.238.6|9990|United States|Clifton|DigitalOcean, LLC|
-|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|209.141.62.12|5555|United States|Las Vegas|FranTech Solutions|
+|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|3|64.225.8.179|9994|United States|Clifton|DigitalOcean, LLC|
+|4|155.94.178.6|8080|United States|Houston|QuadraNet Enterprises LLC|
+|5|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|6|176.9.86.117|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|7|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|8|158.69.73.79|9300|Canada|Montreal|OVH SAS|
+|9|109.228.39.127|8080|United Kingdom|Gloucester|Fasthosts Internet Ltd|
+|10|206.189.151.138|80|Singapore|Singapore|DigitalOcean, LLC|
+|11|159.223.163.22|8080|United States|North Bergen|DigitalOcean, LLC|
+|12|74.103.66.15|80|United States|Sparrows Point|Verizon Business|
+|13|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|14|24.199.81.237|8080|United States|North Bergen|DigitalOcean, LLC|
+|15|74.103.66.15|80|United States|Sparrows Point|Verizon Business|
+|16|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|17|185.226.182.95|8080|Spain|Cuevas del Almanzora|WorldStream B.V.|
+|18|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|19|171.97.85.32|80|Thailand|Bangkok|True Internet Corporation CO. Ltd.|
+|20|51.159.115.233|3128|France|Paris|SCALEWAY|
 
 
 
