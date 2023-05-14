@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|501|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|501|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|501|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|492|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|492|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|492|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|4|73.242.86.12|8118|United States|Minnetonka|Comcast Cable Communications|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|51.158.189.189|8080|France|Paris|SCALEWAY|
+|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|4|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
 |5|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|20.204.214.79|3129|India|Pune|Microsoft Corporation|
-|8|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|9|20.204.190.254|3129|India|Pune|Microsoft Corporation|
-|10|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|11|95.217.20.26|3128|Finland|Helsinki|Hetzner Online GmbH|
-|12|46.228.199.252|5555|Germany|Düsseldorf|myLoc managed IT AG|
-|13|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
-|14|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|15|104.199.190.177|10000|Taiwan|Taipei|Google LLC|
-|16|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
-|17|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
-|18|20.204.212.76|3129|India|Pune|Microsoft Corporation|
-|19|20.204.214.23|3129|India|Pune|Microsoft Corporation|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|20.204.190.254|3129|India|Pune|Microsoft Corporation|
+|7|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|8|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|9|20.204.214.79|3129|India|Pune|Microsoft Corporation|
+|10|196.179.196.18|8080|Tunisia|El Fahs|ooredoo TN|
+|11|72.52.91.125|3128|United States|Fremont|Hurricane Electric LLC|
+|12|51.159.0.236|3128|France|Paris|SCALEWAY|
+|13|20.204.212.76|3129|India|Pune|Microsoft Corporation|
+|14|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|15|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|20.204.214.23|3129|India|Pune|Microsoft Corporation|
+|18|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|19|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|20|41.169.72.4|8090|South Africa|Mid-Ennerdale|Liquid Telecommunications South Africa (Pty) Ltd|
 
 
 
