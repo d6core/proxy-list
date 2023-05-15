@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7082** proxies at the latest update. Usable proxies are below.
+> Scraper found **6721** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|150|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|150|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|150|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|535|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|535|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|535|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1376|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1315|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1268|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3055|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|3|158.69.74.53|9300|Canada|Montreal|OVH SAS|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|203.150.113.47|8080|Thailand|Vadhana|Internet Thailand Company Ltd.|
-|6|134.122.95.12|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|188.166.28.70|3310|Netherlands|Amsterdam|DigitalOcean, LLC|
-|8|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|9|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|10|171.243.116.60|10003|Vietnam|Hanoi|Viettel Corporation|
-|11|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|13|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|14|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
-|15|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|16|167.114.96.13|9300|Canada|Montreal|OVH SAS|
-|17|115.76.195.119|11166|Vietnam|Gia Nghia|VIETELGPRS|
-|18|171.243.25.59|11166|Vietnam|Hanoi|Viettel Corporation|
-|19|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
-|20|27.70.164.9|20065|Vietnam|Hanoi|Viettel Group|
+|1|167.99.116.111|8005|United States|Clifton|DigitalOcean, LLC|
+|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|3|54.245.62.242|3128|United States|Portland|Amazon.com, Inc.|
+|4|188.166.28.70|3310|Netherlands|Amsterdam|DigitalOcean, LLC|
+|5|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|7|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|54.245.62.242|3128|United States|Portland|Amazon.com, Inc.|
+|9|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|10|167.99.116.111|8005|United States|Clifton|DigitalOcean, LLC|
+|11|158.69.73.79|9300|Canada|Montreal|OVH SAS|
+|12|203.150.113.47|8080|Thailand|Vadhana|Internet Thailand Company Ltd.|
+|13|134.122.95.12|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|14|27.70.163.61|20065|Vietnam|Hanoi|Viettel Group|
+|15|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|17|192.81.212.53|3128|United States|North Bergen|DigitalOcean, LLC|
+|18|115.76.195.119|11166|Vietnam|Gia Nghia|VIETELGPRS|
+|19|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|20|64.225.8.142|9990|United States|Clifton|DigitalOcean, LLC|
 
 
 
