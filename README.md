@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7152** proxies at the latest update. Usable proxies are below.
+> Scraper found **7162** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|625|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|625|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|625|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|554|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|554|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|554|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1387|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1397|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1327|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3055|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|79.111.13.223|8080|Russia|Moscow|PJSC MegaFon|
-|3|54.175.124.96|3128|United States|Ashburn|Amazon.com, Inc.|
-|4|205.213.80.8|8009|United States|Siren|WiscNet|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|7|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|8|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|91.185.55.227|8080|Russia|Irkutsk|Delovaya Set' - Irkutsk|
-|10|82.65.205.11|8118|France|Paris|Proxad / Free SAS|
-|11|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|13|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|14|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|15|116.0.61.122|3128|Pakistan|Karachi|Telecard|
-|16|103.169.19.130|8080|Indonesia|Jakarta Pusat|PT Aplikanusa Lintasarta|
-|17|115.76.195.119|11166|Vietnam|Gia Nghia|VIETELGPRS|
-|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|19|51.159.0.236|3128|France|Paris|SCALEWAY|
-|20|203.150.113.55|8080|Thailand|Vadhana|Internet Thailand Company Ltd.|
+|1|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|2|205.213.80.8|8009|United States|Siren|WiscNet|
+|3|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|4|79.111.13.223|8080|Russia|Moscow|PJSC MegaFon|
+|5|205.213.80.8|8009|United States|Siren|WiscNet|
+|6|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
+|7|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|9|61.16.138.238|8080|India|Chandigarh|TTL|
+|10|194.233.71.37|8080|Singapore|Singapore|Contabo Asia Private Limited|
+|11|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|12|51.159.0.236|3128|France|Paris|SCALEWAY|
+|13|116.0.61.122|3128|Pakistan|Karachi|Telecard|
+|14|65.21.242.89|4444|Finland|Helsinki|Hetzner Online GmbH|
+|15|115.76.195.119|11166|Vietnam|Gia Nghia|VIETELGPRS|
+|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|17|144.217.253.209|9300|Canada|Beauharnois|OVH SAS|
+|18|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|19|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
+|20|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
 
 
 
