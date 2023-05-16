@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|524|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|524|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|524|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|464|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|464|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|464|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|46|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1239|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1160|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1219|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1298|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2139|✅|
 
 
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |2|155.94.178.6|8080|United States|Houston|QuadraNet Enterprises LLC|
 |3|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|4|178.128.243.121|3128|Netherlands|Amsterdam|DigitalOcean, LLC|
-|5|205.213.80.8|8009|United States|Siren|WiscNet|
-|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|7|51.159.0.236|3128|France|Paris|SCALEWAY|
-|8|155.94.178.6|8080|United States|Houston|QuadraNet Enterprises LLC|
-|9|205.213.80.8|8009|United States|Siren|WiscNet|
+|4|205.213.80.8|8009|United States|Siren|WiscNet|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|205.213.80.8|8009|United States|Siren|WiscNet|
+|7|8.213.135.37|443|South Korea|Seoul|Alibaba (US) Technology Co., Ltd.|
+|8|178.128.243.121|3128|Netherlands|Amsterdam|DigitalOcean, LLC|
+|9|155.94.178.6|8080|United States|Houston|QuadraNet Enterprises LLC|
 |10|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|176.95.54.202|83|Germany|Wirft|Vodafone GmbH|
-|14|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|16|61.16.138.238|8080|India|Chandigarh|TTL|
-|17|3.8.48.13|3128|United Kingdom|London|Amazon Technologies Inc.|
-|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|19|64.225.8.179|9994|United States|Clifton|DigitalOcean, LLC|
-|20|171.233.221.65|10003|Vietnam|An Giang|Viettel Corporation|
+|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|27.70.166.40|20065|Vietnam|Hanoi|Viettel Group|
+|14|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|15|116.98.62.89|5018|Vietnam|Hanoi|Viettel Corporation|
+|16|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|17|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|61.16.138.238|8080|India|Chandigarh|TTL|
+|19|27.70.164.9|20065|Vietnam|Hanoi|Viettel Group|
+|20|103.169.19.130|8080|Indonesia|Jakarta Pusat|PT Aplikanusa Lintasarta|
 
 
 
