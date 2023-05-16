@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6769** proxies at the latest update. Usable proxies are below.
+> Scraper found **6728** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|410|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|410|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|410|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|612|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|612|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|612|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1370|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1329|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1284|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3032|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|2|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|3|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|4|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|5|135.181.101.153|8080|Finland|Helsinki|Hetzner Online GmbH|
-|6|203.57.50.118|40612|Australia|Brisbane|Mammoth Media Pty Ltd|
-|7|65.109.174.31|8080|Finland|Helsinki|Hetzner Online GmbH|
-|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|9|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|10|186.159.3.193|56861|Colombia|Medellín|Edatel S.a. E.S.P|
+|2|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|3|135.181.101.153|8080|Finland|Helsinki|Hetzner Online GmbH|
+|4|64.225.8.132|9994|United States|Clifton|DigitalOcean, LLC|
+|5|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|6|65.109.174.31|8080|Finland|Helsinki|Hetzner Online GmbH|
+|7|203.57.50.118|40612|Australia|Brisbane|Mammoth Media Pty Ltd|
+|8|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|9|176.95.54.202|83|Germany|Wirft|Vodafone GmbH|
+|10|34.98.65.22|5222|United States|Kansas City|Google LLC|
 |11|8.213.135.37|443|South Korea|Seoul|Alibaba (US) Technology Co., Ltd.|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|14|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|103.152.118.153|8080|Indonesia|Kuningan Barat|PT Herza Digital Indonesia|
-|17|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|18|64.225.8.132|9996|United States|Clifton|DigitalOcean, LLC|
-|19|64.225.8.132|9996|United States|Clifton|DigitalOcean, LLC|
-|20|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
+|12|216.215.123.174|8080|United States|Houston|Logix|
+|13|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|14|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|15|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|19|80.106.247.145|53410|Greece|Chalcis|Ote SA (Hellenic Telecommunications Organisation)|
+|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 
 
 
