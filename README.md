@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6493** proxies at the latest update. Usable proxies are below.
+> Scraper found **6613** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|524|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|524|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|524|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|578|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|578|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|578|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|47|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1136|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|50|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1253|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1196|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3031|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|2|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|3|18.192.6.204|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|4|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|7|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
-|8|18.230.35.243|3128|Brazil|São Paulo|Amazon Technologies Inc.|
-|9|115.76.195.119|11166|Vietnam|Gia Nghia|VIETELGPRS|
-|10|195.133.45.149|7788|Russia|Moscow|VDS|
-|11|95.217.10.11|8080|Finland|Helsinki|Hetzner Online GmbH|
-|12|51.159.115.233|3128|France|Paris|SCALEWAY|
-|13|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|14|20.204.212.45|3129|India|Pune|Microsoft Corporation|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|64.225.8.121|9984|United States|Clifton|DigitalOcean, LLC|
-|17|115.76.192.185|11194|Vietnam|Gia Nghia|VIETELGPRS|
-|18|64.225.8.121|9984|United States|Clifton|DigitalOcean, LLC|
-|19|20.204.214.79|3129|India|Pune|Microsoft Corporation|
-|20|167.114.96.13|9300|Canada|Montreal|OVH SAS|
+|2|18.132.197.103|3128|United Kingdom|London|Amazon Technologies Inc.|
+|3|205.213.80.8|8009|United States|Siren|WiscNet|
+|4|34.217.112.179|3128|United States|Portland|Amazon.com, Inc.|
+|5|139.178.66.232|443|United States|Parsippany|PACKET-HOST|
+|6|104.199.190.177|10000|Taiwan|Taipei|Google LLC|
+|7|20.204.214.23|3129|India|Pune|Microsoft Corporation|
+|8|205.213.80.8|8009|United States|Siren|WiscNet|
+|9|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|10|20.204.212.76|3129|India|Pune|Microsoft Corporation|
+|11|20.204.214.79|3129|India|Pune|Microsoft Corporation|
+|12|20.204.190.254|3129|India|Pune|Microsoft Corporation|
+|13|20.204.212.45|3129|India|Pune|Microsoft Corporation|
+|14|34.217.112.179|3128|United States|Portland|Amazon.com, Inc.|
+|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|16|95.217.10.11|8080|Finland|Helsinki|Hetzner Online GmbH|
+|17|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|125.167.64.170|8080|Indonesia|Mulyorejo|PT. TELKOM INDONESIA|
 
 
 
