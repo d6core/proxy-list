@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|469|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|469|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|469|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|408|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|408|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|408|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|146.190.242.193|8080|Canada|Toronto|DigitalOcean, LLC|
-|2|128.140.80.52|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|3|165.232.76.243|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|5|107.152.39.143|8080|United States|Chicago|tzulo, inc.|
-|6|195.133.45.149|7788|Russia|Moscow|VDS|
-|7|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
-|8|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
-|9|51.159.0.236|3128|France|Paris|SCALEWAY|
-|10|170.64.165.244|8080|Australia|Sydney|DigitalOcean, LLC|
-|11|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|12|170.64.189.163|8080|Australia|Sydney|DigitalOcean, LLC|
-|13|170.64.173.41|8080|Australia|Sydney|DigitalOcean, LLC|
-|14|170.64.179.150|8080|Australia|Sydney|DigitalOcean, LLC|
-|15|51.79.50.46|9300|Canada|Beauharnois|OVH SAS|
-|16|46.101.172.212|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|17|170.64.177.117|8080|Australia|Sydney|DigitalOcean, LLC|
-|18|116.99.239.185|11166|Vietnam|Hanoi|Viettel Corporation|
-|19|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|20|170.64.189.225|8080|Australia|Sydney|DigitalOcean, LLC|
+|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|2|159.203.44.151|8080|Canada|Toronto|DigitalOcean, LLC|
+|3|64.226.69.101|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|159.203.62.202|8080|Canada|Toronto|DigitalOcean, LLC|
+|5|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|6|170.64.140.18|8080|Australia|Sydney|DigitalOcean, LLC|
+|7|144.217.253.209|9300|Canada|Beauharnois|OVH SAS|
+|8|170.64.189.163|8080|Australia|Sydney|DigitalOcean, LLC|
+|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|10|209.38.244.61|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|11|170.64.181.176|8080|Australia|Sydney|DigitalOcean, LLC|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|170.64.165.244|8080|Australia|Sydney|DigitalOcean, LLC|
+|14|128.140.80.52|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|15|170.64.177.117|8080|Australia|Sydney|DigitalOcean, LLC|
+|16|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
+|17|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|18|170.64.140.235|8080|Australia|Sydney|DigitalOcean, LLC|
+|19|165.232.76.243|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|20|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
 
 
 
