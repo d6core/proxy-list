@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4906** proxies at the latest update. Usable proxies are below.
+> Scraper found **5999** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|40|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1093|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|992|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2791|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|2|8.213.135.37|443|South Korea|Seoul|Alibaba (US) Technology Co., Ltd.|
 |3|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|4|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|7|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|8|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|9|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|4|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|5|51.159.0.236|3128|France|Paris|SCALEWAY|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|64.225.4.63|9993|United States|Clifton|DigitalOcean, LLC|
+|9|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
 |10|61.16.138.238|8080|India|Chandigarh|TTL|
-|11|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|12|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
-|13|5.78.77.88|8080|United States|Portland|Hetzner Online GmbH|
-|14|78.47.176.182|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|15|159.223.77.69|8080|Singapore|Singapore|DigitalOcean, LLC|
-|16|65.109.234.62|8080|Finland|Helsinki|Hetzner Online GmbH|
-|17|170.64.165.244|8080|Australia|Sydney|DigitalOcean, LLC|
-|18|64.226.95.5|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|19|173.249.37.15|8080|Germany|Nuremberg|Contabo GmbH|
-|20|135.181.252.147|8080|Finland|Helsinki|Hetzner Online GmbH|
+|11|202.180.54.97|8080|Indonesia|Jakarta|PT. Panca Dewata Utama|
+|12|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
+|13|161.117.227.226|8118|Singapore|Singapore|Alibaba.com Singapore E-Commerce Private Limited|
+|14|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|15|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|16|64.225.8.132|9996|United States|Clifton|DigitalOcean, LLC|
+|17|64.225.8.132|9996|United States|Clifton|DigitalOcean, LLC|
+|18|5.78.77.88|8080|United States|Portland|Hetzner Online GmbH|
+|19|119.76.142.241|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
+|20|170.64.165.244|8080|Australia|Sydney|DigitalOcean, LLC|
 
 
 
