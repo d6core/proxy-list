@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|357|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|357|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|357|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|367|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|367|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|367|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|170.64.140.235|8080|Australia|Sydney|DigitalOcean, LLC|
-|5|165.232.76.243|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|170.64.179.150|8080|Australia|Sydney|DigitalOcean, LLC|
-|7|170.64.173.41|8080|Australia|Sydney|DigitalOcean, LLC|
-|8|170.64.140.18|8080|Australia|Sydney|DigitalOcean, LLC|
-|9|159.203.44.151|8080|Canada|Toronto|DigitalOcean, LLC|
-|10|170.64.165.244|8080|Australia|Sydney|DigitalOcean, LLC|
-|11|103.200.30.106|8080|Japan|Chiyoda|rainbow network limited|
-|12|170.64.181.176|8080|Australia|Sydney|DigitalOcean, LLC|
-|13|170.64.177.117|8080|Australia|Sydney|DigitalOcean, LLC|
-|14|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|15|170.64.189.225|8080|Australia|Sydney|DigitalOcean, LLC|
-|16|128.199.82.64|8080|Singapore|Singapore|DigitalOcean, LLC|
-|17|170.64.189.163|8080|Australia|Sydney|DigitalOcean, LLC|
-|18|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|19|107.152.39.143|8080|United States|Chicago|tzulo, inc.|
-|20|213.32.75.88|9300|France|Paris|OVH SAS|
+|2|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|3|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|51.159.0.236|3128|France|Paris|SCALEWAY|
+|6|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|7|162.55.213.157|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|8|170.64.173.41|8080|Australia|Sydney|DigitalOcean, LLC|
+|9|170.64.165.244|8080|Australia|Sydney|DigitalOcean, LLC|
+|10|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|11|146.190.242.193|8080|Canada|Toronto|DigitalOcean, LLC|
+|12|170.64.189.225|8080|Australia|Sydney|DigitalOcean, LLC|
+|13|170.64.140.235|8080|Australia|Sydney|DigitalOcean, LLC|
+|14|170.64.181.176|8080|Australia|Sydney|DigitalOcean, LLC|
+|15|128.140.80.52|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|16|165.232.76.243|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|205.213.80.8|8009|United States|Siren|WiscNet|
+|18|31.129.253.30|40223|Ukraine|Kharkiv|FOP Samoilenko Igor Olegovich|
+|19|69.197.151.69|29875|United States|Kansas City|WholeSale Internet|
+|20|170.64.179.150|8080|Australia|Sydney|DigitalOcean, LLC|
 
 
 
