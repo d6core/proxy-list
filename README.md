@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|415|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|415|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|415|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|537|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|537|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|537|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|38|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1092|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1165|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1056|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|983|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2871|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|2|205.213.80.8|8009|United States|Siren|WiscNet|
-|3|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
-|4|5.78.92.225|8080|United States|Portland|Hetzner Online GmbH|
-|5|205.213.80.8|8009|United States|Siren|WiscNet|
-|6|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|205.213.80.8|8009|United States|Siren|WiscNet|
+|5|5.78.92.225|8080|United States|Portland|Hetzner Online GmbH|
+|6|205.213.80.8|8009|United States|Siren|WiscNet|
 |7|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|8|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|9|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|11|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|12|61.16.138.238|8080|India|Chandigarh|TTL|
-|13|103.169.254.164|8061|Indonesia|Banyuwangi|PT Master Star Network|
-|14|144.48.110.208|8085|Bangladesh|Azimpur|ICC Communication|
-|15|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|176.100.216.154|8087|Russia|Orekhovo-Zuyevo|Telecom-Uslugi|
-|17|46.101.13.77|80|United Kingdom|Enfield|DigitalOcean, LLC|
-|18|45.64.122.210|47552|Philippines|Mandaluyong City|PhilCom Corporation|
-|19|162.212.153.95|8080|United States|Chicago|tzulo, inc.|
-|20|103.176.96.214|8082|Indonesia|Purwakarta|PT Global Sarana Elektronika|
+|8|144.217.253.209|9300|Canada|Beauharnois|OVH SAS|
+|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|10|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|11|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|12|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|14|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|15|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|16|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|17|103.169.254.164|8061|Indonesia|Banyuwangi|PT Master Star Network|
+|18|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
+|19|222.252.18.8|19132|Vietnam|Hanoi|VietNam Post and Telecom Corporation|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
