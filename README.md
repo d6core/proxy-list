@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5843** proxies at the latest update. Usable proxies are below.
+> Scraper found **5814** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|447|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|447|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|447|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|470|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|470|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|470|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|28|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1076|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1048|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|897|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|896|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2759|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.44.23|8080|United States|Portland|Hetzner Online GmbH|
-|2|5.78.107.4|8080|United States|Portland|Hetzner Online GmbH|
+|1|162.212.157.175|8080|United States|Chicago|tzulo, inc.|
+|2|5.78.86.7|8080|United States|Portland|Hetzner Online GmbH|
 |3|130.51.20.15|8080|United States|Santa Clara|Sharktech|
-|4|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|5|99.20.24.9|8888|United States|Miami|AT&T Services, Inc.|
-|6|5.78.86.7|8080|United States|Portland|Hetzner Online GmbH|
-|7|107.152.38.63|8080|United States|Chicago|tzulo, inc.|
-|8|5.78.44.23|8080|United States|Portland|Hetzner Online GmbH|
-|9|5.78.86.7|8080|United States|Portland|Hetzner Online GmbH|
-|10|170.64.165.58|8080|Australia|Sydney|DigitalOcean, LLC|
-|11|158.69.73.79|9300|Canada|Montreal|OVH SAS|
-|12|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|13|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|130.51.20.15|8080|United States|Santa Clara|Sharktech|
-|16|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|17|149.19.42.71|8082|United States|Allen|iboss, inc|
-|18|178.128.89.87|8080|Singapore|Singapore|DigitalOcean, LLC|
-|19|187.188.167.30|3128|Mexico|Totutla|Total Play Telecomunicaciones SA De CV|
-|20|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|4|5.78.44.23|8080|United States|Portland|Hetzner Online GmbH|
+|5|5.78.107.4|8080|United States|Portland|Hetzner Online GmbH|
+|6|107.152.38.63|8080|United States|Chicago|tzulo, inc.|
+|7|91.107.220.184|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|8|5.78.107.4|8080|United States|Portland|Hetzner Online GmbH|
+|9|158.69.73.79|9300|Canada|Montreal|OVH SAS|
+|10|178.128.89.87|8080|Singapore|Singapore|DigitalOcean, LLC|
+|11|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|12|187.188.167.30|3128|Mexico|Totutla|Total Play Telecomunicaciones SA De CV|
+|13|45.162.135.201|999|Chile|Santiago|Grupo Noredzone ISP SPA|
+|14|107.152.38.63|8080|United States|Chicago|tzulo, inc.|
+|15|154.70.107.81|3128|Cameroon|Douala|MTN Network Solutions (Cameroon)|
+|16|157.230.34.219|3128|Singapore|Singapore|DigitalOcean, LLC|
+|17|5.78.86.7|8080|United States|Portland|Hetzner Online GmbH|
+|18|170.64.165.119|8080|Australia|Sydney|DigitalOcean, LLC|
+|19|170.64.165.58|8080|Australia|Sydney|DigitalOcean, LLC|
+|20|170.64.165.53|8080|Australia|Sydney|DigitalOcean, LLC|
 
 
 
