@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6000** proxies at the latest update. Usable proxies are below.
+> Scraper found **5907** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|446|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|446|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|446|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|54|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|54|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|54|
 
 ## Sources
 
@@ -36,37 +36,37 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|25|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1063|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|26|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1133|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|988|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2841|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|922|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2743|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|1|149.19.42.71|8082|United States|Allen|iboss, inc|
 |2|205.213.80.8|8009|United States|Siren|WiscNet|
-|3|195.133.45.149|7788|Russia|Moscow|VDS|
-|4|103.233.25.168|3128|India|Mumbai|Web Werks India Pvt. Ltd.|
-|5|159.203.187.173|8080|United States|North Bergen|DigitalOcean, LLC|
-|6|134.122.25.26|8080|United States|North Bergen|DigitalOcean, LLC|
-|7|161.35.3.14|8080|United States|North Bergen|DigitalOcean, LLC|
-|8|162.212.156.193|8080|United States|Chicago|tzulo, inc.|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|107.152.41.161|8080|United States|Chicago|tzulo, inc.|
-|11|195.201.142.24|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|12|107.152.41.30|8080|United States|Chicago|tzulo, inc.|
-|13|159.223.127.228|8080|United States|North Bergen|DigitalOcean, LLC|
-|14|194.163.182.101|80|Germany|Düsseldorf|Contabo GmbH|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|167.71.21.154|8080|United States|North Bergen|DigitalOcean, LLC|
-|17|147.182.177.140|8080|United States|North Bergen|DigitalOcean, LLC|
-|18|159.223.127.118|8080|United States|North Bergen|DigitalOcean, LLC|
-|19|134.122.65.103|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|20|159.89.14.216|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|4|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|5|103.233.25.168|3128|India|Mumbai|Web Werks India Pvt. Ltd.|
+|6|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|7|37.255.129.84|8080|Iran|Isfahan|Iran Telecommunication Company PJS|
+|8|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|94.23.253.212|8080|France|Roubaix|OVH SAS|
+|10|14.194.38.9|8080|India|New Delhi|Tata Tele Services GSM|
+|11|5.78.44.193|8080|United States|Portland|Hetzner Online GmbH|
+|12|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|13|138.201.113.2|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|14|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|15|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
+|16|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|128.199.192.237|8080|Singapore|Singapore|DigitalOcean, LLC|
+|18|107.152.39.138|8080|United States|Chicago|tzulo, inc.|
+|19|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
+|20|163.29.45.122|8080|Taiwan|Taipei|Government Service Network|
 
 
 
