@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|521|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|521|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|521|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|500|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|500|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|500|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|3.8.209.84|3128|United Kingdom|London|Amazon Technologies Inc.|
-|2|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|3|158.69.74.53|9300|Canada|Montreal|OVH SAS|
-|4|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|5|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|1|159.203.132.96|3128|United States|Clifton|DigitalOcean, LLC|
+|2|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|3|159.203.132.96|3128|United States|Clifton|DigitalOcean, LLC|
+|4|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |6|135.181.104.154|8080|Finland|Helsinki|Hetzner Online GmbH|
-|7|34.98.65.22|5222|United States|Kansas City|Google LLC|
-|8|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|10|27.54.96.11|18081|Japan|Kirishima Shi|Minamikyusyu CableTV Net Inc.|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|13|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|14|116.0.61.122|3128|Pakistan|Karachi|Telecard|
-|15|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|7|51.159.0.236|3128|France|Paris|SCALEWAY|
+|8|190.119.211.74|8080|Peru|La Victoria|America Movil Peru S.A.C.|
+|9|61.16.138.238|8080|India|Chandigarh|TTL|
+|10|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|11|34.98.65.22|5222|United States|Kansas City|Google LLC|
+|12|158.69.73.79|9300|Canada|Montreal|OVH SAS|
+|13|23.95.186.182|3128|United States|Washington|ColoCrossing|
+|14|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|15|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|16|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
 |17|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|18|45.230.172.182|8080|Mexico|Culiacán|Opsicome SA De CV|
-|19|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
-|20|123.200.20.6|8080|Bangladesh|Dhaka|Link3 Technologies Limited|
+|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|19|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|20|64.225.8.142|9990|United States|Clifton|DigitalOcean, LLC|
 
 
 
