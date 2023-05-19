@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6759** proxies at the latest update. Usable proxies are below.
+> Scraper found **6365** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|478|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|478|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|478|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|533|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|533|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|533|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|18|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1360|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1188|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1296|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1074|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3002|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|80.96.11.15|32100|Romania|Târgu Mureş|Agentia de Administrare a Retelei Nationale de Informatica pentru Educatie si C|
-|2|164.90.188.15|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|138.68.105.100|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|149.19.42.71|8082|United States|Allen|iboss, inc|
+|2|104.40.148.100|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|3|149.19.42.71|8082|United States|Allen|iboss, inc|
+|4|149.19.40.78|8082|United States|Charlotte|iboss, inc|
 |5|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|6|170.64.165.118|8080|Australia|Sydney|DigitalOcean, LLC|
-|7|170.64.165.54|8080|Australia|Sydney|DigitalOcean, LLC|
-|8|170.64.165.58|8080|Australia|Sydney|DigitalOcean, LLC|
-|9|170.64.152.92|8080|Australia|Sydney|DigitalOcean, LLC|
-|10|64.225.8.135|9991|United States|Clifton|DigitalOcean, LLC|
-|11|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|149.19.40.78|8082|United States|Charlotte|iboss, inc|
-|13|170.64.165.110|8080|Australia|Sydney|DigitalOcean, LLC|
-|14|170.64.178.116|8080|Australia|Sydney|DigitalOcean, LLC|
-|15|212.112.113.178|3128|Kyrgyzstan|Bishkek|AkNet|
-|16|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|17|167.114.96.13|9300|Canada|Montreal|OVH SAS|
-|18|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|19|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
-|20|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|6|138.68.105.100|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|164.90.188.15|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|64.225.8.135|9991|United States|Clifton|DigitalOcean, LLC|
+|9|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|10|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|11|170.64.165.54|8080|Australia|Sydney|DigitalOcean, LLC|
+|12|149.19.42.71|8082|United States|Allen|iboss, inc|
+|13|170.64.152.92|8080|Australia|Sydney|DigitalOcean, LLC|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|158.69.73.79|9300|Canada|Montreal|OVH SAS|
+|16|205.213.80.8|8009|United States|Siren|WiscNet|
+|17|170.64.165.58|8080|Australia|Sydney|DigitalOcean, LLC|
+|18|170.64.165.110|8080|Australia|Sydney|DigitalOcean, LLC|
+|19|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|64.225.8.135|9991|United States|Clifton|DigitalOcean, LLC|
 
 
 
