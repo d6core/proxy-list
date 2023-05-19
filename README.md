@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|350|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|350|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|350|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|313|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|313|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|313|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.161.199.109|8080|United States|Ashburn|Hetzner Online GmbH|
-|2|5.161.215.68|8080|United States|Ashburn|Hetzner Online GmbH|
-|3|5.161.203.193|8080|United States|Ashburn|Hetzner Online GmbH|
-|4|5.161.223.201|8080|United States|Ashburn|Hetzner Online GmbH|
-|5|5.161.190.136|8080|United States|Ashburn|Hetzner Online GmbH|
-|6|5.161.124.39|8080|United States|Ashburn|Hetzner Online GmbH|
-|7|165.22.226.160|8080|Canada|Toronto|DigitalOcean, LLC|
-|8|5.161.192.65|8080|United States|Ashburn|Hetzner Online GmbH|
+|1|5.161.220.129|8080|United States|Ashburn|Hetzner Online GmbH|
+|2|5.161.187.109|8080|United States|Ashburn|Hetzner Online GmbH|
+|3|5.161.223.135|8080|United States|Ashburn|Hetzner Online GmbH|
+|4|5.161.216.222|8080|United States|Ashburn|Hetzner Online GmbH|
+|5|5.161.227.199|8080|United States|Ashburn|Hetzner Online GmbH|
+|6|5.161.215.68|8080|United States|Ashburn|Hetzner Online GmbH|
+|7|65.21.5.20|8080|Finland|Helsinki|Hetzner Online GmbH|
+|8|190.61.97.229|999|Guatemala|Guatemala City|UFINET Guatemala S. A|
 |9|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|10|201.182.251.142|999|Colombia|Pasto|SP SISTEMAS PALACIOS LTDA|
-|11|190.61.97.229|999|Guatemala|Guatemala City|UFINET Guatemala S. A|
-|12|186.101.84.214|999|Ecuador|Simon Bolivar|Telconet S.A|
-|13|102.0.0.118|80|Kenya|Nairobi|Airtel KE Mobile & Fixed Internet|
-|14|65.109.133.247|8080|Finland|Helsinki|Hetzner Online GmbH|
-|15|95.216.158.73|8080|Finland|Helsinki|Hetzner Online GmbH|
-|16|161.35.68.167|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|17|65.21.178.222|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|65.109.234.62|8080|Finland|Helsinki|Hetzner Online GmbH|
-|19|65.109.169.37|8080|Finland|Helsinki|Hetzner Online GmbH|
-|20|95.217.187.103|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|45.229.34.174|999|Dominican Republic|Santo Domingo Este|Gold Data C.A.|
+|11|201.182.251.142|999|Colombia|Pasto|SP SISTEMAS PALACIOS LTDA|
+|12|190.69.157.213|999|Colombia|Ibague|Colombia Telecomunicaciones S.a. ESP|
+|13|45.162.135.201|999|Chile|Santiago|Grupo Noredzone ISP SPA|
+|14|103.125.154.233|8080|India|Coimbatore|Live Fibernet|
+|15|103.80.54.132|32650|India|Gorakhpur|Simsys Infotech Pvt. Ltd|
+|16|95.216.188.109|8080|Finland|Helsinki|Hetzner Online GmbH|
+|17|95.216.158.73|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|65.21.181.231|8080|Finland|Helsinki|Hetzner Online GmbH|
+|19|95.216.173.17|8080|Finland|Helsinki|Hetzner Online GmbH|
+|20|65.21.178.222|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
