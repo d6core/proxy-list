@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6069** proxies at the latest update. Usable proxies are below.
+> Scraper found **6076** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|17|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1201|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1208|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1011|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2757|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|205.213.80.8|8009|United States|Siren|WiscNet|
 |2|205.213.80.8|8009|United States|Siren|WiscNet|
-|3|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|4|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|5|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|8|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|61.16.138.238|8080|India|Chandigarh|TTL|
-|10|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|11|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
-|12|140.238.247.9|8100|India|Mumbai|Oracle Corporation|
-|13|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|14|149.19.40.78|8082|United States|Charlotte|iboss, inc|
-|15|149.19.40.78|8082|United States|Charlotte|iboss, inc|
-|16|51.159.0.236|3128|France|Paris|SCALEWAY|
-|17|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|18|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|19|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
-|20|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
+|3|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|7|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
+|8|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|9|103.97.198.229|8080|Indonesia|Temanggung|PT Panglima Kamayo Media|
+|10|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|11|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|12|84.38.183.143|8080|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
+|13|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
+|14|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|15|159.89.14.216|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|16|167.71.36.168|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|65.109.234.62|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|137.184.207.53|8080|United States|North Bergen|DigitalOcean, LLC|
+|19|65.108.215.183|8080|Finland|Helsinki|Hetzner Online GmbH|
+|20|95.216.171.125|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
