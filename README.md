@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6130** proxies at the latest update. Usable proxies are below.
+> Scraper found **6201** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|524|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|524|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|524|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|518|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|518|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|518|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|19|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1043|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1114|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1142|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2843|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|205.213.80.8|8009|United States|Siren|WiscNet|
-|2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|3|205.213.80.8|8009|United States|Siren|WiscNet|
-|4|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|5|172.105.42.20|3132|India|Mumbai|Akamai Technologies|
-|6|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|7|51.159.0.236|3128|France|Paris|SCALEWAY|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|46.101.13.77|80|United Kingdom|Enfield|DigitalOcean, LLC|
-|10|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|12|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
-|13|172.104.41.13|16379|Singapore|Singapore|Akamai Technologies|
-|14|103.152.118.153|8080|Indonesia|Kuningan Barat|PT Herza Digital Indonesia|
-|15|93.99.211.233|8080|Czechia|Pilsen|UPC Czech|
-|16|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
-|17|213.6.36.2|8080|Palestine|Nablus|Palestine Telecommunications Company|
-|18|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
-|19|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|20|202.72.220.83|8080|Indonesia|Jakarta|PT ARTHA TELEKOMINDO|
+|2|172.105.42.20|3132|India|Mumbai|Akamai Technologies|
+|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|5|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
+|6|61.16.138.238|8080|India|Chandigarh|TTL|
+|7|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|8|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
+|9|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|10|61.9.32.62|65535|Philippines|San Juan|Sky Cable Corporation|
+|11|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|12|185.14.233.173|8080|Czechia|Ricany|INTERCONNECT s.r.o.|
+|13|65.109.234.62|8080|Finland|Helsinki|Hetzner Online GmbH|
+|14|135.181.107.25|8080|Finland|Helsinki|Hetzner Online GmbH|
+|15|173.249.37.15|8080|Germany|Nuremberg|Contabo GmbH|
+|16|135.181.40.86|8080|Finland|Helsinki|Hetzner Online GmbH|
+|17|65.108.81.45|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|157.90.27.16|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|19|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
+|20|65.108.255.93|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
