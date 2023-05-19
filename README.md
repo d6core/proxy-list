@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7022** proxies at the latest update. Usable proxies are below.
+> Scraper found **7015** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|90|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|90|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|90|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|55|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|55|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|55|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|18|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1437|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1430|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1381|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3103|✅|
@@ -51,22 +51,22 @@ Click the file format that you want and copy the URL.
 |2|205.213.80.8|8009|United States|Siren|WiscNet|
 |3|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
 |4|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|5|131.255.136.193|32650|Peru|Lima|Movilmax Telecom S.A|
-|6|198.44.162.65|45787|Japan|Tokyo|Zenlayer Inc|
-|7|20.84.106.205|8214|United States|Boydton|Microsoft Corporation|
-|8|14.194.38.9|8080|India|New Delhi|Tata Tele Services GSM|
-|9|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|10|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|64.225.4.63|9993|United States|Clifton|DigitalOcean, LLC|
-|13|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
-|14|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
-|15|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|149.19.40.78|8082|United States|Charlotte|iboss, inc|
-|17|116.99.126.97|6667|Vietnam|Hanoi|Viettel Corporation|
-|18|149.19.42.71|8082|United States|Allen|iboss, inc|
-|19|149.19.42.71|8082|United States|Allen|iboss, inc|
-|20|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|5|20.84.106.205|8214|United States|Boydton|Microsoft Corporation|
+|6|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
+|7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|8|205.213.80.8|8009|United States|Siren|WiscNet|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
+|11|116.99.126.97|6667|Vietnam|Hanoi|Viettel Corporation|
+|12|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|14|41.186.44.106|3128|Rwanda|Kigali|MTN Rwandacell|
+|15|103.75.52.65|9090|Indonesia|Bogor|PT Quantum Tera Network|
+|16|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|64.225.8.191|9994|United States|Clifton|DigitalOcean, LLC|
+|18|203.159.93.254|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|19|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|20|5.161.118.201|8080|United States|Ashburn|Hetzner Online GmbH|
 
 
 
