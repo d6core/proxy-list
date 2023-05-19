@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6022** proxies at the latest update. Usable proxies are below.
+> Scraper found **6049** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|296|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|296|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|296|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|256|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|256|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|256|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|20|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1235|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1262|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|970|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2714|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.65.194|8080|United States|Portland|Hetzner Online GmbH|
-|2|217.219.74.130|8888|Iran|Tehran|Iran Telecommunication Company PJS|
-|3|137.184.110.239|8080|United States|North Bergen|DigitalOcean, LLC|
-|4|162.212.156.193|8080|United States|Chicago|tzulo, inc.|
-|5|201.182.251.142|999|Colombia|Pasto|SP SISTEMAS PALACIOS LTDA|
-|6|118.71.66.50|32650|Vietnam|Hanoi|FPT Telecom Company|
-|7|159.223.119.107|8080|United States|North Bergen|DigitalOcean, LLC|
-|8|103.157.79.58|1111|Indonesia|Jakarta|EASTMEDIA|
-|9|107.152.41.21|8080|United States|Chicago|tzulo, inc.|
-|10|162.212.158.94|8080|United States|Chicago|ServerCheap INC|
-|11|135.181.193.60|8080|Finland|Helsinki|Hetzner Online GmbH|
-|12|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|13|179.57.67.88|9991|Chile|Port Montt|Telefonica del Sur S.A.|
-|14|107.152.41.242|8080|United States|Chicago|tzulo, inc.|
-|15|65.21.49.239|8080|Finland|Helsinki|Hetzner Online GmbH|
-|16|190.131.210.18|999|Colombia|Barranquilla|Columbus Networks Colombia|
-|17|103.4.94.2|8080|Pakistan|Lahore|HEC|
-|18|95.217.222.144|8080|Finland|Helsinki|Hetzner Online GmbH|
-|19|95.216.205.242|8080|Finland|Helsinki|Hetzner Online GmbH|
-|20|162.212.156.152|8080|United States|Chicago|tzulo, inc.|
+|1|5.78.76.173|8080|United States|Portland|Hetzner Online GmbH|
+|2|122.6.84.187|7890|China|Rizhao|Chinanet|
+|3|65.21.49.239|8080|Finland|Helsinki|Hetzner Online GmbH|
+|4|167.235.195.27|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|5|107.152.41.21|8080|United States|Chicago|tzulo, inc.|
+|6|107.152.41.242|8080|United States|Chicago|tzulo, inc.|
+|7|159.223.123.240|8080|United States|North Bergen|DigitalOcean, LLC|
+|8|181.129.112.18|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|9|161.97.112.98|8080|Germany|Nuremberg|Contabo GmbH|
+|10|170.64.174.43|8080|Australia|Sydney|DigitalOcean, LLC|
+|11|103.51.205.42|8181|Indonesia|Karanganyar|Lintas Data Prima|
+|12|185.169.252.50|8080|United States|Los Angeles|Contabo GmbH|
+|13|154.70.107.81|3128|Cameroon|Douala|MTN Network Solutions (Cameroon)|
+|14|135.181.192.24|8080|Finland|Helsinki|Hetzner Online GmbH|
+|15|64.226.95.5|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|16|103.180.251.12|8080|Indonesia|Wonosobo|PT Rintis Berkah Akamila|
+|17|159.223.127.118|8080|United States|North Bergen|DigitalOcean, LLC|
+|18|187.141.184.235|8080|Mexico|Cabo San Lucas|Uninet S.A. de C.V.|
+|19|193.138.178.6|8282|Russia|Chelyabinsk|New Communication Technologies|
+|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 
 
 
