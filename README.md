@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7409** proxies at the latest update. Usable proxies are below.
+> Scraper found **7517** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|147|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|147|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|147|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|68|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|68|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|68|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|16|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1720|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1752|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1483|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1559|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3107|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|205.213.80.8|8009|United States|Siren|WiscNet|
-|3|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
-|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|5|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|6|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
-|7|64.225.4.29|9499|United States|Clifton|DigitalOcean, LLC|
-|8|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|9|149.19.42.71|8082|United States|Allen|iboss, inc|
-|10|149.19.40.78|8082|United States|Charlotte|iboss, inc|
-|11|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|12|64.225.4.29|9499|United States|Clifton|DigitalOcean, LLC|
-|13|181.205.41.210|7654|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|14|149.19.42.71|8082|United States|Allen|iboss, inc|
-|15|149.19.40.78|8082|United States|Charlotte|iboss, inc|
-|16|190.97.228.18|999|Venezuela|Vigia|Viginet C.A|
-|17|203.159.93.254|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|18|46.101.13.77|80|United Kingdom|Enfield|DigitalOcean, LLC|
-|19|140.227.8.56|58888|Japan|Nishisakamachi|InfoSphere|
-|20|61.16.138.238|8080|India|Chandigarh|TTL|
+|1|149.19.42.71|8082|United States|Allen|iboss, inc|
+|2|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
+|3|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|4|179.49.113.230|999|Honduras|Nueva Ocotepeque|Asociacion De Servicio De Internet S. De RL|
+|5|64.225.4.81|9998|United States|Clifton|DigitalOcean, LLC|
+|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|7|51.159.115.233|3128|France|Paris|SCALEWAY|
+|8|205.213.80.8|8009|United States|Siren|WiscNet|
+|9|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|10|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|11|178.128.124.230|8000|Singapore|Singapore|DigitalOcean, LLC|
+|12|180.178.98.93|2526|Indonesia|Jakarta|PT Hipernet Indodata|
+|13|149.19.42.71|8082|United States|Allen|iboss, inc|
+|14|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|15|64.225.4.81|9998|United States|Clifton|DigitalOcean, LLC|
+|16|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|17|205.213.80.8|8009|United States|Siren|WiscNet|
+|18|190.97.228.18|999|Venezuela|Vigia|Viginet C.A|
+|19|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|20|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
 
 
 
