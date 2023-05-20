@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|162|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|162|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|162|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|245|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|245|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|245|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|200.106.184.14|999|Argentina|Carlos Spegazzini|Fullnet Solutions S.A.S.|
+|1|20.84.106.205|8214|United States|Boydton|Microsoft Corporation|
 |2|20.93.42.101|8080|Ireland|Dublin|Microsoft Corporation|
-|3|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
-|4|149.19.42.71|8082|United States|Allen|iboss, inc|
+|3|64.225.8.179|9994|United States|Clifton|DigitalOcean, LLC|
+|4|20.84.106.205|8214|United States|Boydton|Microsoft Corporation|
 |5|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
-|6|149.19.42.71|8082|United States|Allen|iboss, inc|
-|7|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|8|20.204.214.79|3129|India|Pune|Microsoft Corporation|
-|9|20.204.212.76|3129|India|Pune|Microsoft Corporation|
-|10|20.204.190.254|3129|India|Pune|Microsoft Corporation|
-|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|12|20.204.214.23|3129|India|Pune|Microsoft Corporation|
-|13|20.204.212.45|3129|India|Pune|Microsoft Corporation|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|149.19.40.78|8082|United States|Charlotte|iboss, inc|
-|16|203.159.93.254|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|17|5.161.178.132|8080|United States|Ashburn|Hetzner Online GmbH|
-|18|5.161.228.110|8080|United States|Ashburn|Hetzner Online GmbH|
-|19|5.161.218.119|8080|United States|Ashburn|Hetzner Online GmbH|
-|20|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|6|64.225.8.132|9996|United States|Clifton|DigitalOcean, LLC|
+|7|205.213.80.8|8009|United States|Siren|WiscNet|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|205.213.80.8|8009|United States|Siren|WiscNet|
+|10|64.225.8.132|9996|United States|Clifton|DigitalOcean, LLC|
+|11|20.204.214.79|3129|India|Pune|Microsoft Corporation|
+|12|20.204.190.254|3129|India|Pune|Microsoft Corporation|
+|13|20.204.214.23|3129|India|Pune|Microsoft Corporation|
+|14|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|15|171.237.236.60|4006|Vietnam|Hanoi|Viettel Corporation|
+|16|20.204.212.76|3129|India|Pune|Microsoft Corporation|
+|17|20.204.212.45|3129|India|Pune|Microsoft Corporation|
+|18|149.19.42.71|8082|United States|Allen|iboss, inc|
+|19|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
 
 
 
