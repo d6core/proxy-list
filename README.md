@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7095** proxies at the latest update. Usable proxies are below.
+> Scraper found **7085** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|41|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|41|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|41|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|54|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|54|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|54|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|17|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1469|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1459|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1273|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3253|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|95.216.150.238|8080|Finland|Helsinki|Hetzner Online GmbH|
-|2|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|1|198.44.162.158|45787|Japan|Tokyo|Zenlayer Inc|
+|2|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|3|95.216.150.238|8080|Finland|Helsinki|Hetzner Online GmbH|
 |4|205.213.80.8|8009|United States|Siren|WiscNet|
 |5|90.68.198.89|39485|Spain|Lorca|UNI2|
-|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|7|95.216.216.119|8080|Finland|Helsinki|Hetzner Online GmbH|
-|8|64.225.8.135|9991|United States|Clifton|DigitalOcean, LLC|
-|9|205.213.80.8|8009|United States|Siren|WiscNet|
-|10|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|11|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|64.225.8.135|9991|United States|Clifton|DigitalOcean, LLC|
-|13|158.69.73.79|9300|Canada|Montreal|OVH SAS|
-|14|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
-|15|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
-|16|103.6.177.174|8002|Hong Kong|Central|HKBN Enterprise Solutions HK Limited|
-|17|64.225.4.81|9998|United States|Clifton|DigitalOcean, LLC|
-|18|149.19.40.78|8082|United States|Charlotte|iboss, inc|
-|19|27.79.49.159|10005|Vietnam|Tan Tien|Viettel Corporation|
-|20|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|6|95.216.216.119|8080|Finland|Helsinki|Hetzner Online GmbH|
+|7|158.69.73.79|9300|Canada|Montreal|OVH SAS|
+|8|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
+|11|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
+|13|27.68.166.128|10011|Vietnam|Hanoi|Viettel Group|
+|14|149.19.42.71|8082|United States|Allen|iboss, inc|
+|15|186.159.3.193|56861|Colombia|Medellín|Edatel S.a. E.S.P|
+|16|45.130.96.26|8080|Israel|Haifa|SpeedClick for Information Technology and Communication Ltd|
+|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|18|190.57.245.250|8080|Argentina|Barranqueras|Gigared S.A|
+|19|162.212.158.91|8080|United States|Chicago|ServerCheap INC|
+|20|5.161.203.166|8080|United States|Ashburn|Hetzner Online GmbH|
 
 
 
