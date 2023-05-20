@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6570** proxies at the latest update. Usable proxies are below.
+> Scraper found **6605** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|83|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|83|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|83|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|238|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|238|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|238|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|16|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1230|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1272|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1228|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1221|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3013|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.213.80.8|8009|United States|Siren|WiscNet|
-|2|135.181.46.135|8080|Finland|Helsinki|Hetzner Online GmbH|
-|3|65.109.238.145|8080|Finland|Helsinki|Hetzner Online GmbH|
-|4|65.108.88.102|8080|Finland|Helsinki|Hetzner Online GmbH|
-|5|162.212.153.179|8080|United States|Chicago|tzulo, inc.|
-|6|65.109.231.225|8080|Finland|Helsinki|Hetzner Online GmbH|
-|7|65.21.52.238|8080|Finland|Helsinki|Hetzner Online GmbH|
-|8|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
-|9|64.225.4.63|9993|United States|Clifton|DigitalOcean, LLC|
-|10|65.109.169.72|8080|Finland|Helsinki|Hetzner Online GmbH|
-|11|143.198.210.144|8080|Singapore|Singapore|DigitalOcean, LLC|
-|12|162.212.153.179|8080|United States|Chicago|tzulo, inc.|
-|13|107.152.39.244|8080|United States|Chicago|tzulo, inc.|
+|1|65.109.226.116|8080|Finland|Helsinki|Hetzner Online GmbH|
+|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|95.216.146.56|8080|Finland|Helsinki|Hetzner Online GmbH|
+|4|65.21.2.48|8080|Finland|Helsinki|Hetzner Online GmbH|
+|5|205.213.80.8|8009|United States|Siren|WiscNet|
+|6|135.181.46.135|8080|Finland|Helsinki|Hetzner Online GmbH|
+|7|65.109.238.145|8080|Finland|Helsinki|Hetzner Online GmbH|
+|8|162.212.153.179|8080|United States|Chicago|tzulo, inc.|
+|9|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|10|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
+|11|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|65.109.169.72|8080|Finland|Helsinki|Hetzner Online GmbH|
+|13|65.108.88.102|8080|Finland|Helsinki|Hetzner Online GmbH|
 |14|205.213.80.8|8009|United States|Siren|WiscNet|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|107.152.39.244|8080|United States|Chicago|tzulo, inc.|
+|15|65.109.231.225|8080|Finland|Helsinki|Hetzner Online GmbH|
+|16|162.212.153.179|8080|United States|Chicago|tzulo, inc.|
 |17|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
 |18|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
-|19|61.16.138.238|8080|India|Chandigarh|TTL|
-|20|181.129.183.19|53281|Colombia|Bucaramanga|EPM Telecomunicaciones S.A. E.S.P.|
+|19|143.198.210.144|8080|Singapore|Singapore|DigitalOcean, LLC|
+|20|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
 
 
 
