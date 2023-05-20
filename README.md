@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7057** proxies at the latest update. Usable proxies are below.
+> Scraper found **6903** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|265|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|265|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|265|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|451|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|451|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|451|
 
 ## Sources
 
@@ -32,12 +32,12 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.net](https://free-proxy-list.net)|300|✅|
 |[us-proxy.org](https://www.us-proxy.org)|200|✅|
 |[proxydb.net](http://proxydb.net)|15|✅|
-|[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|0|🚫|
+|[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|17|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1555|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|20|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1388|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1222|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3190|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|139.144.54.126|8080|United States|Atlanta|Akamai Technologies, Inc.|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
-|4|5.78.106.1|8080|United States|Portland|Hetzner Online GmbH|
+|1|149.19.42.71|8082|United States|Allen|iboss, inc|
+|2|139.144.54.126|8080|United States|Atlanta|Akamai Technologies, Inc.|
+|3|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|4|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
 |5|65.109.231.34|8080|Finland|Helsinki|Hetzner Online GmbH|
-|6|139.144.54.126|8080|United States|Atlanta|Akamai Technologies, Inc.|
-|7|135.181.101.153|8080|Finland|Helsinki|Hetzner Online GmbH|
-|8|5.78.106.1|8080|United States|Portland|Hetzner Online GmbH|
-|9|107.152.35.51|8080|United States|Chicago|tzulo, inc.|
-|10|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|11|149.19.42.71|8082|United States|Allen|iboss, inc|
+|6|205.213.80.8|8009|United States|Siren|WiscNet|
+|7|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|8|20.27.49.201|8080|Japan|Tokyo|Microsoft Corporation|
+|9|13.214.159.87|33080|Singapore|Singapore|Amazon Technologies Inc.|
+|10|14.194.38.9|8080|India|New Delhi|Tata Tele Services GSM|
+|11|190.242.157.234|8080|Colombia|Santiago de Cali|Columbus Networks USA, Inc.|
 |12|205.213.80.8|8009|United States|Siren|WiscNet|
-|13|205.213.80.8|8009|United States|Siren|WiscNet|
-|14|107.152.35.51|8080|United States|Chicago|tzulo, inc.|
-|15|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|16|119.252.174.195|800|Indonesia|Depok|PT Indonesia Comnets Plus|
-|17|14.194.38.9|8080|India|New Delhi|Tata Tele Services GSM|
-|18|171.226.93.38|11166|Vietnam|Nha Trang|Viettel Corporation|
-|19|103.171.183.245|8081|Indonesia|Cideng|PT Hayat Teknologi Informatika|
-|20|5.161.76.79|8080|United States|Washington|Hetzner Online GmbH|
+|13|139.144.54.126|8080|United States|Atlanta|Akamai Technologies, Inc.|
+|14|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|15|5.78.106.1|8080|United States|Portland|Hetzner Online GmbH|
+|16|46.101.13.77|80|United Kingdom|Enfield|DigitalOcean, LLC|
+|17|142.93.118.240|8080|United States|North Bergen|DigitalOcean, LLC|
+|18|103.178.88.50|8080|Indonesia|Jakarta|PT INTER MEDIALINK SOLUSI|
+|19|134.35.8.165|8080|Yemen|Sanaa|Public Telecommunication Corporation|
+|20|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
 
 
 
