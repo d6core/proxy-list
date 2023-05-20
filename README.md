@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7475** proxies at the latest update. Usable proxies are below.
+> Scraper found **7383** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|153|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|153|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|153|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|58|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|58|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|58|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|17|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1654|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1582|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1448|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3273|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3253|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|158.69.74.53|9300|Canada|Montreal|OVH SAS|
-|2|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|3|64.225.8.179|9994|United States|Clifton|DigitalOcean, LLC|
-|4|205.213.80.8|8009|United States|Siren|WiscNet|
-|5|64.225.4.81|9998|United States|Clifton|DigitalOcean, LLC|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|14.194.38.9|8080|India|New Delhi|Tata Tele Services GSM|
-|8|176.99.2.43|1081|Russia|Moscow|"Domain names registrar REG.RU", Ltd|
-|9|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
-|10|64.225.8.115|9996|United States|Clifton|DigitalOcean, LLC|
-|11|129.154.225.163|8100|India|Mumbai|Oracle Corporation|
-|12|180.183.68.86|8080|Thailand|Maha Sarakham|Triple T Broadband Public Company Limited|
-|13|205.213.80.8|8009|United States|Siren|WiscNet|
-|14|64.225.4.81|9998|United States|Clifton|DigitalOcean, LLC|
-|15|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|185.239.237.198|3128|Germany|Münster|combahton GmbH|
-|17|178.49.151.17|8091|Russia|Novosibirsk|Novotelecom Ltd|
-|18|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|19|125.163.9.214|8080|Indonesia|Sukabumi|PT. Telekomunikasi Indonesia|
-|20|61.16.138.238|8080|India|Chandigarh|TTL|
+|1|64.225.8.82|9995|United States|Clifton|DigitalOcean, LLC|
+|2|149.19.42.71|8082|United States|Allen|iboss, inc|
+|3|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|4|61.7.184.126|8080|Thailand|Ban Kao|CAT Telecom Public Company Limited|
+|5|205.213.80.8|8009|United States|Siren|WiscNet|
+|6|43.251.117.32|45787|Japan|Tokyo|Zenlayer Inc|
+|7|149.19.42.71|8082|United States|Allen|iboss, inc|
+|8|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|9|183.89.10.117|8080|Thailand|Lampang|Triple T Broadband Public Company Limited|
+|10|205.213.80.8|8009|United States|Siren|WiscNet|
+|11|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
+|12|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|13|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|14|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|15|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
+|16|116.105.190.189|10035|Vietnam|Hanoi|Viettel Corporation|
+|17|171.226.88.190|11166|Vietnam|Nha Trang|Viettel Corporation|
+|18|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|19|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
+|20|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
