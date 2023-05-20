@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|284|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|284|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|284|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|173|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|173|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|173|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.213.80.8|8009|United States|Siren|WiscNet|
-|2|162.212.153.179|8080|United States|Chicago|tzulo, inc.|
-|3|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
-|4|107.152.37.26|8080|United States|Chicago|tzulo, inc.|
-|5|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
-|6|107.152.32.30|8080|United States|Chicago|tzulo, inc.|
-|7|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|8|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
+|1|162.212.153.179|8080|United States|Chicago|tzulo, inc.|
+|2|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|3|205.213.80.8|8009|United States|Siren|WiscNet|
+|4|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
+|5|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
+|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
+|8|162.212.153.179|8080|United States|Chicago|tzulo, inc.|
 |9|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|162.212.154.249|8080|United States|Chicago|tzulo, inc.|
-|11|162.212.153.179|8080|United States|Chicago|tzulo, inc.|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|107.152.39.214|8080|United States|Chicago|tzulo, inc.|
-|14|107.152.42.73|8080|United States|Chicago|tzulo, inc.|
-|15|107.152.35.170|8080|United States|Chicago|tzulo, inc.|
-|16|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
-|17|205.213.80.8|8009|United States|Siren|WiscNet|
-|18|107.152.37.26|8080|United States|Chicago|tzulo, inc.|
-|19|107.152.35.170|8080|United States|Chicago|tzulo, inc.|
-|20|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|10|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|11|107.152.39.112|8080|United States|Chicago|tzulo, inc.|
+|12|205.213.80.8|8009|United States|Siren|WiscNet|
+|13|107.152.37.26|8080|United States|Chicago|tzulo, inc.|
+|14|149.19.42.71|8082|United States|Allen|iboss, inc|
+|15|149.19.42.71|8082|United States|Allen|iboss, inc|
+|16|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|17|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
+|18|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
+|19|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
+|20|107.152.32.30|8080|United States|Chicago|tzulo, inc.|
 
 
 
