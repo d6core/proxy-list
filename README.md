@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6916** proxies at the latest update. Usable proxies are below.
+> Scraper found **6950** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|311|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|311|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|311|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|41|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|41|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|41|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|19|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1345|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1379|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1279|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3190|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|139.144.54.126|8080|United States|Atlanta|Akamai Technologies, Inc.|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|139.144.54.126|8080|United States|Atlanta|Akamai Technologies, Inc.|
-|4|65.109.231.34|8080|Finland|Helsinki|Hetzner Online GmbH|
-|5|135.181.101.153|8080|Finland|Helsinki|Hetzner Online GmbH|
-|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|7|64.225.8.115|9996|United States|Clifton|DigitalOcean, LLC|
-|8|176.95.54.202|83|Germany|Wirft|Vodafone GmbH|
-|9|134.35.8.165|8080|Yemen|Sanaa|Public Telecommunication Corporation|
-|10|178.18.206.184|53128|Turkey|Bayrakli|Vargonen Teknoloji ve Bilisim Sanayi Ticaret Anonim Sirketi|
-|11|64.225.4.63|9993|United States|Clifton|DigitalOcean, LLC|
-|12|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|2|191.101.234.75|80|Brazil|São Paulo|HOSTINGER BR|
+|3|65.109.231.34|8080|Finland|Helsinki|Hetzner Online GmbH|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|6|205.213.80.8|8009|United States|Siren|WiscNet|
+|7|149.19.42.71|8082|United States|Allen|iboss, inc|
+|8|135.181.101.153|8080|Finland|Helsinki|Hetzner Online GmbH|
+|9|139.144.54.126|8080|United States|Atlanta|Akamai Technologies, Inc.|
+|10|167.114.96.13|9300|Canada|Montreal|OVH SAS|
+|11|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
+|12|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
 |13|149.19.42.71|8082|United States|Allen|iboss, inc|
-|14|118.99.87.126|8080|Indonesia|Cikampek|BIZNET|
-|15|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|16|149.19.40.78|8082|United States|Charlotte|iboss, inc|
-|17|64.225.8.135|9991|United States|Clifton|DigitalOcean, LLC|
-|18|202.69.45.22|8080|Pakistan|Karachi|Advertiese Flag|
-|19|41.77.13.186|53281|Malawi|Limbe|Globe LLW SR|
-|20|163.29.45.122|8080|Taiwan|Taipei|Government Service Network|
+|14|212.46.230.102|6969|Russia|Moscow|PJSC "Vimpelcom"|
+|15|134.35.8.165|8080|Yemen|Sanaa|Public Telecommunication Corporation|
+|16|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
+|17|205.213.80.8|8009|United States|Siren|WiscNet|
+|18|43.129.223.147|38080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|19|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|20|149.19.40.78|8082|United States|Charlotte|iboss, inc|
 
 
 
