@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7370** proxies at the latest update. Usable proxies are below.
+> Scraper found **7400** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|45|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|45|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|45|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|85|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|85|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|85|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|17|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1680|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1710|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1483|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3107|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|2|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|3|149.19.42.71|8082|United States|Allen|iboss, inc|
-|4|205.213.80.8|8009|United States|Siren|WiscNet|
-|5|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|6|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
-|7|13.214.159.87|33080|Singapore|Singapore|Amazon Technologies Inc.|
+|1|205.213.80.8|8009|United States|Siren|WiscNet|
+|2|149.19.42.71|8082|United States|Allen|iboss, inc|
+|3|64.225.4.81|9998|United States|Clifton|DigitalOcean, LLC|
+|4|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|5|140.227.8.56|58888|Japan|Nishisakamachi|InfoSphere|
+|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|7|64.225.4.81|9998|United States|Clifton|DigitalOcean, LLC|
 |8|149.19.42.71|8082|United States|Allen|iboss, inc|
-|9|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
-|10|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|103.151.177.106|80|Indonesia|Jakarta|PT JASAMARGA TOLLROAD OPERATOR|
-|12|61.16.138.238|8080|India|Chandigarh|TTL|
-|13|205.213.80.8|8009|United States|Siren|WiscNet|
-|14|203.159.93.254|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|15|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
-|16|5.161.115.41|8080|United States|Ashburn|Hetzner Online GmbH|
-|17|5.161.189.222|8080|United States|Ashburn|Hetzner Online GmbH|
-|18|5.161.179.198|8080|United States|Ashburn|Hetzner Online GmbH|
-|19|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
-|20|5.161.215.149|8080|United States|Ashburn|Hetzner Online GmbH|
+|9|205.213.80.8|8009|United States|Siren|WiscNet|
+|10|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|11|149.19.40.78|8082|United States|Charlotte|iboss, inc|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|158.69.27.94|9300|Canada|Montreal|OVH SAS|
+|14|64.225.8.191|9994|United States|Clifton|DigitalOcean, LLC|
+|15|13.214.159.87|33080|Singapore|Singapore|Amazon Technologies Inc.|
+|16|200.50.203.161|8090|Brazil|Cuiabá|Conecta Telecom|
+|17|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
+|18|149.202.181.48|5566|France|Gravelines|OVH SAS|
+|19|62.3.30.135|8080|Georgia|Tbilisi|Enbinet Ltd.|
+|20|103.56.206.65|4995|Indonesia|Jakarta|Argon Data Communication|
 
 
 
