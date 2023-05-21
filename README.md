@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|51|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|51|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|51|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|553|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|553|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|553|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.86.94|8080|United States|Portland|Hetzner Online GmbH|
-|2|5.161.110.106|8080|United States|Ashburn|Hetzner Online GmbH|
-|3|5.161.203.168|8080|United States|Ashburn|Hetzner Online GmbH|
-|4|5.161.199.161|8080|United States|Ashburn|Hetzner Online GmbH|
-|5|95.216.197.6|8080|Finland|Helsinki|Hetzner Online GmbH|
-|6|5.161.215.145|8080|United States|Ashburn|Hetzner Online GmbH|
-|7|165.22.26.125|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|5.161.227.148|8080|United States|Ashburn|Hetzner Online GmbH|
-|9|5.161.46.240|8080|United States|Ashburn|Hetzner Online GmbH|
-|10|5.161.125.0|8080|United States|Ashburn|Hetzner Online GmbH|
-|11|5.161.211.231|8080|United States|Ashburn|Hetzner Online GmbH|
-|12|5.161.227.137|8080|United States|Ashburn|Hetzner Online GmbH|
-|13|165.232.121.33|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|14|65.108.52.104|8080|Finland|Helsinki|Hetzner Online GmbH|
-|15|65.109.239.174|8080|Finland|Helsinki|Hetzner Online GmbH|
-|16|65.21.58.236|8080|Finland|Helsinki|Hetzner Online GmbH|
-|17|65.21.241.166|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|65.108.88.212|8080|Finland|Helsinki|Hetzner Online GmbH|
-|19|135.181.152.79|8080|Finland|Helsinki|Hetzner Online GmbH|
-|20|95.216.191.80|8080|Finland|Helsinki|Hetzner Online GmbH|
+|1|5.161.227.137|8080|United States|Ashburn|Hetzner Online GmbH|
+|2|5.161.61.66|8080|United States|Ashburn|Hetzner Online GmbH|
+|3|5.161.218.93|8080|United States|Ashburn|Hetzner Online GmbH|
+|4|5.161.194.190|8080|United States|Ashburn|Hetzner Online GmbH|
+|5|65.109.227.113|8080|Finland|Helsinki|Hetzner Online GmbH|
+|6|5.161.203.168|8080|United States|Ashburn|Hetzner Online GmbH|
+|7|5.161.210.9|8080|United States|Ashburn|Hetzner Online GmbH|
+|8|135.181.251.152|8080|Finland|Helsinki|Hetzner Online GmbH|
+|9|95.216.197.6|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|5.161.110.106|8080|United States|Ashburn|Hetzner Online GmbH|
+|11|95.216.162.20|8080|Finland|Helsinki|Hetzner Online GmbH|
+|12|5.161.223.48|8080|United States|Ashburn|Hetzner Online GmbH|
+|13|5.161.125.0|8080|United States|Ashburn|Hetzner Online GmbH|
+|14|65.109.132.234|8080|Finland|Helsinki|Hetzner Online GmbH|
+|15|170.64.166.46|8080|Australia|Sydney|DigitalOcean, LLC|
+|16|5.161.203.193|8080|United States|Ashburn|Hetzner Online GmbH|
+|17|95.217.188.171|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|5.161.210.171|8080|United States|Ashburn|Hetzner Online GmbH|
+|19|65.21.189.77|8080|Finland|Helsinki|Hetzner Online GmbH|
+|20|65.109.239.174|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
