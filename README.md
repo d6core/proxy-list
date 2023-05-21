@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6604** proxies at the latest update. Usable proxies are below.
+> Scraper found **6597** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|22|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|22|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|22|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|402|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|402|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|402|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|16|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1327|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1320|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1221|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2957|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|149.19.40.78|8082|United States|Charlotte|iboss, inc|
-|2|205.213.80.8|8009|United States|Siren|WiscNet|
-|3|149.19.42.71|8082|United States|Allen|iboss, inc|
+|1|64.225.8.115|9996|United States|Clifton|DigitalOcean, LLC|
+|2|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|3|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
 |4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|5|64.225.8.132|9996|United States|Clifton|DigitalOcean, LLC|
-|6|72.52.91.102|3128|United States|Fremont|Hurricane Electric LLC|
-|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|149.19.40.78|8082|United States|Charlotte|iboss, inc|
-|9|205.213.80.8|8009|United States|Siren|WiscNet|
-|10|64.225.8.135|9991|United States|Clifton|DigitalOcean, LLC|
-|11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|64.225.8.132|9996|United States|Clifton|DigitalOcean, LLC|
-|13|189.90.241.194|8090|Brazil|Joao Monlevade|Companhia Itabirana Telecomunicações Ltda|
-|14|149.19.42.71|8082|United States|Allen|iboss, inc|
-|15|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|16|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
-|17|198.44.191.98|45787|Japan|Tokyo|Zenlayer Inc|
-|18|171.237.236.60|4006|Vietnam|Hanoi|Viettel Corporation|
-|19|190.111.209.207|3128|Argentina|Buenos Aires|CPS|
-|20|221.122.91.66|10101|China|Haidian|IDC, China Telecommunications Corporation|
+|5|43.250.175.237|45787|Japan|Tokyo|Zenlayer Inc|
+|6|205.213.80.8|8009|United States|Siren|WiscNet|
+|7|109.202.16.43|3128|Russia|Novosibirsk|JSC Avantel. Novosibirsk network|
+|8|43.129.165.30|59394|Hong Kong|Hong Kong|Aceville Pte.ltd|
+|9|149.19.42.71|8082|United States|Allen|iboss, inc|
+|10|149.19.42.71|8082|United States|Allen|iboss, inc|
+|11|205.213.80.8|8009|United States|Siren|WiscNet|
+|12|171.226.93.38|11166|Vietnam|Nha Trang|Viettel Corporation|
+|13|171.226.88.190|11166|Vietnam|Nha Trang|Viettel Corporation|
+|14|5.161.184.47|8080|United States|Ashburn|Hetzner Online GmbH|
+|15|5.161.228.93|8080|United States|Ashburn|Hetzner Online GmbH|
+|16|5.161.92.227|8080|United States|Ashburn|Hetzner Online GmbH|
+|17|5.161.206.32|8080|United States|Ashburn|Hetzner Online GmbH|
+|18|188.34.206.243|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|19|162.212.156.148|8080|United States|Chicago|tzulo, inc.|
+|20|5.161.201.138|8080|United States|Ashburn|Hetzner Online GmbH|
 
 
 
