@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6704** proxies at the latest update. Usable proxies are below.
+> Scraper found **6665** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|626|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|626|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|626|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|609|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|609|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|609|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|17|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1211|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|16|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1173|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1220|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3173|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|2|205.213.80.8|8009|United States|Siren|WiscNet|
+|2|20.204.212.76|3129|India|Pune|Microsoft Corporation|
 |3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|5|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|6|20.204.214.79|3129|India|Pune|Microsoft Corporation|
-|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|8|200.25.254.193|54240|Colombia|Neiva|Andinet ON Line|
-|9|162.212.154.19|8080|United States|Chicago|tzulo, inc.|
-|10|107.152.42.222|8080|United States|Chicago|Cloudfanatic.NET|
-|11|162.212.158.203|8080|United States|Chicago|ServerCheap INC|
-|12|5.161.183.35|8080|United States|Ashburn|Hetzner Online GmbH|
-|13|162.212.158.203|8080|United States|Chicago|ServerCheap INC|
-|14|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
-|15|162.212.156.133|8080|United States|Chicago|tzulo, inc.|
-|16|162.212.155.211|8080|United States|Chicago|tzulo, inc.|
-|17|5.161.214.91|8080|United States|Ashburn|Hetzner Online GmbH|
-|18|162.212.154.177|8080|United States|Chicago|tzulo, inc.|
-|19|65.21.157.57|8080|Finland|Helsinki|Hetzner Online GmbH|
-|20|205.213.80.8|8009|United States|Siren|WiscNet|
+|4|50.231.0.43|4481|United States|Houston|Comcast Cable Communications, LLC|
+|5|5.161.220.130|8080|United States|Ashburn|Hetzner Online GmbH|
+|6|5.161.211.23|8080|United States|Ashburn|Hetzner Online GmbH|
+|7|5.161.190.136|8080|United States|Ashburn|Hetzner Online GmbH|
+|8|5.161.208.208|8080|United States|Ashburn|Hetzner Online GmbH|
+|9|65.109.8.254|8080|Finland|Helsinki|Hetzner Online GmbH|
+|10|135.181.251.152|8080|Finland|Helsinki|Hetzner Online GmbH|
+|11|5.78.98.39|8080|United States|Portland|Hetzner Online GmbH|
+|12|5.161.185.131|8080|United States|Ashburn|Hetzner Online GmbH|
+|13|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|14|65.109.226.22|8080|Finland|Helsinki|Hetzner Online GmbH|
+|15|95.217.186.184|8080|Finland|Helsinki|Hetzner Online GmbH|
+|16|65.108.48.14|8080|Finland|Helsinki|Hetzner Online GmbH|
+|17|5.161.193.98|8080|United States|Ashburn|Hetzner Online GmbH|
+|18|5.78.79.81|8080|United States|Portland|Hetzner Online GmbH|
+|19|65.109.234.62|8080|Finland|Helsinki|Hetzner Online GmbH|
+|20|65.108.254.163|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
