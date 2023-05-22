@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7352** proxies at the latest update. Usable proxies are below.
+> Scraper found **7288** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|88|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|88|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|88|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|327|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|327|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|327|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|16|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1426|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1362|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1546|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3281|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|165.227.81.188|9992|United States|North Bergen|DigitalOcean, LLC|
-|2|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|3|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|4|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
-|5|5.78.98.39|8080|United States|Portland|Hetzner Online GmbH|
-|6|5.161.50.210|8080|United States|Ashburn|Hetzner Online GmbH|
-|7|5.78.76.173|8080|United States|Portland|Hetzner Online GmbH|
+|1|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|2|45.112.127.191|80|Indonesia|Bekasi|FIBERNET|
+|3|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|4|200.123.15.250|999|Peru|Lima|Wigo S.A.|
+|5|147.139.168.187|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|6|5.161.193.252|8080|United States|Ashburn|Hetzner Online GmbH|
+|7|5.161.213.105|8080|United States|Ashburn|Hetzner Online GmbH|
 |8|5.161.182.130|8080|United States|Ashburn|Hetzner Online GmbH|
-|9|173.249.37.15|8080|Germany|Nuremberg|Contabo GmbH|
-|10|65.109.234.62|8080|Finland|Helsinki|Hetzner Online GmbH|
-|11|65.21.246.244|8080|Finland|Helsinki|Hetzner Online GmbH|
-|12|65.21.58.214|8080|Finland|Helsinki|Hetzner Online GmbH|
-|13|5.161.213.105|8080|United States|Ashburn|Hetzner Online GmbH|
-|14|95.216.145.63|8080|Finland|Helsinki|Hetzner Online GmbH|
-|15|5.161.101.84|8080|United States|Ashburn|Hetzner Online GmbH|
-|16|5.161.220.97|8080|United States|Ashburn|Hetzner Online GmbH|
-|17|65.21.51.133|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|5.161.210.70|8080|United States|Ashburn|Hetzner Online GmbH|
-|19|94.231.192.97|8080|Turkey|Antakya|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
-|20|201.71.2.115|999|Venezuela|Caracas|Level 3 Communications, Inc.|
+|9|5.78.76.173|8080|United States|Portland|Hetzner Online GmbH|
+|10|5.161.50.210|8080|United States|Ashburn|Hetzner Online GmbH|
+|11|5.161.214.91|8080|United States|Ashburn|Hetzner Online GmbH|
+|12|5.161.220.112|8080|United States|Ashburn|Hetzner Online GmbH|
+|13|5.161.222.236|8080|United States|Ashburn|Hetzner Online GmbH|
+|14|5.161.220.97|8080|United States|Ashburn|Hetzner Online GmbH|
+|15|65.21.246.244|8080|Finland|Helsinki|Hetzner Online GmbH|
+|16|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|17|5.161.197.112|8080|United States|Ashburn|Hetzner Online GmbH|
+|18|5.161.222.215|8080|United States|Ashburn|Hetzner Online GmbH|
+|19|65.21.148.92|8080|Finland|Helsinki|Hetzner Online GmbH|
+|20|95.216.145.63|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
