@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5880** proxies at the latest update. Usable proxies are below.
+> Scraper found **5940** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|345|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|345|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|345|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|386|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|386|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|386|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|16|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|798|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|874|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1089|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2894|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|5.78.94.139|8080|United States|Portland|Hetzner Online GmbH|
-|2|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|3|95.216.218.186|8080|Finland|Helsinki|Hetzner Online GmbH|
-|4|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|5|186.150.201.38|8080|Dominican Republic|Santo Domingo Este|Altice Dominicana S.A.|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|5.78.94.139|8080|United States|Portland|Hetzner Online GmbH|
+|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|5|95.216.218.186|8080|Finland|Helsinki|Hetzner Online GmbH|
+|6|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
 |7|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|8|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
-|10|115.76.194.52|11194|Vietnam|Gia Nghia|Viettel Group|
-|11|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|12|209.25.142.67|8080|United States|Carson City|Developed Methods LLC|
-|13|5.78.94.139|8080|United States|Portland|Hetzner Online GmbH|
-|14|209.25.142.67|8080|United States|Carson City|Developed Methods LLC|
-|15|5.78.42.159|8080|United States|Portland|Hetzner Online GmbH|
+|8|115.76.194.52|11194|Vietnam|Gia Nghia|Viettel Group|
+|9|209.25.142.67|8080|United States|Carson City|Developed Methods LLC|
+|10|64.225.8.135|9997|United States|Clifton|DigitalOcean, LLC|
+|11|209.25.142.67|8080|United States|Carson City|Developed Methods LLC|
+|12|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|13|5.78.43.207|8080|United States|Portland|Hetzner Online GmbH|
+|14|162.212.156.132|8080|United States|Chicago|tzulo, inc.|
+|15|5.161.187.214|8080|United States|Ashburn|Hetzner Online GmbH|
 |16|5.161.182.131|8080|United States|Ashburn|Hetzner Online GmbH|
-|17|162.212.156.132|8080|United States|Chicago|tzulo, inc.|
-|18|5.161.220.170|8080|United States|Ashburn|Hetzner Online GmbH|
-|19|107.152.44.189|8080|United States|Durham|tzulo, inc.|
-|20|162.212.155.148|8080|United States|Chicago|tzulo, inc.|
+|17|64.225.8.82|9987|United States|Clifton|DigitalOcean, LLC|
+|18|64.225.8.82|9987|United States|Clifton|DigitalOcean, LLC|
+|19|5.161.196.119|8080|United States|Ashburn|Hetzner Online GmbH|
+|20|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
