@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6769** proxies at the latest update. Usable proxies are below.
+> Scraper found **6652** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|594|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|594|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|594|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|169|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|169|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|169|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|23|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1338|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|24|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1220|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1335|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2990|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|5.161.222.215|8080|United States|Ashburn|Hetzner Online GmbH|
 |2|5.161.222.215|8080|United States|Ashburn|Hetzner Online GmbH|
-|3|64.225.8.179|9998|United States|Clifton|DigitalOcean, LLC|
-|4|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|5|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|6|64.225.8.179|9998|United States|Clifton|DigitalOcean, LLC|
-|7|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
-|8|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
-|9|23.132.185.101|53128|Norway|Sandefjord|Joseph Farnell|
-|10|200.25.254.193|54240|Colombia|Leticia|Andinet ON Line|
-|11|5.161.198.29|8080|United States|Ashburn|Hetzner Online GmbH|
-|12|5.161.198.29|8080|United States|Ashburn|Hetzner Online GmbH|
-|13|107.152.38.166|8080|United States|Chicago|tzulo, inc.|
-|14|5.161.189.248|8080|United States|Ashburn|Hetzner Online GmbH|
-|15|5.78.68.183|8080|United States|Portland|Hetzner Online GmbH|
-|16|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
-|17|159.255.188.134|41258|Poland|Zamość|TOM-NET s.c. Dariusz Koper|
-|18|65.108.63.230|8080|Finland|Helsinki|Hetzner Online GmbH|
-|19|162.212.157.175|8080|United States|Chicago|tzulo, inc.|
-|20|5.78.42.229|8080|United States|Portland|Hetzner Online GmbH|
+|3|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|4|115.76.192.51|11166|Vietnam|Gia Nghia|VIETELGPRS|
+|5|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
+|6|23.132.185.101|53128|Norway|Sandefjord|Joseph Farnell|
+|7|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|8|200.25.254.193|54240|Colombia|Leticia|Andinet ON Line|
+|9|102.38.31.8|80|Libya|Tripoli|GZA|
+|10|103.123.168.165|83|Bangladesh|Dhaka|Sajid Trading Ltd.|
+|11|5.78.81.97|8080|United States|Portland|Hetzner Online GmbH|
+|12|162.212.157.175|8080|United States|Chicago|tzulo, inc.|
+|13|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|14|162.212.157.23|8080|United States|Chicago|tzulo, inc.|
+|15|5.78.81.37|8080|United States|Portland|Hetzner Online GmbH|
+|16|5.161.198.29|8080|United States|Ashburn|Hetzner Online GmbH|
+|17|95.217.188.171|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|65.109.5.155|8080|Finland|Helsinki|Hetzner Online GmbH|
+|19|5.161.200.117|8080|United States|Ashburn|Hetzner Online GmbH|
+|20|95.217.238.76|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
