@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6728** proxies at the latest update. Usable proxies are below.
+> Scraper found **6798** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|102|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|102|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|102|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|43|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|43|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|43|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|12|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1380|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|14|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1331|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1242|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1359|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3011|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.84.106.205|8214|United States|Boydton|Microsoft Corporation|
-|2|176.95.54.202|83|Germany|Hanau|Vodafone GmbH|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|5|20.84.106.205|8214|United States|Boydton|Microsoft Corporation|
-|6|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
-|7|162.212.156.146|8080|United States|Chicago|tzulo, inc.|
-|8|200.137.138.2|80|Brazil|Cidade Universitária|Rede Nacional de Ensino e Pesquisa|
-|9|167.172.172.234|38845|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|41.169.72.4|8090|South Africa|Midrand|Liquid Telecommunications South Africa (Pty) Ltd|
-|11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|5.78.82.19|8080|United States|Portland|Hetzner Online GmbH|
-|13|45.169.98.73|8080|Colombia|Mocoa|NET ISP S.A.S|
-|14|103.52.213.131|80|Indonesia|South Tangerang|Kementerian Lingkungan Hidup|
+|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|91.196.148.56|10000|Ukraine|Kriukivschina|Maximum-Net LLC|
+|4|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|5|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|6|46.182.6.51|3129|France|Paris|Hosteur SAS|
+|7|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|8|5.78.82.19|8080|United States|Portland|Hetzner Online GmbH|
+|9|162.212.156.146|8080|United States|Chicago|tzulo, inc.|
+|10|200.137.138.2|80|Brazil|Cidade Universitária|Rede Nacional de Ensino e Pesquisa|
+|11|158.69.73.79|9300|Canada|Montreal|OVH SAS|
+|12|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|41.169.72.4|8090|South Africa|Midrand|Liquid Telecommunications South Africa (Pty) Ltd|
+|14|64.225.8.132|9979|United States|Clifton|DigitalOcean, LLC|
 |15|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|16|181.210.25.42|8080|Honduras|Tegucigalpa|Hondutel|
-|17|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|18|64.225.8.132|9979|United States|Clifton|DigitalOcean, LLC|
-|19|196.41.60.194|8080|Tanzania|Dar es Salaam|Liquid Telecommunications Ltd|
-|20|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|167.172.172.234|38845|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|118.137.170.55|8080|Indonesia|Jakarta|Linknet-Fastnet ASN|
+|18|51.159.115.233|3128|France|Paris|SCALEWAY|
+|19|176.99.2.43|1081|Russia|Moscow|"Domain names registrar REG.RU", Ltd|
+|20|188.132.221.24|8080|Turkey|Istanbul|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
 
 
 
