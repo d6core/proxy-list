@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6265** proxies at the latest update. Usable proxies are below.
+> Scraper found **6273** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|86|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|86|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|86|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|40|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|40|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|40|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1197|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|13|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1192|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1144|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2841|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|3|65.109.143.69|8080|Finland|Helsinki|Hetzner Online GmbH|
-|4|170.64.137.54|8080|Australia|Sydney|DigitalOcean, LLC|
-|5|5.161.71.190|8080|United States|Ashburn|Hetzner Online GmbH|
-|6|5.75.247.164|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|7|107.181.230.227|3128|United States|Ogden|GorillaServers, Inc.|
-|8|5.161.75.235|8080|United States|Washington|Hetzner Online GmbH|
-|9|159.69.8.182|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|10|164.52.206.180|80|India|Noida|E2E Networks Limited|
-|11|5.161.90.12|8080|United States|Ashburn|Hetzner Online GmbH|
-|12|65.109.5.30|8080|Finland|Helsinki|Hetzner Online GmbH|
-|13|116.203.205.41|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|14|65.21.154.65|8080|Finland|Helsinki|Hetzner Online GmbH|
-|15|116.203.35.102|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|16|65.21.58.214|8080|Finland|Helsinki|Hetzner Online GmbH|
-|17|86.57.156.106|2222|Belarus|Minsk|Republican Unitary Telecommunication Enterprise Beltelecom|
-|18|38.51.243.145|999|Colombia|Tuquerres|INTERCOMM DE NARIÑO SAS|
-|19|177.25.40.146|4343|Brazil|São Paulo|Vivo|
-|20|103.155.54.26|83|India|Haldia|abuse-mailbox: (abuse@pegasuswave.com)|
+|1|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|2|5.161.90.12|8080|United States|Ashburn|Hetzner Online GmbH|
+|3|170.64.137.54|8080|Australia|Sydney|DigitalOcean, LLC|
+|4|159.69.8.182|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|5|178.128.144.171|8080|United States|North Bergen|DigitalOcean, LLC|
+|6|91.107.193.1|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|7|5.161.119.106|8080|United States|Ashburn|Hetzner Online GmbH|
+|8|95.216.159.3|8080|Finland|Helsinki|Hetzner Online GmbH|
+|9|194.195.210.34|8080|United States|Atlanta|Akamai Technologies, Inc.|
+|10|95.217.167.118|8080|Finland|Helsinki|Hetzner Online GmbH|
+|11|170.64.179.241|8080|Australia|Sydney|DigitalOcean, LLC|
+|12|159.69.199.13|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|13|65.21.56.132|8080|Finland|Helsinki|Hetzner Online GmbH|
+|14|45.167.124.5|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|15|5.75.153.127|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|16|138.201.174.153|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|17|5.78.77.114|8080|United States|Portland|Hetzner Online GmbH|
+|18|116.203.225.132|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|19|65.21.241.166|8080|Finland|Helsinki|Hetzner Online GmbH|
+|20|209.38.196.31|8080|Germany|Frankfurt am Main|DigitalOcean|
 
 
 
