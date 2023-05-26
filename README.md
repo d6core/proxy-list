@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7228** proxies at the latest update. Usable proxies are below.
+> Scraper found **7274** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|80|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|80|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|80|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|54|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|54|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|54|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|11|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1561|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1586|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1369|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1390|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3204|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|5.161.187.214|8080|United States|Ashburn|Hetzner Online GmbH|
-|2|201.158.48.74|8080|Honduras|Tegucigalpa|Cablecolor S.A.|
-|3|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|4|5.161.187.214|8080|United States|Ashburn|Hetzner Online GmbH|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|7|64.225.8.191|9992|United States|Clifton|DigitalOcean, LLC|
-|8|190.26.201.194|8080|Colombia|Ocaña|ETB - Colombia|
-|9|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|10|64.225.8.115|9996|United States|Clifton|DigitalOcean, LLC|
-|11|103.180.125.61|3128|Indonesia|Ponorogo|PT TOKO MIRING BERJAYA|
-|12|64.225.8.115|9996|United States|Clifton|DigitalOcean, LLC|
-|13|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|14|64.225.8.191|9992|United States|Clifton|DigitalOcean, LLC|
-|15|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
-|16|41.169.72.4|8090|South Africa|Midrand|Liquid Telecommunications South Africa (Pty) Ltd|
-|17|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|18|23.132.185.101|53128|Norway|Sandefjord|Joseph Farnell|
-|19|158.69.73.79|9300|Canada|Montreal|OVH SAS|
-|20|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|2|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|3|23.132.185.101|53128|Norway|Sandefjord|Joseph Farnell|
+|4|64.225.8.115|9996|United States|Clifton|DigitalOcean, LLC|
+|5|201.158.48.74|8080|Honduras|Tegucigalpa|Cablecolor S.A.|
+|6|5.161.187.214|8080|United States|Ashburn|Hetzner Online GmbH|
+|7|64.225.8.135|9997|United States|Clifton|DigitalOcean, LLC|
+|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|9|23.132.185.101|53128|Norway|Sandefjord|Joseph Farnell|
+|10|64.225.8.191|9992|United States|Clifton|DigitalOcean, LLC|
+|11|64.225.8.191|9992|United States|Clifton|DigitalOcean, LLC|
+|12|43.132.175.181|81|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|13|152.67.10.190|8100|India|Mumbai|Oracle Corporation|
+|14|41.169.72.4|8090|South Africa|Midrand|Liquid Telecommunications South Africa (Pty) Ltd|
+|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|16|167.172.173.210|44559|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|18|201.229.250.21|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|19|162.212.157.199|8080|United States|Chicago|tzulo, inc.|
+|20|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
 
 
 
