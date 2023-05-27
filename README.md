@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1400|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|18|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1382|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1263|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2817|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|3|46.182.6.51|3129|France|Paris|Hosteur SAS|
-|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|5|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|6|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|7|27.70.160.226|11166|Vietnam|Hanoi|Viettel Group|
-|8|107.152.32.30|8080|United States|Chicago|tzulo, inc.|
-|9|107.152.41.183|8080|United States|Chicago|tzulo, inc.|
-|10|5.78.71.240|8080|United States|Portland|Hetzner Online GmbH|
-|11|107.152.32.30|8080|United States|Chicago|tzulo, inc.|
-|12|209.38.254.44|45212|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|13|8.213.135.37|443|South Korea|Seoul|Alibaba (US) Technology Co., Ltd.|
-|14|103.180.125.61|3128|Indonesia|Ponorogo|PT TOKO MIRING BERJAYA|
-|15|116.99.239.222|10011|Vietnam|Hanoi|Viettel Corporation|
-|16|27.70.166.139|11166|Vietnam|Hanoi|Viettel Group|
-|17|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
-|18|157.230.95.47|8080|United States|North Bergen|DigitalOcean, LLC|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|107.152.32.195|8080|United States|Chicago|tzulo, inc.|
+|1|108.187.44.171|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|2|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|3|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
+|4|103.180.125.61|3128|Indonesia|Ponorogo|PT TOKO MIRING BERJAYA|
+|5|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|7|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|8|46.182.6.51|3129|France|Paris|Hosteur SAS|
+|9|108.187.44.89|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|10|107.152.32.30|8080|United States|Chicago|tzulo, inc.|
+|11|107.152.41.183|8080|United States|Chicago|tzulo, inc.|
+|12|27.70.166.139|11166|Vietnam|Hanoi|Viettel Group|
+|13|157.230.95.47|8080|United States|North Bergen|DigitalOcean, LLC|
+|14|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|15|27.70.160.226|11166|Vietnam|Hanoi|Viettel Group|
+|16|108.187.44.171|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|17|107.173.144.80|8080|Canada|Hamilton|ColoCrossing|
+|18|107.152.32.30|8080|United States|Chicago|tzulo, inc.|
+|19|5.78.71.240|8080|United States|Portland|Hetzner Online GmbH|
+|20|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
 
 
 
