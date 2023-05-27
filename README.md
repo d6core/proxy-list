@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6303** proxies at the latest update. Usable proxies are below.
+> Scraper found **6281** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|224|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|224|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|224|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|358|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|358|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|358|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|21|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1406|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|23|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1382|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1273|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2520|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|107.152.42.26|8080|United States|Chicago|tzulo, inc.|
-|3|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|6|195.133.45.149|7788|Russia|Moscow|VDS|
-|7|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|8|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|158.69.66.247|9300|Canada|Montreal|OVH SAS|
-|11|8.213.135.37|443|South Korea|Seoul|Alibaba (US) Technology Co., Ltd.|
-|12|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
-|13|188.142.224.225|80|Hungary|Veszprém|Vodafone Hungary Ltd.|
-|14|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|15|209.38.254.44|45212|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|16|116.99.229.249|11166|Vietnam|Gia Nghia|Viettel Corporation|
-|17|158.69.73.79|9300|Canada|Montreal|OVH SAS|
-|18|27.70.166.139|11166|Vietnam|Hanoi|Viettel Group|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|37.255.230.227|80|Iran|Isfahan|Iran Telecommunication Company PJS|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|107.152.42.26|8080|United States|Chicago|tzulo, inc.|
+|4|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|5|107.152.42.26|8080|United States|Chicago|tzulo, inc.|
+|6|37.255.230.227|80|Iran|Isfahan|Iran Telecommunication Company PJS|
+|7|158.69.66.131|9300|Canada|Montreal|OVH SAS|
+|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|9|108.187.44.209|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|10|51.159.0.236|3128|France|Paris|SCALEWAY|
+|11|201.229.250.21|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|12|46.182.6.51|3129|France|Paris|Hosteur SAS|
+|13|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|14|8.213.135.37|443|South Korea|Seoul|Alibaba (US) Technology Co., Ltd.|
+|15|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|116.99.229.249|11166|Vietnam|Gia Nghia|Viettel Corporation|
+|18|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|27.70.166.139|11166|Vietnam|Hanoi|Viettel Group|
+|20|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
 
 
 
