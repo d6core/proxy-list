@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6485** proxies at the latest update. Usable proxies are below.
+> Scraper found **6379** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|60|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|60|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|60|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|106|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|106|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|106|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|11|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1412|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1306|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1443|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2536|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.204.214.79|3129|India|Pune|Microsoft Corporation|
-|2|20.204.212.45|3129|India|Pune|Microsoft Corporation|
-|3|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|4|125.136.115.248|7890|South Korea|Gwangsan-gu|Korea Telecom|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|7|95.216.195.169|8080|Finland|Helsinki|Hetzner Online GmbH|
-|8|20.204.190.254|3129|India|Pune|Microsoft Corporation|
-|9|5.161.177.120|8080|United States|Ashburn|Hetzner Online GmbH|
-|10|20.204.212.76|3129|India|Pune|Microsoft Corporation|
-|11|5.78.108.54|8080|United States|Portland|Hetzner Online GmbH|
-|12|189.201.164.89|999|Mexico|San Luis Potosí City|ATC HOLDING FIBRA MEXICO, S. DE R.L. DE C.V.|
-|13|135.181.155.58|8080|Finland|Helsinki|Hetzner Online GmbH|
-|14|5.78.83.35|8080|United States|Portland|Hetzner Online GmbH|
-|15|135.181.199.44|8080|Finland|Helsinki|Hetzner Online GmbH|
-|16|5.78.86.34|8080|United States|Portland|Hetzner Online GmbH|
-|17|65.21.250.6|8080|Finland|Helsinki|Hetzner Online GmbH|
-|18|5.78.83.35|8080|United States|Portland|Hetzner Online GmbH|
-|19|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|20|5.78.71.238|8080|United States|Portland|Hetzner Online GmbH|
+|1|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
+|2|20.204.214.79|3129|India|Pune|Microsoft Corporation|
+|3|65.21.186.173|3129|Finland|Helsinki|Hetzner Online GmbH|
+|4|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|5|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|6|20.204.212.76|3129|India|Pune|Microsoft Corporation|
+|7|51.159.0.236|3128|France|Paris|SCALEWAY|
+|8|5.78.90.4|8080|United States|Portland|Hetzner Online GmbH|
+|9|5.161.189.211|8080|United States|Ashburn|Hetzner Online GmbH|
+|10|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|11|135.181.249.206|8080|Finland|Helsinki|Hetzner Online GmbH|
+|12|65.109.164.132|8080|Finland|Helsinki|Hetzner Online GmbH|
+|13|5.161.222.185|8080|United States|Ashburn|Hetzner Online GmbH|
+|14|5.161.222.185|8080|United States|Ashburn|Hetzner Online GmbH|
+|15|5.78.71.238|8080|United States|Portland|Hetzner Online GmbH|
+|16|128.140.48.94|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|17|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|18|5.161.191.14|8080|United States|Ashburn|Hetzner Online GmbH|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|5.78.82.193|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
