@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6068** proxies at the latest update. Usable proxies are below.
+> Scraper found **6188** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|37|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|37|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|37|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|56|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|56|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|56|
 
 ## Sources
 
@@ -37,10 +37,10 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|11|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1260|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1285|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1353|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2361|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1409|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2400|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|2|178.128.216.247|8080|Singapore|Singapore|DigitalOcean, LLC|
+|2|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
 |3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|5|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|6|183.89.119.50|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
-|7|144.217.253.209|9300|Canada|Beauharnois|OVH SAS|
-|8|182.253.247.72|8080|Indonesia|Depok|BIZNET|
-|9|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|171.244.65.14|4002|Vietnam|Hanoi|Viettel Corporation|
-|11|159.223.93.212|8080|Singapore|Singapore|DigitalOcean, LLC|
-|12|5.78.90.4|8080|United States|Portland|Hetzner Online GmbH|
-|13|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|14|5.78.103.46|8080|United States|Portland|Hetzner Online GmbH|
+|4|3.73.113.153|80|Germany|Frankfurt am Main|Amazon Technologies Inc.|
+|5|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|6|64.225.4.29|9865|United States|Clifton|DigitalOcean, LLC|
+|7|176.95.54.202|83|Germany|Hanau|Vodafone GmbH|
+|8|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|202.0.107.133|80|Indonesia|Padang Bulan|Universitas Sumatera Utara|
+|10|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|46.182.6.51|3129|France|Paris|Hosteur SAS|
+|12|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|13|163.29.45.122|8080|Taiwan|Taipei|Government Service Network|
+|14|124.83.73.229|8082|Philippines|Mandaluyong City|Philippine Long Distance Telephone Co.|
 |15|162.212.157.90|8080|United States|Chicago|tzulo, inc.|
-|16|5.78.105.97|8080|United States|Portland|Hetzner Online GmbH|
-|17|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
-|18|5.78.82.193|8080|United States|Portland|Hetzner Online GmbH|
-|19|5.161.124.105|8080|United States|Ashburn|Hetzner Online GmbH|
-|20|95.216.198.8|8080|Finland|Helsinki|Hetzner Online GmbH|
+|16|5.161.213.21|8080|United States|Ashburn|Hetzner Online GmbH|
+|17|5.161.202.104|8080|United States|Ashburn|Hetzner Online GmbH|
+|18|5.161.124.105|8080|United States|Ashburn|Hetzner Online GmbH|
+|19|5.78.103.46|8080|United States|Portland|Hetzner Online GmbH|
+|20|159.223.120.149|8080|United States|North Bergen|DigitalOcean, LLC|
 
 
 
