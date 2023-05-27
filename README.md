@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6051** proxies at the latest update. Usable proxies are below.
+> Scraper found **5979** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|30|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|30|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|30|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|49|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|49|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|49|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|11|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1242|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1253|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1304|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1232|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2411|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|43.249.10.245|45787|Japan|Tokyo|Zenlayer Inc|
-|3|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|8|46.182.6.51|3129|France|Paris|Hosteur SAS|
+|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|4|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|7|170.64.137.113|8080|Australia|Sydney|DigitalOcean, LLC|
+|8|201.229.250.21|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
 |9|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|103.69.108.78|8191|Philippines|Santiago|CITI Cableworld Inc.|
-|11|144.217.253.209|9300|Canada|Beauharnois|OVH SAS|
-|12|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|13|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
-|14|183.89.116.220|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
-|15|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|16|171.226.93.88|11166|Vietnam|Ho Chi Minh City|Viettel Corporation|
-|17|27.70.165.83|11166|Vietnam|Hanoi|Viettel Group|
-|18|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|115.76.199.112|11166|Vietnam|Ho Chi Minh City|VIETELGPRS|
-|20|2.179.193.146|80|Iran|Juybar|Iran Telecommunication Company PJS|
+|10|46.182.6.51|3129|France|Paris|Hosteur SAS|
+|11|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|12|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
+|13|23.122.184.9|8888|United States|Davie|AT&T Services, Inc.|
+|14|64.225.8.121|9985|United States|Clifton|DigitalOcean, LLC|
+|15|103.53.185.8|8058|Indonesia|Makassar|BOSOWA|
+|16|103.169.254.164|8061|Indonesia|Banyuwangi|PT Master Star Network|
+|17|202.0.107.133|80|Indonesia|Padang Bulan|Universitas Sumatera Utara|
+|18|103.149.195.6|32650|India|Delhi|Kavya Internet Services Pvt Ltd|
+|19|43.249.10.245|45787|Japan|Tokyo|Zenlayer Inc|
+|20|200.25.254.193|54240|Colombia|Leticia|Andinet ON Line|
 
 
 
