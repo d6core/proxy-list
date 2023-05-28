@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5630** proxies at the latest update. Usable proxies are below.
+> Scraper found **5768** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|52|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|52|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|52|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|575|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|575|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|575|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1144|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|10|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1272|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1242|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2161|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|2|175.196.125.203|80|South Korea|Gangdong-gu|Korea Telecom|
+|2|157.245.145.105|12345|Singapore|Singapore|DigitalOcean, LLC|
 |3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|5|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
-|7|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|8|157.245.145.105|12345|Singapore|Singapore|DigitalOcean, LLC|
-|9|82.165.184.53|80|Germany|Karlsruhe|IONOS SE|
-|10|201.229.250.21|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|11|23.254.161.181|80|United States|Seattle|Hostwinds LLC.|
-|12|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|13|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
-|14|163.29.45.122|8080|Taiwan|Taipei|Government Service Network|
-|15|190.152.5.17|39888|Ecuador|Guayaquil|Corporacion Nacional De Telecomunicaciones - CNT EP|
-|16|171.226.90.100|11166|Vietnam|Ho Chi Minh City|Viettel Corporation|
-|17|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
-|18|142.93.127.57|8080|United States|North Bergen|DigitalOcean, LLC|
+|4|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|5|209.38.254.44|45212|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|177.93.37.35|999|Colombia|Puerto Asís|TV AZTECA SUCURSAL COLOMBIA|
+|7|41.254.41.94|8080|Libya|Benghazi|LTT Network Backbone and POPs|
+|8|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
+|9|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|10|85.173.165.36|46330|Russia|Cherkessk|Karachaevo-Cherkesskelektrosvyaz|
+|11|64.225.8.179|9998|United States|Clifton|DigitalOcean, LLC|
+|12|64.225.8.179|9998|United States|Clifton|DigitalOcean, LLC|
+|13|45.169.148.2|999|Chile|Talagante|Telecomunicaciones Pixel Ltda.|
+|14|190.152.5.17|39888|Ecuador|Guayaquil|Corporacion Nacional De Telecomunicaciones - CNT EP|
+|15|103.191.155.30|8080|Indonesia|Karawang|PT Ilham Wifi Solution|
+|16|134.122.26.11|80|United States|North Bergen|DigitalOcean, LLC|
+|17|142.93.127.57|8080|United States|North Bergen|DigitalOcean, LLC|
+|18|162.212.156.148|8080|United States|Chicago|tzulo, inc.|
 |19|159.223.120.149|8080|United States|North Bergen|DigitalOcean, LLC|
-|20|95.217.238.76|8080|Finland|Helsinki|Hetzner Online GmbH|
+|20|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
 
 
 
