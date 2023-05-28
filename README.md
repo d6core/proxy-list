@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5793** proxies at the latest update. Usable proxies are below.
+> Scraper found **5774** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|443|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|443|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|443|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|293|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|293|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|293|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|9|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1246|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1227|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1294|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2161|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|162.212.156.146|8080|United States|Chicago|tzulo, inc.|
-|2|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|2|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
 |3|161.35.198.5|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|164.90.231.22|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|134.122.26.11|80|United States|North Bergen|DigitalOcean, LLC|
-|6|162.212.156.146|8080|United States|Chicago|tzulo, inc.|
-|7|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|9|158.69.74.53|9300|Canada|Montreal|OVH SAS|
-|10|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|11|116.0.61.122|3128|Pakistan|Karachi|Telecard|
-|12|134.122.26.11|80|United States|North Bergen|DigitalOcean, LLC|
-|13|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|14|157.245.145.105|12345|Singapore|Singapore|DigitalOcean, LLC|
-|15|125.136.113.111|7890|South Korea|Gwangsan-gu|Korea Telecom|
-|16|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|17|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|125.167.12.184|8080|Indonesia|Bogor|PT. TELKOM INDONESIA|
-|19|64.225.8.179|9998|United States|Clifton|DigitalOcean, LLC|
-|20|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
+|4|162.212.156.146|8080|United States|Chicago|tzulo, inc.|
+|5|164.90.231.22|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|7|125.136.115.248|7890|South Korea|Gwangsan-gu|Korea Telecom|
+|8|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|10|177.87.144.122|8086|Brazil|Sao Sebastiao da Grama|Videomar Rede Nordeste S/A|
+|11|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|125.136.113.111|7890|South Korea|Gwangsan-gu|Korea Telecom|
+|14|191.103.219.225|48612|Colombia|Montería|Edatel S.a. E.S.P|
+|15|134.122.26.11|80|United States|North Bergen|DigitalOcean, LLC|
+|16|46.101.13.77|80|United Kingdom|Enfield|DigitalOcean, LLC|
+|17|64.225.8.179|9998|United States|Clifton|DigitalOcean, LLC|
+|18|103.78.36.163|46977|Indonesia|Jakarta|MORATELINDO|
+|19|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
+|20|152.32.68.171|65535|Philippines|Manila|Converge ICT Solution Inc|
 
 
 
