@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7094** proxies at the latest update. Usable proxies are below.
+> Scraper found **6995** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|207|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|207|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|207|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|501|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|501|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|501|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|10|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1520|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1421|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1516|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2965|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|46.182.6.51|3129|France|Paris|Hosteur SAS|
-|2|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|3|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|4|175.196.125.203|80|South Korea|Gangdong-gu|Korea Telecom|
-|5|95.43.243.30|7777|Bulgaria|Sofia|Vivacom Bulgaria EAD|
-|6|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|7|94.198.66.102|8888|Sweden|Umeå|Telecom3|
-|8|5.161.101.225|8080|United States|Ashburn|Hetzner Online GmbH|
-|9|158.69.73.79|9300|Canada|Montreal|OVH SAS|
-|10|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|95.217.1.43|8080|Finland|Helsinki|Hetzner Online GmbH|
-|12|209.38.254.44|45212|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|13|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
-|14|5.161.101.225|8080|United States|Ashburn|Hetzner Online GmbH|
-|15|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|16|107.152.38.63|8080|United States|Chicago|tzulo, inc.|
-|17|130.51.20.15|8080|United States|Santa Clara|Sharktech|
-|18|27.70.160.226|11166|Vietnam|Hanoi|Viettel Group|
-|19|162.212.157.199|8080|United States|Chicago|tzulo, inc.|
-|20|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|1|64.225.8.135|9988|United States|Clifton|DigitalOcean, LLC|
+|2|46.182.6.51|3129|France|Paris|Hosteur SAS|
+|3|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|4|94.198.66.102|8888|Sweden|Umeå|Telecom3|
+|5|91.196.148.56|10000|Ukraine|Kriukivschina|Maximum-Net LLC|
+|6|108.187.44.192|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|7|5.161.101.225|8080|United States|Ashburn|Hetzner Online GmbH|
+|8|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
+|9|108.187.44.116|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|10|107.152.38.63|8080|United States|Chicago|tzulo, inc.|
+|11|130.51.20.15|8080|United States|Santa Clara|Sharktech|
+|12|108.187.44.116|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|13|209.38.254.44|45212|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|14|95.217.1.43|8080|Finland|Helsinki|Hetzner Online GmbH|
+|15|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|16|108.187.44.77|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|17|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|18|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|19|108.187.44.36|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|20|162.212.157.175|8080|United States|Chicago|tzulo, inc.|
 
 
 
