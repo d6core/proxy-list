@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7109** proxies at the latest update. Usable proxies are below.
+> Scraper found **6968** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|677|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|677|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|677|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|54|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|54|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|54|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|11|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1411|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1270|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1482|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3122|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|2|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|3|107.152.32.103|8080|United States|Chicago|tzulo, inc.|
-|4|5.161.197.25|8080|United States|Ashburn|Hetzner Online GmbH|
-|5|213.32.75.88|9300|France|Paris|OVH SAS|
-|6|107.152.32.103|8080|United States|Chicago|tzulo, inc.|
-|7|139.144.55.221|8080|United States|Atlanta|Akamai Technologies, Inc.|
-|8|108.187.44.36|3129|United States|Los Angeles|Leaseweb USA, Inc.|
-|9|65.108.248.89|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
-|11|20.204.214.79|3129|India|Pune|Microsoft Corporation|
-|12|20.204.212.76|3129|India|Pune|Microsoft Corporation|
-|13|5.161.197.25|8080|United States|Ashburn|Hetzner Online GmbH|
-|14|20.204.190.254|3129|India|Pune|Microsoft Corporation|
-|15|107.152.38.181|8080|United States|Chicago|tzulo, inc.|
-|16|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
-|17|108.187.44.36|3129|United States|Los Angeles|Leaseweb USA, Inc.|
-|18|107.152.39.143|8080|United States|Chicago|tzulo, inc.|
-|19|20.204.212.45|3129|India|Pune|Microsoft Corporation|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|1|108.187.44.49|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|2|108.187.44.171|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|3|108.187.44.173|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|4|162.212.157.199|8080|United States|Chicago|tzulo, inc.|
+|5|107.152.41.161|8080|United States|Chicago|tzulo, inc.|
+|6|107.152.39.138|8080|United States|Chicago|tzulo, inc.|
+|7|108.187.44.100|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|8|107.152.39.138|8080|United States|Chicago|tzulo, inc.|
+|9|108.187.44.131|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|10|162.212.158.94|8080|United States|Chicago|ServerCheap INC|
+|11|108.187.44.36|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|12|108.187.44.7|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|13|107.152.41.3|8080|United States|Chicago|tzulo, inc.|
+|14|91.196.148.56|10000|Ukraine|Kriukivschina|Maximum-Net LLC|
+|15|20.204.212.76|3129|India|Pune|Microsoft Corporation|
+|16|108.187.44.7|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|17|108.187.44.192|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|18|162.212.156.193|8080|United States|Chicago|tzulo, inc.|
+|19|46.182.6.51|3129|France|Paris|Hosteur SAS|
+|20|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
 
 
 
