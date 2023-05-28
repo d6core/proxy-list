@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7105** proxies at the latest update. Usable proxies are below.
+> Scraper found **7065** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|564|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|564|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|564|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|105|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|105|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|105|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|10|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1573|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|11|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1593|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1468|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1407|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2971|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|107.152.37.26|8080|United States|Chicago|tzulo, inc.|
-|2|46.182.6.51|3129|France|Paris|Hosteur SAS|
-|3|5.161.89.188|8080|United States|Ashburn|Hetzner Online GmbH|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|209.38.254.44|45212|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|7|5.161.89.188|8080|United States|Ashburn|Hetzner Online GmbH|
-|8|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|9|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
-|10|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
-|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|12|108.187.44.158|3129|United States|Los Angeles|Leaseweb USA, Inc.|
-|13|107.152.41.183|8080|United States|Chicago|tzulo, inc.|
-|14|107.152.37.26|8080|United States|Chicago|tzulo, inc.|
-|15|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|16|108.187.44.100|3129|United States|Los Angeles|Leaseweb USA, Inc.|
-|17|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|157.230.95.47|8080|United States|North Bergen|DigitalOcean, LLC|
-|19|108.187.44.131|3129|United States|Los Angeles|Leaseweb USA, Inc.|
-|20|108.187.44.192|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|1|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|2|115.144.101.201|10001|South Korea|Gangdong-gu|Korea Telecom|
+|3|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|4|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|5|45.251.138.213|45787|Germany|Frankfurt|Zenlayer Inc|
+|6|158.69.74.53|9300|Canada|Montreal|OVH SAS|
+|7|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|5.78.98.39|8080|United States|Portland|Hetzner Online GmbH|
+|9|5.78.82.19|8080|United States|Portland|Hetzner Online GmbH|
+|10|107.152.41.30|8080|United States|Chicago|tzulo, inc.|
+|11|5.161.206.32|8080|United States|Ashburn|Hetzner Online GmbH|
+|12|107.152.42.222|8080|United States|Chicago|Cloudfanatic.NET|
+|13|5.161.198.100|8080|United States|Ashburn|Hetzner Online GmbH|
+|14|103.5.0.98|3129|Philippines|Kalibo|Kalibo Cable Television Network Inc|
+|15|5.78.41.248|8080|United States|Portland|Hetzner Online GmbH|
+|16|162.212.158.43|8080|United States|Chicago|ServerCheap INC|
+|17|50.23.200.153|3128|United States|Dallas|SoftLayer|
+|18|162.212.156.133|8080|United States|Chicago|tzulo, inc.|
+|19|107.152.42.65|8080|United States|Chicago|tzulo, inc.|
+|20|5.161.179.191|8080|United States|Ashburn|Hetzner Online GmbH|
 
 
 
