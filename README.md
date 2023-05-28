@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6104** proxies at the latest update. Usable proxies are below.
+> Scraper found **6109** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|413|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|413|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|413|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|297|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|297|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|297|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|9|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1457|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1347|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1272|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1387|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2283|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|156.253.5.219|1234|Germany|Frankfurt am Main|Bitcommand LLC|
-|2|157.245.145.105|12345|Singapore|Singapore|DigitalOcean, LLC|
-|3|157.230.94.245|8080|United States|North Bergen|DigitalOcean, LLC|
-|4|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|5|209.38.254.44|45212|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
-|7|176.9.228.115|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|8|162.212.155.103|8080|United States|Chicago|tzulo, inc.|
-|9|46.182.6.51|3129|France|Paris|Hosteur SAS|
-|10|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|11|64.225.8.191|9992|United States|Clifton|DigitalOcean, LLC|
-|12|159.223.114.215|8080|United States|North Bergen|DigitalOcean, LLC|
-|13|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|14|116.99.236.218|11166|Vietnam|Hanoi|Viettel Corporation|
-|15|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|16|171.226.90.100|11166|Vietnam|Ho Chi Minh City|Viettel Corporation|
-|17|162.212.158.43|8080|United States|Chicago|ServerCheap INC|
-|18|107.152.32.114|8080|United States|Chicago|tzulo, inc.|
-|19|5.78.73.221|8080|United States|Portland|Hetzner Online GmbH|
-|20|135.181.194.139|8080|Finland|Helsinki|Hetzner Online GmbH|
+|1|209.38.210.174|8080|Germany|Frankfurt am Main|DigitalOcean|
+|2|207.154.210.40|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|200.106.116.131|999|Peru|Lima|Telefonica del Peru|
+|4|138.68.111.106|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|181.143.58.171|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|6|128.140.48.37|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|7|161.35.220.8|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|170.64.178.217|8080|Australia|Sydney|DigitalOcean, LLC|
+|9|167.86.99.172|8080|Germany|Nuremberg|Contabo GmbH|
+|10|64.226.95.88|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|11|170.64.171.58|8080|Australia|Sydney|DigitalOcean, LLC|
+|12|5.75.153.127|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|13|170.64.171.60|8080|Australia|Sydney|DigitalOcean, LLC|
+|14|139.59.143.214|8080|Germany|Frankfurt am Main|DIGITALOCEAN|
+|15|170.64.186.17|8080|Australia|Sydney|DigitalOcean, LLC|
+|16|64.226.106.173|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|170.64.137.54|8080|Australia|Sydney|DigitalOcean, LLC|
+|18|5.75.233.147|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|19|128.140.90.201|8080|Germany|Hachenburg|Hetzner Online GmbH|
+|20|170.64.171.73|8080|Australia|Sydney|DigitalOcean, LLC|
 
 
 
