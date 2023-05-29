@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6651** proxies at the latest update. Usable proxies are below.
+> Scraper found **6658** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|29|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|29|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|29|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|335|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|335|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|335|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|19|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1343|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|20|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1349|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1292|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2914|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|2|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|3|20.204.212.76|3129|India|Pune|Microsoft Corporation|
-|4|5.161.50.118|8080|United States|Ashburn|Hetzner Online GmbH|
-|5|20.204.212.45|3129|India|Pune|Microsoft Corporation|
-|6|46.182.6.51|3129|France|Paris|Hosteur SAS|
-|7|20.219.176.57|3129|India|Pune|Microsoft Corporation|
-|8|5.161.179.44|8080|United States|Ashburn|Hetzner Online GmbH|
-|9|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|12|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|13|5.161.65.115|8080|United States|Ashburn|Hetzner Online GmbH|
-|14|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|15|5.161.50.118|8080|United States|Ashburn|Hetzner Online GmbH|
-|16|5.161.80.172|8080|United States|Ashburn|Hetzner Online GmbH|
-|17|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|5.78.108.18|8080|United States|Portland|Hetzner Online GmbH|
-|19|5.161.91.88|8080|United States|Ashburn|Hetzner Online GmbH|
-|20|20.204.214.79|3129|India|Pune|Microsoft Corporation|
+|1|5.161.50.118|8080|United States|Ashburn|Hetzner Online GmbH|
+|2|20.204.212.76|3129|India|Pune|Microsoft Corporation|
+|3|5.161.113.131|8080|United States|Ashburn|Hetzner Online GmbH|
+|4|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|5|5.78.107.114|8080|United States|Portland|Hetzner Online GmbH|
+|6|5.78.75.179|8080|United States|Portland|Hetzner Online GmbH|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|5.161.47.78|8080|United States|Ashburn|Hetzner Online GmbH|
+|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|10|20.204.214.23|3129|India|Pune|Microsoft Corporation|
+|11|20.204.212.45|3129|India|Pune|Microsoft Corporation|
+|12|5.161.198.166|8080|United States|Ashburn|Hetzner Online GmbH|
+|13|5.161.203.67|8080|United States|Ashburn|Hetzner Online GmbH|
+|14|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|15|5.78.89.207|8080|United States|Portland|Hetzner Online GmbH|
+|16|5.161.50.143|8080|United States|Ashburn|Hetzner Online GmbH|
+|17|5.161.94.107|8080|United States|Ashburn|Hetzner Online GmbH|
+|18|5.161.65.115|8080|United States|Ashburn|Hetzner Online GmbH|
+|19|5.78.99.75|8080|United States|Portland|Hetzner Online GmbH|
+|20|5.161.50.118|8080|United States|Ashburn|Hetzner Online GmbH|
 
 
 
