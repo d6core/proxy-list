@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6478** proxies at the latest update. Usable proxies are below.
+> Scraper found **6466** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|54|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|54|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|54|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|133|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|133|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|133|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1318|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|34|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1272|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1212|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2865|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|107.152.39.156|8080|United States|Chicago|tzulo, inc.|
-|2|162.212.155.221|8080|United States|Chicago|tzulo, inc.|
-|3|49.13.21.201|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|4|49.13.24.7|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|5|49.13.21.59|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|6|116.203.72.145|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|7|142.132.225.88|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|9|142.93.166.144|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|78.47.40.114|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|11|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|12|157.245.145.105|12345|Singapore|Singapore|DigitalOcean, LLC|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|107.152.39.156|8080|United States|Chicago|tzulo, inc.|
-|15|162.212.155.221|8080|United States|Chicago|tzulo, inc.|
-|16|194.31.79.69|39991|Turkey|Istanbul|SFCTEK Bilisim Yazilim ve Telekomunikasyon Hiz. San. ve Tic. LTD. STI.|
-|17|5.75.242.113|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|18|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|19|3.132.30.131|80|United States|Dublin|Amazon.com, Inc.|
-|20|194.31.59.190|39991|Turkey|Bursa|SFCTEK Bilisim Yazilim ve Telekomunikasyon Hiz. San. ve Tic. LTD. STI.|
+|1|162.212.155.221|8080|United States|Chicago|tzulo, inc.|
+|2|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|3|157.245.145.105|12345|Singapore|Singapore|DigitalOcean, LLC|
+|4|49.12.223.98|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|5|146.83.216.227|80|Chile|Nunoa|Red Universitaria Nacional|
+|6|49.13.21.201|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|7|49.13.21.59|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|8|186.121.235.220|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|167.235.140.174|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|10|49.13.24.7|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|11|142.132.225.88|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|12|162.212.155.221|8080|United States|Chicago|tzulo, inc.|
+|13|194.31.59.35|39991|Turkey|Bursa|SFCTEK Bilisim Yazilim ve Telekomunikasyon Hiz. San. ve Tic. LTD. STI.|
+|14|116.203.72.145|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|15|194.31.79.175|39991|Turkey|Istanbul|SFCTEK Bilisim Yazilim ve Telekomunikasyon Hiz. San. ve Tic. LTD. STI.|
+|16|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|3.132.30.131|80|United States|Dublin|Amazon.com, Inc.|
+|18|5.75.242.113|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|19|194.31.64.160|39991|Turkey|Istanbul|SFCTEK Bilisim Yazilim ve Telekomunikasyon Hiz. San. ve Tic. LTD. STI.|
+|20|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
 
 
 
