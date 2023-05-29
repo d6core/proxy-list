@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7657** proxies at the latest update. Usable proxies are below.
+> Scraper found **7588** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|125|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|125|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|125|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|38|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|38|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|38|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|7|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1815|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1746|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1579|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3173|✅|
@@ -47,25 +47,25 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.15.16.133|8118|Sweden|Stockholm|Obehosting AB|
-|2|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|3|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|4|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|5|134.209.254.70|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|7|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|8|5.78.83.35|8080|United States|Portland|Hetzner Online GmbH|
-|9|158.69.73.79|9300|Canada|Montreal|OVH SAS|
-|10|209.38.209.209|8080|Germany|Frankfurt am Main|DigitalOcean|
-|11|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|12|51.159.0.236|3128|France|Paris|SCALEWAY|
-|13|183.89.155.66|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|14|5.161.209.115|8080|United States|Ashburn|Hetzner Online GmbH|
-|15|176.95.54.202|83|Germany|Hanau|Vodafone GmbH|
-|16|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|17|107.152.44.189|8080|United States|Durham|tzulo, inc.|
-|18|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|19|5.161.50.143|8080|United States|Ashburn|Hetzner Online GmbH|
+|1|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|2|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
+|3|134.209.254.70|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|209.141.62.12|5555|United States|Las Vegas|FranTech Solutions|
+|6|183.89.155.66|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|7|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|8|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|9|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|10|5.78.83.35|8080|United States|Portland|Hetzner Online GmbH|
+|11|107.152.32.65|8080|United States|Chicago|tzulo, inc.|
+|12|5.161.50.143|8080|United States|Ashburn|Hetzner Online GmbH|
+|13|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|5.161.209.115|8080|United States|Ashburn|Hetzner Online GmbH|
+|16|167.71.17.145|8080|United States|North Bergen|DigitalOcean, LLC|
+|17|217.160.54.185|3128|Germany|Essen|IONOS|
+|18|161.77.221.242|3129|United States|Springfield|Crocker Communications|
+|19|162.212.156.215|8080|United States|Chicago|tzulo, inc.|
 |20|5.161.80.172|8080|United States|Ashburn|Hetzner Online GmbH|
 
 
