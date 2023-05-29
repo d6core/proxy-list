@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6792** proxies at the latest update. Usable proxies are below.
+> Scraper found **6918** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|229|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|229|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|229|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|38|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|38|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|38|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|8|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1377|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|10|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1501|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1425|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2899|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|2|164.90.212.28|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|4|198.44.164.74|45787|United States| Los Angeles|Zenlayer Inc|
-|5|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|6|5.161.50.118|8080|United States|Ashburn|Hetzner Online GmbH|
-|7|198.44.164.74|45787|United States| Los Angeles|Zenlayer Inc|
-|8|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|95.217.11.109|8080|Finland|Helsinki|Hetzner Online GmbH|
-|10|161.77.221.136|3129|United States|Springfield|Crocker Communications|
-|11|157.245.145.105|12345|Singapore|Singapore|DigitalOcean, LLC|
-|12|5.161.198.166|8080|United States|Ashburn|Hetzner Online GmbH|
+|1|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
+|2|73.242.86.12|8118|United States|Minnetonka|Comcast Cable Communications|
+|3|94.198.66.102|8888|Sweden|Umeå|Telecom3|
+|4|164.90.212.28|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|65.109.208.99|7595|Finland|Helsinki|Hetzner Online GmbH|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|125.136.85.194|7890|South Korea|Seo-gu|Korea Telecom|
+|8|161.35.214.229|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|5.161.50.118|8080|United States|Ashburn|Hetzner Online GmbH|
+|10|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|11|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|12|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
 |13|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|14|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|15|5.161.113.131|8080|United States|Ashburn|Hetzner Online GmbH|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|161.77.221.75|3129|United States|Springfield|Crocker Communications|
-|18|5.161.65.115|8080|United States|Ashburn|Hetzner Online GmbH|
-|19|5.161.80.172|8080|United States|Ashburn|Hetzner Online GmbH|
-|20|5.161.94.107|8080|United States|Ashburn|Hetzner Online GmbH|
+|14|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|15|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|16|43.239.152.176|32650|India|Faridabad|IriisNet communication Pvt Ltd|
+|17|73.242.86.12|8118|United States|Minnetonka|Comcast Cable Communications|
+|18|95.217.11.109|8080|Finland|Helsinki|Hetzner Online GmbH|
+|19|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|20|103.151.177.105|80|Indonesia|Jakarta|PT JASAMARGA TOLLROAD OPERATOR|
 
 
 
