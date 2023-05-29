@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7078** proxies at the latest update. Usable proxies are below.
+> Scraper found **6947** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|50|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|50|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|50|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|256|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|256|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|256|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|25|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1611|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|32|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1473|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1482|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2877|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|125.240.183.145|8080|South Korea|Seo-gu|DACOM-PUBNETPLUS|
-|2|5.161.202.104|8080|United States|Ashburn|Hetzner Online GmbH|
-|3|20.204.212.45|3129|India|Pune|Microsoft Corporation|
-|4|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|5|46.182.6.51|3129|France|Paris|Hosteur SAS|
-|6|51.159.0.236|3128|France|Paris|SCALEWAY|
-|7|65.21.49.17|8080|Finland|Helsinki|Hetzner Online GmbH|
-|8|31.170.62.220|8080|Iran|Jahrom|Farahoosh Dena PLC|
-|9|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|5.161.80.172|8080|United States|Ashburn|Hetzner Online GmbH|
-|11|206.81.27.242|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
-|13|5.161.222.237|8080|United States|Ashburn|Hetzner Online GmbH|
-|14|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|15|5.78.99.75|8080|United States|Portland|Hetzner Online GmbH|
-|16|159.89.237.207|8080|United States|North Bergen|DigitalOcean, LLC|
-|17|5.78.90.121|8080|United States|Portland|Hetzner Online GmbH|
-|18|5.78.83.131|8080|United States|Portland|Hetzner Online GmbH|
-|19|103.149.194.24|32650|India|Delhi|Kavya Internet Services Pvt Ltd|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|1|5.161.202.104|8080|United States|Ashburn|Hetzner Online GmbH|
+|2|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|3|177.66.101.223|8024|Brazil|Araguari|WN TELECOM LTDA - ME|
+|4|20.204.212.45|3129|India|Pune|Microsoft Corporation|
+|5|31.170.62.220|8080|Iran|Jahrom|Farahoosh Dena PLC|
+|6|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|7|5.161.202.104|8080|United States|Ashburn|Hetzner Online GmbH|
+|8|206.81.27.242|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|5.161.113.131|8080|United States|Ashburn|Hetzner Online GmbH|
+|10|5.161.74.203|8080|United States|Washington|Hetzner Online GmbH|
+|11|5.78.70.14|8080|United States|Portland|Hetzner Online GmbH|
+|12|5.78.107.114|8080|United States|Portland|Hetzner Online GmbH|
+|13|5.161.50.143|8080|United States|Ashburn|Hetzner Online GmbH|
+|14|5.161.80.172|8080|United States|Ashburn|Hetzner Online GmbH|
+|15|162.212.155.5|8080|United States|Chicago|tzulo, inc.|
+|16|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|17|65.21.49.17|8080|Finland|Helsinki|Hetzner Online GmbH|
+|18|5.78.41.240|8080|United States|Portland|Hetzner Online GmbH|
+|19|5.161.179.44|8080|United States|Ashburn|Hetzner Online GmbH|
+|20|5.161.71.231|8080|United States|Ashburn|Hetzner Online GmbH|
 
 
 
