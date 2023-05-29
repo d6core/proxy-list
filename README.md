@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|208|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|208|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|208|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|118|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|118|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|118|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|1|51.159.115.233|3128|France|Paris|SCALEWAY|
 |2|209.38.209.209|8080|Germany|Frankfurt am Main|DigitalOcean|
-|3|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|4|161.35.214.127|44661|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|45.15.16.133|8118|Sweden|Stockholm|Obehosting AB|
-|6|158.69.73.79|9300|Canada|Montreal|OVH SAS|
-|7|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
-|8|162.212.156.215|8080|United States|Chicago|tzulo, inc.|
+|3|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|4|45.15.16.133|8118|Sweden|Stockholm|Obehosting AB|
+|5|161.35.214.127|44661|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|8|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
 |9|162.212.157.90|8080|United States|Chicago|tzulo, inc.|
-|10|167.71.17.145|8080|United States|North Bergen|DigitalOcean, LLC|
-|11|5.78.83.35|8080|United States|Portland|Hetzner Online GmbH|
-|12|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|13|64.225.8.179|9998|United States|Clifton|DigitalOcean, LLC|
-|14|5.161.50.143|8080|United States|Ashburn|Hetzner Online GmbH|
-|15|61.28.233.217|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|16|5.161.209.115|8080|United States|Ashburn|Hetzner Online GmbH|
-|17|46.182.6.51|3129|France|Paris|Hosteur SAS|
-|18|162.212.157.35|8080|United States|Chicago|tzulo, inc.|
-|19|162.212.157.23|8080|United States|Chicago|tzulo, inc.|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|5.161.50.143|8080|United States|Ashburn|Hetzner Online GmbH|
+|11|178.18.206.184|53128|Turkey|Bayrakli|Vargonen Teknoloji ve Bilisim Sanayi Ticaret Anonim Sirketi|
+|12|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|13|185.245.182.5|80|Germany|Düsseldorf|Contabo GmbH|
+|14|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
+|15|5.161.80.172|8080|United States|Ashburn|Hetzner Online GmbH|
+|16|107.152.44.189|8080|United States|Durham|tzulo, inc.|
+|17|5.161.209.115|8080|United States|Ashburn|Hetzner Online GmbH|
+|18|190.15.221.21|8080|Argentina|Mendoza|Informática y Telecomunicaciones S.A.|
+|19|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|20|46.182.6.51|3129|France|Paris|Hosteur SAS|
 
 
 
