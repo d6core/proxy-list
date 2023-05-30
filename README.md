@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7555** proxies at the latest update. Usable proxies are below.
+> Scraper found **7632** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|3|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|3|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|3|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|16|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|16|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|16|
 
 ## Sources
 
@@ -37,19 +37,32 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|5|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1682|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1698|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1612|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3173|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1598|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3248|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|162.212.156.213|8080|United States|Chicago|tzulo, inc.|
-|2|120.253.236.108|9443|China|Shanghai|China Mobile communications corporation|
-|3|163.29.45.122|8080|Taiwan|Taipei|Government Service Network|
+|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|3|209.38.255.131|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|5|206.189.53.37|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|94.198.66.102|8888|Sweden|Umeå|Telecom3|
+|7|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|8|209.38.242.151|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|140.238.245.116|8100|India|Mumbai|Oracle Corporation|
+|10|5.161.198.29|8080|United States|Ashburn|Hetzner Online GmbH|
+|11|177.93.45.156|999|Colombia|Yopal|TV AZTECA SUCURSAL COLOMBIA|
+|12|190.61.97.229|999|Guatemala|Guatemala City|UFINET Guatemala S. A|
+|13|120.253.236.108|9443|China|Shanghai|China Mobile communications corporation|
+|14|163.29.45.122|8080|Taiwan|Taipei|Government Service Network|
+|15|163.29.45.122|8080|Taiwan|Taipei|Government Service Network|
+|16|103.149.194.17|32650|India|Delhi|Kavya Internet Services Pvt Ltd|
 
 
 
