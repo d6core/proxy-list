@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7847** proxies at the latest update. Usable proxies are below.
+> Scraper found **7992** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|211|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|211|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|211|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|38|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|38|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|38|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|4|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1868|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|5|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1971|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1638|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1679|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3254|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|143.110.211.227|80|Canada|Toronto|DigitalOcean, LLC|
-|2|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|3|129.153.107.221|80|United States|Phoenix|Oracle Corporation|
-|4|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|5|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
-|6|43.133.180.107|7890|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|7|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|8|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|9|213.139.209.46|80|Russia|St Petersburg|BEGET.RU|
-|10|129.153.107.221|80|United States|Phoenix|Oracle Corporation|
-|11|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
-|13|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|14|51.159.115.233|3128|France|Paris|SCALEWAY|
-|15|51.159.0.236|3128|France|Paris|SCALEWAY|
-|16|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
-|17|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|18|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|5.161.196.196|8080|United States|Ashburn|Hetzner Online GmbH|
-|20|64.225.8.191|9993|United States|Clifton|DigitalOcean, LLC|
+|1|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|2|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|3|43.133.180.107|7890|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|4|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|6|136.243.55.199|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|7|51.159.115.233|3128|France|Paris|SCALEWAY|
+|8|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
+|9|186.121.235.66|8080|Bolivia|La Paz|AXS Bolivia S. A.|
+|10|139.162.96.123|3128|Japan|Tokyo|Akamai Technologies, Inc.|
+|11|185.97.115.181|3128|Kazakhstan|Almaty|KZNLS Network|
+|12|5.161.189.222|8080|United States|Ashburn|Hetzner Online GmbH|
+|13|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|5.161.220.34|8080|United States|Ashburn|Hetzner Online GmbH|
+|16|196.25.178.202|3128|South Africa|Addo|Telkom SA Ltd.|
+|17|107.152.38.242|8080|United States|Chicago|tzulo, inc.|
+|18|161.77.218.137|3129|United States|Springfield|Crocker Communications|
+|19|144.126.141.115|1010|United States|St Louis|Contabo Inc.|
+|20|161.77.221.208|3129|United States|Springfield|Crocker Communications|
 
 
 
