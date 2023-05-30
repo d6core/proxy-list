@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7196** proxies at the latest update. Usable proxies are below.
+> Scraper found **7175** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|238|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|238|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|238|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|233|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|233|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|233|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|5|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1525|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1504|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1521|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3062|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.84.106.205|8214|United States|Boydton|Microsoft Corporation|
-|2|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|3|107.152.41.241|8080|United States|Chicago|tzulo, inc.|
-|4|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
-|5|138.124.180.188|3128|United States|Secaucus|Stark Industries Solutions LTD|
-|6|209.38.201.164|45212|Germany|Frankfurt am Main|DigitalOcean|
+|1|158.160.56.149|8080|Russia|Moscow|Yandex.Cloud LLC|
+|2|185.20.71.38|443|France|Paris|Mod Mission Critical LLC|
+|3|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|4|216.127.188.238|18292|United States|Santa Clarita|Multacom Corporation|
+|5|107.152.41.241|8080|United States|Chicago|tzulo, inc.|
+|6|5.161.179.181|8080|United States|Ashburn|Hetzner Online GmbH|
 |7|128.140.1.177|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|8|51.159.0.236|2020|France|Paris|SCALEWAY|
-|9|107.152.33.60|8080|United States|Chicago|tzulo, inc.|
-|10|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
-|11|107.152.41.241|8080|United States|Chicago|tzulo, inc.|
-|12|20.163.130.195|3128|United States|Boydton|Microsoft Corporation|
-|13|94.198.66.102|8888|Sweden|Umeå|Telecom3|
-|14|162.212.155.21|8080|United States|Chicago|tzulo, inc.|
-|15|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
-|16|162.212.155.21|8080|United States|Chicago|tzulo, inc.|
-|17|20.84.106.205|8214|United States|Boydton|Microsoft Corporation|
-|18|216.127.188.238|18292|United States|Santa Clarita|Multacom Corporation|
-|19|5.78.110.110|8080|United States|Portland|Hetzner Online GmbH|
-|20|216.127.188.238|18292|United States|Santa Clarita|Multacom Corporation|
+|8|107.152.41.241|8080|United States|Chicago|tzulo, inc.|
+|9|20.163.130.195|3128|United States|Boydton|Microsoft Corporation|
+|10|107.152.33.60|8080|United States|Chicago|tzulo, inc.|
+|11|103.125.253.229|8080|Bangladesh|Dhaka|Md Akramul Haider|
+|12|162.212.155.21|8080|United States|Chicago|tzulo, inc.|
+|13|138.124.180.188|3128|United States|Secaucus|Stark Industries Solutions LTD|
+|14|216.127.188.238|18292|United States|Santa Clarita|Multacom Corporation|
+|15|3.226.79.79|80|United States|Ashburn|Amazon Technologies Inc.|
+|16|5.78.110.110|8080|United States|Portland|Hetzner Online GmbH|
+|17|178.128.88.72|10000|Singapore|Singapore|DigitalOcean, LLC|
+|18|41.76.145.18|443|Mozambique|Maxixe|VM  S.A|
+|19|41.76.145.136|8080|Mozambique|Maxixe|VM  S.A|
+|20|40.119.236.22|80|Singapore|Singapore|Microsoft Corporation|
 
 
 
